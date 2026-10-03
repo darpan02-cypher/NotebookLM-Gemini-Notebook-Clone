@@ -4,7 +4,7 @@ from pathlib import Path
 
 import gradio as gr
 
-from generation import ArtifactService, ChatService, GeminiClient, format_citation
+from generation import ArtifactService, ChatService, GroqClient, format_citation
 from ingestion import SourceIngestor
 from retrieval import LocalEmbedder, Retriever
 from storage import StorageManager
@@ -16,7 +16,7 @@ def build_app(storage: StorageManager | None = None) -> gr.Blocks:
     storage = storage or StorageManager()
     embedder = LocalEmbedder()
     retriever = Retriever(storage, embedder)
-    llm = GeminiClient()
+    llm = GroqClient()
     ingestor = SourceIngestor(storage, embedder)
     chat = ChatService(storage, retriever, llm)
     artifacts = ArtifactService(storage, llm)

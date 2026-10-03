@@ -6,4 +6,4 @@ python-pptx>=1.0.2
 beautifulsoup4>=4.12.3
 requests>=2.32.0
 python-dotenv>=1.0.1
-google-genai>=1.0.0
+groq>=0.11.0

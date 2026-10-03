@@ -91,7 +91,7 @@ Artifact record:
 
 ## 7) API / model dependencies
 Planned defaults:
-- LLM: Google Gemini via environment variable key
+- LLM: Groq-hosted GPT-OSS (openai/gpt-oss-120b) via environment variable key
 - Embeddings: sentence-transformers local model
 - Vector DB: ChromaDB, one collection per notebook
 - Reranker: cross-encoder
@@ -101,7 +101,7 @@ Planned defaults:
 ## 8) Deployment approach
 - GitHub repo contains app code, requirements, workflow, docs, and ignore rules.
 - GitHub Actions runs on push to main, installs dependencies, optionally builds smoke checks, and deploys to a Hugging Face Space using a HF token stored in GitHub Secrets.
-- HF Space hosts the app using the repository as the source and uses environment variables for Gemini API key and optional model config.
+- HF Space hosts the app using the repository as the source and uses environment variables for the Groq API key and optional model config.
 - App should persist notebook data in a workspace-local directory under `data/` by default. If HF persistence is limited, the app must document this limitation and remain simple.
 
 ## 9) Storage and persistence
@@ -118,7 +118,7 @@ Planned defaults:
 Before finalizing this spec, we need your approval on the defaults below.
 
 ## 11) Approved defaults
-- LLM: Google Gemini API via `GEMINI_API_KEY` environment variable.
+- LLM: Groq API (model `openai/gpt-oss-120b`) via `GROQ_API_KEY` environment variable. (Changed from Gemini at user request.)
 - Embedding model: `sentence-transformers/all-MiniLM-L6-v2`.
 - Chunking: 700–1000 characters per chunk with 100–150 character overlap.
 - Reranker: cross-encoder reranker applied after vector retrieval.
