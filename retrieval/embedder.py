@@ -3,54 +3,84 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Any, Dict, List, Sequence
 
-try:
-    import chromadb
-except ImportError:  # pragma: no cover
-    chromadb = None
-
-try:
-    from sentence_transformers import SentenceTransformer
-except ImportError:  # pragma: no cover
-    SentenceTransformer = None
+DEFAULT_EMBED_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
 
 class LocalEmbedder:
-    def __init__(self, model_name: str = "sentence-transformers/all-MiniLM-L6-v2"):
+    """Wraps a local sentence-transformers model. The model loads lazily on first use."""
+
+    def __init__(self, model_name: str = DEFAULT_EMBED_MODEL):
         self.model_name = model_name
-        self.model = None
-        if SentenceTransformer is not None:
-            self.model = SentenceTransformer(model_name)
+        self._model = None
+
+    @property
+    def model(self):
+        if self._model is None:
+            from sentence_transformers import SentenceTransformer
+
+            self._model = SentenceTransformer(self.model_name)
+        return self._model
 
     def embed(self, texts: Sequence[str]) -> List[List[float]]:
-        if self.model is None:
-            raise RuntimeError("sentence-transformers is not installed.")
-        return self.model.encode(list(texts), convert_to_numpy=False).tolist()
-
-    def add_to_collection(self, notebook_id: str, chunk_id: str, text: str, embedding: List[float], metadata: Dict[str, Any]) -> None:
-        store = NotebookVectorStore(notebook_id)
-        store.add(chunk_id, embedding, {**metadata, "text": text})
+        if not texts:
+            return []
+        vectors = self.model.encode(
+            list(texts), batch_size=32, normalize_embeddings=True, convert_to_numpy=True
+        )
+        return vectors.tolist()
 
 
 class NotebookVectorStore:
-    def __init__(self, notebook_id: str, root: str | Path | None = None):
-        self.notebook_id = notebook_id
-        self.root = Path(root) if root is not None else Path(__file__).resolve().parents[1] / "data" / "notebooks" / notebook_id / "chroma"
-        self.root.mkdir(parents=True, exist_ok=True)
-        if chromadb is None:
-            raise RuntimeError("chromadb is not installed.")
-        self.client = chromadb.PersistentClient(path=str(self.root))
-        self.collection = self.client.get_or_create_collection(name=f"notebook-{notebook_id}")
+    """One Chroma collection per notebook, persisted under the notebook's chroma/ folder."""
 
-    def add(self, chunk_id: str, embedding: List[float], metadata: Dict[str, Any]) -> None:
-        self.collection.add(
-            ids=[chunk_id],
-            embeddings=[embedding],
-            metadatas=[metadata],
+    def __init__(self, notebook_id: str, persist_dir: str | Path):
+        import chromadb
+
+        self.notebook_id = notebook_id
+        self.persist_dir = Path(persist_dir)
+        self.persist_dir.mkdir(parents=True, exist_ok=True)
+        self.client = chromadb.PersistentClient(path=str(self.persist_dir))
+        self.collection = self.client.get_or_create_collection(
+            name=f"notebook-{notebook_id}", metadata={"hnsw:space": "cosine"}
         )
 
-    def query(self, query_embedding: List[float], n_results: int = 5) -> Dict[str, Any]:
-        return self.collection.query(
+    def add_many(
+        self,
+        ids: List[str],
+        embeddings: List[List[float]],
+        documents: List[str],
+        metadatas: List[Dict[str, Any]],
+    ) -> None:
+        if not ids:
+            return
+        self.collection.add(ids=ids, embeddings=embeddings, documents=documents, metadatas=metadatas)
+
+    def query(self, query_embedding: List[float], n_results: int = 5) -> List[Dict[str, Any]]:
+        """Return hits as [{id, text, metadata, distance}], best first."""
+        count = self.collection.count()
+        if count == 0:
+            return []
+        res = self.collection.query(
             query_embeddings=[query_embedding],
-            n_results=n_results,
+            n_results=min(n_results, count),
             include=["documents", "metadatas", "distances"],
         )
+        return [
+            {"id": i, "text": d, "metadata": m, "distance": dist}
+            for i, d, m, dist in zip(
+                res["ids"][0], res["documents"][0], res["metadatas"][0], res["distances"][0]
+            )
+        ]
+
+    def get_all(self, limit: int | None = None) -> List[Dict[str, Any]]:
+        """All chunks in document order (used for report/quiz context)."""
+        res = self.collection.get(include=["documents", "metadatas"])
+        rows = [
+            {"id": i, "text": d, "metadata": m}
+            for i, d, m in zip(res["ids"], res["documents"], res["metadatas"])
+        ]
+        rows.sort(key=lambda r: (r["metadata"].get("source_id", ""), r["metadata"].get("chunk_index", 0)))
+        return rows[:limit] if limit else rows
+
+    def count(self) -> int:
+        return self.collection.count()

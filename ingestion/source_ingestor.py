@@ -2,32 +2,15 @@ from __future__ import annotations
 
 import re
 import uuid
+from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Dict, Iterable, List, Tuple
-
-try:
-    from bs4 import BeautifulSoup
-except ImportError:  # pragma: no cover
-    BeautifulSoup = None
-
-try:
-    import requests
-except ImportError:  # pragma: no cover
-    requests = None
-
-try:
-    from pypdf import PdfReader
-except ImportError:  # pragma: no cover
-    PdfReader = None
-
-try:
-    from pptx import Presentation
-except ImportError:  # pragma: no cover
-    Presentation = None
-
+from typing import Any, Dict, List, Tuple
 
 DEFAULT_CHUNK_SIZE = 900
 DEFAULT_CHUNK_OVERLAP = 120
+
+# (page/slide label, text). Label is an int for pdf/pptx, "" otherwise.
+Segment = Tuple[Any, str]
 
 
 def chunk_text(text: str, chunk_size: int = DEFAULT_CHUNK_SIZE, overlap: int = DEFAULT_CHUNK_OVERLAP) -> List[str]:
@@ -39,18 +22,24 @@ def chunk_text(text: str, chunk_size: int = DEFAULT_CHUNK_SIZE, overlap: int = D
     start = 0
     while start < len(cleaned):
         end = min(start + chunk_size, len(cleaned))
-        chunk = cleaned[start:end]
-        chunks.append(chunk.strip())
+        if end < len(cleaned):
+            # prefer breaking on a space in the back half of the window
+            space = cleaned.rfind(" ", start + chunk_size // 2, end)
+            if space != -1:
+                end = space
+        chunks.append(cleaned[start:end].strip())
         if end == len(cleaned):
             break
-        start = max(0, end - overlap)
-    return [chunk for chunk in chunks if chunk]
+        start = max(start + 1, end - overlap)
+    return [c for c in chunks if c]
 
 
 class SourceIngestor:
     def __init__(self, storage_manager: Any, embedder: Any | None = None):
         self.storage_manager = storage_manager
         self.embedder = embedder
+
+    # ---- extraction: each returns a list of (page_or_slide, text) segments ----
 
     def _copy_local_file(self, source_path: str, notebook_id: str, source_id: str) -> Path:
         source_file = Path(source_path)
@@ -60,114 +49,128 @@ class SourceIngestor:
         target_path.write_bytes(source_file.read_bytes())
         return target_path
 
-    def _extract_pdf_text(self, file_path: Path) -> str:
-        if PdfReader is None:
-            raise RuntimeError("pypdf is not installed.")
+    def _extract_pdf(self, file_path: Path) -> List[Segment]:
+        from pypdf import PdfReader
+
         reader = PdfReader(str(file_path))
-        pages: List[str] = []
-        for page in reader.pages:
-            text = page.extract_text() or ""
-            pages.append(text)
-        return "\n\n".join(pages)
+        return [(i, page.extract_text() or "") for i, page in enumerate(reader.pages, start=1)]
 
-    def _extract_pptx_text(self, file_path: Path) -> str:
-        if Presentation is None:
-            raise RuntimeError("python-pptx is not installed.")
+    def _extract_pptx(self, file_path: Path) -> List[Segment]:
+        from pptx import Presentation
+
         prs = Presentation(str(file_path))
-        slides: List[str] = []
-        for index, slide in enumerate(prs.slides, start=1):
-            slide_parts = []
-            for shape in slide.shapes:
-                if hasattr(shape, "text") and shape.text:
-                    slide_parts.append(shape.text)
-            slides.append(f"Slide {index}: {' '.join(slide_parts)}")
-        return "\n\n".join(slides)
+        segments: List[Segment] = []
+        for i, slide in enumerate(prs.slides, start=1):
+            parts = [s.text for s in slide.shapes if getattr(s, "has_text_frame", False) and s.text]
+            if slide.has_notes_slide and slide.notes_slide.notes_text_frame is not None:
+                notes = slide.notes_slide.notes_text_frame.text
+                if notes:
+                    parts.append(notes)
+            segments.append((i, " ".join(parts)))
+        return segments
 
-    def _extract_txt_text(self, file_path: Path) -> str:
-        return file_path.read_text(encoding="utf-8", errors="ignore")
+    def _extract_txt(self, file_path: Path) -> List[Segment]:
+        return [("", file_path.read_text(encoding="utf-8", errors="ignore"))]
 
-    def _extract_url_text(self, url: str) -> str:
-        if requests is None:
-            raise RuntimeError("requests is not installed.")
-        response = requests.get(url, timeout=30)
+    def _extract_url(self, url: str) -> Tuple[List[Segment], str]:
+        import requests
+        from bs4 import BeautifulSoup
+
+        if not url.startswith(("http://", "https://")):
+            raise ValueError("URL must start with http:// or https://")
+        response = requests.get(url, timeout=30, headers={"User-Agent": "Mozilla/5.0 (NotebookClone)"})
         response.raise_for_status()
-        if BeautifulSoup is None:
-            return response.text
         soup = BeautifulSoup(response.text, "html.parser")
-        for selector in ["main", "article", "body"]:
-            element = soup.select_one(selector)
-            if element:
-                return element.get_text(" ", strip=True)
-        return soup.get_text(" ", strip=True)
+        for tag in soup(["script", "style", "nav", "footer", "header", "noscript"]):
+            tag.decompose()
+        title = soup.title.get_text(strip=True) if soup.title else ""
+        root = soup.select_one("main") or soup.select_one("article") or soup.body or soup
+        return [("", root.get_text(" ", strip=True))], title
+
+    # ---- pipeline ----
 
     def ingest(self, notebook_id: str, source_type: str, source_name: str, source_value: str) -> Dict[str, Any]:
         notebook_dir = self.storage_manager.get_notebook_dir(notebook_id)
         source_id = uuid.uuid4().hex
-        source_record: Dict[str, Any] = {
+        record: Dict[str, Any] = {
             "id": source_id,
             "type": source_type,
             "name": source_name,
             "path": source_value,
-            "status": "processing",
-            "created_at": __import__("datetime").datetime.now(__import__("datetime").timezone.utc).isoformat(),
+            "status": "queued",
+            "created_at": datetime.now(timezone.utc).isoformat(),
             "metadata": {},
         }
 
         try:
             if source_type == "pdf":
-                source_file = self._copy_local_file(source_value, notebook_id, source_id)
-                text = self._extract_pdf_text(source_file)
-                source_record["metadata"]["source_file"] = str(source_file)
-                source_record["metadata"]["page_count"] = "pdf"
+                f = self._copy_local_file(source_value, notebook_id, source_id)
+                segments = self._extract_pdf(f)
+                record["metadata"].update(source_file=str(f), page_count=len(segments))
             elif source_type == "pptx":
-                source_file = self._copy_local_file(source_value, notebook_id, source_id)
-                text = self._extract_pptx_text(source_file)
-                source_record["metadata"]["source_file"] = str(source_file)
-                source_record["metadata"]["slide_count"] = "pptx"
+                f = self._copy_local_file(source_value, notebook_id, source_id)
+                segments = self._extract_pptx(f)
+                record["metadata"].update(source_file=str(f), slide_count=len(segments))
             elif source_type == "txt":
-                source_file = self._copy_local_file(source_value, notebook_id, source_id)
-                text = self._extract_txt_text(source_file)
-                source_record["metadata"]["source_file"] = str(source_file)
+                f = self._copy_local_file(source_value, notebook_id, source_id)
+                segments = self._extract_txt(f)
+                record["metadata"]["source_file"] = str(f)
             elif source_type == "url":
-                text = self._extract_url_text(source_value)
-                source_record["metadata"]["url"] = source_value
+                segments, title = self._extract_url(source_value)
+                record["metadata"]["url"] = source_value
+                if title and not source_name:
+                    record["name"] = source_name = title
             else:
                 raise ValueError(f"Unsupported source type: {source_type}")
 
-            text_path = notebook_dir / "text" / f"{source_id}_{source_name}.txt"
-            text_path.write_text(text, encoding="utf-8")
-            chunks = chunk_text(text)
-            source_record["metadata"]["chunk_count"] = len(chunks)
-            source_record["status"] = "ingested"
+            full_text = "\n\n".join(t for _, t in segments)
+            if not full_text.strip():
+                raise ValueError("No extractable text found (scanned/image-only file?).")
+            text_path = notebook_dir / "text" / f"{source_id}.txt"
+            text_path.write_text(full_text, encoding="utf-8")
 
-            if self.embedder is not None:
-                for index, chunk in enumerate(chunks):
-                    chunk_id = f"{source_id}-{index}"
-                    embeddings = self.embedder.embed([chunk])
-                    self.embedder.add_to_collection(
-                        notebook_id=notebook_id,
-                        chunk_id=chunk_id,
-                        text=chunk,
-                        embedding=embeddings[0],
-                        metadata={
-                            "source_id": source_id,
-                            "source_name": source_name,
-                            "type": source_type,
-                            "chunk_index": index,
-                            "url": source_value if source_type == "url" else None,
-                        },
-                    )
+            chunks: List[Dict[str, Any]] = []
+            for label, seg_text in segments:
+                for piece in chunk_text(seg_text):
+                    chunks.append({"text": piece, "page_or_slide": label})
+            record["metadata"]["chunk_count"] = len(chunks)
 
-            self.storage_manager.append_source(notebook_id, source_record)
+            if self.embedder is not None and chunks:
+                self._index(notebook_id, record, chunks)
+
+            record["status"] = "ingested"
+            self.storage_manager.append_source(notebook_id, record)
             return {
                 "source_id": source_id,
-                "source_record": source_record,
-                "chunks": chunks,
+                "source_record": record,
                 "chunk_count": len(chunks),
                 "text_path": str(text_path),
             }
-        except Exception as exc:  # pragma: no cover - surface clear error to caller
-            source_record["status"] = "failed"
-            source_record["metadata"]["error"] = str(exc)
-            self.storage_manager.append_source(notebook_id, source_record)
+        except Exception as exc:
+            record["status"] = "failed"
+            record["metadata"]["error"] = str(exc)
+            self.storage_manager.append_source(notebook_id, record)
             raise
+
+    def _index(self, notebook_id: str, record: Dict[str, Any], chunks: List[Dict[str, Any]]) -> None:
+        from retrieval.embedder import NotebookVectorStore
+
+        store = NotebookVectorStore(notebook_id, self.storage_manager.get_notebook_dir(notebook_id) / "chroma")
+        vectors = self.embedder.embed([c["text"] for c in chunks])
+        store.add_many(
+            ids=[f"{record['id']}-{i}" for i in range(len(chunks))],
+            embeddings=vectors,
+            documents=[c["text"] for c in chunks],
+            metadatas=[
+                {
+                    "notebook_id": notebook_id,
+                    "source_id": record["id"],
+                    "source_name": record["name"],
+                    "type": record["type"],
+                    "chunk_index": i,
+                    "page_or_slide": c["page_or_slide"],
+                    "url": record["path"] if record["type"] == "url" else "",
+                }
+                for i, c in enumerate(chunks)
+            ],
+        )
