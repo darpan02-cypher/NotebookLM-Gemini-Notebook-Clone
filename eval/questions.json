@@ -1,0 +1,134 @@
+[
+  {
+    "q": "Who stayed in lunar orbit during Apollo 11?",
+    "gold": "Collins stayed in lunar orbit",
+    "keywords": [
+      "collins"
+    ]
+  },
+  {
+    "q": "Why did Apollo 13 abandon its lunar landing?",
+    "gold": "oxygen tank in the service module exploded",
+    "keywords": [
+      "oxygen tank",
+      "explo"
+    ]
+  },
+  {
+    "q": "How tall was the Saturn V rocket?",
+    "gold": "110.6 meters",
+    "keywords": [
+      "110.6"
+    ]
+  },
+  {
+    "q": "What caused the Apollo 1 disaster and what changed afterward?",
+    "gold": "cabin fire during a launch rehearsal",
+    "keywords": [
+      "fire",
+      "hatch"
+    ]
+  },
+  {
+    "q": "Which Apollo missions carried the lunar roving vehicle?",
+    "gold": "Apollo 15, 16, and 17 carried the lunar roving vehicle",
+    "keywords": [
+      "15",
+      "16",
+      "17"
+    ]
+  },
+  {
+    "q": "Where in the chloroplast does the Calvin cycle happen?",
+    "gold": "takes place in the stroma",
+    "keywords": [
+      "stroma"
+    ]
+  },
+  {
+    "q": "Where does the oxygen released by plants come from?",
+    "gold": "comes from the splitting of water",
+    "keywords": [
+      "water"
+    ]
+  },
+  {
+    "q": "Why do plants look green?",
+    "gold": "reflects green light",
+    "keywords": [
+      "reflect",
+      "green"
+    ]
+  },
+  {
+    "q": "How do CAM plants conserve water?",
+    "gold": "open their stomata only at night",
+    "keywords": [
+      "night"
+    ]
+  },
+  {
+    "q": "What is the most abundant enzyme on Earth and what does it do?",
+    "gold": "RuBisCO",
+    "keywords": [
+      "rubisco"
+    ]
+  },
+  {
+    "q": "Which part of the spacecraft served as a lifeboat for the crew that never reached the Moon?",
+    "gold": "Aquarius as a lifeboat",
+    "keywords": [
+      "aquarius"
+    ]
+  },
+  {
+    "q": "How much material did the first moonwalkers bring back to Earth?",
+    "gold": "21.5 kilograms",
+    "keywords": [
+      "21.5"
+    ]
+  },
+  {
+    "q": "Who was the final human to walk on the Moon?",
+    "gold": "Eugene Cernan was the last person",
+    "keywords": [
+      "cernan"
+    ]
+  },
+  {
+    "q": "What is the inflation-adjusted price tag of the lunar program?",
+    "gold": "250 billion dollars in modern currency",
+    "keywords": [
+      "250"
+    ]
+  },
+  {
+    "q": "What happens to plant sugar production when it gets extremely hot?",
+    "gold": "denature enzymes",
+    "keywords": [
+      "denature",
+      "enzyme"
+    ]
+  },
+  {
+    "q": "Which pigment captures blue and red wavelengths?",
+    "gold": "absorbs light most strongly",
+    "keywords": [
+      "chlorophyll"
+    ]
+  },
+  {
+    "q": "What controls the opening and closing of leaf pores?",
+    "gold": "guard cells that open and close the pore",
+    "keywords": [
+      "guard"
+    ]
+  },
+  {
+    "q": "How do maize and sugarcane avoid wasteful photorespiration?",
+    "gold": "C4 plants such as maize",
+    "keywords": [
+      "concentrat"
+    ]
+  }
+]

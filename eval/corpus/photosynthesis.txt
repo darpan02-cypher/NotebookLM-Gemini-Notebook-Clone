@@ -1,0 +1,13 @@
+Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy stored in glucose. The overall reaction uses carbon dioxide and water, and produces glucose and oxygen. In plants it takes place mainly in the leaves, inside organelles called chloroplasts.
+
+Chloroplasts contain a green pigment called chlorophyll, which absorbs light most strongly in the blue and red parts of the spectrum and reflects green light. This reflected green light is why most plants look green. Chlorophyll is embedded in the thylakoid membranes, which are stacked into structures called grana.
+
+The light-dependent reactions occur in the thylakoid membranes. Light energy splits water molecules, releasing oxygen as a by-product and producing the energy carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from carbon dioxide.
+
+The Calvin cycle, also called the light-independent reactions, takes place in the stroma of the chloroplast. It uses the ATP and NADPH from the light reactions to fix carbon dioxide into sugar. The key enzyme that captures carbon dioxide is RuBisCO, which is considered the most abundant enzyme on Earth.
+
+Stomata are tiny pores, mostly on the underside of leaves, that let carbon dioxide enter and water vapor and oxygen leave. Each stoma is surrounded by two guard cells that open and close the pore. Plants close their stomata in hot, dry conditions to reduce water loss, which also limits photosynthesis.
+
+C4 plants such as maize and sugarcane have an adaptation that concentrates carbon dioxide around RuBisCO, which reduces wasteful photorespiration in hot climates. CAM plants such as cacti open their stomata only at night to save water, storing carbon dioxide as organic acids until daylight.
+
+Several factors limit the rate of photosynthesis: light intensity, carbon dioxide concentration, temperature, and water availability. At low light the rate rises with intensity, but it eventually reaches a plateau when another factor becomes limiting. Very high temperatures can denature enzymes and reduce the rate sharply.

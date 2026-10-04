@@ -1,0 +1,1118 @@
+[
+  {
+    "question": "Who stayed in lunar orbit during Apollo 11?",
+    "method": "vector",
+    "retrieved_chunks": [
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 0,
+        "score": 0.6078,
+        "text": "The Apollo program was run by NASA from 1961 to 1972 with the goal of landing humans on the Moon. President John F. Kennedy announced the goal in a speech to Congress in May 1961, saying the United States should land a man on the Moon and return him safely to Earth before the end of the decade. Apollo 11 launched on July 16, 1969, from Kennedy Space Center in Florida atop a Saturn V rocket. The crew was Neil Armstrong, Buzz Aldrin, and Michael Collins. Armstrong and Aldrin landed the lunar module, named Eagle, in the Sea of Tranquility on July 20, 1969. Collins stayed in lunar orbit aboard the command module Columbia. Neil Armstrong was the first person to step onto the lunar surface. Buzz Aldrin followed about 19 minutes later. The two astronauts spent roughly two and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying"
+      },
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 1,
+        "score": 0.5726,
+        "text": "and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying scientific instruments. The Saturn V was the rocket that carried Apollo astronauts toward the Moon. It stood 110.6 meters tall and remains the most powerful rocket to have flown successfully. It had three stages: the S-IC first stage, the S-II second stage, and the S-IVB third stage, which fired twice to send the spacecraft toward the Moon. Apollo 13 launched in April 1970 and was meant to be the third lunar landing. An oxygen tank in the service module exploded about two days into the flight, forcing the crew of Jim Lovell, Jack Swigert, and Fred Haise to abandon the landing. They used the lunar module Aquarius as a lifeboat and returned safely to Earth on April 17, 1970. The Apollo program had six successful crewed Moon landings: Apollo 11, 12, 14, 15, 16, and 17."
+      },
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 2,
+        "score": 0.5569,
+        "text": "Earth on April 17, 1970. The Apollo program had six successful crewed Moon landings: Apollo 11, 12, 14, 15, 16, and 17. Apollo 17, in December 1972, was the last. Eugene Cernan was the last person to walk on the Moon. Twelve astronauts in total walked on the lunar surface. Apollo 1 ended in tragedy on January 27, 1967, when a cabin fire during a launch rehearsal killed astronauts Gus Grissom, Ed White, and Roger Chaffee. The fire led to major redesigns of the spacecraft, including a new hatch and a switch away from a pure oxygen atmosphere on the launch pad. Apollo 15, 16, and 17 carried the lunar roving vehicle, an electric car that let astronauts travel several kilometers from the lunar module. The total cost of the Apollo program was about 25.4 billion dollars at the time, which is roughly 250 billion dollars in modern currency."
+      }
+    ],
+    "retrieval_latency_s": 0.0177,
+    "total_latency_s": 0.962,
+    "retrieval_hit": true,
+    "rank": 1,
+    "answer": "Michael Collins remained in lunar orbit aboard the command module\u202fColumbia during Apollo\u202f11[1]",
+    "keyword_coverage": 1.0,
+    "manual_quality": null
+  },
+  {
+    "question": "Who stayed in lunar orbit during Apollo 11?",
+    "method": "rerank",
+    "retrieved_chunks": [
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 0,
+        "score": 8.4662,
+        "text": "The Apollo program was run by NASA from 1961 to 1972 with the goal of landing humans on the Moon. President John F. Kennedy announced the goal in a speech to Congress in May 1961, saying the United States should land a man on the Moon and return him safely to Earth before the end of the decade. Apollo 11 launched on July 16, 1969, from Kennedy Space Center in Florida atop a Saturn V rocket. The crew was Neil Armstrong, Buzz Aldrin, and Michael Collins. Armstrong and Aldrin landed the lunar module, named Eagle, in the Sea of Tranquility on July 20, 1969. Collins stayed in lunar orbit aboard the command module Columbia. Neil Armstrong was the first person to step onto the lunar surface. Buzz Aldrin followed about 19 minutes later. The two astronauts spent roughly two and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying"
+      },
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 2,
+        "score": 3.4051,
+        "text": "Earth on April 17, 1970. The Apollo program had six successful crewed Moon landings: Apollo 11, 12, 14, 15, 16, and 17. Apollo 17, in December 1972, was the last. Eugene Cernan was the last person to walk on the Moon. Twelve astronauts in total walked on the lunar surface. Apollo 1 ended in tragedy on January 27, 1967, when a cabin fire during a launch rehearsal killed astronauts Gus Grissom, Ed White, and Roger Chaffee. The fire led to major redesigns of the spacecraft, including a new hatch and a switch away from a pure oxygen atmosphere on the launch pad. Apollo 15, 16, and 17 carried the lunar roving vehicle, an electric car that let astronauts travel several kilometers from the lunar module. The total cost of the Apollo program was about 25.4 billion dollars at the time, which is roughly 250 billion dollars in modern currency."
+      },
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 1,
+        "score": 1.6655,
+        "text": "and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying scientific instruments. The Saturn V was the rocket that carried Apollo astronauts toward the Moon. It stood 110.6 meters tall and remains the most powerful rocket to have flown successfully. It had three stages: the S-IC first stage, the S-II second stage, and the S-IVB third stage, which fired twice to send the spacecraft toward the Moon. Apollo 13 launched in April 1970 and was meant to be the third lunar landing. An oxygen tank in the service module exploded about two days into the flight, forcing the crew of Jim Lovell, Jack Swigert, and Fred Haise to abandon the landing. They used the lunar module Aquarius as a lifeboat and returned safely to Earth on April 17, 1970. The Apollo program had six successful crewed Moon landings: Apollo 11, 12, 14, 15, 16, and 17."
+      }
+    ],
+    "retrieval_latency_s": 0.0716,
+    "total_latency_s": 0.606,
+    "retrieval_hit": true,
+    "rank": 1,
+    "answer": "Michael\u202fCollins stayed in lunar orbit aboard the command module\u202fColumbia during Apollo\u202f11[1]",
+    "keyword_coverage": 1.0,
+    "manual_quality": null
+  },
+  {
+    "question": "Why did Apollo 13 abandon its lunar landing?",
+    "method": "vector",
+    "retrieved_chunks": [
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 1,
+        "score": 0.6211,
+        "text": "and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying scientific instruments. The Saturn V was the rocket that carried Apollo astronauts toward the Moon. It stood 110.6 meters tall and remains the most powerful rocket to have flown successfully. It had three stages: the S-IC first stage, the S-II second stage, and the S-IVB third stage, which fired twice to send the spacecraft toward the Moon. Apollo 13 launched in April 1970 and was meant to be the third lunar landing. An oxygen tank in the service module exploded about two days into the flight, forcing the crew of Jim Lovell, Jack Swigert, and Fred Haise to abandon the landing. They used the lunar module Aquarius as a lifeboat and returned safely to Earth on April 17, 1970. The Apollo program had six successful crewed Moon landings: Apollo 11, 12, 14, 15, 16, and 17."
+      },
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 2,
+        "score": 0.5741,
+        "text": "Earth on April 17, 1970. The Apollo program had six successful crewed Moon landings: Apollo 11, 12, 14, 15, 16, and 17. Apollo 17, in December 1972, was the last. Eugene Cernan was the last person to walk on the Moon. Twelve astronauts in total walked on the lunar surface. Apollo 1 ended in tragedy on January 27, 1967, when a cabin fire during a launch rehearsal killed astronauts Gus Grissom, Ed White, and Roger Chaffee. The fire led to major redesigns of the spacecraft, including a new hatch and a switch away from a pure oxygen atmosphere on the launch pad. Apollo 15, 16, and 17 carried the lunar roving vehicle, an electric car that let astronauts travel several kilometers from the lunar module. The total cost of the Apollo program was about 25.4 billion dollars at the time, which is roughly 250 billion dollars in modern currency."
+      },
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 0,
+        "score": 0.5645,
+        "text": "The Apollo program was run by NASA from 1961 to 1972 with the goal of landing humans on the Moon. President John F. Kennedy announced the goal in a speech to Congress in May 1961, saying the United States should land a man on the Moon and return him safely to Earth before the end of the decade. Apollo 11 launched on July 16, 1969, from Kennedy Space Center in Florida atop a Saturn V rocket. The crew was Neil Armstrong, Buzz Aldrin, and Michael Collins. Armstrong and Aldrin landed the lunar module, named Eagle, in the Sea of Tranquility on July 20, 1969. Collins stayed in lunar orbit aboard the command module Columbia. Neil Armstrong was the first person to step onto the lunar surface. Buzz Aldrin followed about 19 minutes later. The two astronauts spent roughly two and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying"
+      }
+    ],
+    "retrieval_latency_s": 0.0202,
+    "total_latency_s": 0.485,
+    "retrieval_hit": true,
+    "rank": 1,
+    "answer": "Apollo\u202f13\u2019s lunar landing was called off after an oxygen tank in the service module exploded about two days into the flight, forcing the crew to abandon the landing and use the lunar module as a lifeboat instead[1].",
+    "keyword_coverage": 1.0,
+    "manual_quality": null
+  },
+  {
+    "question": "Why did Apollo 13 abandon its lunar landing?",
+    "method": "rerank",
+    "retrieved_chunks": [
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 1,
+        "score": 5.0227,
+        "text": "and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying scientific instruments. The Saturn V was the rocket that carried Apollo astronauts toward the Moon. It stood 110.6 meters tall and remains the most powerful rocket to have flown successfully. It had three stages: the S-IC first stage, the S-II second stage, and the S-IVB third stage, which fired twice to send the spacecraft toward the Moon. Apollo 13 launched in April 1970 and was meant to be the third lunar landing. An oxygen tank in the service module exploded about two days into the flight, forcing the crew of Jim Lovell, Jack Swigert, and Fred Haise to abandon the landing. They used the lunar module Aquarius as a lifeboat and returned safely to Earth on April 17, 1970. The Apollo program had six successful crewed Moon landings: Apollo 11, 12, 14, 15, 16, and 17."
+      },
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 2,
+        "score": 2.5343,
+        "text": "Earth on April 17, 1970. The Apollo program had six successful crewed Moon landings: Apollo 11, 12, 14, 15, 16, and 17. Apollo 17, in December 1972, was the last. Eugene Cernan was the last person to walk on the Moon. Twelve astronauts in total walked on the lunar surface. Apollo 1 ended in tragedy on January 27, 1967, when a cabin fire during a launch rehearsal killed astronauts Gus Grissom, Ed White, and Roger Chaffee. The fire led to major redesigns of the spacecraft, including a new hatch and a switch away from a pure oxygen atmosphere on the launch pad. Apollo 15, 16, and 17 carried the lunar roving vehicle, an electric car that let astronauts travel several kilometers from the lunar module. The total cost of the Apollo program was about 25.4 billion dollars at the time, which is roughly 250 billion dollars in modern currency."
+      },
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 0,
+        "score": 1.2606,
+        "text": "The Apollo program was run by NASA from 1961 to 1972 with the goal of landing humans on the Moon. President John F. Kennedy announced the goal in a speech to Congress in May 1961, saying the United States should land a man on the Moon and return him safely to Earth before the end of the decade. Apollo 11 launched on July 16, 1969, from Kennedy Space Center in Florida atop a Saturn V rocket. The crew was Neil Armstrong, Buzz Aldrin, and Michael Collins. Armstrong and Aldrin landed the lunar module, named Eagle, in the Sea of Tranquility on July 20, 1969. Collins stayed in lunar orbit aboard the command module Columbia. Neil Armstrong was the first person to step onto the lunar surface. Buzz Aldrin followed about 19 minutes later. The two astronauts spent roughly two and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying"
+      }
+    ],
+    "retrieval_latency_s": 0.068,
+    "total_latency_s": 0.557,
+    "retrieval_hit": true,
+    "rank": 1,
+    "answer": "Apollo\u202f13\u2019s planned lunar landing was called off because an oxygen tank in the service module exploded about two days after launch, forcing the crew to abandon the landing and use the lunar module as a lifeboat instead[1].",
+    "keyword_coverage": 1.0,
+    "manual_quality": null
+  },
+  {
+    "question": "How tall was the Saturn V rocket?",
+    "method": "vector",
+    "retrieved_chunks": [
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 1,
+        "score": 0.5094,
+        "text": "and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying scientific instruments. The Saturn V was the rocket that carried Apollo astronauts toward the Moon. It stood 110.6 meters tall and remains the most powerful rocket to have flown successfully. It had three stages: the S-IC first stage, the S-II second stage, and the S-IVB third stage, which fired twice to send the spacecraft toward the Moon. Apollo 13 launched in April 1970 and was meant to be the third lunar landing. An oxygen tank in the service module exploded about two days into the flight, forcing the crew of Jim Lovell, Jack Swigert, and Fred Haise to abandon the landing. They used the lunar module Aquarius as a lifeboat and returned safely to Earth on April 17, 1970. The Apollo program had six successful crewed Moon landings: Apollo 11, 12, 14, 15, 16, and 17."
+      },
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 0,
+        "score": 0.2692,
+        "text": "The Apollo program was run by NASA from 1961 to 1972 with the goal of landing humans on the Moon. President John F. Kennedy announced the goal in a speech to Congress in May 1961, saying the United States should land a man on the Moon and return him safely to Earth before the end of the decade. Apollo 11 launched on July 16, 1969, from Kennedy Space Center in Florida atop a Saturn V rocket. The crew was Neil Armstrong, Buzz Aldrin, and Michael Collins. Armstrong and Aldrin landed the lunar module, named Eagle, in the Sea of Tranquility on July 20, 1969. Collins stayed in lunar orbit aboard the command module Columbia. Neil Armstrong was the first person to step onto the lunar surface. Buzz Aldrin followed about 19 minutes later. The two astronauts spent roughly two and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying"
+      },
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 2,
+        "score": 0.2638,
+        "text": "Earth on April 17, 1970. The Apollo program had six successful crewed Moon landings: Apollo 11, 12, 14, 15, 16, and 17. Apollo 17, in December 1972, was the last. Eugene Cernan was the last person to walk on the Moon. Twelve astronauts in total walked on the lunar surface. Apollo 1 ended in tragedy on January 27, 1967, when a cabin fire during a launch rehearsal killed astronauts Gus Grissom, Ed White, and Roger Chaffee. The fire led to major redesigns of the spacecraft, including a new hatch and a switch away from a pure oxygen atmosphere on the launch pad. Apollo 15, 16, and 17 carried the lunar roving vehicle, an electric car that let astronauts travel several kilometers from the lunar module. The total cost of the Apollo program was about 25.4 billion dollars at the time, which is roughly 250 billion dollars in modern currency."
+      }
+    ],
+    "retrieval_latency_s": 0.0304,
+    "total_latency_s": 0.989,
+    "retrieval_hit": true,
+    "rank": 1,
+    "answer": "The Saturn\u202fV rocket stood\u202f110.6\u202fmeters tall[1].",
+    "keyword_coverage": 1.0,
+    "manual_quality": null
+  },
+  {
+    "question": "How tall was the Saturn V rocket?",
+    "method": "rerank",
+    "retrieved_chunks": [
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 1,
+        "score": 8.2486,
+        "text": "and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying scientific instruments. The Saturn V was the rocket that carried Apollo astronauts toward the Moon. It stood 110.6 meters tall and remains the most powerful rocket to have flown successfully. It had three stages: the S-IC first stage, the S-II second stage, and the S-IVB third stage, which fired twice to send the spacecraft toward the Moon. Apollo 13 launched in April 1970 and was meant to be the third lunar landing. An oxygen tank in the service module exploded about two days into the flight, forcing the crew of Jim Lovell, Jack Swigert, and Fred Haise to abandon the landing. They used the lunar module Aquarius as a lifeboat and returned safely to Earth on April 17, 1970. The Apollo program had six successful crewed Moon landings: Apollo 11, 12, 14, 15, 16, and 17."
+      },
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 0,
+        "score": -5.3377,
+        "text": "The Apollo program was run by NASA from 1961 to 1972 with the goal of landing humans on the Moon. President John F. Kennedy announced the goal in a speech to Congress in May 1961, saying the United States should land a man on the Moon and return him safely to Earth before the end of the decade. Apollo 11 launched on July 16, 1969, from Kennedy Space Center in Florida atop a Saturn V rocket. The crew was Neil Armstrong, Buzz Aldrin, and Michael Collins. Armstrong and Aldrin landed the lunar module, named Eagle, in the Sea of Tranquility on July 20, 1969. Collins stayed in lunar orbit aboard the command module Columbia. Neil Armstrong was the first person to step onto the lunar surface. Buzz Aldrin followed about 19 minutes later. The two astronauts spent roughly two and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying"
+      },
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 0,
+        "score": -10.9514,
+        "text": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy stored in glucose. The overall reaction uses carbon dioxide and water, and produces glucose and oxygen. In plants it takes place mainly in the leaves, inside organelles called chloroplasts. Chloroplasts contain a green pigment called chlorophyll, which absorbs light most strongly in the blue and red parts of the spectrum and reflects green light. This reflected green light is why most plants look green. Chlorophyll is embedded in the thylakoid membranes, which are stacked into structures called grana. The light-dependent reactions occur in the thylakoid membranes. Light energy splits water molecules, releasing oxygen as a by-product and producing the energy carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from"
+      }
+    ],
+    "retrieval_latency_s": 0.0765,
+    "total_latency_s": 0.565,
+    "retrieval_hit": true,
+    "rank": 1,
+    "answer": "The Saturn\u202fV rocket stood\u202f110.6\u202fmeters tall[1].",
+    "keyword_coverage": 1.0,
+    "manual_quality": null
+  },
+  {
+    "question": "What caused the Apollo 1 disaster and what changed afterward?",
+    "method": "vector",
+    "retrieved_chunks": [
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 2,
+        "score": 0.4826,
+        "text": "Earth on April 17, 1970. The Apollo program had six successful crewed Moon landings: Apollo 11, 12, 14, 15, 16, and 17. Apollo 17, in December 1972, was the last. Eugene Cernan was the last person to walk on the Moon. Twelve astronauts in total walked on the lunar surface. Apollo 1 ended in tragedy on January 27, 1967, when a cabin fire during a launch rehearsal killed astronauts Gus Grissom, Ed White, and Roger Chaffee. The fire led to major redesigns of the spacecraft, including a new hatch and a switch away from a pure oxygen atmosphere on the launch pad. Apollo 15, 16, and 17 carried the lunar roving vehicle, an electric car that let astronauts travel several kilometers from the lunar module. The total cost of the Apollo program was about 25.4 billion dollars at the time, which is roughly 250 billion dollars in modern currency."
+      },
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 1,
+        "score": 0.4762,
+        "text": "and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying scientific instruments. The Saturn V was the rocket that carried Apollo astronauts toward the Moon. It stood 110.6 meters tall and remains the most powerful rocket to have flown successfully. It had three stages: the S-IC first stage, the S-II second stage, and the S-IVB third stage, which fired twice to send the spacecraft toward the Moon. Apollo 13 launched in April 1970 and was meant to be the third lunar landing. An oxygen tank in the service module exploded about two days into the flight, forcing the crew of Jim Lovell, Jack Swigert, and Fred Haise to abandon the landing. They used the lunar module Aquarius as a lifeboat and returned safely to Earth on April 17, 1970. The Apollo program had six successful crewed Moon landings: Apollo 11, 12, 14, 15, 16, and 17."
+      },
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 0,
+        "score": 0.3972,
+        "text": "The Apollo program was run by NASA from 1961 to 1972 with the goal of landing humans on the Moon. President John F. Kennedy announced the goal in a speech to Congress in May 1961, saying the United States should land a man on the Moon and return him safely to Earth before the end of the decade. Apollo 11 launched on July 16, 1969, from Kennedy Space Center in Florida atop a Saturn V rocket. The crew was Neil Armstrong, Buzz Aldrin, and Michael Collins. Armstrong and Aldrin landed the lunar module, named Eagle, in the Sea of Tranquility on July 20, 1969. Collins stayed in lunar orbit aboard the command module Columbia. Neil Armstrong was the first person to step onto the lunar surface. Buzz Aldrin followed about 19 minutes later. The two astronauts spent roughly two and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying"
+      }
+    ],
+    "retrieval_latency_s": 0.0422,
+    "total_latency_s": 0.747,
+    "retrieval_hit": true,
+    "rank": 1,
+    "answer": "The Apollo\u202f1 tragedy was caused by a cabin fire that broke out during a launch\u2011rehearsal on\u202f27\u202fJanuary\u202f1967, killing the crew of Gus\u202fGrissom, Ed\u202fWhite and Roger\u202fChaffee. In response, NASA instituted major redesigns of the command module, most notably installing a new quick\u2011release hatch and eliminating the use of a pure\u2011oxygen atmosphere on the launch pad[1].",
+    "keyword_coverage": 1.0,
+    "manual_quality": null
+  },
+  {
+    "question": "What caused the Apollo 1 disaster and what changed afterward?",
+    "method": "rerank",
+    "retrieved_chunks": [
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 2,
+        "score": 2.2469,
+        "text": "Earth on April 17, 1970. The Apollo program had six successful crewed Moon landings: Apollo 11, 12, 14, 15, 16, and 17. Apollo 17, in December 1972, was the last. Eugene Cernan was the last person to walk on the Moon. Twelve astronauts in total walked on the lunar surface. Apollo 1 ended in tragedy on January 27, 1967, when a cabin fire during a launch rehearsal killed astronauts Gus Grissom, Ed White, and Roger Chaffee. The fire led to major redesigns of the spacecraft, including a new hatch and a switch away from a pure oxygen atmosphere on the launch pad. Apollo 15, 16, and 17 carried the lunar roving vehicle, an electric car that let astronauts travel several kilometers from the lunar module. The total cost of the Apollo program was about 25.4 billion dollars at the time, which is roughly 250 billion dollars in modern currency."
+      },
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 0,
+        "score": -4.2739,
+        "text": "The Apollo program was run by NASA from 1961 to 1972 with the goal of landing humans on the Moon. President John F. Kennedy announced the goal in a speech to Congress in May 1961, saying the United States should land a man on the Moon and return him safely to Earth before the end of the decade. Apollo 11 launched on July 16, 1969, from Kennedy Space Center in Florida atop a Saturn V rocket. The crew was Neil Armstrong, Buzz Aldrin, and Michael Collins. Armstrong and Aldrin landed the lunar module, named Eagle, in the Sea of Tranquility on July 20, 1969. Collins stayed in lunar orbit aboard the command module Columbia. Neil Armstrong was the first person to step onto the lunar surface. Buzz Aldrin followed about 19 minutes later. The two astronauts spent roughly two and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying"
+      },
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 1,
+        "score": -5.9263,
+        "text": "and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying scientific instruments. The Saturn V was the rocket that carried Apollo astronauts toward the Moon. It stood 110.6 meters tall and remains the most powerful rocket to have flown successfully. It had three stages: the S-IC first stage, the S-II second stage, and the S-IVB third stage, which fired twice to send the spacecraft toward the Moon. Apollo 13 launched in April 1970 and was meant to be the third lunar landing. An oxygen tank in the service module exploded about two days into the flight, forcing the crew of Jim Lovell, Jack Swigert, and Fred Haise to abandon the landing. They used the lunar module Aquarius as a lifeboat and returned safely to Earth on April 17, 1970. The Apollo program had six successful crewed Moon landings: Apollo 11, 12, 14, 15, 16, and 17."
+      }
+    ],
+    "retrieval_latency_s": 0.0882,
+    "total_latency_s": 0.833,
+    "retrieval_hit": true,
+    "rank": 1,
+    "answer": "The Apollo\u202f1 tragedy was caused by a cabin fire that broke out during a launch\u2011rehearsal on\u202f27\u202fJanuary\u202f1967, killing astronauts Gus\u202fGrissom, Ed\u202fWhite and Roger\u202fChaffee. In response, NASA instituted major redesigns of the spacecraft, most notably installing a new quick\u2011release hatch and switching away from a pure\u2011oxygen atmosphere on the launch pad[1].",
+    "keyword_coverage": 1.0,
+    "manual_quality": null
+  },
+  {
+    "question": "Which Apollo missions carried the lunar roving vehicle?",
+    "method": "vector",
+    "retrieved_chunks": [
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 2,
+        "score": 0.5764,
+        "text": "Earth on April 17, 1970. The Apollo program had six successful crewed Moon landings: Apollo 11, 12, 14, 15, 16, and 17. Apollo 17, in December 1972, was the last. Eugene Cernan was the last person to walk on the Moon. Twelve astronauts in total walked on the lunar surface. Apollo 1 ended in tragedy on January 27, 1967, when a cabin fire during a launch rehearsal killed astronauts Gus Grissom, Ed White, and Roger Chaffee. The fire led to major redesigns of the spacecraft, including a new hatch and a switch away from a pure oxygen atmosphere on the launch pad. Apollo 15, 16, and 17 carried the lunar roving vehicle, an electric car that let astronauts travel several kilometers from the lunar module. The total cost of the Apollo program was about 25.4 billion dollars at the time, which is roughly 250 billion dollars in modern currency."
+      },
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 1,
+        "score": 0.5747,
+        "text": "and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying scientific instruments. The Saturn V was the rocket that carried Apollo astronauts toward the Moon. It stood 110.6 meters tall and remains the most powerful rocket to have flown successfully. It had three stages: the S-IC first stage, the S-II second stage, and the S-IVB third stage, which fired twice to send the spacecraft toward the Moon. Apollo 13 launched in April 1970 and was meant to be the third lunar landing. An oxygen tank in the service module exploded about two days into the flight, forcing the crew of Jim Lovell, Jack Swigert, and Fred Haise to abandon the landing. They used the lunar module Aquarius as a lifeboat and returned safely to Earth on April 17, 1970. The Apollo program had six successful crewed Moon landings: Apollo 11, 12, 14, 15, 16, and 17."
+      },
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 0,
+        "score": 0.5197,
+        "text": "The Apollo program was run by NASA from 1961 to 1972 with the goal of landing humans on the Moon. President John F. Kennedy announced the goal in a speech to Congress in May 1961, saying the United States should land a man on the Moon and return him safely to Earth before the end of the decade. Apollo 11 launched on July 16, 1969, from Kennedy Space Center in Florida atop a Saturn V rocket. The crew was Neil Armstrong, Buzz Aldrin, and Michael Collins. Armstrong and Aldrin landed the lunar module, named Eagle, in the Sea of Tranquility on July 20, 1969. Collins stayed in lunar orbit aboard the command module Columbia. Neil Armstrong was the first person to step onto the lunar surface. Buzz Aldrin followed about 19 minutes later. The two astronauts spent roughly two and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying"
+      }
+    ],
+    "retrieval_latency_s": 0.0363,
+    "total_latency_s": 5.331,
+    "retrieval_hit": true,
+    "rank": 1,
+    "answer": "Apollo\u202f15, Apollo\u202f16, and Apollo\u202f17 each carried the lunar roving vehicle\u202f\u2014\u202fan electric \u201ccar\u201d that let astronauts travel several kilometres from the lunar module[1].",
+    "keyword_coverage": 1.0,
+    "manual_quality": null
+  },
+  {
+    "question": "Which Apollo missions carried the lunar roving vehicle?",
+    "method": "rerank",
+    "retrieved_chunks": [
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 2,
+        "score": 6.8308,
+        "text": "Earth on April 17, 1970. The Apollo program had six successful crewed Moon landings: Apollo 11, 12, 14, 15, 16, and 17. Apollo 17, in December 1972, was the last. Eugene Cernan was the last person to walk on the Moon. Twelve astronauts in total walked on the lunar surface. Apollo 1 ended in tragedy on January 27, 1967, when a cabin fire during a launch rehearsal killed astronauts Gus Grissom, Ed White, and Roger Chaffee. The fire led to major redesigns of the spacecraft, including a new hatch and a switch away from a pure oxygen atmosphere on the launch pad. Apollo 15, 16, and 17 carried the lunar roving vehicle, an electric car that let astronauts travel several kilometers from the lunar module. The total cost of the Apollo program was about 25.4 billion dollars at the time, which is roughly 250 billion dollars in modern currency."
+      },
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 1,
+        "score": 3.8515,
+        "text": "and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying scientific instruments. The Saturn V was the rocket that carried Apollo astronauts toward the Moon. It stood 110.6 meters tall and remains the most powerful rocket to have flown successfully. It had three stages: the S-IC first stage, the S-II second stage, and the S-IVB third stage, which fired twice to send the spacecraft toward the Moon. Apollo 13 launched in April 1970 and was meant to be the third lunar landing. An oxygen tank in the service module exploded about two days into the flight, forcing the crew of Jim Lovell, Jack Swigert, and Fred Haise to abandon the landing. They used the lunar module Aquarius as a lifeboat and returned safely to Earth on April 17, 1970. The Apollo program had six successful crewed Moon landings: Apollo 11, 12, 14, 15, 16, and 17."
+      },
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 0,
+        "score": 0.4291,
+        "text": "The Apollo program was run by NASA from 1961 to 1972 with the goal of landing humans on the Moon. President John F. Kennedy announced the goal in a speech to Congress in May 1961, saying the United States should land a man on the Moon and return him safely to Earth before the end of the decade. Apollo 11 launched on July 16, 1969, from Kennedy Space Center in Florida atop a Saturn V rocket. The crew was Neil Armstrong, Buzz Aldrin, and Michael Collins. Armstrong and Aldrin landed the lunar module, named Eagle, in the Sea of Tranquility on July 20, 1969. Collins stayed in lunar orbit aboard the command module Columbia. Neil Armstrong was the first person to step onto the lunar surface. Buzz Aldrin followed about 19 minutes later. The two astronauts spent roughly two and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying"
+      }
+    ],
+    "retrieval_latency_s": 0.1381,
+    "total_latency_s": 7.821,
+    "retrieval_hit": true,
+    "rank": 1,
+    "answer": "Apollo\u202f15, Apollo\u202f16, and Apollo\u202f17 each carried the lunar roving vehicle[1].",
+    "keyword_coverage": 1.0,
+    "manual_quality": null
+  },
+  {
+    "question": "Where in the chloroplast does the Calvin cycle happen?",
+    "method": "vector",
+    "retrieved_chunks": [
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 1,
+        "score": 0.5857,
+        "text": "y carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from carbon dioxide. The Calvin cycle, also called the light-independent reactions, takes place in the stroma of the chloroplast. It uses the ATP and NADPH from the light reactions to fix carbon dioxide into sugar. The key enzyme that captures carbon dioxide is RuBisCO, which is considered the most abundant enzyme on Earth. Stomata are tiny pores, mostly on the underside of leaves, that let carbon dioxide enter and water vapor and oxygen leave. Each stoma is surrounded by two guard cells that open and close the pore. Plants close their stomata in hot, dry conditions to reduce water loss, which also limits photosynthesis. C4 plants such as maize and sugarcane have an adaptation that concentrates carbon dioxide around RuBisCO, which reduces wasteful photorespiration in hot"
+      },
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 0,
+        "score": 0.585,
+        "text": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy stored in glucose. The overall reaction uses carbon dioxide and water, and produces glucose and oxygen. In plants it takes place mainly in the leaves, inside organelles called chloroplasts. Chloroplasts contain a green pigment called chlorophyll, which absorbs light most strongly in the blue and red parts of the spectrum and reflects green light. This reflected green light is why most plants look green. Chlorophyll is embedded in the thylakoid membranes, which are stacked into structures called grana. The light-dependent reactions occur in the thylakoid membranes. Light energy splits water molecules, releasing oxygen as a by-product and producing the energy carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from"
+      },
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 2,
+        "score": 0.4455,
+        "text": "rcane have an adaptation that concentrates carbon dioxide around RuBisCO, which reduces wasteful photorespiration in hot climates. CAM plants such as cacti open their stomata only at night to save water, storing carbon dioxide as organic acids until daylight. Several factors limit the rate of photosynthesis: light intensity, carbon dioxide concentration, temperature, and water availability. At low light the rate rises with intensity, but it eventually reaches a plateau when another factor becomes limiting. Very high temperatures can denature enzymes and reduce the rate sharply."
+      }
+    ],
+    "retrieval_latency_s": 0.224,
+    "total_latency_s": 6.812,
+    "retrieval_hit": true,
+    "rank": 1,
+    "answer": "The Calvin cycle (the light\u2011independent reactions) occurs in the stroma of the chloroplast[1].",
+    "keyword_coverage": 1.0,
+    "manual_quality": null
+  },
+  {
+    "question": "Where in the chloroplast does the Calvin cycle happen?",
+    "method": "rerank",
+    "retrieved_chunks": [
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 1,
+        "score": 4.1371,
+        "text": "y carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from carbon dioxide. The Calvin cycle, also called the light-independent reactions, takes place in the stroma of the chloroplast. It uses the ATP and NADPH from the light reactions to fix carbon dioxide into sugar. The key enzyme that captures carbon dioxide is RuBisCO, which is considered the most abundant enzyme on Earth. Stomata are tiny pores, mostly on the underside of leaves, that let carbon dioxide enter and water vapor and oxygen leave. Each stoma is surrounded by two guard cells that open and close the pore. Plants close their stomata in hot, dry conditions to reduce water loss, which also limits photosynthesis. C4 plants such as maize and sugarcane have an adaptation that concentrates carbon dioxide around RuBisCO, which reduces wasteful photorespiration in hot"
+      },
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 0,
+        "score": -3.7295,
+        "text": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy stored in glucose. The overall reaction uses carbon dioxide and water, and produces glucose and oxygen. In plants it takes place mainly in the leaves, inside organelles called chloroplasts. Chloroplasts contain a green pigment called chlorophyll, which absorbs light most strongly in the blue and red parts of the spectrum and reflects green light. This reflected green light is why most plants look green. Chlorophyll is embedded in the thylakoid membranes, which are stacked into structures called grana. The light-dependent reactions occur in the thylakoid membranes. Light energy splits water molecules, releasing oxygen as a by-product and producing the energy carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from"
+      },
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 2,
+        "score": -11.1706,
+        "text": "rcane have an adaptation that concentrates carbon dioxide around RuBisCO, which reduces wasteful photorespiration in hot climates. CAM plants such as cacti open their stomata only at night to save water, storing carbon dioxide as organic acids until daylight. Several factors limit the rate of photosynthesis: light intensity, carbon dioxide concentration, temperature, and water availability. At low light the rate rises with intensity, but it eventually reaches a plateau when another factor becomes limiting. Very high temperatures can denature enzymes and reduce the rate sharply."
+      }
+    ],
+    "retrieval_latency_s": 0.1786,
+    "total_latency_s": 5.61,
+    "retrieval_hit": true,
+    "rank": 1,
+    "answer": "The Calvin cycle (the light\u2011independent reactions) occurs in the stroma of the chloroplast[1].",
+    "keyword_coverage": 1.0,
+    "manual_quality": null
+  },
+  {
+    "question": "Where does the oxygen released by plants come from?",
+    "method": "vector",
+    "retrieved_chunks": [
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 0,
+        "score": 0.6271,
+        "text": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy stored in glucose. The overall reaction uses carbon dioxide and water, and produces glucose and oxygen. In plants it takes place mainly in the leaves, inside organelles called chloroplasts. Chloroplasts contain a green pigment called chlorophyll, which absorbs light most strongly in the blue and red parts of the spectrum and reflects green light. This reflected green light is why most plants look green. Chlorophyll is embedded in the thylakoid membranes, which are stacked into structures called grana. The light-dependent reactions occur in the thylakoid membranes. Light energy splits water molecules, releasing oxygen as a by-product and producing the energy carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from"
+      },
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 1,
+        "score": 0.6165,
+        "text": "y carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from carbon dioxide. The Calvin cycle, also called the light-independent reactions, takes place in the stroma of the chloroplast. It uses the ATP and NADPH from the light reactions to fix carbon dioxide into sugar. The key enzyme that captures carbon dioxide is RuBisCO, which is considered the most abundant enzyme on Earth. Stomata are tiny pores, mostly on the underside of leaves, that let carbon dioxide enter and water vapor and oxygen leave. Each stoma is surrounded by two guard cells that open and close the pore. Plants close their stomata in hot, dry conditions to reduce water loss, which also limits photosynthesis. C4 plants such as maize and sugarcane have an adaptation that concentrates carbon dioxide around RuBisCO, which reduces wasteful photorespiration in hot"
+      },
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 2,
+        "score": 0.4295,
+        "text": "rcane have an adaptation that concentrates carbon dioxide around RuBisCO, which reduces wasteful photorespiration in hot climates. CAM plants such as cacti open their stomata only at night to save water, storing carbon dioxide as organic acids until daylight. Several factors limit the rate of photosynthesis: light intensity, carbon dioxide concentration, temperature, and water availability. At low light the rate rises with intensity, but it eventually reaches a plateau when another factor becomes limiting. Very high temperatures can denature enzymes and reduce the rate sharply."
+      }
+    ],
+    "retrieval_latency_s": 0.1211,
+    "total_latency_s": 4.704,
+    "retrieval_hit": true,
+    "rank": 1,
+    "answer": "The oxygen that plants release into the atmosphere is produced when water molecules are split during the light\u2011dependent reactions of photosynthesis\u202f\u2014\u202fit comes from the splitting of water, not from carbon dioxide[1][2].",
+    "keyword_coverage": 1.0,
+    "manual_quality": null
+  },
+  {
+    "question": "Where does the oxygen released by plants come from?",
+    "method": "rerank",
+    "retrieved_chunks": [
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 1,
+        "score": 5.8053,
+        "text": "y carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from carbon dioxide. The Calvin cycle, also called the light-independent reactions, takes place in the stroma of the chloroplast. It uses the ATP and NADPH from the light reactions to fix carbon dioxide into sugar. The key enzyme that captures carbon dioxide is RuBisCO, which is considered the most abundant enzyme on Earth. Stomata are tiny pores, mostly on the underside of leaves, that let carbon dioxide enter and water vapor and oxygen leave. Each stoma is surrounded by two guard cells that open and close the pore. Plants close their stomata in hot, dry conditions to reduce water loss, which also limits photosynthesis. C4 plants such as maize and sugarcane have an adaptation that concentrates carbon dioxide around RuBisCO, which reduces wasteful photorespiration in hot"
+      },
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 0,
+        "score": 4.2032,
+        "text": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy stored in glucose. The overall reaction uses carbon dioxide and water, and produces glucose and oxygen. In plants it takes place mainly in the leaves, inside organelles called chloroplasts. Chloroplasts contain a green pigment called chlorophyll, which absorbs light most strongly in the blue and red parts of the spectrum and reflects green light. This reflected green light is why most plants look green. Chlorophyll is embedded in the thylakoid membranes, which are stacked into structures called grana. The light-dependent reactions occur in the thylakoid membranes. Light energy splits water molecules, releasing oxygen as a by-product and producing the energy carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from"
+      },
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 2,
+        "score": -8.9051,
+        "text": "rcane have an adaptation that concentrates carbon dioxide around RuBisCO, which reduces wasteful photorespiration in hot climates. CAM plants such as cacti open their stomata only at night to save water, storing carbon dioxide as organic acids until daylight. Several factors limit the rate of photosynthesis: light intensity, carbon dioxide concentration, temperature, and water availability. At low light the rate rises with intensity, but it eventually reaches a plateau when another factor becomes limiting. Very high temperatures can denature enzymes and reduce the rate sharply."
+      }
+    ],
+    "retrieval_latency_s": 0.1093,
+    "total_latency_s": 7.113,
+    "retrieval_hit": true,
+    "rank": 1,
+    "answer": "The oxygen that plants release is produced when water molecules are split during the light\u2011dependent reactions of photosynthesis\u2014it comes from the splitting of water, not from carbon dioxide[1][2].",
+    "keyword_coverage": 1.0,
+    "manual_quality": null
+  },
+  {
+    "question": "Why do plants look green?",
+    "method": "vector",
+    "retrieved_chunks": [
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 0,
+        "score": 0.5763,
+        "text": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy stored in glucose. The overall reaction uses carbon dioxide and water, and produces glucose and oxygen. In plants it takes place mainly in the leaves, inside organelles called chloroplasts. Chloroplasts contain a green pigment called chlorophyll, which absorbs light most strongly in the blue and red parts of the spectrum and reflects green light. This reflected green light is why most plants look green. Chlorophyll is embedded in the thylakoid membranes, which are stacked into structures called grana. The light-dependent reactions occur in the thylakoid membranes. Light energy splits water molecules, releasing oxygen as a by-product and producing the energy carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from"
+      },
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 1,
+        "score": 0.459,
+        "text": "y carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from carbon dioxide. The Calvin cycle, also called the light-independent reactions, takes place in the stroma of the chloroplast. It uses the ATP and NADPH from the light reactions to fix carbon dioxide into sugar. The key enzyme that captures carbon dioxide is RuBisCO, which is considered the most abundant enzyme on Earth. Stomata are tiny pores, mostly on the underside of leaves, that let carbon dioxide enter and water vapor and oxygen leave. Each stoma is surrounded by two guard cells that open and close the pore. Plants close their stomata in hot, dry conditions to reduce water loss, which also limits photosynthesis. C4 plants such as maize and sugarcane have an adaptation that concentrates carbon dioxide around RuBisCO, which reduces wasteful photorespiration in hot"
+      },
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 2,
+        "score": 0.4183,
+        "text": "rcane have an adaptation that concentrates carbon dioxide around RuBisCO, which reduces wasteful photorespiration in hot climates. CAM plants such as cacti open their stomata only at night to save water, storing carbon dioxide as organic acids until daylight. Several factors limit the rate of photosynthesis: light intensity, carbon dioxide concentration, temperature, and water availability. At low light the rate rises with intensity, but it eventually reaches a plateau when another factor becomes limiting. Very high temperatures can denature enzymes and reduce the rate sharply."
+      }
+    ],
+    "retrieval_latency_s": 0.2801,
+    "total_latency_s": 7.756,
+    "retrieval_hit": true,
+    "rank": 1,
+    "answer": "Plants appear green because the chlorophyll pigment in their cells absorbs mainly blue and red wavelengths of light but reflects green light; the reflected green light gives plants their characteristic green color[1].",
+    "keyword_coverage": 1.0,
+    "manual_quality": null
+  },
+  {
+    "question": "Why do plants look green?",
+    "method": "rerank",
+    "retrieved_chunks": [
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 0,
+        "score": 7.3952,
+        "text": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy stored in glucose. The overall reaction uses carbon dioxide and water, and produces glucose and oxygen. In plants it takes place mainly in the leaves, inside organelles called chloroplasts. Chloroplasts contain a green pigment called chlorophyll, which absorbs light most strongly in the blue and red parts of the spectrum and reflects green light. This reflected green light is why most plants look green. Chlorophyll is embedded in the thylakoid membranes, which are stacked into structures called grana. The light-dependent reactions occur in the thylakoid membranes. Light energy splits water molecules, releasing oxygen as a by-product and producing the energy carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from"
+      },
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 1,
+        "score": -8.7073,
+        "text": "y carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from carbon dioxide. The Calvin cycle, also called the light-independent reactions, takes place in the stroma of the chloroplast. It uses the ATP and NADPH from the light reactions to fix carbon dioxide into sugar. The key enzyme that captures carbon dioxide is RuBisCO, which is considered the most abundant enzyme on Earth. Stomata are tiny pores, mostly on the underside of leaves, that let carbon dioxide enter and water vapor and oxygen leave. Each stoma is surrounded by two guard cells that open and close the pore. Plants close their stomata in hot, dry conditions to reduce water loss, which also limits photosynthesis. C4 plants such as maize and sugarcane have an adaptation that concentrates carbon dioxide around RuBisCO, which reduces wasteful photorespiration in hot"
+      },
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 2,
+        "score": -9.7316,
+        "text": "rcane have an adaptation that concentrates carbon dioxide around RuBisCO, which reduces wasteful photorespiration in hot climates. CAM plants such as cacti open their stomata only at night to save water, storing carbon dioxide as organic acids until daylight. Several factors limit the rate of photosynthesis: light intensity, carbon dioxide concentration, temperature, and water availability. At low light the rate rises with intensity, but it eventually reaches a plateau when another factor becomes limiting. Very high temperatures can denature enzymes and reduce the rate sharply."
+      }
+    ],
+    "retrieval_latency_s": 0.15,
+    "total_latency_s": 5.635,
+    "retrieval_hit": true,
+    "rank": 1,
+    "answer": "Plants appear green because the chlorophyll pigment in their cells absorbs mainly blue and red wavelengths of light but reflects green light, and this reflected green light gives plants their characteristic green color[1].",
+    "keyword_coverage": 1.0,
+    "manual_quality": null
+  },
+  {
+    "question": "How do CAM plants conserve water?",
+    "method": "vector",
+    "retrieved_chunks": [
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 2,
+        "score": 0.6617,
+        "text": "rcane have an adaptation that concentrates carbon dioxide around RuBisCO, which reduces wasteful photorespiration in hot climates. CAM plants such as cacti open their stomata only at night to save water, storing carbon dioxide as organic acids until daylight. Several factors limit the rate of photosynthesis: light intensity, carbon dioxide concentration, temperature, and water availability. At low light the rate rises with intensity, but it eventually reaches a plateau when another factor becomes limiting. Very high temperatures can denature enzymes and reduce the rate sharply."
+      },
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 1,
+        "score": 0.5341,
+        "text": "y carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from carbon dioxide. The Calvin cycle, also called the light-independent reactions, takes place in the stroma of the chloroplast. It uses the ATP and NADPH from the light reactions to fix carbon dioxide into sugar. The key enzyme that captures carbon dioxide is RuBisCO, which is considered the most abundant enzyme on Earth. Stomata are tiny pores, mostly on the underside of leaves, that let carbon dioxide enter and water vapor and oxygen leave. Each stoma is surrounded by two guard cells that open and close the pore. Plants close their stomata in hot, dry conditions to reduce water loss, which also limits photosynthesis. C4 plants such as maize and sugarcane have an adaptation that concentrates carbon dioxide around RuBisCO, which reduces wasteful photorespiration in hot"
+      },
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 0,
+        "score": 0.4851,
+        "text": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy stored in glucose. The overall reaction uses carbon dioxide and water, and produces glucose and oxygen. In plants it takes place mainly in the leaves, inside organelles called chloroplasts. Chloroplasts contain a green pigment called chlorophyll, which absorbs light most strongly in the blue and red parts of the spectrum and reflects green light. This reflected green light is why most plants look green. Chlorophyll is embedded in the thylakoid membranes, which are stacked into structures called grana. The light-dependent reactions occur in the thylakoid membranes. Light energy splits water molecules, releasing oxygen as a by-product and producing the energy carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from"
+      }
+    ],
+    "retrieval_latency_s": 0.1225,
+    "total_latency_s": 6.942,
+    "retrieval_hit": true,
+    "rank": 1,
+    "answer": "CAM plants conserve water by opening their stomata only at night, when evaporation rates are lower, and fixing carbon dioxide into organic acids for use during daylight. This nighttime stomatal opening limits water loss compared with keeping stomata open during the hot daytime.[1]",
+    "keyword_coverage": 1.0,
+    "manual_quality": null
+  },
+  {
+    "question": "How do CAM plants conserve water?",
+    "method": "rerank",
+    "retrieved_chunks": [
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 2,
+        "score": 5.9549,
+        "text": "rcane have an adaptation that concentrates carbon dioxide around RuBisCO, which reduces wasteful photorespiration in hot climates. CAM plants such as cacti open their stomata only at night to save water, storing carbon dioxide as organic acids until daylight. Several factors limit the rate of photosynthesis: light intensity, carbon dioxide concentration, temperature, and water availability. At low light the rate rises with intensity, but it eventually reaches a plateau when another factor becomes limiting. Very high temperatures can denature enzymes and reduce the rate sharply."
+      },
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 1,
+        "score": -7.8709,
+        "text": "y carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from carbon dioxide. The Calvin cycle, also called the light-independent reactions, takes place in the stroma of the chloroplast. It uses the ATP and NADPH from the light reactions to fix carbon dioxide into sugar. The key enzyme that captures carbon dioxide is RuBisCO, which is considered the most abundant enzyme on Earth. Stomata are tiny pores, mostly on the underside of leaves, that let carbon dioxide enter and water vapor and oxygen leave. Each stoma is surrounded by two guard cells that open and close the pore. Plants close their stomata in hot, dry conditions to reduce water loss, which also limits photosynthesis. C4 plants such as maize and sugarcane have an adaptation that concentrates carbon dioxide around RuBisCO, which reduces wasteful photorespiration in hot"
+      },
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 0,
+        "score": -8.8083,
+        "text": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy stored in glucose. The overall reaction uses carbon dioxide and water, and produces glucose and oxygen. In plants it takes place mainly in the leaves, inside organelles called chloroplasts. Chloroplasts contain a green pigment called chlorophyll, which absorbs light most strongly in the blue and red parts of the spectrum and reflects green light. This reflected green light is why most plants look green. Chlorophyll is embedded in the thylakoid membranes, which are stacked into structures called grana. The light-dependent reactions occur in the thylakoid membranes. Light energy splits water molecules, releasing oxygen as a by-product and producing the energy carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from"
+      }
+    ],
+    "retrieval_latency_s": 0.1229,
+    "total_latency_s": 6.117,
+    "retrieval_hit": true,
+    "rank": 1,
+    "answer": "CAM plants conserve water by opening their stomata only at night, when evaporation is lower, and fixing the incoming carbon dioxide into organic acids that can be used during daylight. This nighttime stomatal opening limits water loss compared with keeping stomata open during the hot daytime[1].",
+    "keyword_coverage": 1.0,
+    "manual_quality": null
+  },
+  {
+    "question": "What is the most abundant enzyme on Earth and what does it do?",
+    "method": "vector",
+    "retrieved_chunks": [
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 1,
+        "score": 0.4493,
+        "text": "y carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from carbon dioxide. The Calvin cycle, also called the light-independent reactions, takes place in the stroma of the chloroplast. It uses the ATP and NADPH from the light reactions to fix carbon dioxide into sugar. The key enzyme that captures carbon dioxide is RuBisCO, which is considered the most abundant enzyme on Earth. Stomata are tiny pores, mostly on the underside of leaves, that let carbon dioxide enter and water vapor and oxygen leave. Each stoma is surrounded by two guard cells that open and close the pore. Plants close their stomata in hot, dry conditions to reduce water loss, which also limits photosynthesis. C4 plants such as maize and sugarcane have an adaptation that concentrates carbon dioxide around RuBisCO, which reduces wasteful photorespiration in hot"
+      },
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 0,
+        "score": 0.3209,
+        "text": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy stored in glucose. The overall reaction uses carbon dioxide and water, and produces glucose and oxygen. In plants it takes place mainly in the leaves, inside organelles called chloroplasts. Chloroplasts contain a green pigment called chlorophyll, which absorbs light most strongly in the blue and red parts of the spectrum and reflects green light. This reflected green light is why most plants look green. Chlorophyll is embedded in the thylakoid membranes, which are stacked into structures called grana. The light-dependent reactions occur in the thylakoid membranes. Light energy splits water molecules, releasing oxygen as a by-product and producing the energy carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from"
+      },
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 2,
+        "score": 0.3006,
+        "text": "rcane have an adaptation that concentrates carbon dioxide around RuBisCO, which reduces wasteful photorespiration in hot climates. CAM plants such as cacti open their stomata only at night to save water, storing carbon dioxide as organic acids until daylight. Several factors limit the rate of photosynthesis: light intensity, carbon dioxide concentration, temperature, and water availability. At low light the rate rises with intensity, but it eventually reaches a plateau when another factor becomes limiting. Very high temperatures can denature enzymes and reduce the rate sharply."
+      }
+    ],
+    "retrieval_latency_s": 0.1607,
+    "total_latency_s": 5.791,
+    "retrieval_hit": true,
+    "rank": 1,
+    "answer": "The most abundant enzyme on Earth is RuBisCO. It is the key enzyme that captures (fixes) carbon dioxide during the Calvin cycle of photosynthesis[1].",
+    "keyword_coverage": 1.0,
+    "manual_quality": null
+  },
+  {
+    "question": "What is the most abundant enzyme on Earth and what does it do?",
+    "method": "rerank",
+    "retrieved_chunks": [
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 1,
+        "score": 3.6159,
+        "text": "y carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from carbon dioxide. The Calvin cycle, also called the light-independent reactions, takes place in the stroma of the chloroplast. It uses the ATP and NADPH from the light reactions to fix carbon dioxide into sugar. The key enzyme that captures carbon dioxide is RuBisCO, which is considered the most abundant enzyme on Earth. Stomata are tiny pores, mostly on the underside of leaves, that let carbon dioxide enter and water vapor and oxygen leave. Each stoma is surrounded by two guard cells that open and close the pore. Plants close their stomata in hot, dry conditions to reduce water loss, which also limits photosynthesis. C4 plants such as maize and sugarcane have an adaptation that concentrates carbon dioxide around RuBisCO, which reduces wasteful photorespiration in hot"
+      },
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 0,
+        "score": -9.426,
+        "text": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy stored in glucose. The overall reaction uses carbon dioxide and water, and produces glucose and oxygen. In plants it takes place mainly in the leaves, inside organelles called chloroplasts. Chloroplasts contain a green pigment called chlorophyll, which absorbs light most strongly in the blue and red parts of the spectrum and reflects green light. This reflected green light is why most plants look green. Chlorophyll is embedded in the thylakoid membranes, which are stacked into structures called grana. The light-dependent reactions occur in the thylakoid membranes. Light energy splits water molecules, releasing oxygen as a by-product and producing the energy carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from"
+      },
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 2,
+        "score": -10.4476,
+        "text": "rcane have an adaptation that concentrates carbon dioxide around RuBisCO, which reduces wasteful photorespiration in hot climates. CAM plants such as cacti open their stomata only at night to save water, storing carbon dioxide as organic acids until daylight. Several factors limit the rate of photosynthesis: light intensity, carbon dioxide concentration, temperature, and water availability. At low light the rate rises with intensity, but it eventually reaches a plateau when another factor becomes limiting. Very high temperatures can denature enzymes and reduce the rate sharply."
+      }
+    ],
+    "retrieval_latency_s": 0.1613,
+    "total_latency_s": 8.938,
+    "retrieval_hit": true,
+    "rank": 1,
+    "answer": "The most abundant enzyme on Earth is RuBisCO. It is the key enzyme that captures (fixes) carbon dioxide during the Calvin cycle of photosynthesis, converting CO\u2082 into organic molecules for the plant\u202f[1].",
+    "keyword_coverage": 1.0,
+    "manual_quality": null
+  },
+  {
+    "question": "Which part of the spacecraft served as a lifeboat for the crew that never reached the Moon?",
+    "method": "vector",
+    "retrieved_chunks": [
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 1,
+        "score": 0.4972,
+        "text": "and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying scientific instruments. The Saturn V was the rocket that carried Apollo astronauts toward the Moon. It stood 110.6 meters tall and remains the most powerful rocket to have flown successfully. It had three stages: the S-IC first stage, the S-II second stage, and the S-IVB third stage, which fired twice to send the spacecraft toward the Moon. Apollo 13 launched in April 1970 and was meant to be the third lunar landing. An oxygen tank in the service module exploded about two days into the flight, forcing the crew of Jim Lovell, Jack Swigert, and Fred Haise to abandon the landing. They used the lunar module Aquarius as a lifeboat and returned safely to Earth on April 17, 1970. The Apollo program had six successful crewed Moon landings: Apollo 11, 12, 14, 15, 16, and 17."
+      },
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 2,
+        "score": 0.4636,
+        "text": "Earth on April 17, 1970. The Apollo program had six successful crewed Moon landings: Apollo 11, 12, 14, 15, 16, and 17. Apollo 17, in December 1972, was the last. Eugene Cernan was the last person to walk on the Moon. Twelve astronauts in total walked on the lunar surface. Apollo 1 ended in tragedy on January 27, 1967, when a cabin fire during a launch rehearsal killed astronauts Gus Grissom, Ed White, and Roger Chaffee. The fire led to major redesigns of the spacecraft, including a new hatch and a switch away from a pure oxygen atmosphere on the launch pad. Apollo 15, 16, and 17 carried the lunar roving vehicle, an electric car that let astronauts travel several kilometers from the lunar module. The total cost of the Apollo program was about 25.4 billion dollars at the time, which is roughly 250 billion dollars in modern currency."
+      },
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 0,
+        "score": 0.4389,
+        "text": "The Apollo program was run by NASA from 1961 to 1972 with the goal of landing humans on the Moon. President John F. Kennedy announced the goal in a speech to Congress in May 1961, saying the United States should land a man on the Moon and return him safely to Earth before the end of the decade. Apollo 11 launched on July 16, 1969, from Kennedy Space Center in Florida atop a Saturn V rocket. The crew was Neil Armstrong, Buzz Aldrin, and Michael Collins. Armstrong and Aldrin landed the lunar module, named Eagle, in the Sea of Tranquility on July 20, 1969. Collins stayed in lunar orbit aboard the command module Columbia. Neil Armstrong was the first person to step onto the lunar surface. Buzz Aldrin followed about 19 minutes later. The two astronauts spent roughly two and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying"
+      }
+    ],
+    "retrieval_latency_s": 0.1987,
+    "total_latency_s": 6.615,
+    "retrieval_hit": true,
+    "rank": 1,
+    "answer": "The crew used the **Lunar Module Aquarius** as a lifeboat after the accident, allowing them to return safely to Earth[1].",
+    "keyword_coverage": 1.0,
+    "manual_quality": null
+  },
+  {
+    "question": "Which part of the spacecraft served as a lifeboat for the crew that never reached the Moon?",
+    "method": "rerank",
+    "retrieved_chunks": [
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 1,
+        "score": 1.5804,
+        "text": "and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying scientific instruments. The Saturn V was the rocket that carried Apollo astronauts toward the Moon. It stood 110.6 meters tall and remains the most powerful rocket to have flown successfully. It had three stages: the S-IC first stage, the S-II second stage, and the S-IVB third stage, which fired twice to send the spacecraft toward the Moon. Apollo 13 launched in April 1970 and was meant to be the third lunar landing. An oxygen tank in the service module exploded about two days into the flight, forcing the crew of Jim Lovell, Jack Swigert, and Fred Haise to abandon the landing. They used the lunar module Aquarius as a lifeboat and returned safely to Earth on April 17, 1970. The Apollo program had six successful crewed Moon landings: Apollo 11, 12, 14, 15, 16, and 17."
+      },
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 0,
+        "score": -2.2342,
+        "text": "The Apollo program was run by NASA from 1961 to 1972 with the goal of landing humans on the Moon. President John F. Kennedy announced the goal in a speech to Congress in May 1961, saying the United States should land a man on the Moon and return him safely to Earth before the end of the decade. Apollo 11 launched on July 16, 1969, from Kennedy Space Center in Florida atop a Saturn V rocket. The crew was Neil Armstrong, Buzz Aldrin, and Michael Collins. Armstrong and Aldrin landed the lunar module, named Eagle, in the Sea of Tranquility on July 20, 1969. Collins stayed in lunar orbit aboard the command module Columbia. Neil Armstrong was the first person to step onto the lunar surface. Buzz Aldrin followed about 19 minutes later. The two astronauts spent roughly two and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying"
+      },
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 2,
+        "score": -2.2422,
+        "text": "Earth on April 17, 1970. The Apollo program had six successful crewed Moon landings: Apollo 11, 12, 14, 15, 16, and 17. Apollo 17, in December 1972, was the last. Eugene Cernan was the last person to walk on the Moon. Twelve astronauts in total walked on the lunar surface. Apollo 1 ended in tragedy on January 27, 1967, when a cabin fire during a launch rehearsal killed astronauts Gus Grissom, Ed White, and Roger Chaffee. The fire led to major redesigns of the spacecraft, including a new hatch and a switch away from a pure oxygen atmosphere on the launch pad. Apollo 15, 16, and 17 carried the lunar roving vehicle, an electric car that let astronauts travel several kilometers from the lunar module. The total cost of the Apollo program was about 25.4 billion dollars at the time, which is roughly 250 billion dollars in modern currency."
+      }
+    ],
+    "retrieval_latency_s": 0.3315,
+    "total_latency_s": 7.717,
+    "retrieval_hit": true,
+    "rank": 1,
+    "answer": "The crew used the **Lunar Module Aquarius** as a lifeboat after the accident, allowing them to return safely to Earth\u202f[1].",
+    "keyword_coverage": 1.0,
+    "manual_quality": null
+  },
+  {
+    "question": "How much material did the first moonwalkers bring back to Earth?",
+    "method": "vector",
+    "retrieved_chunks": [
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 2,
+        "score": 0.5059,
+        "text": "Earth on April 17, 1970. The Apollo program had six successful crewed Moon landings: Apollo 11, 12, 14, 15, 16, and 17. Apollo 17, in December 1972, was the last. Eugene Cernan was the last person to walk on the Moon. Twelve astronauts in total walked on the lunar surface. Apollo 1 ended in tragedy on January 27, 1967, when a cabin fire during a launch rehearsal killed astronauts Gus Grissom, Ed White, and Roger Chaffee. The fire led to major redesigns of the spacecraft, including a new hatch and a switch away from a pure oxygen atmosphere on the launch pad. Apollo 15, 16, and 17 carried the lunar roving vehicle, an electric car that let astronauts travel several kilometers from the lunar module. The total cost of the Apollo program was about 25.4 billion dollars at the time, which is roughly 250 billion dollars in modern currency."
+      },
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 1,
+        "score": 0.4596,
+        "text": "and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying scientific instruments. The Saturn V was the rocket that carried Apollo astronauts toward the Moon. It stood 110.6 meters tall and remains the most powerful rocket to have flown successfully. It had three stages: the S-IC first stage, the S-II second stage, and the S-IVB third stage, which fired twice to send the spacecraft toward the Moon. Apollo 13 launched in April 1970 and was meant to be the third lunar landing. An oxygen tank in the service module exploded about two days into the flight, forcing the crew of Jim Lovell, Jack Swigert, and Fred Haise to abandon the landing. They used the lunar module Aquarius as a lifeboat and returned safely to Earth on April 17, 1970. The Apollo program had six successful crewed Moon landings: Apollo 11, 12, 14, 15, 16, and 17."
+      },
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 0,
+        "score": 0.4152,
+        "text": "The Apollo program was run by NASA from 1961 to 1972 with the goal of landing humans on the Moon. President John F. Kennedy announced the goal in a speech to Congress in May 1961, saying the United States should land a man on the Moon and return him safely to Earth before the end of the decade. Apollo 11 launched on July 16, 1969, from Kennedy Space Center in Florida atop a Saturn V rocket. The crew was Neil Armstrong, Buzz Aldrin, and Michael Collins. Armstrong and Aldrin landed the lunar module, named Eagle, in the Sea of Tranquility on July 20, 1969. Collins stayed in lunar orbit aboard the command module Columbia. Neil Armstrong was the first person to step onto the lunar surface. Buzz Aldrin followed about 19 minutes later. The two astronauts spent roughly two and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying"
+      }
+    ],
+    "retrieval_latency_s": 0.1304,
+    "total_latency_s": 7.817,
+    "retrieval_hit": true,
+    "rank": 2,
+    "answer": "The first moonwalkers collected and returned roughly\u202f21.5\u202fkilograms of lunar rock and soil to Earth\u202f[2][3].",
+    "keyword_coverage": 1.0,
+    "manual_quality": null
+  },
+  {
+    "question": "How much material did the first moonwalkers bring back to Earth?",
+    "method": "rerank",
+    "retrieved_chunks": [
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 1,
+        "score": -3.6846,
+        "text": "and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying scientific instruments. The Saturn V was the rocket that carried Apollo astronauts toward the Moon. It stood 110.6 meters tall and remains the most powerful rocket to have flown successfully. It had three stages: the S-IC first stage, the S-II second stage, and the S-IVB third stage, which fired twice to send the spacecraft toward the Moon. Apollo 13 launched in April 1970 and was meant to be the third lunar landing. An oxygen tank in the service module exploded about two days into the flight, forcing the crew of Jim Lovell, Jack Swigert, and Fred Haise to abandon the landing. They used the lunar module Aquarius as a lifeboat and returned safely to Earth on April 17, 1970. The Apollo program had six successful crewed Moon landings: Apollo 11, 12, 14, 15, 16, and 17."
+      },
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 2,
+        "score": -4.8879,
+        "text": "Earth on April 17, 1970. The Apollo program had six successful crewed Moon landings: Apollo 11, 12, 14, 15, 16, and 17. Apollo 17, in December 1972, was the last. Eugene Cernan was the last person to walk on the Moon. Twelve astronauts in total walked on the lunar surface. Apollo 1 ended in tragedy on January 27, 1967, when a cabin fire during a launch rehearsal killed astronauts Gus Grissom, Ed White, and Roger Chaffee. The fire led to major redesigns of the spacecraft, including a new hatch and a switch away from a pure oxygen atmosphere on the launch pad. Apollo 15, 16, and 17 carried the lunar roving vehicle, an electric car that let astronauts travel several kilometers from the lunar module. The total cost of the Apollo program was about 25.4 billion dollars at the time, which is roughly 250 billion dollars in modern currency."
+      },
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 0,
+        "score": -5.783,
+        "text": "The Apollo program was run by NASA from 1961 to 1972 with the goal of landing humans on the Moon. President John F. Kennedy announced the goal in a speech to Congress in May 1961, saying the United States should land a man on the Moon and return him safely to Earth before the end of the decade. Apollo 11 launched on July 16, 1969, from Kennedy Space Center in Florida atop a Saturn V rocket. The crew was Neil Armstrong, Buzz Aldrin, and Michael Collins. Armstrong and Aldrin landed the lunar module, named Eagle, in the Sea of Tranquility on July 20, 1969. Collins stayed in lunar orbit aboard the command module Columbia. Neil Armstrong was the first person to step onto the lunar surface. Buzz Aldrin followed about 19 minutes later. The two astronauts spent roughly two and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying"
+      }
+    ],
+    "retrieval_latency_s": 0.1669,
+    "total_latency_s": 7.864,
+    "retrieval_hit": true,
+    "rank": 1,
+    "answer": "The first moonwalkers collected and returned roughly\u202f21.5\u202fkilograms of lunar rock and soil to Earth\u202f[1][3].",
+    "keyword_coverage": 1.0,
+    "manual_quality": null
+  },
+  {
+    "question": "Who was the final human to walk on the Moon?",
+    "method": "vector",
+    "retrieved_chunks": [
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 2,
+        "score": 0.6662,
+        "text": "Earth on April 17, 1970. The Apollo program had six successful crewed Moon landings: Apollo 11, 12, 14, 15, 16, and 17. Apollo 17, in December 1972, was the last. Eugene Cernan was the last person to walk on the Moon. Twelve astronauts in total walked on the lunar surface. Apollo 1 ended in tragedy on January 27, 1967, when a cabin fire during a launch rehearsal killed astronauts Gus Grissom, Ed White, and Roger Chaffee. The fire led to major redesigns of the spacecraft, including a new hatch and a switch away from a pure oxygen atmosphere on the launch pad. Apollo 15, 16, and 17 carried the lunar roving vehicle, an electric car that let astronauts travel several kilometers from the lunar module. The total cost of the Apollo program was about 25.4 billion dollars at the time, which is roughly 250 billion dollars in modern currency."
+      },
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 0,
+        "score": 0.6172,
+        "text": "The Apollo program was run by NASA from 1961 to 1972 with the goal of landing humans on the Moon. President John F. Kennedy announced the goal in a speech to Congress in May 1961, saying the United States should land a man on the Moon and return him safely to Earth before the end of the decade. Apollo 11 launched on July 16, 1969, from Kennedy Space Center in Florida atop a Saturn V rocket. The crew was Neil Armstrong, Buzz Aldrin, and Michael Collins. Armstrong and Aldrin landed the lunar module, named Eagle, in the Sea of Tranquility on July 20, 1969. Collins stayed in lunar orbit aboard the command module Columbia. Neil Armstrong was the first person to step onto the lunar surface. Buzz Aldrin followed about 19 minutes later. The two astronauts spent roughly two and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying"
+      },
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 1,
+        "score": 0.5181,
+        "text": "and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying scientific instruments. The Saturn V was the rocket that carried Apollo astronauts toward the Moon. It stood 110.6 meters tall and remains the most powerful rocket to have flown successfully. It had three stages: the S-IC first stage, the S-II second stage, and the S-IVB third stage, which fired twice to send the spacecraft toward the Moon. Apollo 13 launched in April 1970 and was meant to be the third lunar landing. An oxygen tank in the service module exploded about two days into the flight, forcing the crew of Jim Lovell, Jack Swigert, and Fred Haise to abandon the landing. They used the lunar module Aquarius as a lifeboat and returned safely to Earth on April 17, 1970. The Apollo program had six successful crewed Moon landings: Apollo 11, 12, 14, 15, 16, and 17."
+      }
+    ],
+    "retrieval_latency_s": 0.1339,
+    "total_latency_s": 7.544,
+    "retrieval_hit": true,
+    "rank": 1,
+    "answer": "Eugene\u202fCernan was the last person to walk on the Moon[1].",
+    "keyword_coverage": 1.0,
+    "manual_quality": null
+  },
+  {
+    "question": "Who was the final human to walk on the Moon?",
+    "method": "rerank",
+    "retrieved_chunks": [
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 2,
+        "score": 7.6152,
+        "text": "Earth on April 17, 1970. The Apollo program had six successful crewed Moon landings: Apollo 11, 12, 14, 15, 16, and 17. Apollo 17, in December 1972, was the last. Eugene Cernan was the last person to walk on the Moon. Twelve astronauts in total walked on the lunar surface. Apollo 1 ended in tragedy on January 27, 1967, when a cabin fire during a launch rehearsal killed astronauts Gus Grissom, Ed White, and Roger Chaffee. The fire led to major redesigns of the spacecraft, including a new hatch and a switch away from a pure oxygen atmosphere on the launch pad. Apollo 15, 16, and 17 carried the lunar roving vehicle, an electric car that let astronauts travel several kilometers from the lunar module. The total cost of the Apollo program was about 25.4 billion dollars at the time, which is roughly 250 billion dollars in modern currency."
+      },
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 0,
+        "score": -0.0989,
+        "text": "The Apollo program was run by NASA from 1961 to 1972 with the goal of landing humans on the Moon. President John F. Kennedy announced the goal in a speech to Congress in May 1961, saying the United States should land a man on the Moon and return him safely to Earth before the end of the decade. Apollo 11 launched on July 16, 1969, from Kennedy Space Center in Florida atop a Saturn V rocket. The crew was Neil Armstrong, Buzz Aldrin, and Michael Collins. Armstrong and Aldrin landed the lunar module, named Eagle, in the Sea of Tranquility on July 20, 1969. Collins stayed in lunar orbit aboard the command module Columbia. Neil Armstrong was the first person to step onto the lunar surface. Buzz Aldrin followed about 19 minutes later. The two astronauts spent roughly two and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying"
+      },
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 1,
+        "score": -7.0307,
+        "text": "and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying scientific instruments. The Saturn V was the rocket that carried Apollo astronauts toward the Moon. It stood 110.6 meters tall and remains the most powerful rocket to have flown successfully. It had three stages: the S-IC first stage, the S-II second stage, and the S-IVB third stage, which fired twice to send the spacecraft toward the Moon. Apollo 13 launched in April 1970 and was meant to be the third lunar landing. An oxygen tank in the service module exploded about two days into the flight, forcing the crew of Jim Lovell, Jack Swigert, and Fred Haise to abandon the landing. They used the lunar module Aquarius as a lifeboat and returned safely to Earth on April 17, 1970. The Apollo program had six successful crewed Moon landings: Apollo 11, 12, 14, 15, 16, and 17."
+      }
+    ],
+    "retrieval_latency_s": 0.1867,
+    "total_latency_s": 6.573,
+    "retrieval_hit": true,
+    "rank": 1,
+    "answer": "Eugene\u202fCernan was the last person to walk on the Moon[1].",
+    "keyword_coverage": 1.0,
+    "manual_quality": null
+  },
+  {
+    "question": "What is the inflation-adjusted price tag of the lunar program?",
+    "method": "vector",
+    "retrieved_chunks": [
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 2,
+        "score": 0.2889,
+        "text": "Earth on April 17, 1970. The Apollo program had six successful crewed Moon landings: Apollo 11, 12, 14, 15, 16, and 17. Apollo 17, in December 1972, was the last. Eugene Cernan was the last person to walk on the Moon. Twelve astronauts in total walked on the lunar surface. Apollo 1 ended in tragedy on January 27, 1967, when a cabin fire during a launch rehearsal killed astronauts Gus Grissom, Ed White, and Roger Chaffee. The fire led to major redesigns of the spacecraft, including a new hatch and a switch away from a pure oxygen atmosphere on the launch pad. Apollo 15, 16, and 17 carried the lunar roving vehicle, an electric car that let astronauts travel several kilometers from the lunar module. The total cost of the Apollo program was about 25.4 billion dollars at the time, which is roughly 250 billion dollars in modern currency."
+      },
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 0,
+        "score": 0.2471,
+        "text": "The Apollo program was run by NASA from 1961 to 1972 with the goal of landing humans on the Moon. President John F. Kennedy announced the goal in a speech to Congress in May 1961, saying the United States should land a man on the Moon and return him safely to Earth before the end of the decade. Apollo 11 launched on July 16, 1969, from Kennedy Space Center in Florida atop a Saturn V rocket. The crew was Neil Armstrong, Buzz Aldrin, and Michael Collins. Armstrong and Aldrin landed the lunar module, named Eagle, in the Sea of Tranquility on July 20, 1969. Collins stayed in lunar orbit aboard the command module Columbia. Neil Armstrong was the first person to step onto the lunar surface. Buzz Aldrin followed about 19 minutes later. The two astronauts spent roughly two and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying"
+      },
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 1,
+        "score": 0.2369,
+        "text": "and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying scientific instruments. The Saturn V was the rocket that carried Apollo astronauts toward the Moon. It stood 110.6 meters tall and remains the most powerful rocket to have flown successfully. It had three stages: the S-IC first stage, the S-II second stage, and the S-IVB third stage, which fired twice to send the spacecraft toward the Moon. Apollo 13 launched in April 1970 and was meant to be the third lunar landing. An oxygen tank in the service module exploded about two days into the flight, forcing the crew of Jim Lovell, Jack Swigert, and Fred Haise to abandon the landing. They used the lunar module Aquarius as a lifeboat and returned safely to Earth on April 17, 1970. The Apollo program had six successful crewed Moon landings: Apollo 11, 12, 14, 15, 16, and 17."
+      }
+    ],
+    "retrieval_latency_s": 0.1356,
+    "total_latency_s": 7.662,
+    "retrieval_hit": true,
+    "rank": 1,
+    "answer": "The Apollo program cost about\u202f$25.4\u202fbillion at the time, which is roughly\u202f$250\u202fbillion in today\u2019s (inflation\u2011adjusted) dollars[1].",
+    "keyword_coverage": 1.0,
+    "manual_quality": null
+  },
+  {
+    "question": "What is the inflation-adjusted price tag of the lunar program?",
+    "method": "rerank",
+    "retrieved_chunks": [
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 2,
+        "score": -4.4031,
+        "text": "Earth on April 17, 1970. The Apollo program had six successful crewed Moon landings: Apollo 11, 12, 14, 15, 16, and 17. Apollo 17, in December 1972, was the last. Eugene Cernan was the last person to walk on the Moon. Twelve astronauts in total walked on the lunar surface. Apollo 1 ended in tragedy on January 27, 1967, when a cabin fire during a launch rehearsal killed astronauts Gus Grissom, Ed White, and Roger Chaffee. The fire led to major redesigns of the spacecraft, including a new hatch and a switch away from a pure oxygen atmosphere on the launch pad. Apollo 15, 16, and 17 carried the lunar roving vehicle, an electric car that let astronauts travel several kilometers from the lunar module. The total cost of the Apollo program was about 25.4 billion dollars at the time, which is roughly 250 billion dollars in modern currency."
+      },
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 0,
+        "score": -9.5609,
+        "text": "The Apollo program was run by NASA from 1961 to 1972 with the goal of landing humans on the Moon. President John F. Kennedy announced the goal in a speech to Congress in May 1961, saying the United States should land a man on the Moon and return him safely to Earth before the end of the decade. Apollo 11 launched on July 16, 1969, from Kennedy Space Center in Florida atop a Saturn V rocket. The crew was Neil Armstrong, Buzz Aldrin, and Michael Collins. Armstrong and Aldrin landed the lunar module, named Eagle, in the Sea of Tranquility on July 20, 1969. Collins stayed in lunar orbit aboard the command module Columbia. Neil Armstrong was the first person to step onto the lunar surface. Buzz Aldrin followed about 19 minutes later. The two astronauts spent roughly two and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying"
+      },
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 1,
+        "score": -10.1701,
+        "text": "and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying scientific instruments. The Saturn V was the rocket that carried Apollo astronauts toward the Moon. It stood 110.6 meters tall and remains the most powerful rocket to have flown successfully. It had three stages: the S-IC first stage, the S-II second stage, and the S-IVB third stage, which fired twice to send the spacecraft toward the Moon. Apollo 13 launched in April 1970 and was meant to be the third lunar landing. An oxygen tank in the service module exploded about two days into the flight, forcing the crew of Jim Lovell, Jack Swigert, and Fred Haise to abandon the landing. They used the lunar module Aquarius as a lifeboat and returned safely to Earth on April 17, 1970. The Apollo program had six successful crewed Moon landings: Apollo 11, 12, 14, 15, 16, and 17."
+      }
+    ],
+    "retrieval_latency_s": 0.1232,
+    "total_latency_s": 6.765,
+    "retrieval_hit": true,
+    "rank": 1,
+    "answer": "The Apollo program\u2019s total cost was about\u202f$25.4\u202fbillion at the time, which translates to roughly\u202f$250\u202fbillion in today\u2019s (inflation\u2011adjusted) dollars[1].",
+    "keyword_coverage": 1.0,
+    "manual_quality": null
+  },
+  {
+    "question": "What happens to plant sugar production when it gets extremely hot?",
+    "method": "vector",
+    "retrieved_chunks": [
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 1,
+        "score": 0.5139,
+        "text": "y carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from carbon dioxide. The Calvin cycle, also called the light-independent reactions, takes place in the stroma of the chloroplast. It uses the ATP and NADPH from the light reactions to fix carbon dioxide into sugar. The key enzyme that captures carbon dioxide is RuBisCO, which is considered the most abundant enzyme on Earth. Stomata are tiny pores, mostly on the underside of leaves, that let carbon dioxide enter and water vapor and oxygen leave. Each stoma is surrounded by two guard cells that open and close the pore. Plants close their stomata in hot, dry conditions to reduce water loss, which also limits photosynthesis. C4 plants such as maize and sugarcane have an adaptation that concentrates carbon dioxide around RuBisCO, which reduces wasteful photorespiration in hot"
+      },
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 2,
+        "score": 0.4819,
+        "text": "rcane have an adaptation that concentrates carbon dioxide around RuBisCO, which reduces wasteful photorespiration in hot climates. CAM plants such as cacti open their stomata only at night to save water, storing carbon dioxide as organic acids until daylight. Several factors limit the rate of photosynthesis: light intensity, carbon dioxide concentration, temperature, and water availability. At low light the rate rises with intensity, but it eventually reaches a plateau when another factor becomes limiting. Very high temperatures can denature enzymes and reduce the rate sharply."
+      },
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 0,
+        "score": 0.386,
+        "text": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy stored in glucose. The overall reaction uses carbon dioxide and water, and produces glucose and oxygen. In plants it takes place mainly in the leaves, inside organelles called chloroplasts. Chloroplasts contain a green pigment called chlorophyll, which absorbs light most strongly in the blue and red parts of the spectrum and reflects green light. This reflected green light is why most plants look green. Chlorophyll is embedded in the thylakoid membranes, which are stacked into structures called grana. The light-dependent reactions occur in the thylakoid membranes. Light energy splits water molecules, releasing oxygen as a by-product and producing the energy carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from"
+      }
+    ],
+    "retrieval_latency_s": 0.1076,
+    "total_latency_s": 6.796,
+    "retrieval_hit": true,
+    "rank": 2,
+    "answer": "Extremely high temperatures can denature the enzymes involved in photosynthesis, causing the rate of the process to drop sharply. This reduced photosynthetic rate means the plant makes far less sugar when it gets extremely hot[2].",
+    "keyword_coverage": 1.0,
+    "manual_quality": null
+  },
+  {
+    "question": "What happens to plant sugar production when it gets extremely hot?",
+    "method": "rerank",
+    "retrieved_chunks": [
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 1,
+        "score": -4.1146,
+        "text": "y carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from carbon dioxide. The Calvin cycle, also called the light-independent reactions, takes place in the stroma of the chloroplast. It uses the ATP and NADPH from the light reactions to fix carbon dioxide into sugar. The key enzyme that captures carbon dioxide is RuBisCO, which is considered the most abundant enzyme on Earth. Stomata are tiny pores, mostly on the underside of leaves, that let carbon dioxide enter and water vapor and oxygen leave. Each stoma is surrounded by two guard cells that open and close the pore. Plants close their stomata in hot, dry conditions to reduce water loss, which also limits photosynthesis. C4 plants such as maize and sugarcane have an adaptation that concentrates carbon dioxide around RuBisCO, which reduces wasteful photorespiration in hot"
+      },
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 0,
+        "score": -6.1659,
+        "text": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy stored in glucose. The overall reaction uses carbon dioxide and water, and produces glucose and oxygen. In plants it takes place mainly in the leaves, inside organelles called chloroplasts. Chloroplasts contain a green pigment called chlorophyll, which absorbs light most strongly in the blue and red parts of the spectrum and reflects green light. This reflected green light is why most plants look green. Chlorophyll is embedded in the thylakoid membranes, which are stacked into structures called grana. The light-dependent reactions occur in the thylakoid membranes. Light energy splits water molecules, releasing oxygen as a by-product and producing the energy carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from"
+      },
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 2,
+        "score": -6.9188,
+        "text": "rcane have an adaptation that concentrates carbon dioxide around RuBisCO, which reduces wasteful photorespiration in hot climates. CAM plants such as cacti open their stomata only at night to save water, storing carbon dioxide as organic acids until daylight. Several factors limit the rate of photosynthesis: light intensity, carbon dioxide concentration, temperature, and water availability. At low light the rate rises with intensity, but it eventually reaches a plateau when another factor becomes limiting. Very high temperatures can denature enzymes and reduce the rate sharply."
+      }
+    ],
+    "retrieval_latency_s": 0.1308,
+    "total_latency_s": 7.899,
+    "retrieval_hit": true,
+    "rank": 3,
+    "answer": "Extremely high temperatures damage the enzymes that drive photosynthesis, causing the photosynthetic rate to fall sharply.\u202fWhen photosynthesis slows, the plant makes far less sugar under very hot conditions[3]. Additionally, plants often close their stomata in hot, dry weather to conserve water, which further limits photosynthesis and thus sugar production[1].",
+    "keyword_coverage": 0.5,
+    "manual_quality": null
+  },
+  {
+    "question": "Which pigment captures blue and red wavelengths?",
+    "method": "vector",
+    "retrieved_chunks": [
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 0,
+        "score": 0.3697,
+        "text": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy stored in glucose. The overall reaction uses carbon dioxide and water, and produces glucose and oxygen. In plants it takes place mainly in the leaves, inside organelles called chloroplasts. Chloroplasts contain a green pigment called chlorophyll, which absorbs light most strongly in the blue and red parts of the spectrum and reflects green light. This reflected green light is why most plants look green. Chlorophyll is embedded in the thylakoid membranes, which are stacked into structures called grana. The light-dependent reactions occur in the thylakoid membranes. Light energy splits water molecules, releasing oxygen as a by-product and producing the energy carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from"
+      },
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 2,
+        "score": 0.273,
+        "text": "rcane have an adaptation that concentrates carbon dioxide around RuBisCO, which reduces wasteful photorespiration in hot climates. CAM plants such as cacti open their stomata only at night to save water, storing carbon dioxide as organic acids until daylight. Several factors limit the rate of photosynthesis: light intensity, carbon dioxide concentration, temperature, and water availability. At low light the rate rises with intensity, but it eventually reaches a plateau when another factor becomes limiting. Very high temperatures can denature enzymes and reduce the rate sharply."
+      },
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 1,
+        "score": 0.2592,
+        "text": "y carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from carbon dioxide. The Calvin cycle, also called the light-independent reactions, takes place in the stroma of the chloroplast. It uses the ATP and NADPH from the light reactions to fix carbon dioxide into sugar. The key enzyme that captures carbon dioxide is RuBisCO, which is considered the most abundant enzyme on Earth. Stomata are tiny pores, mostly on the underside of leaves, that let carbon dioxide enter and water vapor and oxygen leave. Each stoma is surrounded by two guard cells that open and close the pore. Plants close their stomata in hot, dry conditions to reduce water loss, which also limits photosynthesis. C4 plants such as maize and sugarcane have an adaptation that concentrates carbon dioxide around RuBisCO, which reduces wasteful photorespiration in hot"
+      }
+    ],
+    "retrieval_latency_s": 0.0682,
+    "total_latency_s": 6.56,
+    "retrieval_hit": true,
+    "rank": 1,
+    "answer": "The pigment that absorbs light most strongly in the blue and red parts of the spectrum is chlorophyll[1].",
+    "keyword_coverage": 1.0,
+    "manual_quality": null
+  },
+  {
+    "question": "Which pigment captures blue and red wavelengths?",
+    "method": "rerank",
+    "retrieved_chunks": [
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 0,
+        "score": -3.3494,
+        "text": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy stored in glucose. The overall reaction uses carbon dioxide and water, and produces glucose and oxygen. In plants it takes place mainly in the leaves, inside organelles called chloroplasts. Chloroplasts contain a green pigment called chlorophyll, which absorbs light most strongly in the blue and red parts of the spectrum and reflects green light. This reflected green light is why most plants look green. Chlorophyll is embedded in the thylakoid membranes, which are stacked into structures called grana. The light-dependent reactions occur in the thylakoid membranes. Light energy splits water molecules, releasing oxygen as a by-product and producing the energy carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from"
+      },
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 1,
+        "score": -10.9352,
+        "text": "y carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from carbon dioxide. The Calvin cycle, also called the light-independent reactions, takes place in the stroma of the chloroplast. It uses the ATP and NADPH from the light reactions to fix carbon dioxide into sugar. The key enzyme that captures carbon dioxide is RuBisCO, which is considered the most abundant enzyme on Earth. Stomata are tiny pores, mostly on the underside of leaves, that let carbon dioxide enter and water vapor and oxygen leave. Each stoma is surrounded by two guard cells that open and close the pore. Plants close their stomata in hot, dry conditions to reduce water loss, which also limits photosynthesis. C4 plants such as maize and sugarcane have an adaptation that concentrates carbon dioxide around RuBisCO, which reduces wasteful photorespiration in hot"
+      },
+      {
+        "source": "apollo_program.txt",
+        "chunk_index": 0,
+        "score": -11.1227,
+        "text": "The Apollo program was run by NASA from 1961 to 1972 with the goal of landing humans on the Moon. President John F. Kennedy announced the goal in a speech to Congress in May 1961, saying the United States should land a man on the Moon and return him safely to Earth before the end of the decade. Apollo 11 launched on July 16, 1969, from Kennedy Space Center in Florida atop a Saturn V rocket. The crew was Neil Armstrong, Buzz Aldrin, and Michael Collins. Armstrong and Aldrin landed the lunar module, named Eagle, in the Sea of Tranquility on July 20, 1969. Collins stayed in lunar orbit aboard the command module Columbia. Neil Armstrong was the first person to step onto the lunar surface. Buzz Aldrin followed about 19 minutes later. The two astronauts spent roughly two and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying"
+      }
+    ],
+    "retrieval_latency_s": 0.1453,
+    "total_latency_s": 6.715,
+    "retrieval_hit": true,
+    "rank": 1,
+    "answer": "The pigment that captures blue and red wavelengths is chlorophyll[1].",
+    "keyword_coverage": 1.0,
+    "manual_quality": null
+  },
+  {
+    "question": "What controls the opening and closing of leaf pores?",
+    "method": "vector",
+    "retrieved_chunks": [
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 1,
+        "score": 0.4857,
+        "text": "y carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from carbon dioxide. The Calvin cycle, also called the light-independent reactions, takes place in the stroma of the chloroplast. It uses the ATP and NADPH from the light reactions to fix carbon dioxide into sugar. The key enzyme that captures carbon dioxide is RuBisCO, which is considered the most abundant enzyme on Earth. Stomata are tiny pores, mostly on the underside of leaves, that let carbon dioxide enter and water vapor and oxygen leave. Each stoma is surrounded by two guard cells that open and close the pore. Plants close their stomata in hot, dry conditions to reduce water loss, which also limits photosynthesis. C4 plants such as maize and sugarcane have an adaptation that concentrates carbon dioxide around RuBisCO, which reduces wasteful photorespiration in hot"
+      },
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 0,
+        "score": 0.4076,
+        "text": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy stored in glucose. The overall reaction uses carbon dioxide and water, and produces glucose and oxygen. In plants it takes place mainly in the leaves, inside organelles called chloroplasts. Chloroplasts contain a green pigment called chlorophyll, which absorbs light most strongly in the blue and red parts of the spectrum and reflects green light. This reflected green light is why most plants look green. Chlorophyll is embedded in the thylakoid membranes, which are stacked into structures called grana. The light-dependent reactions occur in the thylakoid membranes. Light energy splits water molecules, releasing oxygen as a by-product and producing the energy carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from"
+      },
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 2,
+        "score": 0.3655,
+        "text": "rcane have an adaptation that concentrates carbon dioxide around RuBisCO, which reduces wasteful photorespiration in hot climates. CAM plants such as cacti open their stomata only at night to save water, storing carbon dioxide as organic acids until daylight. Several factors limit the rate of photosynthesis: light intensity, carbon dioxide concentration, temperature, and water availability. At low light the rate rises with intensity, but it eventually reaches a plateau when another factor becomes limiting. Very high temperatures can denature enzymes and reduce the rate sharply."
+      }
+    ],
+    "retrieval_latency_s": 0.1265,
+    "total_latency_s": 7.124,
+    "retrieval_hit": true,
+    "rank": 1,
+    "answer": "The opening and closing of leaf pores (stomata) is controlled by the two guard cells that surround each stoma; these cells open or close the pore in response to environmental conditions such as heat and dryness[1].",
+    "keyword_coverage": 1.0,
+    "manual_quality": null
+  },
+  {
+    "question": "What controls the opening and closing of leaf pores?",
+    "method": "rerank",
+    "retrieved_chunks": [
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 1,
+        "score": -4.7087,
+        "text": "y carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from carbon dioxide. The Calvin cycle, also called the light-independent reactions, takes place in the stroma of the chloroplast. It uses the ATP and NADPH from the light reactions to fix carbon dioxide into sugar. The key enzyme that captures carbon dioxide is RuBisCO, which is considered the most abundant enzyme on Earth. Stomata are tiny pores, mostly on the underside of leaves, that let carbon dioxide enter and water vapor and oxygen leave. Each stoma is surrounded by two guard cells that open and close the pore. Plants close their stomata in hot, dry conditions to reduce water loss, which also limits photosynthesis. C4 plants such as maize and sugarcane have an adaptation that concentrates carbon dioxide around RuBisCO, which reduces wasteful photorespiration in hot"
+      },
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 0,
+        "score": -11.0164,
+        "text": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy stored in glucose. The overall reaction uses carbon dioxide and water, and produces glucose and oxygen. In plants it takes place mainly in the leaves, inside organelles called chloroplasts. Chloroplasts contain a green pigment called chlorophyll, which absorbs light most strongly in the blue and red parts of the spectrum and reflects green light. This reflected green light is why most plants look green. Chlorophyll is embedded in the thylakoid membranes, which are stacked into structures called grana. The light-dependent reactions occur in the thylakoid membranes. Light energy splits water molecules, releasing oxygen as a by-product and producing the energy carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from"
+      },
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 2,
+        "score": -11.2412,
+        "text": "rcane have an adaptation that concentrates carbon dioxide around RuBisCO, which reduces wasteful photorespiration in hot climates. CAM plants such as cacti open their stomata only at night to save water, storing carbon dioxide as organic acids until daylight. Several factors limit the rate of photosynthesis: light intensity, carbon dioxide concentration, temperature, and water availability. At low light the rate rises with intensity, but it eventually reaches a plateau when another factor becomes limiting. Very high temperatures can denature enzymes and reduce the rate sharply."
+      }
+    ],
+    "retrieval_latency_s": 0.1582,
+    "total_latency_s": 5.699,
+    "retrieval_hit": true,
+    "rank": 1,
+    "answer": "The opening and closing of leaf pores (stomata) is controlled by the two guard cells that surround each stoma; these guard cells open or close the pore in response to environmental conditions[1].",
+    "keyword_coverage": 1.0,
+    "manual_quality": null
+  },
+  {
+    "question": "How do maize and sugarcane avoid wasteful photorespiration?",
+    "method": "vector",
+    "retrieved_chunks": [
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 1,
+        "score": 0.6263,
+        "text": "y carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from carbon dioxide. The Calvin cycle, also called the light-independent reactions, takes place in the stroma of the chloroplast. It uses the ATP and NADPH from the light reactions to fix carbon dioxide into sugar. The key enzyme that captures carbon dioxide is RuBisCO, which is considered the most abundant enzyme on Earth. Stomata are tiny pores, mostly on the underside of leaves, that let carbon dioxide enter and water vapor and oxygen leave. Each stoma is surrounded by two guard cells that open and close the pore. Plants close their stomata in hot, dry conditions to reduce water loss, which also limits photosynthesis. C4 plants such as maize and sugarcane have an adaptation that concentrates carbon dioxide around RuBisCO, which reduces wasteful photorespiration in hot"
+      },
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 2,
+        "score": 0.5818,
+        "text": "rcane have an adaptation that concentrates carbon dioxide around RuBisCO, which reduces wasteful photorespiration in hot climates. CAM plants such as cacti open their stomata only at night to save water, storing carbon dioxide as organic acids until daylight. Several factors limit the rate of photosynthesis: light intensity, carbon dioxide concentration, temperature, and water availability. At low light the rate rises with intensity, but it eventually reaches a plateau when another factor becomes limiting. Very high temperatures can denature enzymes and reduce the rate sharply."
+      },
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 0,
+        "score": 0.4703,
+        "text": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy stored in glucose. The overall reaction uses carbon dioxide and water, and produces glucose and oxygen. In plants it takes place mainly in the leaves, inside organelles called chloroplasts. Chloroplasts contain a green pigment called chlorophyll, which absorbs light most strongly in the blue and red parts of the spectrum and reflects green light. This reflected green light is why most plants look green. Chlorophyll is embedded in the thylakoid membranes, which are stacked into structures called grana. The light-dependent reactions occur in the thylakoid membranes. Light energy splits water molecules, releasing oxygen as a by-product and producing the energy carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from"
+      }
+    ],
+    "retrieval_latency_s": 0.0727,
+    "total_latency_s": 7.813,
+    "retrieval_hit": true,
+    "rank": 1,
+    "answer": "Maize and sugarcane are C4 plants that use a special adaptation to concentrate carbon dioxide around the enzyme RuBisCO. By raising the CO\u2082 level at the site of RuBisCO, they limit the enzyme\u2019s reaction with oxygen and thus reduce wasteful photorespiration, especially under hot conditions[1].",
+    "keyword_coverage": 1.0,
+    "manual_quality": null
+  },
+  {
+    "question": "How do maize and sugarcane avoid wasteful photorespiration?",
+    "method": "rerank",
+    "retrieved_chunks": [
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 1,
+        "score": 1.3587,
+        "text": "y carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from carbon dioxide. The Calvin cycle, also called the light-independent reactions, takes place in the stroma of the chloroplast. It uses the ATP and NADPH from the light reactions to fix carbon dioxide into sugar. The key enzyme that captures carbon dioxide is RuBisCO, which is considered the most abundant enzyme on Earth. Stomata are tiny pores, mostly on the underside of leaves, that let carbon dioxide enter and water vapor and oxygen leave. Each stoma is surrounded by two guard cells that open and close the pore. Plants close their stomata in hot, dry conditions to reduce water loss, which also limits photosynthesis. C4 plants such as maize and sugarcane have an adaptation that concentrates carbon dioxide around RuBisCO, which reduces wasteful photorespiration in hot"
+      },
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 2,
+        "score": -2.1758,
+        "text": "rcane have an adaptation that concentrates carbon dioxide around RuBisCO, which reduces wasteful photorespiration in hot climates. CAM plants such as cacti open their stomata only at night to save water, storing carbon dioxide as organic acids until daylight. Several factors limit the rate of photosynthesis: light intensity, carbon dioxide concentration, temperature, and water availability. At low light the rate rises with intensity, but it eventually reaches a plateau when another factor becomes limiting. Very high temperatures can denature enzymes and reduce the rate sharply."
+      },
+      {
+        "source": "photosynthesis.txt",
+        "chunk_index": 0,
+        "score": -10.7747,
+        "text": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy stored in glucose. The overall reaction uses carbon dioxide and water, and produces glucose and oxygen. In plants it takes place mainly in the leaves, inside organelles called chloroplasts. Chloroplasts contain a green pigment called chlorophyll, which absorbs light most strongly in the blue and red parts of the spectrum and reflects green light. This reflected green light is why most plants look green. Chlorophyll is embedded in the thylakoid membranes, which are stacked into structures called grana. The light-dependent reactions occur in the thylakoid membranes. Light energy splits water molecules, releasing oxygen as a by-product and producing the energy carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from"
+      }
+    ],
+    "retrieval_latency_s": 0.1475,
+    "total_latency_s": 6.939,
+    "retrieval_hit": true,
+    "rank": 1,
+    "answer": "Maize and sugarcane are C4 plants that use a special adaptation to concentrate carbon\u202fdioxide around the enzyme RuBisCO. By raising the CO\u2082 level at the site of RuBisCO, they limit the enzyme\u2019s reaction with oxygen and therefore reduce wasteful photorespiration, especially in hot climates[1][2].",
+    "keyword_coverage": 1.0,
+    "manual_quality": null
+  }
+]

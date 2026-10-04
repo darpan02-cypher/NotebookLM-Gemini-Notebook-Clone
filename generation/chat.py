@@ -1,12 +1,13 @@
 from __future__ import annotations
 
+import re
 import uuid
 from datetime import datetime, timezone
 from typing import Any, Dict, List
 
 SYSTEM_PROMPT = (
     "You answer questions using ONLY the numbered context passages provided. "
-    "Cite every claim with the passage number in square brackets, e.g. [1] or [2][3]. "
+    "Cite every claim with the passage number in square brackets, e.g. [1] or [2][3], using plain ASCII square brackets. "
     "If the context does not contain the answer, say you could not find it in the sources. "
     "Do not use outside knowledge."
 )
@@ -62,6 +63,7 @@ class ChatService:
                 f"Context passages:\n{context}\n\nQuestion: {question}\nAnswer with citations:"
             )
             answer = self.llm.generate(prompt, system=SYSTEM_PROMPT)
+            answer = re.sub(r"[【\[]\s*(\d+)\s*[】\]]", r"[\1]", answer)  # normalize 【1】 -> [1]
 
         history.append({"id": uuid.uuid4().hex, "role": "user", "content": question, "timestamp": _now(), "citations": []})
         history.append(
