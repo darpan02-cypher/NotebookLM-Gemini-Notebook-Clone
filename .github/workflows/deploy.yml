@@ -1,9 +1,14 @@
-name: Test and deploy to Hugging Face Space
+name: Test and deploy to Google Cloud Run
 
 on:
   push:
     branches: [main]
   workflow_dispatch:
+
+env:
+  SERVICE: notebooklm-clone
+  REPO: notebooklm
+  IMAGE: ${{ vars.GCP_REGION }}-docker.pkg.dev/${{ vars.GCP_PROJECT_ID }}/notebooklm/notebooklm-clone
 
 jobs:
   test:
@@ -15,8 +20,7 @@ jobs:
           python-version: "3.10"
           cache: pip
       - name: Install dependencies
-        run: |
-          pip install -r requirements.txt -r requirements-dev.txt
+        run: pip install -r requirements.txt -r requirements-dev.txt
       - name: Run offline tests
         run: python -m pytest tests -q
 
@@ -25,12 +29,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: google-github-actions/auth@v2
         with:
-          fetch-depth: 0
-      - name: Push to Hugging Face Space
-        env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
-          HF_USERNAME: ${{ vars.HF_USERNAME }}
-          HF_SPACE: ${{ vars.HF_SPACE }}
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
+      - uses: google-github-actions/setup-gcloud@v2
+      - name: Build and push image
         run: |
-          git push --force "https://${HF_USERNAME}:${HF_TOKEN}@huggingface.co/spaces/${HF_USERNAME}/${HF_SPACE}" HEAD:main
+          gcloud auth configure-docker ${{ vars.GCP_REGION }}-docker.pkg.dev --quiet
+          docker build -t "$IMAGE:${{ github.sha }}" -t "$IMAGE:latest" .
+          docker push "$IMAGE" --all-tags
+      - name: Deploy to Cloud Run
+        run: |
+          gcloud run deploy "$SERVICE" \
+            --image "$IMAGE:${{ github.sha }}" \
+            --project "${{ vars.GCP_PROJECT_ID }}" \
+            --region "${{ vars.GCP_REGION }}" \
+            --memory 2Gi --cpu 2 --cpu-boost \
+            --max-instances 1 --timeout 300 \
+            --allow-unauthenticated

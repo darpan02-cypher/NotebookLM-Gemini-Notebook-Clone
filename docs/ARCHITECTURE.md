@@ -48,7 +48,7 @@
 - **LLM provider isolated** in `generation/llm.py`; switching providers is a one-file change (it was changed from Gemini to Groq during development).
 
 ## Deployment
-GitHub push to `main` -> GitHub Actions runs tests -> force-pushes the repo to the Hugging Face Space git remote using the `HF_TOKEN` secret. The Space builds from `requirements.txt` and runs `app.py`. `GROQ_API_KEY` is set as a Space secret.
+GitHub push to `main` -> GitHub Actions runs tests -> builds the Docker image (CPU-only torch, both models baked in) -> pushes to Artifact Registry -> `gcloud run deploy` to Cloud Run (2 GiB, 2 vCPU, max 1 instance, scale to zero). `GCP_SA_KEY` is a GitHub secret; `GROQ_API_KEY` is set on the Cloud Run service and never stored in the repo.
 
 ## Persistence limits
-On the free HF Space tier the container disk is ephemeral: `data/` survives app restarts within a running container but **is wiped when the Space rebuilds or is recreated** (including every deploy from GitHub) and may reset after long sleep. Notebooks are therefore best effort on HF. Options (not implemented, by design): attach HF persistent storage (paid) mounted at `/data`, or sync `data/` to an HF dataset repo. The storage root is a single constructor argument of `StorageManager`, so either is a small change.
+Cloud Run's container filesystem is ephemeral: `data/` survives while an instance lives, and **is wiped when the instance is replaced** (scale-to-zero after idle, every deploy, restarts). Notebooks are therefore best effort in the deployed app. `--max-instances 1` prevents one user's notebooks from being split across instances. Options (not implemented, by design): mount a Cloud Storage bucket (GCS FUSE volume) at `data/`, or use Filestore. The storage root is a single constructor argument of `StorageManager`, so either is a small change.
