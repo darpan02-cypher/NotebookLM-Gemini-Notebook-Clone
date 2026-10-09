@@ -2,7 +2,7 @@
 
 A small NotebookLM-style app (CS/IT 5010 project). Create notebooks, add sources (PDF, PPTX, TXT, web URL), chat with them using RAG with visible citations, and generate a Report or a Quiz (with answer key) as downloadable Markdown.
 
-- **Live demo:** _add Cloud Run URL here_
+- **Live demo:** https://notebooklm-clone-4ygpfpzriq-uc.a.run.app (Google Cloud Run; notebooks reset when the instance is replaced, see Storage and persistence)
 - **Docs:** [Spec](SPEC.md) · [Architecture](docs/ARCHITECTURE.md) · [RAG evaluation](docs/EVALUATION.md) · [Demo checklist](docs/DEMO_CHECKLIST.md)
 
 ## Stack
