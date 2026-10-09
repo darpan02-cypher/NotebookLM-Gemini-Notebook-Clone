@@ -17,7 +17,7 @@ class GroqClient:
 
     def generate(self, prompt: str, system: str | None = None) -> str:
         if not self.api_key:
-            raise LLMError("GROQ_API_KEY is not set. Add it to .env or as a Space secret.")
+            raise LLMError("GROQ_API_KEY is not set. Add it to .env or set it as an environment variable on the host.")
         messages = ([{"role": "system", "content": system}] if system else []) + [{"role": "user", "content": prompt}]
         try:
             from groq import Groq

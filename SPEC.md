@@ -1,7 +1,7 @@
 # NotebookLM Clone — Project Spec
 
 ## 1) Goal
-Build a lightweight NotebookLM/Gemini-notebook style app that lets a user create multiple notebooks, ingest PDFs, PPTX, TXT, and URLs, chat with the notebook using RAG with citations, generate markdown artifacts, and run a two-method retrieval evaluation. The app must run in a Hugging Face Space and auto-deploy from GitHub via GitHub Actions.
+Build a lightweight NotebookLM/Gemini-notebook style app that lets a user create multiple notebooks, ingest PDFs, PPTX, TXT, and URLs, chat with the notebook using RAG with citations, generate markdown artifacts, and run a two-method retrieval evaluation. The app must run on a cloud host and auto-deploy from GitHub via GitHub Actions (implemented on Google Cloud Run; Hugging Face Gradio Spaces now require a paid plan).
 
 ## 2) Requirements
 - Notebook management: create, rename, delete, switch; each notebook has a unique ID.
@@ -10,11 +10,11 @@ Build a lightweight NotebookLM/Gemini-notebook style app that lets a user create
 - Chat flow: user asks a question, retrieve relevant chunks, send them to the LLM, return answer with visible citations.
 - Persist chat history and reload it per notebook.
 - Artifacts: generate a report markdown and quiz markdown with answer key; allow view and download.
-- Storage survives app restarts; if persistence is limited in Hugging Face, document the constraint and keep the design simple.
+- Storage survives app restarts; if persistence is limited on the host, document the constraint and keep the design simple.
 - UI: Gradio-based app with notebook manager, source upload, URL ingestion, chat window, citations, artifact generation buttons, artifact view/download, and clear errors.
 - Retrieval comparison: compare at least two methods (vector-only vs vector + reranker) on a small evaluation set and log method, retrieved chunks, latency, answer quality, and conclusion.
-- Deployment: GitHub repo, GitHub Actions, HF Space deployment, secrets managed through GitHub/HF env vars; no secrets committed in repo.
-- Deliverables: README, requirements file, workflow, .gitignore, architecture doc, HF Space URL, evaluation write-up, demo recording.
+- Deployment: GitHub repo, GitHub Actions, Cloud Run deployment, secrets managed through GitHub Secrets and Cloud Run env vars; no secrets committed in repo.
+- Deliverables: README, requirements file, workflow, .gitignore, architecture doc, deployed app URL, evaluation write-up, demo recording.
 
 ## 3) Components
 - UI layer: Gradio app for notebook management, uploads, URL ingestion, chat, citations, and artifacts.
@@ -23,7 +23,7 @@ Build a lightweight NotebookLM/Gemini-notebook style app that lets a user create
 - Retrieval layer: vector search and reranker-based retrieval.
 - Generation layer: LLM answer synthesis and artifact generation.
 - Evaluation layer: test questions, retrieval comparison, logging and scoring.
-- Deployment layer: GitHub Action that deploys HF Space build using repo + secrets.
+- Deployment layer: GitHub Action that builds the Docker image and deploys it to Google Cloud Run using repo + secrets.
 
 ## 4) Data flow
 1. User creates or selects a notebook.
@@ -100,8 +100,8 @@ Planned defaults:
 
 ## 8) Deployment approach
 - GitHub repo contains app code, requirements, workflow, docs, and ignore rules.
-- GitHub Actions runs on push to main, installs dependencies, optionally builds smoke checks, and deploys to a Hugging Face Space using a HF token stored in GitHub Secrets.
-- HF Space hosts the app using the repository as the source and uses environment variables for the Groq API key and optional model config.
+- GitHub Actions runs on push to main, installs dependencies, optionally builds smoke checks, and builds a Docker image, pushes it to Artifact Registry and deploys to Cloud Run using a service-account key stored in GitHub Secrets.
+- Cloud Run hosts the container built from the repository and uses environment variables for the Groq API key and optional model config.
 - App should persist notebook data in a workspace-local directory under `data/` by default. If HF persistence is limited, the app must document this limitation and remain simple.
 
 ## 9) Storage and persistence
@@ -112,7 +112,7 @@ Planned defaults:
   - `data/notebooks/<notebook_id>/chats.json`
   - `data/notebooks/<notebook_id>/artifacts/`
 - A small storage abstraction will centralize reading/writing notebook records, chat files, and artifact files to keep the app consistent.
-- Persistence chapter in README must clearly state whether the HF Space retains data across restarts and what is expected under the platform limits.
+- Persistence chapter in README must clearly state whether the deployed service retains data across restarts and what is expected under the platform limits.
 
 ## 10) Open decisions to confirm
 Before finalizing this spec, we need your approval on the defaults below.

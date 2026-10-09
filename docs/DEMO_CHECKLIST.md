@@ -8,6 +8,6 @@ Before recording: Space is running, `GROQ_API_KEY` secret set, a PDF + a URL rea
 4. (0:40) Chat: ask one question, point at the `[n]` citations and the citation list (source, page, snippet). Switch retrieval to `vector` and ask again.
 5. (1:05) Artifacts: generate a Report, show it, click download. Generate a Quiz, show the answer key.
 6. (1:30) Create a second notebook and show it is empty (isolation); switch back and show chat history reloaded.
-7. (1:45) Mention: GitHub push -> Actions -> auto-deploy, and the persistence note.
+7. (1:45) Show CI/CD: GitHub Actions tab with the latest green run (test + deploy jobs), and mention push -> Actions -> Cloud Run auto-deploy plus the persistence note. (Assignment requires the recording to show a successful CI/CD deployment.)
 
 Also show one clear error (e.g. a bad URL) if time allows.
