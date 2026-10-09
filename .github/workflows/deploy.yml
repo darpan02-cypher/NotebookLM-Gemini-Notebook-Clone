@@ -7,8 +7,10 @@ on:
 
 env:
   SERVICE: notebooklm-clone
-  REPO: notebooklm
-  IMAGE: ${{ vars.GCP_REGION }}-docker.pkg.dev/${{ vars.GCP_PROJECT_ID }}/notebooklm/notebooklm-clone
+  # Repository variables win; the fallbacks keep the deploy working if they are unset or empty.
+  REGION: ${{ vars.GCP_REGION || 'us-central1' }}
+  PROJECT: ${{ vars.GCP_PROJECT_ID || 'rising-guide-511016-h4' }}
+  IMAGE: ${{ vars.GCP_REGION || 'us-central1' }}-docker.pkg.dev/${{ vars.GCP_PROJECT_ID || 'rising-guide-511016-h4' }}/notebooklm/notebooklm-clone
 
 jobs:
   test:
@@ -29,21 +31,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Check required config
+        env:
+          KEY: ${{ secrets.GCP_SA_KEY }}
+        run: |
+          test -n "$KEY" || { echo "::error::Secret GCP_SA_KEY is missing (it must be a Secret, not a Variable)"; exit 1; }
+          echo "Deploying $PROJECT in $REGION -> $IMAGE"
       - uses: google-github-actions/auth@v2
         with:
           credentials_json: ${{ secrets.GCP_SA_KEY }}
       - uses: google-github-actions/setup-gcloud@v2
       - name: Build and push image
         run: |
-          gcloud auth configure-docker ${{ vars.GCP_REGION }}-docker.pkg.dev --quiet
+          gcloud auth configure-docker "${REGION}-docker.pkg.dev" --quiet
           docker build -t "$IMAGE:${{ github.sha }}" -t "$IMAGE:latest" .
           docker push "$IMAGE" --all-tags
       - name: Deploy to Cloud Run
         run: |
           gcloud run deploy "$SERVICE" \
             --image "$IMAGE:${{ github.sha }}" \
-            --project "${{ vars.GCP_PROJECT_ID }}" \
-            --region "${{ vars.GCP_REGION }}" \
+            --project "$PROJECT" \
+            --region "$REGION" \
             --memory 2Gi --cpu 2 --cpu-boost \
             --max-instances 1 --timeout 300 \
             --allow-unauthenticated
