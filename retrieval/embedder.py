@@ -3,11 +3,11 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Any, Dict, List, Sequence
 
-DEFAULT_EMBED_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
+DEFAULT_EMBED_MODEL = "sentence-transformers/all-MiniLM-L6-v2"  #this is a small, fast, and efficient model for generating sentence embeddings. It is part of the Sentence Transformers library and is designed to produce high-quality embeddings for various nlp tasks, such as semantic search, clustering, and classification.
 
 
 class LocalEmbedder:
-    """Wraps a local sentence-transformers model. The model loads lazily on first use."""
+    """Wraps a local sentence-transformers model. The model loads lazily on first use.""" #which means that the model is not loaded into memory until it is actually needed, which can save resources and improve startup time.
 
     def __init__(self, model_name: str = DEFAULT_EMBED_MODEL):
         self.model_name = model_name
@@ -31,7 +31,7 @@ class LocalEmbedder:
 
 
 class NotebookVectorStore:
-    """One Chroma collection per notebook, persisted under the notebook's chroma/ folder."""
+    """One Chroma collection per notebook, persisted under the notebook's chroma/ folder.""" #This allows for efficient storage and retrieval of vector embeddings associated with each notebook, enabling semantic search and other vector-based operations.
 
     def __init__(self, notebook_id: str, persist_dir: str | Path):
         import chromadb
