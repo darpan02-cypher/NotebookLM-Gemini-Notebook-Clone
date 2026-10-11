@@ -1,0 +1,514 @@
+[
+  {
+    "id": "q01",
+    "text": "Who were the three crew members of Apollo 12?",
+    "type": "direct",
+    "gold_chunk_ids": [
+      "apollo_missions_extended.txt#004"
+    ],
+    "gold_chunk_sha256": {
+      "apollo_missions_extended.txt#004": "c0f4c7ae2d761bc7989868d5bd00502c51f266c84e5dc05069f666e789fafeda"
+    },
+    "reference_answer": "Charles \"Pete\" Conrad, Alan Bean, and Richard Gordon."
+  },
+  {
+    "id": "q02",
+    "text": "What was the name of the lunar module flown by Apollo 16?",
+    "type": "direct",
+    "gold_chunk_ids": [
+      "apollo_missions_extended.txt#008"
+    ],
+    "gold_chunk_sha256": {
+      "apollo_missions_extended.txt#008": "c3c7ac4c57eaed3f7cbc0923eaded094230b8e75f87a0cd190217f115907df86"
+    },
+    "reference_answer": "Orion."
+  },
+  {
+    "id": "q03",
+    "text": "How many days did the Skylab 4 crew of Carr, Gibson, and Pogue spend in orbit?",
+    "type": "direct",
+    "gold_chunk_ids": [
+      "skylab_and_iss.txt#003"
+    ],
+    "gold_chunk_sha256": {
+      "skylab_and_iss.txt#003": "e82d36ebafe231caf702fd2f63a382fede454780637ed1f454bdffe8a32a2506"
+    },
+    "reference_answer": "84 days."
+  },
+  {
+    "id": "q04",
+    "text": "In how many languages does the Golden Record carry spoken greetings?",
+    "type": "direct",
+    "gold_chunk_ids": [
+      "voyager_probes.txt#006"
+    ],
+    "gold_chunk_sha256": {
+      "voyager_probes.txt#006": "5a534ab08f8afce020e7289ca1c71345b423a86daa79b7da5388ae2f80aa6ddf"
+    },
+    "reference_answer": "55 languages."
+  },
+  {
+    "id": "q05",
+    "text": "In which part of the mitochondrion does the citric acid cycle take place?",
+    "type": "direct",
+    "gold_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#003",
+      "cellular_respiration_and_cell_division.txt#015"
+    ],
+    "gold_chunk_sha256": {
+      "cellular_respiration_and_cell_division.txt#003": "24245aa078ef012d16709cb3509813b141efbce99298396548050ba2ea183e8d",
+      "cellular_respiration_and_cell_division.txt#015": "c3a2664e0a0297eed19d7348989963d40843fbe2895aa429b247fc8f73dcf0e2"
+    },
+    "reference_answer": "In the mitochondrial matrix."
+  },
+  {
+    "id": "q06",
+    "text": "What is the net ATP gain from glycolysis for each glucose molecule?",
+    "type": "direct",
+    "gold_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#002",
+      "cellular_respiration_and_cell_division.txt#019"
+    ],
+    "gold_chunk_sha256": {
+      "cellular_respiration_and_cell_division.txt#002": "c1bbe2b0fa2cbe6de704d051a019e743cc52e1659b396399b059cd11b710a475",
+      "cellular_respiration_and_cell_division.txt#019": "97d3d80ac97bb890a7f7f8bf53098cf46c4ef1cb3b6813c927319466c4999c9c"
+    },
+    "reference_answer": "A net gain of 2 ATP per glucose."
+  },
+  {
+    "id": "q07",
+    "text": "Which enzyme first captures carbon dioxide in the mesophyll cells of C4 plants?",
+    "type": "direct",
+    "gold_chunk_ids": [
+      "c3_c4_cam_photosynthesis.txt#003",
+      "c3_c4_cam_photosynthesis.txt#007"
+    ],
+    "gold_chunk_sha256": {
+      "c3_c4_cam_photosynthesis.txt#003": "9d9916c40a0239e9b979d1e57cb70f2a95120d2dd3567b86e386229728e7e7b4",
+      "c3_c4_cam_photosynthesis.txt#007": "735cd80cf8062c963b0b87420127e040f1009a45c5ddccdb631c479029798a11"
+    },
+    "reference_answer": "PEP carboxylase."
+  },
+  {
+    "id": "q08",
+    "text": "How many orbits did Gordon Cooper's Faith 7 complete?",
+    "type": "direct",
+    "gold_chunk_ids": [
+      "mercury_gemini.txt#003",
+      "mercury_gemini.txt#004"
+    ],
+    "gold_chunk_sha256": {
+      "mercury_gemini.txt#003": "e1e857d82601cabcd9c0b62e27057a3fcd6cf72ed869e51755d98207ce04f49b",
+      "mercury_gemini.txt#004": "e32bf1cb4ccc6fcbdabc21cd15befd9089df9981485ce18bdeda4fe35226f699"
+    },
+    "reference_answer": "Twenty-two orbits."
+  },
+  {
+    "id": "q09",
+    "text": "On what date did Voyager 2 make its closest approach to Neptune?",
+    "type": "direct",
+    "gold_chunk_ids": [
+      "voyager_probes.txt#005"
+    ],
+    "gold_chunk_sha256": {
+      "voyager_probes.txt#005": "9eaee19fa8f89714418649b295701effb9cda006e4bd2ce01e8b3e91d9322313"
+    },
+    "reference_answer": "August 25, 1989."
+  },
+  {
+    "id": "q10",
+    "text": "At what angle to the equator does the ISS orbit?",
+    "type": "direct",
+    "gold_chunk_ids": [
+      "skylab_and_iss.txt#006"
+    ],
+    "gold_chunk_sha256": {
+      "skylab_and_iss.txt#006": "e337a0a5464bd97deed11c0cedad7131758a8744be01807f4cccbc75b01d1877"
+    },
+    "reference_answer": "51.6 degrees."
+  },
+  {
+    "id": "q11",
+    "text": "What happens to the homologous chromosomes during anaphase I?",
+    "type": "direct",
+    "gold_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#013"
+    ],
+    "gold_chunk_sha256": {
+      "cellular_respiration_and_cell_division.txt#013": "ad5851871fe49748485a5f663fb6a6cf14ffd50bad527c177b5388d2b3e7024e"
+    },
+    "reference_answer": "They are separated and pulled to opposite poles, while the sister chromatids stay joined."
+  },
+  {
+    "id": "q12",
+    "text": "What did Edward White do during Gemini 4?",
+    "type": "direct",
+    "gold_chunk_ids": [
+      "mercury_gemini.txt#005"
+    ],
+    "gold_chunk_sha256": {
+      "mercury_gemini.txt#005": "0545477a15e88e7d4de9865b15b0e57eefe27c21673470617bbc5759593d8209"
+    },
+    "reference_answer": "He became the first American to walk in space, for about twenty minutes."
+  },
+  {
+    "id": "q13",
+    "text": "Which early American capsule sank after its hatch blew off and was not brought up from the seabed until the late 1990s?",
+    "type": "paraphrased",
+    "gold_chunk_ids": [
+      "mercury_gemini.txt#001",
+      "mercury_gemini.txt#002"
+    ],
+    "gold_chunk_sha256": {
+      "mercury_gemini.txt#001": "007f25f1cc7a74b2c92b48da7ef23a0f20dfdaf1634ec943a7939731bb435b1e",
+      "mercury_gemini.txt#002": "265a123b1baf449843b46fc173b8219e604defe4a8abf837ed947a1b62ed4ce5"
+    },
+    "reference_answer": "Liberty Bell 7, flown by Gus Grissom, was raised in 1999."
+  },
+  {
+    "id": "q14",
+    "text": "Why did the inside of the first American space station become dangerously hot after launch?",
+    "type": "paraphrased",
+    "gold_chunk_ids": [
+      "skylab_and_iss.txt#001"
+    ],
+    "gold_chunk_sha256": {
+      "skylab_and_iss.txt#001": "7a78b95addef2a93f81bb60118daa6579750d7b63b5eceb1d2941b6a9617a6d5"
+    },
+    "reference_answer": "A shield that protected and shaded the workshop was torn off during launch."
+  },
+  {
+    "id": "q15",
+    "text": "How did the first resident team lower the temperature inside the orbiting workshop?",
+    "type": "paraphrased",
+    "gold_chunk_ids": [
+      "skylab_and_iss.txt#001",
+      "skylab_and_iss.txt#002"
+    ],
+    "gold_chunk_sha256": {
+      "skylab_and_iss.txt#001": "7a78b95addef2a93f81bb60118daa6579750d7b63b5eceb1d2941b6a9617a6d5",
+      "skylab_and_iss.txt#002": "f54ba471859ceab71cce6b9341f5c780e97b806d73da611c1f4c05c3a8408012"
+    },
+    "reference_answer": "They deployed a parasol-like sunshade through a small airlock in the workshop wall."
+  },
+  {
+    "id": "q16",
+    "text": "Which Moon walker used a makeshift club to knock balls across the lunar surface?",
+    "type": "paraphrased",
+    "gold_chunk_ids": [
+      "apollo_missions_extended.txt#006",
+      "apollo_missions_extended.txt#007"
+    ],
+    "gold_chunk_sha256": {
+      "apollo_missions_extended.txt#006": "a06e024f3c1b7d40c76bf63482b672ce56dd7803cdceed8a4505a6327c468f45",
+      "apollo_missions_extended.txt#007": "2f86f5834a051fc51475e977f7964c68f94499e41c79641eca37a69a1b35d1ca"
+    },
+    "reference_answer": "Alan Shepard on Apollo 14."
+  },
+  {
+    "id": "q17",
+    "text": "Which engineer first noticed a volcanic eruption cloud on a moon of Jupiter in a navigation photo?",
+    "type": "paraphrased",
+    "gold_chunk_ids": [
+      "voyager_probes.txt#002"
+    ],
+    "gold_chunk_sha256": {
+      "voyager_probes.txt#002": "29563393a39ff5ec3c885af81bcdeac9d4ffea7a6bb7e5e984733ee4ef40e6a4"
+    },
+    "reference_answer": "Linda Morabito, who spotted a plume above the edge of Io."
+  },
+  {
+    "id": "q18",
+    "text": "Which enzyme turns pyruvate into the by-product that accumulates in a sprinter's muscles?",
+    "type": "paraphrased",
+    "gold_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#007"
+    ],
+    "gold_chunk_sha256": {
+      "cellular_respiration_and_cell_division.txt#007": "9aef756975cd3d2341b12bc1cb35a115f4add2879c8621a37a39ed17a6f0fa9a"
+    },
+    "reference_answer": "Lactate dehydrogenase."
+  },
+  {
+    "id": "q19",
+    "text": "Which substances halt cellular energy production by blocking the last electron-passing complex?",
+    "type": "paraphrased",
+    "gold_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#017",
+      "cellular_respiration_and_cell_division.txt#018"
+    ],
+    "gold_chunk_sha256": {
+      "cellular_respiration_and_cell_division.txt#017": "620ef8e5e8c8b0dc3a4f4af62b5f8e339ee0b1dd79cd9570baddd34d9674de57",
+      "cellular_respiration_and_cell_division.txt#018": "041c087503781b7f4d42bcee297b16cf04c688d9c43ace900adb3d1de06f3cac"
+    },
+    "reference_answer": "Cyanide and carbon monoxide, which bind to complex IV."
+  },
+  {
+    "id": "q20",
+    "text": "What name is given to the special concentric leaf architecture that lets tropical grasses such as maize pump up carbon dioxide?",
+    "type": "paraphrased",
+    "gold_chunk_ids": [
+      "c3_c4_cam_photosynthesis.txt#003"
+    ],
+    "gold_chunk_sha256": {
+      "c3_c4_cam_photosynthesis.txt#003": "9d9916c40a0239e9b979d1e57cb70f2a95120d2dd3567b86e386229728e7e7b4"
+    },
+    "reference_answer": "Kranz anatomy."
+  },
+  {
+    "id": "q21",
+    "text": "Why does a warm day make the carbon-fixing enzyme in most crops more likely to waste energy?",
+    "type": "paraphrased",
+    "gold_chunk_ids": [
+      "c3_c4_cam_photosynthesis.txt#001",
+      "c3_c4_cam_photosynthesis.txt#002"
+    ],
+    "gold_chunk_sha256": {
+      "c3_c4_cam_photosynthesis.txt#001": "34b4dbbadc8006a2f0b660b1eeb3b6959b1804bc8f8ff4238fa73bb3758e90c0",
+      "c3_c4_cam_photosynthesis.txt#002": "0ed70a2170628b256878aa39f5255edccc3a53497b2d2beadd0381f1f1c05c22"
+    },
+    "reference_answer": "Higher temperature makes oxygen compete with carbon dioxide at RuBisCO, which increases photorespiration."
+  },
+  {
+    "id": "q22",
+    "text": "Which two crewed spacecraft flew in formation close enough to nearly touch in December 1965?",
+    "type": "paraphrased",
+    "gold_chunk_ids": [
+      "mercury_gemini.txt#008"
+    ],
+    "gold_chunk_sha256": {
+      "mercury_gemini.txt#008": "d3e8c7729523c1b3a310c1c836564610206421ce4a8ec1acded4610d031cee6d"
+    },
+    "reference_answer": "Gemini 6A and Gemini 7, within about 30 centimeters."
+  },
+  {
+    "id": "q23",
+    "text": "Why could the Apollo 10 landing craft not have actually touched down on the Moon?",
+    "type": "paraphrased",
+    "gold_chunk_ids": [
+      "apollo_missions_extended.txt#003"
+    ],
+    "gold_chunk_sha256": {
+      "apollo_missions_extended.txt#003": "ea30c71c251bc47928c9aba46b7b88ac46f5ff53fd74186ba7b966181506b906"
+    },
+    "reference_answer": "It was deliberately loaded with too little fuel to land and take off again."
+  },
+  {
+    "id": "q24",
+    "text": "What chromosome-separation error is behind having three copies of chromosome 21?",
+    "type": "paraphrased",
+    "gold_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#014"
+    ],
+    "gold_chunk_sha256": {
+      "cellular_respiration_and_cell_division.txt#014": "240b9c916c4e6db1d1b0f7bc2177322fffe143b58494de6bc1c0459c409c09a3"
+    },
+    "reference_answer": "Nondisjunction, a failure of chromosomes to separate properly in meiosis."
+  },
+  {
+    "id": "q25",
+    "text": "How did engineers fix the faulty memory problem on the farthest probe without touching the hardware?",
+    "type": "paraphrased",
+    "gold_chunk_ids": [
+      "voyager_probes.txt#010"
+    ],
+    "gold_chunk_sha256": {
+      "voyager_probes.txt#010": "704079540b7dca77c64cbb6282fca1d99fa68a21da8d68e5405426f9b0f1bb48"
+    },
+    "reference_answer": "They moved the affected code to other locations in memory."
+  },
+  {
+    "id": "q26",
+    "text": "Which Gemini astronaut showed that a well-planned and well-rehearsed outside excursion would not exhaust him?",
+    "type": "paraphrased",
+    "gold_chunk_ids": [
+      "mercury_gemini.txt#011"
+    ],
+    "gold_chunk_sha256": {
+      "mercury_gemini.txt#011": "fb282f7b53a8969be58c27a8a6fa4d87ff5e36341ee70b54efd934e1cfcd054c"
+    },
+    "reference_answer": "Buzz Aldrin on Gemini 12, who worked outside about five and a half hours in total."
+  },
+  {
+    "id": "q27",
+    "text": "During the Apollo 12 landing, which astronaut stayed in orbit aboard the command module?",
+    "type": "confusable",
+    "gold_chunk_ids": [
+      "apollo_missions_extended.txt#004"
+    ],
+    "gold_chunk_sha256": {
+      "apollo_missions_extended.txt#004": "c0f4c7ae2d761bc7989868d5bd00502c51f266c84e5dc05069f666e789fafeda"
+    },
+    "reference_answer": "Richard Gordon."
+  },
+  {
+    "id": "q28",
+    "text": "How long did the Skylab 3 crew stay in space?",
+    "type": "confusable",
+    "gold_chunk_ids": [
+      "skylab_and_iss.txt#002"
+    ],
+    "gold_chunk_sha256": {
+      "skylab_and_iss.txt#002": "f54ba471859ceab71cce6b9341f5c780e97b806d73da611c1f4c05c3a8408012"
+    },
+    "reference_answer": "59 days."
+  },
+  {
+    "id": "q29",
+    "text": "In which valley did Apollo 17's lunar module land?",
+    "type": "confusable",
+    "gold_chunk_ids": [
+      "apollo_missions_extended.txt#010",
+      "apollo_missions_extended.txt#012"
+    ],
+    "gold_chunk_sha256": {
+      "apollo_missions_extended.txt#010": "8e20afdb9f537cd7cebbf6ab5bd6dfa53bae90f0f16ad4ee4129f34e77c755c5",
+      "apollo_missions_extended.txt#012": "a837f9bf9873199811937b6c56c110b8c3446ab16c97344fb7878acaba0eaa53"
+    },
+    "reference_answer": "The Taurus-Littrow valley."
+  },
+  {
+    "id": "q30",
+    "text": "How many kilograms of lunar samples did Apollo 15 return?",
+    "type": "confusable",
+    "gold_chunk_ids": [
+      "apollo_missions_extended.txt#008"
+    ],
+    "gold_chunk_sha256": {
+      "apollo_missions_extended.txt#008": "c3c7ac4c57eaed3f7cbc0923eaded094230b8e75f87a0cd190217f115907df86"
+    },
+    "reference_answer": "About 77 kilograms."
+  },
+  {
+    "id": "q31",
+    "text": "On what date was Voyager 1 launched?",
+    "type": "confusable",
+    "gold_chunk_ids": [
+      "voyager_probes.txt#000",
+      "voyager_probes.txt#001",
+      "voyager_probes.txt#011"
+    ],
+    "gold_chunk_sha256": {
+      "voyager_probes.txt#000": "a516c450dd56937e35013119f0bd0b8be78882bc91a3d6624cff94b134a84616",
+      "voyager_probes.txt#001": "804c55794a42e0fc7c710d3a7083353953c63295bc3275597637141e3f8d3770",
+      "voyager_probes.txt#011": "bc12734291bb9eecbddd6091e88cd1e98091aa66c9099c75630e3f6868fa002d"
+    },
+    "reference_answer": "September 5, 1977."
+  },
+  {
+    "id": "q32",
+    "text": "When did Voyager 2 cross into interstellar space?",
+    "type": "confusable",
+    "gold_chunk_ids": [
+      "voyager_probes.txt#008"
+    ],
+    "gold_chunk_sha256": {
+      "voyager_probes.txt#008": "e6a33b2f80e9065cb4f2b0ac167793574b6bbe67325e8d2a91e8383e81e20a38"
+    },
+    "reference_answer": "November 5, 2018."
+  },
+  {
+    "id": "q33",
+    "text": "How long did Gemini 7 stay in space?",
+    "type": "confusable",
+    "gold_chunk_ids": [
+      "mercury_gemini.txt#006",
+      "mercury_gemini.txt#007"
+    ],
+    "gold_chunk_sha256": {
+      "mercury_gemini.txt#006": "5a6f8652dbe274caaa89ec0d6372dacb5ee16ea4adf1352f49807496178b584d",
+      "mercury_gemini.txt#007": "2dbbfcfc8d887ade5bca8408f489c7615afdb232019e9b7ef20521da3256dd7f"
+    },
+    "reference_answer": "Nearly fourteen days."
+  },
+  {
+    "id": "q34",
+    "text": "By roughly how far did Aurora 7 miss its landing target?",
+    "type": "confusable",
+    "gold_chunk_ids": [
+      "mercury_gemini.txt#003"
+    ],
+    "gold_chunk_sha256": {
+      "mercury_gemini.txt#003": "e1e857d82601cabcd9c0b62e27057a3fcd6cf72ed869e51755d98207ce04f49b"
+    },
+    "reference_answer": "About 400 kilometers."
+  },
+  {
+    "id": "q35",
+    "text": "Where in the mitochondrion is the electron transport chain located?",
+    "type": "confusable",
+    "gold_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#004",
+      "cellular_respiration_and_cell_division.txt#015",
+      "cellular_respiration_and_cell_division.txt#016"
+    ],
+    "gold_chunk_sha256": {
+      "cellular_respiration_and_cell_division.txt#004": "8ff8eac564f7c399a7738a88f462ce7a643207b4985fb8d70caaa99e3462c872",
+      "cellular_respiration_and_cell_division.txt#015": "c3a2664e0a0297eed19d7348989963d40843fbe2895aa429b247fc8f73dcf0e2",
+      "cellular_respiration_and_cell_division.txt#016": "5d9da8d8ea86582415312679b4b48ab42cccc565dad8589208f1f0048d5f3faa"
+    },
+    "reference_answer": "At the inner mitochondrial membrane."
+  },
+  {
+    "id": "q36",
+    "text": "How many ATP molecules does the citric acid cycle yield per glucose?",
+    "type": "confusable",
+    "gold_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#004",
+      "cellular_respiration_and_cell_division.txt#019"
+    ],
+    "gold_chunk_sha256": {
+      "cellular_respiration_and_cell_division.txt#004": "8ff8eac564f7c399a7738a88f462ce7a643207b4985fb8d70caaa99e3462c872",
+      "cellular_respiration_and_cell_division.txt#019": "97d3d80ac97bb890a7f7f8bf53098cf46c4ef1cb3b6813c927319466c4999c9c"
+    },
+    "reference_answer": "Two ATP per glucose."
+  },
+  {
+    "id": "q37",
+    "text": "How many chromosomes does each human daughter cell have after mitosis?",
+    "type": "confusable",
+    "gold_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#011"
+    ],
+    "gold_chunk_sha256": {
+      "cellular_respiration_and_cell_division.txt#011": "816b2c4a71c84590f9ca900b88fff46f6b0c4b8b68a26f7866a4dc6d58408209"
+    },
+    "reference_answer": "46 chromosomes."
+  },
+  {
+    "id": "q38",
+    "text": "What temperature range is best for C4 plants?",
+    "type": "confusable",
+    "gold_chunk_ids": [
+      "c3_c4_cam_photosynthesis.txt#005"
+    ],
+    "gold_chunk_sha256": {
+      "c3_c4_cam_photosynthesis.txt#005": "9b85dc063c0f35c5fbe2c24f18ef2f4844a75ada1ebe02c3c2ed5177a24cb732"
+    },
+    "reference_answer": "About 30 to 40 degrees Celsius."
+  },
+  {
+    "id": "q39",
+    "text": "In which cell structure do CAM plants keep their stored malate overnight?",
+    "type": "confusable",
+    "gold_chunk_ids": [
+      "c3_c4_cam_photosynthesis.txt#006"
+    ],
+    "gold_chunk_sha256": {
+      "c3_c4_cam_photosynthesis.txt#006": "511fae2cbdcfd096030f01866b05b7a8abf6292441957d574c42ae0c6d4da2a1"
+    },
+    "reference_answer": "In the large central vacuole."
+  },
+  {
+    "id": "q40",
+    "text": "Who made up the crew of Expedition 1 on the ISS?",
+    "type": "confusable",
+    "gold_chunk_ids": [
+      "skylab_and_iss.txt#005"
+    ],
+    "gold_chunk_sha256": {
+      "skylab_and_iss.txt#005": "efdcdc24849716d889769bebfc0c79ab0736253375f80b4f28e6a1daf235b8a8"
+    },
+    "reference_answer": "William Shepherd, Yuri Gidzenko, and Sergei Krikalev."
+  }
+]

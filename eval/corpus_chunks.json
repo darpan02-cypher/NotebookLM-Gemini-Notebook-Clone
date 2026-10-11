@@ -1,0 +1,790 @@
+{
+  "chunk_size": 900,
+  "chunk_overlap": 120,
+  "chunks": [
+    {
+      "id": "apollo_missions_extended.txt#000",
+      "source": "apollo_missions_extended.txt",
+      "chunk_index": 0,
+      "sha256": "3b18d411c3e98d0f96599892ecb2deef576be54fa2718768f6e3dde0b99e4fd2",
+      "text": "Apollo missions in detail: from the first crewed flight to the final lunar landing This document walks through the individual Apollo flights one at a time. It complements the general overview of the program by giving the dates, crews, spacecraft names, landing sites and durations that distinguish each mission from the others. Apollo 7 was the first crewed flight of the Apollo spacecraft. It lifted off on October 11, 1968, and stayed in Earth orbit until splashdown on October 22, 1968, a flight of roughly ten days and twenty hours. The crew was Wally Schirra, Donn Eisele, and Walter Cunningham. Because the rocket was the smaller Saturn IB, the mission never left low Earth orbit. Its purpose was to prove that the command and service module could keep a crew alive for a long flight and that its main engine could be restarted many times. Schirra caught a bad head cold during the flight, and"
+    },
+    {
+      "id": "apollo_missions_extended.txt#001",
+      "source": "apollo_missions_extended.txt",
+      "chunk_index": 1,
+      "sha256": "cb7b9b8976d0fa291c36a908a398aad106817903184d3807a19bd4648a1de11b",
+      "text": "ong flight and that its main engine could be restarted many times. Schirra caught a bad head cold during the flight, and the crew grew irritable and argued with mission control about the schedule, which is why none of the three ever flew in space again. The mission did include the first live television broadcasts from an American crewed spacecraft. Apollo 8 followed in December 1968 and was a bold change of plan. It launched on December 21, 1968, aboard a Saturn V and carried Frank Borman, Jim Lovell, and William Anders to the Moon without a lunar module. The crew became the first humans to travel to the Moon and the first to see the far side of it with their own eyes. They completed ten orbits of the Moon over about twenty hours. On the fourth orbit Anders photographed the Earth rising above the lunar horizon, an image that became known as Earthrise. On Christmas Eve the crew read"
+    },
+    {
+      "id": "apollo_missions_extended.txt#002",
+      "source": "apollo_missions_extended.txt",
+      "chunk_index": 2,
+      "sha256": "f2cbb1100cc63a321fe5c5c7a7af6fb6b8ca4e0e5a62d960c00614170955f05a",
+      "text": "raphed the Earth rising above the lunar horizon, an image that became known as Earthrise. On Christmas Eve the crew read verses from the Book of Genesis in a television broadcast watched by a very large audience. Apollo 8 returned to Earth on December 27, 1968, splashing down in the Pacific Ocean. Apollo 9 flew from March 3 to March 13, 1969, and tested the lunar module for the first time with a crew aboard. The astronauts were James McDivitt, David Scott, and Russell Schweickart, and the whole flight stayed in Earth orbit. The command module was named Gumdrop and the lunar module was named Spider. Because the lunar module had spindly legs and no aerodynamic shape, it could only fly in the vacuum of space, and the name Spider seemed fitting. During the mission the crew separated the two spacecraft, flew them apart by about 180 kilometers, and then rendezvoused and docked again using the"
+    },
+    {
+      "id": "apollo_missions_extended.txt#003",
+      "source": "apollo_missions_extended.txt",
+      "chunk_index": 3,
+      "sha256": "ea30c71c251bc47928c9aba46b7b88ac46f5ff53fd74186ba7b966181506b906",
+      "text": "separated the two spacecraft, flew them apart by about 180 kilometers, and then rendezvoused and docked again using the lunar module's own engines. Schweickart performed a spacewalk to test the portable life support backpack that the Moon walkers would later use. Apollo 10 was the full dress rehearsal for the landing. It flew from May 18 to May 26, 1969, with Thomas Stafford, John Young, and Eugene Cernan aboard. The command module was called Charlie Brown and the lunar module was called Snoopy. Stafford and Cernan took Snoopy down to an altitude of about 15.6 kilometers above the lunar surface, close enough to photograph the planned Apollo 11 landing site in the Sea of Tranquility, while Young remained in orbit in the command module. Planners deliberately loaded the lunar module with too little fuel to land and take off again, so that the crew could not be tempted to try. On the way"
+    },
+    {
+      "id": "apollo_missions_extended.txt#004",
+      "source": "apollo_missions_extended.txt",
+      "chunk_index": 4,
+      "sha256": "c0f4c7ae2d761bc7989868d5bd00502c51f266c84e5dc05069f666e789fafeda",
+      "text": "e lunar module with too little fuel to land and take off again, so that the crew could not be tempted to try. On the way home, Apollo 10 reached a speed of nearly 40,000 kilometers per hour, still the highest speed ever reached by humans relative to Earth. Apollo 12 carried out the second lunar landing. It launched on November 14, 1969, in rain, and the Saturn V was struck by lightning twice during the first minute of flight. Several instruments went dark, but a flight controller suggested switching a signal conditioning unit to its auxiliary setting, the crew did so, and the mission continued. The crew was Charles \"Pete\" Conrad, Alan Bean, and Richard Gordon. Conrad and Bean landed the lunar module Intrepid in the Ocean of Storms on November 19, 1969, while Gordon orbited in the command module Yankee Clipper. The landing was a precision one: the lunar module touched down only about 180"
+    },
+    {
+      "id": "apollo_missions_extended.txt#005",
+      "source": "apollo_missions_extended.txt",
+      "chunk_index": 5,
+      "sha256": "af1b611a37c04d70a9eed564bc9f84d829eb129d67878f32358e9d600721824b",
+      "text": "ited in the command module Yankee Clipper. The landing was a precision one: the lunar module touched down only about 180 meters from the robotic Surveyor 3 probe, which had landed in 1967. The two astronauts walked to Surveyor 3 and removed pieces of it, including its camera, so that engineers could study how the metal had aged on the Moon. They made two moonwalks totaling about seven hours and forty-five minutes and brought back roughly 34.3 kilograms of samples. Apollo 12 splashed down on November 24, 1969. Apollo 13 is covered in the overview of the program, so it is mentioned here only to explain why the next landing mission was Apollo 14. After the explosion on Apollo 13, engineers spent months redesigning the oxygen tanks and adding a third tank and an extra battery to the service module before flights could resume. Apollo 14 launched on January 31, 1971, and landed on February 5,"
+    },
+    {
+      "id": "apollo_missions_extended.txt#006",
+      "source": "apollo_missions_extended.txt",
+      "chunk_index": 6,
+      "sha256": "a06e024f3c1b7d40c76bf63482b672ce56dd7803cdceed8a4505a6327c468f45",
+      "text": "ery to the service module before flights could resume. Apollo 14 launched on January 31, 1971, and landed on February 5, 1971. The commander was Alan Shepard, who had been the first American in space in 1961, and he was joined by Edgar Mitchell, who walked on the Moon with him, and Stuart Roosa, who remained in orbit aboard the command module Kitty Hawk. The lunar module was named Antares. The target was the Fra Mauro highlands, the area that Apollo 13 had been supposed to visit. The two moonwalks lasted about nine hours and twenty-three minutes in total. During the second one, the astronauts hauled a two-wheeled cart for tools and samples and tried to reach the rim of Cone Crater, but the featureless terrain made it hard to judge distances and they turned back short of the rim. At the end Shepard smuggled a golf club head onto the surface and hit two golf balls. The crew returned about"
+    },
+    {
+      "id": "apollo_missions_extended.txt#007",
+      "source": "apollo_missions_extended.txt",
+      "chunk_index": 7,
+      "sha256": "2f86f5834a051fc51475e977f7964c68f94499e41c79641eca37a69a1b35d1ca",
+      "text": "f the rim. At the end Shepard smuggled a golf club head onto the surface and hit two golf balls. The crew returned about 42.3 kilograms of rock and soil. Apollo 14 splashed down on February 9, 1971. Apollo 15 was the first of the so-called J missions, which carried more equipment and stayed longer on the surface. It launched on July 26, 1971, with David Scott, James Irwin, and Alfred Worden. Scott and Irwin landed the lunar module Falcon on July 30, 1971, at the foot of the Apennine mountains beside Hadley Rille, while Worden orbited in the command module Endeavour. For the first time the astronauts drove a lunar roving vehicle, which let them range several kilometers from the lander. The surface stay lasted almost three days and included three moonwalks totaling about eighteen and a half hours. Near Spur crater they found a pale rock rich in the mineral plagioclase, nicknamed the"
+    },
+    {
+      "id": "apollo_missions_extended.txt#008",
+      "source": "apollo_missions_extended.txt",
+      "chunk_index": 8,
+      "sha256": "c3c7ac4c57eaed3f7cbc0923eaded094230b8e75f87a0cd190217f115907df86",
+      "text": "about eighteen and a half hours. Near Spur crater they found a pale rock rich in the mineral plagioclase, nicknamed the Genesis Rock, which is about four billion years old and was thought to be a piece of the original lunar crust. The crew collected about 77 kilograms of samples. Scott also dropped a hammer and a falcon feather together on camera to show that they fall at the same rate without air. Apollo 15 splashed down on August 7, 1971. Apollo 16 launched on April 16, 1972, carrying John Young, Charles Duke, and Thomas Kenneth \"Ken\" Mattingly. Young and Duke landed the lunar module Orion on April 21, 1972, in the Descartes Highlands, the first landing in the rugged lunar highlands rather than on a plain. Mattingly stayed in orbit in the command module Casper. Scientists had expected to find volcanic rock at Descartes, but the samples turned out to be mostly breccias formed by"
+    },
+    {
+      "id": "apollo_missions_extended.txt#009",
+      "source": "apollo_missions_extended.txt",
+      "chunk_index": 9,
+      "sha256": "d29423a235fa5b395cc17b82211564a1e9565d993a59b2604e6f4c24f72e7cd3",
+      "text": ". Scientists had expected to find volcanic rock at Descartes, but the samples turned out to be mostly breccias formed by impacts, which overturned a popular theory. The astronauts made three moonwalks totaling about twenty hours and fourteen minutes and returned about 95.7 kilograms of lunar material, the second largest haul of the program. Duke left a family photograph on the surface. Mattingly, who had been removed from Apollo 13 days before launch because of possible measles exposure, never actually got the disease and flew on Apollo 16 instead. He performed a spacewalk on the way home to retrieve film cassettes from the service module. Apollo 16 splashed down on April 27, 1972. Apollo 17 was the final mission of the program and the only one to carry a professional scientist to the surface. The crew was Eugene Cernan, geologist Harrison \"Jack\" Schmitt, and Ronald Evans. It launched"
+    },
+    {
+      "id": "apollo_missions_extended.txt#010",
+      "source": "apollo_missions_extended.txt",
+      "chunk_index": 10,
+      "sha256": "8e20afdb9f537cd7cebbf6ab5bd6dfa53bae90f0f16ad4ee4129f34e77c755c5",
+      "text": "l scientist to the surface. The crew was Eugene Cernan, geologist Harrison \"Jack\" Schmitt, and Ronald Evans. It launched on December 7, 1972, at night, the only night launch of a Saturn V, lighting up the sky for hundreds of kilometers. Cernan and Schmitt landed the lunar module Challenger on December 11, 1972, in the Taurus-Littrow valley, while Evans remained in the command module America. They made three moonwalks totaling about twenty-two hours, the longest of the program, and they drove the roving vehicle on traverses that carried them several kilometers from the lander. They discovered orange soil near Shorty crater, which proved to be tiny glass beads produced by ancient volcanic fire fountains. The crew brought back about 110.5 kilograms of samples, the largest amount of any mission. As the astronauts left, Cernan spoke of America's return to the Moon someday. The whole flight"
+    },
+    {
+      "id": "apollo_missions_extended.txt#011",
+      "source": "apollo_missions_extended.txt",
+      "chunk_index": 11,
+      "sha256": "6818ceeef5e5ef381e230df287f2d0c9d6e79c64895accf8ca48be6c3f49844e",
+      "text": "st amount of any mission. As the astronauts left, Cernan spoke of America's return to the Moon someday. The whole flight lasted about twelve days and fourteen hours, and the crew splashed down on December 19, 1972. While the spacecraft was on its way to the Moon, the crew took a photograph of the whole sunlit Earth that became known as the Blue Marble. Several patterns appear when the missions are compared. Three astronauts flew to the Moon twice: Jim Lovell on Apollo 8 and Apollo 13, John Young on Apollo 10 and Apollo 16, and Eugene Cernan on Apollo 10 and Apollo 17. Young and Cernan each flew a rehearsal mission first and then a landing mission, while Lovell never landed. Each lunar module name was chosen by its crew: Eagle, Intrepid, Antares, Falcon, Orion, and Challenger were the names of the six that landed. The command modules for those landings were Columbia, Yankee Clipper,"
+    },
+    {
+      "id": "apollo_missions_extended.txt#012",
+      "source": "apollo_missions_extended.txt",
+      "chunk_index": 12,
+      "sha256": "a837f9bf9873199811937b6c56c110b8c3446ab16c97344fb7878acaba0eaa53",
+      "text": "Challenger were the names of the six that landed. The command modules for those landings were Columbia, Yankee Clipper, Kitty Hawk, Endeavour, Casper, and America. The landing sites also form a progression of increasing difficulty. Apollo 11 touched down on a smooth mare in the Sea of Tranquility. Apollo 12 pinpointed a spot in the Ocean of Storms. Apollo 14 went to the Fra Mauro highlands. Apollo 15 chose a mountain valley with a rille. Apollo 16 targeted the Descartes Highlands. Apollo 17 settled in the Taurus-Littrow valley between mountain massifs. As the missions advanced, the time on the surface grew from about twenty-one hours for Apollo 11 to about seventy-five hours for Apollo 17, and the mass of samples returned climbed from about 21.5 kilograms to about 110.5 kilograms. Engineers also improved the equipment. The first two landing crews walked everywhere. Apollo 14 introduced"
+    },
+    {
+      "id": "apollo_missions_extended.txt#013",
+      "source": "apollo_missions_extended.txt",
+      "chunk_index": 13,
+      "sha256": "a206004de0abb98244c614ef124e381ed55453055880b5d06ee49a740005fef4",
+      "text": ".5 kilograms. Engineers also improved the equipment. The first two landing crews walked everywhere. Apollo 14 introduced the hand-pulled cart, which was called the modular equipment transporter. Apollo 15, 16, and 17 each carried a battery-powered rover, and the extended command module bays carried cameras and instruments that mapped the Moon from orbit. The service module of the J missions had a scientific instrument bay holding cameras, a laser altimeter and a spectrometer, and the command module pilot tended it during the days alone in orbit. Budget pressure ended the program earlier than planned. NASA had originally intended to fly Apollo 18, 19, and 20, but Congress cut the budget and the agency canceled them in 1970, partly because the Saturn V production line was winding down and leftover hardware was reused for the Skylab space station. Leftover hardware found a new use: the"
+    },
+    {
+      "id": "apollo_missions_extended.txt#014",
+      "source": "apollo_missions_extended.txt",
+      "chunk_index": 14,
+      "sha256": "a9bd20e321c503b58dfeb6a8f36b406dba46d65ee0ee966d88672a534cfc37fa",
+      "text": "e was winding down and leftover hardware was reused for the Skylab space station. Leftover hardware found a new use: the Saturn V that had been built for a later mission launched the Skylab space station in 1973, and the unused rockets were eventually put on public display. Mission durations and surface times can be summarized as follows. Apollo 7 lasted about 10 days and 20 hours. Apollo 8, the first lunar voyage, lasted only about 6 days and 3 hours. Apollo 9 lasted about 10 days, and Apollo 10 about 8 days. Among the landing missions, Apollo 12 lasted about 10 days and 4 hours, Apollo 14 about 9 days, Apollo 15 about 12 days and 7 hours, Apollo 16 about 11 days and 2 hours, and Apollo 17 about 12 days and 14 hours. The time that the lunar module spent on the surface rose steadily: about 31 hours and 31 minutes for Apollo 12, about 33 hours and 31 minutes for Apollo 14, about 67 hours"
+    },
+    {
+      "id": "apollo_missions_extended.txt#015",
+      "source": "apollo_missions_extended.txt",
+      "chunk_index": 15,
+      "sha256": "5075433ac0079774bbcadbe96274a7024e50c1bc70754fc29ed7ddeea0086267",
+      "text": "rose steadily: about 31 hours and 31 minutes for Apollo 12, about 33 hours and 31 minutes for Apollo 14, about 67 hours for Apollo 15, about 71 hours for Apollo 16, and about 75 hours for Apollo 17. The hardware that carried these crews was upgraded along the way. The first landing missions used a lunar module that could support two men for roughly two days on the surface. The extended lunar module flown on Apollo 15 to 17 had larger propellant tanks, more batteries, and extra oxygen and water, which made the three-day stays possible. The suits changed too: the suits for Apollo 15 to 17 had a more flexible waist joint so that the astronauts could bend and sit on the rover. Crews trained for geology in the field. Before Apollo 15, 16, and 17, the astronauts took many field trips to places such as the volcanic fields of Hawaii, the Meteor Crater in Arizona, and the volcanic terrain of"
+    },
+    {
+      "id": "apollo_missions_extended.txt#016",
+      "source": "apollo_missions_extended.txt",
+      "chunk_index": 16,
+      "sha256": "61e654838e69715126136528293e436022cf939f740052c30f6a1670d531c764",
+      "text": "y field trips to places such as the volcanic fields of Hawaii, the Meteor Crater in Arizona, and the volcanic terrain of Iceland, learning to describe rocks and decide quickly which ones were worth collecting. On the Moon each sample was photographed in place before being bagged, so that scientists could later link every rock to the exact spot where it was found. Samples were sent to the Lunar Receiving Laboratory in Houston, where the first crews and their rocks were quarantined for about three weeks in case they carried unknown lunar organisms; the quarantine was dropped after Apollo 14 when no evidence of any hazard had turned up. The instruments that astronauts left behind formed a network of scientific stations. The Apollo Lunar Surface Experiments Package carried by Apollo 12, 14, 15, 16, and 17 included seismometers, magnetometers, and heat-flow probes. The Apollo 11 crew had"
+    },
+    {
+      "id": "apollo_missions_extended.txt#017",
+      "source": "apollo_missions_extended.txt",
+      "chunk_index": 17,
+      "sha256": "e657bcb506ce2b862ad0e37d06fa8660b6cd719e90b3a04caad6185dcaddc551",
+      "text": "ried by Apollo 12, 14, 15, 16, and 17 included seismometers, magnetometers, and heat-flow probes. The Apollo 11 crew had left a smaller set of experiments that ran for a few weeks, but the later stations ran on nuclear power and transmitted data for years until they were switched off on September 30, 1977. Seismometers recorded thousands of moonquakes and the impacts of meteoroids, and they showed that the Moon has a crust, a mantle, and a small core. Retroreflectors left by Apollo 11, 14, and 15 are still used to bounce laser beams from Earth and measure the distance to the Moon to within a few millimeters. The Moon is moving away from the Earth at about 3.8 centimeters per year, a result learned from these measurements. Taken together, the Apollo samples gave strong support to the giant impact theory for the origin of the Moon, in which a Mars-sized body struck the early Earth and the"
+    },
+    {
+      "id": "apollo_missions_extended.txt#018",
+      "source": "apollo_missions_extended.txt",
+      "chunk_index": 18,
+      "sha256": "5f64675d2497795e96f0ab858e10c192edffee4e6b8bce6a7342f11a13248dd0",
+      "text": "support to the giant impact theory for the origin of the Moon, in which a Mars-sized body struck the early Earth and the debris collected into the Moon. The rocks from Apollo 12 and Apollo 15 helped establish that the dark maria are ancient lava flows, and radioactive dating showed that the ages of the mare rocks range from about 3.1 to 3.8 billion years. The highland rocks from Apollo 16 and Apollo 17 are older, up to about 4.4 billion years."
+    },
+    {
+      "id": "apollo_program.txt#000",
+      "source": "apollo_program.txt",
+      "chunk_index": 0,
+      "sha256": "fa8617b9bae489f4481ab46be06522687d5cabca936fcd27a5a73ec2f5c5b7c9",
+      "text": "The Apollo program was run by NASA from 1961 to 1972 with the goal of landing humans on the Moon. President John F. Kennedy announced the goal in a speech to Congress in May 1961, saying the United States should land a man on the Moon and return him safely to Earth before the end of the decade. Apollo 11 launched on July 16, 1969, from Kennedy Space Center in Florida atop a Saturn V rocket. The crew was Neil Armstrong, Buzz Aldrin, and Michael Collins. Armstrong and Aldrin landed the lunar module, named Eagle, in the Sea of Tranquility on July 20, 1969. Collins stayed in lunar orbit aboard the command module Columbia. Neil Armstrong was the first person to step onto the lunar surface. Buzz Aldrin followed about 19 minutes later. The two astronauts spent roughly two and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying"
+    },
+    {
+      "id": "apollo_program.txt#001",
+      "source": "apollo_program.txt",
+      "chunk_index": 1,
+      "sha256": "a5d896a6e0a6465c1154a68f7f88c5c3391a3634afe6176a107833bf5684a172",
+      "text": "and a half hours outside the lunar module, collecting about 21.5 kilograms of lunar rock and soil samples and deploying scientific instruments. The Saturn V was the rocket that carried Apollo astronauts toward the Moon. It stood 110.6 meters tall and remains the most powerful rocket to have flown successfully. It had three stages: the S-IC first stage, the S-II second stage, and the S-IVB third stage, which fired twice to send the spacecraft toward the Moon. Apollo 13 launched in April 1970 and was meant to be the third lunar landing. An oxygen tank in the service module exploded about two days into the flight, forcing the crew of Jim Lovell, Jack Swigert, and Fred Haise to abandon the landing. They used the lunar module Aquarius as a lifeboat and returned safely to Earth on April 17, 1970. The Apollo program had six successful crewed Moon landings: Apollo 11, 12, 14, 15, 16, and 17."
+    },
+    {
+      "id": "apollo_program.txt#002",
+      "source": "apollo_program.txt",
+      "chunk_index": 2,
+      "sha256": "b3414d9c007b6d2d9400f1e93c223d5c763c5571adfdf54b2f19381bb5d4cb33",
+      "text": "Earth on April 17, 1970. The Apollo program had six successful crewed Moon landings: Apollo 11, 12, 14, 15, 16, and 17. Apollo 17, in December 1972, was the last. Eugene Cernan was the last person to walk on the Moon. Twelve astronauts in total walked on the lunar surface. Apollo 1 ended in tragedy on January 27, 1967, when a cabin fire during a launch rehearsal killed astronauts Gus Grissom, Ed White, and Roger Chaffee. The fire led to major redesigns of the spacecraft, including a new hatch and a switch away from a pure oxygen atmosphere on the launch pad. Apollo 15, 16, and 17 carried the lunar roving vehicle, an electric car that let astronauts travel several kilometers from the lunar module. The total cost of the Apollo program was about 25.4 billion dollars at the time, which is roughly 250 billion dollars in modern currency."
+    },
+    {
+      "id": "c3_c4_cam_photosynthesis.txt#000",
+      "source": "c3_c4_cam_photosynthesis.txt",
+      "chunk_index": 0,
+      "sha256": "f891f821ab09026bd3ed6ea07a7237634201fab23d0762c027ac5586e24982c6",
+      "text": "Three ways to fix carbon: C3, C4, and CAM photosynthesis All green plants use the Calvin cycle to turn carbon dioxide into sugar, but they differ in how carbon dioxide reaches the cycle. Plants are grouped into three types according to the way they handle this first step: C3, C4, and CAM. The names refer to the number of carbon atoms in the first stable product, or in the case of CAM, to Crassulacean acid metabolism, a pathway first studied in members of the stonecrop family, Crassulaceae. The differences are mostly adaptations to heat, bright light, and water shortage, and they help to explain why certain plants dominate certain climates. C3 photosynthesis is the original and most common pathway. About 85 percent of plant species use it, including rice, wheat, barley, soybeans, potatoes, and nearly all trees. In a C3 plant, carbon dioxide that enters through the stomata is picked up"
+    },
+    {
+      "id": "c3_c4_cam_photosynthesis.txt#001",
+      "source": "c3_c4_cam_photosynthesis.txt",
+      "chunk_index": 1,
+      "sha256": "34b4dbbadc8006a2f0b660b1eeb3b6959b1804bc8f8ff4238fa73bb3758e90c0",
+      "text": "ey, soybeans, potatoes, and nearly all trees. In a C3 plant, carbon dioxide that enters through the stomata is picked up directly by the enzyme RuBisCO in the mesophyll cells of the leaf. RuBisCO attaches the carbon dioxide to a five-carbon sugar called ribulose bisphosphate, and the resulting six-carbon compound immediately splits into two molecules of the three-carbon acid 3-phosphoglycerate. Because this is the first stable product and has three carbons, the pathway is called C3. All of the reactions of the Calvin cycle occur in the stroma of the chloroplasts in the same cells. C3 plants have a weakness, which is that RuBisCO can also react with oxygen instead of carbon dioxide. When it does, the plant wastes energy and releases carbon dioxide in a process called photorespiration. The tendency for oxygen to compete with carbon dioxide rises with temperature, because warm leaves hold"
+    },
+    {
+      "id": "c3_c4_cam_photosynthesis.txt#002",
+      "source": "c3_c4_cam_photosynthesis.txt",
+      "chunk_index": 2,
+      "sha256": "0ed70a2170628b256878aa39f5255edccc3a53497b2d2beadd0381f1f1c05c22",
+      "text": "hotorespiration. The tendency for oxygen to compete with carbon dioxide rises with temperature, because warm leaves hold less dissolved carbon dioxide relative to oxygen, and because plants close their stomata on hot days, which causes carbon dioxide inside the leaf to fall and oxygen to build up. In hot weather, photorespiration can cut the efficiency of a C3 plant by a quarter or more. C3 plants therefore do best in cool, moist climates with moderate light, with an optimum temperature of roughly 15 to 25 degrees Celsius, and their photosynthesis levels off at moderate light intensities. C4 photosynthesis is an adaptation that largely avoids photorespiration. About 3 percent of plant species are C4 plants, but they account for around a quarter of the primary production on land because they include highly productive grasses such as maize, sugarcane, sorghum, and many tropical pasture"
+    },
+    {
+      "id": "c3_c4_cam_photosynthesis.txt#003",
+      "source": "c3_c4_cam_photosynthesis.txt",
+      "chunk_index": 3,
+      "sha256": "9d9916c40a0239e9b979d1e57cb70f2a95120d2dd3567b86e386229728e7e7b4",
+      "text": "tion on land because they include highly productive grasses such as maize, sugarcane, sorghum, and many tropical pasture grasses. Researchers Marshall Hatch and Charles Slack described the pathway in the mid-1960s, and it is sometimes called the Hatch-Slack pathway. The key to C4 photosynthesis is a division of labor between two kinds of cells. The leaves of C4 plants have a special wreath-like arrangement known as Kranz anatomy, in which a ring of bundle sheath cells surrounds each vein, and these are in turn surrounded by mesophyll cells. In the mesophyll cells, carbon dioxide is first captured by an enzyme called PEP carboxylase, not by RuBisCO. PEP carboxylase attaches carbon dioxide, in the form of bicarbonate, to a three-carbon molecule called phosphoenolpyruvate, producing the four-carbon acid oxaloacetate. Because the first stable product has four carbons, the pathway is called"
+    },
+    {
+      "id": "c3_c4_cam_photosynthesis.txt#004",
+      "source": "c3_c4_cam_photosynthesis.txt",
+      "chunk_index": 4,
+      "sha256": "4c7ee7bffe800e5da5625e157c7dc67e4b824ad528dbb8e197f1c3379f6a7401",
+      "text": "e, producing the four-carbon acid oxaloacetate. Because the first stable product has four carbons, the pathway is called C4. PEP carboxylase has a high affinity for carbon dioxide and does not react with oxygen, so it works well even when the stomata are partly closed. The four-carbon acid is converted to malate or aspartate and is moved into the bundle sheath cells, where it is broken down to release carbon dioxide. This pumps up the carbon dioxide concentration around RuBisCO to several times the normal level, so that RuBisCO almost always meets carbon dioxide rather than oxygen. The Calvin cycle then runs in the bundle sheath cells. The three-carbon remnant returns to the mesophyll, where it is converted back to phosphoenolpyruvate. This regeneration costs two extra ATP per carbon dioxide molecule, so a C4 plant uses about five ATP per carbon dioxide fixed, compared with three for a"
+    },
+    {
+      "id": "c3_c4_cam_photosynthesis.txt#005",
+      "source": "c3_c4_cam_photosynthesis.txt",
+      "chunk_index": 5,
+      "sha256": "9b85dc063c0f35c5fbe2c24f18ef2f4844a75ada1ebe02c3c2ed5177a24cb732",
+      "text": "a ATP per carbon dioxide molecule, so a C4 plant uses about five ATP per carbon dioxide fixed, compared with three for a C3 plant. The extra cost pays off in hot, bright conditions, but is a disadvantage in cool, shady ones. C4 plants have an optimum temperature of about 30 to 40 degrees Celsius, and their photosynthesis does not saturate even in full sunlight. Because C4 plants can fix carbon dioxide efficiently with their stomata only partly open, they lose less water for each gram of dry matter they make. Typical figures are that a C4 plant may use around 250 to 350 grams of water per gram of dry matter, while a C3 plant uses roughly 450 to 950 grams. That is why maize and sugarcane thrive in warm regions where the sun is strong. CAM photosynthesis is the strategy of plants in very dry environments. About 6 to 7 percent of species use CAM, including cacti, agave, pineapple, many"
+    },
+    {
+      "id": "c3_c4_cam_photosynthesis.txt#006",
+      "source": "c3_c4_cam_photosynthesis.txt",
+      "chunk_index": 6,
+      "sha256": "511fae2cbdcfd096030f01866b05b7a8abf6292441957d574c42ae0c6d4da2a1",
+      "text": "egy of plants in very dry environments. About 6 to 7 percent of species use CAM, including cacti, agave, pineapple, many orchids, and succulents such as Kalanchoe and the stonecrops. CAM plants do not separate the two steps in space, as C4 plants do, but in time. At night, when the air is cool and humid, the stomata open. Carbon dioxide enters the leaf and is captured by PEP carboxylase, forming oxaloacetate, which is converted to malate. The malate is stored as malic acid in the large central vacuole of the cell. As a result the cells become measurably more acidic by morning, which is a hallmark of CAM. During the day, the stomata close tightly to prevent loss of water. The malate leaves the vacuole and is broken down to release carbon dioxide inside the cell, where RuBisCO and the Calvin cycle use it with the help of ATP and NADPH from the light reactions, which operate in sunlight."
+    },
+    {
+      "id": "c3_c4_cam_photosynthesis.txt#007",
+      "source": "c3_c4_cam_photosynthesis.txt",
+      "chunk_index": 7,
+      "sha256": "735cd80cf8062c963b0b87420127e040f1009a45c5ddccdb631c479029798a11",
+      "text": "RuBisCO and the Calvin cycle use it with the help of ATP and NADPH from the light reactions, which operate in sunlight. This allows the plant to photosynthesize with its stomata shut during the heat of the day. CAM plants typically lose only a small amount of water, in the range of about 50 to 100 grams for each gram of dry matter. The price is slow growth, because the amount of carbon dioxide that can be stored in the vacuole at night is limited. This is why cacti and agaves grow slowly compared with maize. A comparison of the three pathways is useful. The first enzyme to capture carbon dioxide is RuBisCO in C3 plants and PEP carboxylase in both C4 and CAM plants. The Calvin cycle occurs in mesophyll cells in C3 plants, in bundle sheath cells in C4 plants, and in the same cells as the night-time capture in CAM plants. The separation of carbon dioxide capture from the Calvin cycle is"
+    },
+    {
+      "id": "c3_c4_cam_photosynthesis.txt#008",
+      "source": "c3_c4_cam_photosynthesis.txt",
+      "chunk_index": 8,
+      "sha256": "ccd2b6d65f8e85f5f6bd267093a1c3c564fe784ac6b6129019a26dc500ed7fb1",
+      "text": "he same cells as the night-time capture in CAM plants. The separation of carbon dioxide capture from the Calvin cycle is spatial in C4 plants and temporal in CAM plants. Stomata open during the day in C3 and C4 plants but open at night in CAM plants. The number of carbon atoms in the first product is three for C3 and four for the other two. Climate and evolution shape the distribution of these plants. C4 photosynthesis evolved independently many times, more than sixty separate times, beginning about 30 million years ago when atmospheric carbon dioxide had declined. The spread of C4 grasslands about 6 to 8 million years ago is thought to have influenced the diets of grazing animals, including early human ancestors. CAM has also evolved many times, and some plants can switch between CAM and C3 depending on the amount of available water. The stable isotopes of carbon provide a way to tell"
+    },
+    {
+      "id": "c3_c4_cam_photosynthesis.txt#009",
+      "source": "c3_c4_cam_photosynthesis.txt",
+      "chunk_index": 9,
+      "sha256": "6422ec7e1c2e3da4be50356bdc432cf5ece67ebff611ce24d9170da6b24e17d7",
+      "text": "witch between CAM and C3 depending on the amount of available water. The stable isotopes of carbon provide a way to tell the three types apart. RuBisCO discriminates against the heavier carbon-13 more than PEP carboxylase does, so C3 plants contain proportionately less carbon-13 than C4 plants, with CAM plants falling somewhere in between. Scientists use this fact to study ancient diets, because the carbon isotope ratio of an animal's bones and teeth reflects whether it ate mostly C3 or C4 plants. Crop science makes use of these differences. Because C4 crops are so efficient, researchers have tried to engineer the C4 pathway into rice, a C3 crop, in the hope of raising yields by up to half. The project involves reproducing Kranz anatomy or a similar arrangement and has been challenging. Another approach is to modify photorespiration in C3 crops so that the wasteful byproducts are"
+    },
+    {
+      "id": "c3_c4_cam_photosynthesis.txt#010",
+      "source": "c3_c4_cam_photosynthesis.txt",
+      "chunk_index": 10,
+      "sha256": "1ad3163da8ea7caf58ac79ab99a4e856dfe7b03554f820bb3281af2af732095c",
+      "text": "and has been challenging. Another approach is to modify photorespiration in C3 crops so that the wasteful byproducts are recycled faster, and field trials in tobacco have shown that this can increase growth. Climate change affects the three types differently. Rising carbon dioxide gives C3 plants a bigger advantage, since it suppresses photorespiration and gives RuBisCO more carbon dioxide to work with, while C4 plants already concentrate carbon dioxide and benefit less. Higher temperatures and drought, on the other hand, tend to favor C4 and CAM plants. In many places the net effect depends on local conditions. To connect this with the basic process, remember that all three pathways rely on the same light reactions in the thylakoid membranes, where water is split and oxygen is released, and on the Calvin cycle in the stroma of the chloroplast, where RuBisCO assembles sugar from carbon"
+    },
+    {
+      "id": "c3_c4_cam_photosynthesis.txt#011",
+      "source": "c3_c4_cam_photosynthesis.txt",
+      "chunk_index": 11,
+      "sha256": "10abfca6e3b4e08f56f26e9330733ea3f338b738df488771a0db64a3b74fe1e4",
+      "text": "oxygen is released, and on the Calvin cycle in the stroma of the chloroplast, where RuBisCO assembles sugar from carbon dioxide. The pathways differ only in how carbon dioxide is delivered to RuBisCO. Respiration, by contrast, takes place in the mitochondria and releases carbon dioxide rather than consuming it. In a leaf during the day, the rate of photosynthesis normally far exceeds the rate of respiration, so the plant is a net consumer of carbon dioxide. At night, without light, only respiration continues, and the plant releases carbon dioxide, with the exception of CAM plants, which take in carbon dioxide at night while their stomata are open. The details of photorespiration show why it is so costly. When RuBisCO attaches oxygen to ribulose bisphosphate, it produces one molecule of 3-phosphoglycerate and one molecule of a two-carbon compound called phosphoglycolate, which is toxic"
+    },
+    {
+      "id": "c3_c4_cam_photosynthesis.txt#012",
+      "source": "c3_c4_cam_photosynthesis.txt",
+      "chunk_index": 12,
+      "sha256": "0978405aa7e28eac1718063b32b7e7f0e0c101a2da1ffb8b3d06fe880f345e0a",
+      "text": "ces one molecule of 3-phosphoglycerate and one molecule of a two-carbon compound called phosphoglycolate, which is toxic to the plant and cannot enter the Calvin cycle. The plant must salvage the carbon through a series of reactions that occur in three organelles, the chloroplast, the peroxisome, and the mitochondrion. The salvage pathway releases carbon dioxide and consumes ATP, and it loses ammonia that must be recaptured. In a hot dry day the loss can be a large portion of what was just fixed. RuBisCO evolved when the atmosphere contained little oxygen and much more carbon dioxide, which explains why it handles oxygen so poorly. It is also a very slow enzyme, handling only about three molecules of carbon dioxide per second, so plants have to make huge amounts of it. RuBisCO can make up about half of the soluble protein in a leaf. Examples from agriculture illustrate the differences."
+    },
+    {
+      "id": "c3_c4_cam_photosynthesis.txt#013",
+      "source": "c3_c4_cam_photosynthesis.txt",
+      "chunk_index": 13,
+      "sha256": "b1dfc4ab3d3a1a29d204c5bf7bcbd6f417cacca60701345c98f8b97fa472058f",
+      "text": ". RuBisCO can make up about half of the soluble protein in a leaf. Examples from agriculture illustrate the differences. Wheat and rice are grown widely in temperate and subtropical regions and rely on C3 photosynthesis. Maize, sugarcane, and sorghum are C4 crops whose yields are among the highest of any cereals per hectare. Pineapple is the best-known CAM crop, and farmers can plant it in dry soil because its leaves lose so little water. Agave is grown for tequila and fiber and thrives in desert land. The weed crabgrass, a C4 plant, tends to take over lawns in midsummer when cool-season C3 grasses such as bluegrass are stressed by heat, and this is why lawn care advice differs by season. The leaf anatomy of C3 and C4 plants can be told apart under a microscope. In a C3 leaf the chloroplasts are found mainly in the mesophyll cells, and the cells around the veins have few. In a C4 leaf,"
+    },
+    {
+      "id": "c3_c4_cam_photosynthesis.txt#014",
+      "source": "c3_c4_cam_photosynthesis.txt",
+      "chunk_index": 14,
+      "sha256": "ee24fa9f10ed3a1db898db78c29e5f38af2cb067120843fd4efa766b7802fffa",
+      "text": "C3 leaf the chloroplasts are found mainly in the mesophyll cells, and the cells around the veins have few. In a C4 leaf, the bundle sheath cells around the veins contain many large chloroplasts, giving the wreath pattern. CAM plants often have thick, fleshy leaves or stems with large vacuoles and a thick waxy cuticle, and sometimes a reduced surface area, as in the spines of a cactus, which are modified leaves, while the green stem does the photosynthesis. Some plants are intermediate. Certain species show C3-C4 intermediate photosynthesis, in which a partial recycling of carbon dioxide released by photorespiration reduces losses. These plants are thought to resemble the evolutionary steps that led to full C4 photosynthesis. In the ice plant, Mesembryanthemum crystallinum, CAM can be switched on when the plant is stressed by salt or drought, which shows that the pathway can be regulated"
+    },
+    {
+      "id": "c3_c4_cam_photosynthesis.txt#015",
+      "source": "c3_c4_cam_photosynthesis.txt",
+      "chunk_index": 15,
+      "sha256": "42817c70b4e0bb8bf9e925ae2fc026c5c4ed55ceb934cca987bc31f3291c41c6",
+      "text": "num, CAM can be switched on when the plant is stressed by salt or drought, which shows that the pathway can be regulated and is not fixed."
+    },
+    {
+      "id": "cellular_respiration_and_cell_division.txt#000",
+      "source": "cellular_respiration_and_cell_division.txt",
+      "chunk_index": 0,
+      "sha256": "b4932d703db86ed9625bf0d249d72f42064df443bba74441083afcd4e8e56c77",
+      "text": "Cellular respiration, mitosis, and meiosis PART ONE: CELLULAR RESPIRATION Cellular respiration is the set of reactions by which cells extract energy from food molecules and store it in a form that can be used for work. The most common fuel is glucose. In the presence of oxygen, one molecule of glucose is broken down to carbon dioxide and water, and the energy released is used to make adenosine triphosphate, or ATP, the main energy currency of the cell. In its simplest form the overall reaction is the reverse of photosynthesis: glucose plus oxygen gives carbon dioxide plus water plus energy. Respiration occurs in nearly all living cells, in plants as well as animals, and it happens day and night. Plants do not rely on photosynthesis alone, because the sugars they make must still be burned in respiration to power growth and transport. Respiration has four main stages: glycolysis, pyruvate"
+    },
+    {
+      "id": "cellular_respiration_and_cell_division.txt#001",
+      "source": "cellular_respiration_and_cell_division.txt",
+      "chunk_index": 1,
+      "sha256": "40af32efa3269f38d3602d12d592c4667e66b1e2f8781c9913e026e38f90e23a",
+      "text": "ust still be burned in respiration to power growth and transport. Respiration has four main stages: glycolysis, pyruvate oxidation, the citric acid cycle, and oxidative phosphorylation. The first stage takes place in the cytosol, the fluid part of the cell outside the organelles, while the last three take place inside the mitochondria. This division of labor reflects the evolutionary history of the mitochondrion, which is thought to descend from a free-living bacterium that was engulfed by an ancestor of modern cells. Mitochondria are surrounded by two membranes, have their own small circular DNA, and divide independently of the cell. The inner membrane is folded into ridges called cristae, which increase the surface area available for the electron transport machinery. The fluid inside the inner membrane is called the matrix. Glycolysis means the splitting of sugar. It is a sequence of"
+    },
+    {
+      "id": "cellular_respiration_and_cell_division.txt#002",
+      "source": "cellular_respiration_and_cell_division.txt",
+      "chunk_index": 2,
+      "sha256": "c1bbe2b0fa2cbe6de704d051a019e743cc52e1659b396399b059cd11b710a475",
+      "text": ". The fluid inside the inner membrane is called the matrix. Glycolysis means the splitting of sugar. It is a sequence of ten enzyme-catalyzed steps that converts one six-carbon glucose molecule into two three-carbon molecules of pyruvate. The first step is carried out by the enzyme hexokinase, which adds a phosphate group to glucose and traps it inside the cell. The step that is most important for regulation is catalyzed by phosphofructokinase, an enzyme that is slowed down when ATP is abundant and sped up when ATP is scarce, so that the cell burns sugar in proportion to its need. The early steps use up two ATP molecules as an investment, and the later steps produce four ATP, so the net gain is two ATP per glucose. Glycolysis also produces two molecules of NADH, a carrier of high-energy electrons. It does not require oxygen, which makes it the oldest and most universal energy-releasing"
+    },
+    {
+      "id": "cellular_respiration_and_cell_division.txt#003",
+      "source": "cellular_respiration_and_cell_division.txt",
+      "chunk_index": 3,
+      "sha256": "24245aa078ef012d16709cb3509813b141efbce99298396548050ba2ea183e8d",
+      "text": "rier of high-energy electrons. It does not require oxygen, which makes it the oldest and most universal energy-releasing pathway. When oxygen is available, pyruvate is carried into the mitochondrial matrix. There the pyruvate dehydrogenase complex removes one carbon as carbon dioxide and attaches the remaining two-carbon fragment to a carrier called coenzyme A, producing acetyl-CoA. This step also generates one NADH for each pyruvate, so two NADH per glucose. It is sometimes called the link reaction because it connects glycolysis to the citric acid cycle. The citric acid cycle is also called the Krebs cycle, after Hans Krebs, who worked out its steps in 1937. It takes place in the mitochondrial matrix. Acetyl-CoA joins with a four-carbon molecule, oxaloacetate, to form the six-carbon citrate; the reaction is catalyzed by the enzyme citrate synthase. Through a series of rearrangements"
+    },
+    {
+      "id": "cellular_respiration_and_cell_division.txt#004",
+      "source": "cellular_respiration_and_cell_division.txt",
+      "chunk_index": 4,
+      "sha256": "8ff8eac564f7c399a7738a88f462ce7a643207b4985fb8d70caaa99e3462c872",
+      "text": "orm the six-carbon citrate; the reaction is catalyzed by the enzyme citrate synthase. Through a series of rearrangements the citrate loses two carbons as carbon dioxide, and oxaloacetate is regenerated so that the cycle can turn again. For each turn of the cycle, the cell makes three NADH, one FADH2, and one molecule of ATP or GTP. Since each glucose molecule yields two acetyl-CoA, the cycle turns twice per glucose, producing six NADH, two FADH2, and two ATP in total. By the end of the cycle all six carbons of the original glucose have left the cell as carbon dioxide. Most of the ATP is made in the final stage, oxidative phosphorylation, which takes place at the inner mitochondrial membrane. NADH and FADH2 deliver their electrons to a chain of protein complexes, labeled complex I through complex IV, embedded in the membrane. As electrons pass from one complex to the next, the complexes"
+    },
+    {
+      "id": "cellular_respiration_and_cell_division.txt#005",
+      "source": "cellular_respiration_and_cell_division.txt",
+      "chunk_index": 5,
+      "sha256": "afa61eb640205ad457f25caf5157804055941bcdd84d8a3e6b2f5cbb5bf3f3b8",
+      "text": "ed complex I through complex IV, embedded in the membrane. As electrons pass from one complex to the next, the complexes pump protons out of the matrix into the space between the two membranes. This builds up a gradient, with a high concentration of protons outside and a low concentration inside. At the end of the chain the electrons are handed to molecular oxygen, which is the final electron acceptor, and combine with protons to form water. That is the reason humans need to breathe oxygen. The proton gradient stores energy like water behind a dam. The protons flow back into the matrix through a rotary enzyme called ATP synthase, and the flow drives the enzyme to attach phosphate to ADP and make ATP. This coupling of electron transport to ATP synthesis through a proton gradient is known as chemiosmosis, an idea proposed by Peter Mitchell in 1961, for which he received the Nobel Prize in"
+    },
+    {
+      "id": "cellular_respiration_and_cell_division.txt#006",
+      "source": "cellular_respiration_and_cell_division.txt",
+      "chunk_index": 6,
+      "sha256": "30672ee32cfee5dad7a2c2aac03adf10d504c6a9c5ca27e2b485b9e42647a61b",
+      "text": "gradient is known as chemiosmosis, an idea proposed by Peter Mitchell in 1961, for which he received the Nobel Prize in 1978. A very similar mechanism operates in the thylakoid membranes of chloroplasts during photosynthesis, but in chloroplasts the gradient is built with energy from light, and the ATP synthase releases ATP into the stroma. The total ATP yield from one glucose molecule is about 30 to 32. Older textbooks gave a figure of 36 or 38, but later measurements showed that the cost of moving ATP and other molecules across the mitochondrial membranes reduces the net gain. The tally is roughly 2 ATP from glycolysis, 2 from the citric acid cycle, and the remainder from oxidative phosphorylation, which accounts for about 26 to 28 of the total. Each NADH is worth about 2.5 ATP and each FADH2 about 1.5 ATP. When oxygen is not available, cells cannot run the electron transport chain,"
+    },
+    {
+      "id": "cellular_respiration_and_cell_division.txt#007",
+      "source": "cellular_respiration_and_cell_division.txt",
+      "chunk_index": 7,
+      "sha256": "9aef756975cd3d2341b12bc1cb35a115f4add2879c8621a37a39ed17a6f0fa9a",
+      "text": "about 2.5 ATP and each FADH2 about 1.5 ATP. When oxygen is not available, cells cannot run the electron transport chain, and NADH builds up. To keep glycolysis going, cells use fermentation, which regenerates the NAD+ that glycolysis needs but yields only the 2 ATP from glycolysis. In animals, including humans during intense exercise, pyruvate is converted to lactate by the enzyme lactate dehydrogenase. In yeast, pyruvate is first converted to acetaldehyde by pyruvate decarboxylase, releasing carbon dioxide, and then to ethanol by alcohol dehydrogenase. This is the basis for brewing and the rising of bread dough. Fermentation is much less efficient than aerobic respiration, because it extracts only a small fraction of the energy in glucose. Respiration is tightly regulated. High levels of ATP and NADH slow the key enzymes of glycolysis and the citric acid cycle, while high levels of ADP"
+    },
+    {
+      "id": "cellular_respiration_and_cell_division.txt#008",
+      "source": "cellular_respiration_and_cell_division.txt",
+      "chunk_index": 8,
+      "sha256": "27dbc5735da8f9b0946efd7ccc5caf299dbbe4a99cdd4aa9ce43af05c93025b3",
+      "text": "ated. High levels of ATP and NADH slow the key enzymes of glycolysis and the citric acid cycle, while high levels of ADP speed them up. Fats and proteins can also be burned: fatty acids are chopped into two-carbon pieces that enter the cycle as acetyl-CoA, which is why a gram of fat yields more than twice the energy of a gram of carbohydrate. PART TWO: MITOSIS Cells grow and reproduce through a regular sequence of events called the cell cycle. In a typical human cell the cycle takes about 24 hours. It is divided into interphase and the mitotic phase. Interphase has three parts: G1, during which the cell grows and carries out its normal functions; S phase, during which the DNA is copied; and G2, during which the cell prepares to divide. Mitosis itself, with cytokinesis, makes up only about an hour of the cycle. Progress through the cycle is controlled by checkpoints at the end of G1, at"
+    },
+    {
+      "id": "cellular_respiration_and_cell_division.txt#009",
+      "source": "cellular_respiration_and_cell_division.txt",
+      "chunk_index": 9,
+      "sha256": "ab8f2b1232f464b18662ec478387121d3945d03ceb900c35bb87779bf0e07650",
+      "text": ", makes up only about an hour of the cycle. Progress through the cycle is controlled by checkpoints at the end of G1, at the end of G2, and during mitosis. The proteins that drive the cell through these checkpoints are cyclins and cyclin-dependent kinases. The tumor suppressor protein p53 can halt the cycle when DNA is damaged, and when this control fails the result can be cancer. After the S phase each chromosome consists of two identical sister chromatids joined at a region called the centromere. Mitosis separates these chromatids into two daughter nuclei, and it has four classic stages, which students often remember with the abbreviation PMAT. In prophase the chromosomes condense and become visible, the nuclear envelope breaks down, and the spindle begins to form from structures called centrosomes. In metaphase the chromosomes line up along the middle of the cell, called the"
+    },
+    {
+      "id": "cellular_respiration_and_cell_division.txt#010",
+      "source": "cellular_respiration_and_cell_division.txt",
+      "chunk_index": 10,
+      "sha256": "3534b612c9cd79b812fa340c72aa370a0555f79690b4d4b388b722db74642417",
+      "text": "o form from structures called centrosomes. In metaphase the chromosomes line up along the middle of the cell, called the metaphase plate, and spindle fibers attach to a protein structure at each centromere called the kinetochore. In anaphase the sister chromatids are pulled apart and move to opposite poles, each now counted as a separate chromosome. In telophase two new nuclear envelopes form, the chromosomes uncoil, and the spindle disappears. Cytokinesis, the division of the cytoplasm, usually begins during late anaphase or telophase. In animal cells a ring of protein filaments tightens like a drawstring and pinches the cell in two, forming a cleavage furrow. In plant cells there is a rigid wall, so instead a cell plate forms in the middle of the cell, grows outward, and becomes a new wall between the two daughter cells. The result of mitosis is two daughter cells that are genetically"
+    },
+    {
+      "id": "cellular_respiration_and_cell_division.txt#011",
+      "source": "cellular_respiration_and_cell_division.txt",
+      "chunk_index": 11,
+      "sha256": "816b2c4a71c84590f9ca900b88fff46f6b0c4b8b68a26f7866a4dc6d58408209",
+      "text": "and becomes a new wall between the two daughter cells. The result of mitosis is two daughter cells that are genetically identical to the parent and to each other. A human body cell has 46 chromosomes, arranged in 23 pairs, which is called the diploid number. After mitosis, each daughter cell also has 46 chromosomes. Mitosis is used for growth, for repair of tissue, and for asexual reproduction in many single-celled organisms. It involves one round of nuclear division. PART THREE: MEIOSIS Meiosis is a different kind of cell division that makes sex cells, called gametes. In humans these are sperm and eggs. Meiosis halves the number of chromosomes, so that when a sperm fertilizes an egg, the full number is restored in the offspring. A human gamete has 23 chromosomes, which is the haploid number. Unlike mitosis, meiosis involves two successive divisions, called meiosis I and meiosis II,"
+    },
+    {
+      "id": "cellular_respiration_and_cell_division.txt#012",
+      "source": "cellular_respiration_and_cell_division.txt",
+      "chunk_index": 12,
+      "sha256": "4a8a66ac9bc259ac870372b94875b50f8056dc4a26ed718dc8da4d7014554161",
+      "text": "which is the haploid number. Unlike mitosis, meiosis involves two successive divisions, called meiosis I and meiosis II, with only one round of DNA replication before them. One diploid cell therefore ends up as four haploid cells. In meiosis I, the homologous chromosomes, one from the mother and one from the father, find each other and pair up in prophase I. This pairing is called synapsis, and the resulting group of four chromatids is called a tetrad or bivalent. While paired, the homologous chromosomes swap segments in a process called crossing over, which occurs at points called chiasmata. Crossing over shuffles the genes between maternal and paternal chromosomes and is a major source of genetic variety. In metaphase I the tetrads line up along the middle of the cell in pairs, not as single chromosomes as in mitosis. In anaphase I the homologous chromosomes are separated and pulled"
+    },
+    {
+      "id": "cellular_respiration_and_cell_division.txt#013",
+      "source": "cellular_respiration_and_cell_division.txt",
+      "chunk_index": 13,
+      "sha256": "ad5851871fe49748485a5f663fb6a6cf14ffd50bad527c177b5388d2b3e7024e",
+      "text": "ell in pairs, not as single chromosomes as in mitosis. In anaphase I the homologous chromosomes are separated and pulled to opposite poles, but the sister chromatids stay joined. The cell then divides into two cells that are each haploid, although each chromosome still has two chromatids. Meiosis II resembles mitosis. The chromosomes line up singly in metaphase II, and in anaphase II the sister chromatids finally separate. After the second division there are four haploid cells, each with 23 single chromosomes in humans. Because of crossing over and the random way the homologous pairs line up at metaphase I, which is called independent assortment, each of the four cells is genetically different. With 23 pairs of chromosomes, independent assortment alone can produce more than 8 million combinations, about 2 to the power of 23. Errors in meiosis can cause serious conditions. If chromosomes"
+    },
+    {
+      "id": "cellular_respiration_and_cell_division.txt#014",
+      "source": "cellular_respiration_and_cell_division.txt",
+      "chunk_index": 14,
+      "sha256": "240b9c916c4e6db1d1b0f7bc2177322fffe143b58494de6bc1c0459c409c09a3",
+      "text": "than 8 million combinations, about 2 to the power of 23. Errors in meiosis can cause serious conditions. If chromosomes fail to separate properly, a phenomenon called nondisjunction, a gamete may end up with an extra or missing chromosome. The most familiar example is Down syndrome, which usually results from three copies of chromosome 21. The risk increases with the age of the mother because human eggs remain paused in meiosis for decades. There are also differences between the production of sperm and eggs. In males, spermatogenesis produces four functional sperm cells from each cell that enters meiosis. In females, oogenesis divides the cytoplasm unequally, so each cell entering meiosis yields one large egg and two or three tiny cells called polar bodies, which degenerate. The egg is arrested at prophase I before birth and completes meiosis II only if it is fertilized. A direct"
+    },
+    {
+      "id": "cellular_respiration_and_cell_division.txt#015",
+      "source": "cellular_respiration_and_cell_division.txt",
+      "chunk_index": 15,
+      "sha256": "c3a2664e0a0297eed19d7348989963d40843fbe2895aa429b247fc8f73dcf0e2",
+      "text": "h degenerate. The egg is arrested at prophase I before birth and completes meiosis II only if it is fertilized. A direct comparison of mitosis and meiosis is a favorite exam topic. Mitosis has one division, while meiosis has two. Mitosis produces two cells, while meiosis produces four. Mitotic daughter cells are diploid and identical, while meiotic cells are haploid and different from each other. Crossing over and synapsis happen only in meiosis. Mitosis occurs in body cells, and meiosis occurs only in the reproductive organs. In both processes the DNA is copied just once, in the S phase of interphase. Compare also the locations of events in respiration with those in photosynthesis. Glycolysis happens in the cytosol, the citric acid cycle happens in the mitochondrial matrix, and the electron transport chain is in the inner mitochondrial membrane. In photosynthesis, the light reactions"
+    },
+    {
+      "id": "cellular_respiration_and_cell_division.txt#016",
+      "source": "cellular_respiration_and_cell_division.txt",
+      "chunk_index": 16,
+      "sha256": "5d9da8d8ea86582415312679b4b48ab42cccc565dad8589208f1f0048d5f3faa",
+      "text": "matrix, and the electron transport chain is in the inner mitochondrial membrane. In photosynthesis, the light reactions happen in the thylakoid membranes and the Calvin cycle takes place in the stroma. The enzyme at the heart of respiration's final step is ATP synthase, while the signature enzyme of the Calvin cycle is RuBisCO. ATP itself is a small molecule made of adenine, the sugar ribose, and three phosphate groups. The energy is stored in the bond between the second and third phosphates. When the cell needs energy, an enzyme called an ATPase removes the last phosphate, producing ADP and releasing about 30 kilojoules per mole. A typical person turns over roughly their own body weight in ATP every day, because each molecule is used and recycled many times, each one thousands of times per day. Muscles also hold a small reserve of creatine phosphate, which can quickly regenerate ATP"
+    },
+    {
+      "id": "cellular_respiration_and_cell_division.txt#017",
+      "source": "cellular_respiration_and_cell_division.txt",
+      "chunk_index": 17,
+      "sha256": "620ef8e5e8c8b0dc3a4f4af62b5f8e339ee0b1dd79cd9570baddd34d9674de57",
+      "text": "ne thousands of times per day. Muscles also hold a small reserve of creatine phosphate, which can quickly regenerate ATP during the first seconds of a sprint. During hard exercise the muscle cells may use oxygen faster than it can be delivered, and they switch partly to lactic acid fermentation. The lactate that builds up was once blamed for sore muscles, but later research showed that it is cleared fairly quickly and is itself used as a fuel by the heart and other tissues. After a hard effort, breathing stays rapid because the body must pay back an oxygen debt, which is the extra oxygen needed to restore ATP, creatine phosphate, and normal metabolism. Athletes who train for endurance have more mitochondria in their muscle cells, which gives them a larger capacity for aerobic respiration. Poisons often act on the respiratory machinery. Cyanide and carbon monoxide bind to complex IV of"
+    },
+    {
+      "id": "cellular_respiration_and_cell_division.txt#018",
+      "source": "cellular_respiration_and_cell_division.txt",
+      "chunk_index": 18,
+      "sha256": "041c087503781b7f4d42bcee297b16cf04c688d9c43ace900adb3d1de06f3cac",
+      "text": "r aerobic respiration. Poisons often act on the respiratory machinery. Cyanide and carbon monoxide bind to complex IV of the electron transport chain and stop it from passing electrons to oxygen, which halts ATP production and kills cells within minutes. The compound 2,4-dinitrophenol makes the inner membrane leaky to protons, so energy from the gradient is lost as heat rather than used to make ATP. Brown fat tissue does this deliberately with a protein called thermogenin, or UCP1, to keep newborn babies and hibernating animals warm. Inherited defects in mitochondrial DNA cause diseases that mainly affect organs with high energy demands, such as the brain, heart, and muscle. Mitochondrial DNA is inherited from the mother, because the egg contributes nearly all of the mitochondria to the embryo. A bookkeeping summary helps to compare the stages. Glycolysis, in the cytosol, nets 2 ATP and"
+    },
+    {
+      "id": "cellular_respiration_and_cell_division.txt#019",
+      "source": "cellular_respiration_and_cell_division.txt",
+      "chunk_index": 19,
+      "sha256": "97d3d80ac97bb890a7f7f8bf53098cf46c4ef1cb3b6813c927319466c4999c9c",
+      "text": "itochondria to the embryo. A bookkeeping summary helps to compare the stages. Glycolysis, in the cytosol, nets 2 ATP and 2 NADH per glucose. Pyruvate oxidation, in the matrix, yields 2 NADH. The citric acid cycle, also in the matrix, gives 2 ATP, 6 NADH, and 2 FADH2. Altogether this makes 10 NADH and 2 FADH2 per glucose, which feed the electron transport chain at the inner membrane. Carbon dioxide is released at two places, the pyruvate oxidation step and the citric acid cycle, and oxygen is used only at the very end of the electron transport chain. Water is produced at that last step. The cell cycle can also go wrong in other ways. Cells that stop dividing permanently enter a state called G0. Nerve cells and most heart muscle cells stay there for life, while liver cells can re-enter the cycle if the liver is damaged. Cancer cells ignore the normal checkpoints and divide without limit,"
+    },
+    {
+      "id": "cellular_respiration_and_cell_division.txt#020",
+      "source": "cellular_respiration_and_cell_division.txt",
+      "chunk_index": 20,
+      "sha256": "9a5c5a725d05b3f10f996ae1d959470c4d581d04f2cabe2a14cf1cc4d0b882e7",
+      "text": "lls can re-enter the cycle if the liver is damaged. Cancer cells ignore the normal checkpoints and divide without limit, and many chemotherapy drugs work by interfering with the spindle, as taxol does by freezing it in place, or by damaging DNA in cells that divide rapidly. Normal tissues that divide quickly, such as hair follicles and the lining of the gut, are also affected, which explains the side effects of these treatments. Cells in the body typically divide a limited number of times. The biologist Leonard Hayflick found in 1961 that human fibroblast cells grown in the laboratory divide about 40 to 60 times before stopping. The reason is that the ends of chromosomes, called telomeres, shorten with each division. An enzyme called telomerase can rebuild telomeres, and it is active in stem cells, germ cells, and most cancer cells. In plants, mitosis is concentrated in regions called"
+    },
+    {
+      "id": "cellular_respiration_and_cell_division.txt#021",
+      "source": "cellular_respiration_and_cell_division.txt",
+      "chunk_index": 21,
+      "sha256": "6affccee4a5883cbb1f34397889aa8a76da1d9093f22697f2f19fb0d2fc8eef5",
+      "text": "and it is active in stem cells, germ cells, and most cancer cells. In plants, mitosis is concentrated in regions called meristems, found at the tips of roots and shoots. In a classic school experiment, thin slices of an onion root tip are stained and examined under a microscope to count how many cells are in each phase. Because most cells are found in interphase, it can be estimated that interphase takes up the largest part of the cell cycle, and mitosis is brief."
+    },
+    {
+      "id": "mercury_gemini.txt#000",
+      "source": "mercury_gemini.txt",
+      "chunk_index": 0,
+      "sha256": "5e9e01b6acd45e92b2f0fb1ff28d7eb6375ba4e988548791e562e3851e77df06",
+      "text": "Project Mercury and Project Gemini: America's first steps into orbit Project Mercury was the first American program to put people into space. Its goal was simple: orbit a crewed spacecraft around the Earth, observe how a person functions there, and recover both the person and the spacecraft safely. Seven men were selected in 1959 as the Mercury astronauts: Scott Carpenter, Gordon Cooper, John Glenn, Gus Grissom, Wally Schirra, Alan Shepard, and Deke Slayton. Slayton was grounded for a heart irregularity and never flew a Mercury mission. The program flew six crewed missions between 1961 and 1963. The capsule was a small cone just big enough for one person, who lay on a contoured couch facing the instrument panel with a heat shield at his back. The first crewed flight was Freedom 7. Alan Shepard lifted off on May 5, 1961, on a Redstone rocket, flew a suborbital arc up to about 187"
+    },
+    {
+      "id": "mercury_gemini.txt#001",
+      "source": "mercury_gemini.txt",
+      "chunk_index": 1,
+      "sha256": "007f25f1cc7a74b2c92b48da7ef23a0f20dfdaf1634ec943a7939731bb435b1e",
+      "text": "light was Freedom 7. Alan Shepard lifted off on May 5, 1961, on a Redstone rocket, flew a suborbital arc up to about 187 kilometers, and landed in the Atlantic Ocean after a flight of about fifteen minutes and twenty-two seconds. He did not go into orbit. His flight came just weeks after the Soviet cosmonaut Yuri Gagarin made a full orbit on April 12, 1961, so Shepard's short flight was seen as a catch-up step. Shepard was the first American in space, but not the first person. The second flight, Liberty Bell 7, was also suborbital. Gus Grissom flew it on July 21, 1961, atop a Redstone. After splashdown the explosive hatch blew off before the recovery helicopter had hooked the capsule, and water poured in. Grissom escaped and nearly drowned when his suit began filling with water. The capsule sank in deep water and was not recovered until 1999, when a search team raised it from the"
+    },
+    {
+      "id": "mercury_gemini.txt#002",
+      "source": "mercury_gemini.txt",
+      "chunk_index": 2,
+      "sha256": "265a123b1baf449843b46fc173b8219e604defe4a8abf837ed947a1b62ed4ce5",
+      "text": "lling with water. The capsule sank in deep water and was not recovered until 1999, when a search team raised it from the Atlantic seabed. The flight lasted about fifteen minutes and thirty-seven seconds. The first American orbital flight was Friendship 7 on February 20, 1962. John Glenn rode an Atlas rocket, which was strong enough to reach orbital speed, and completed three orbits in about four hours and fifty-five minutes. During the second orbit, a sensor falsely indicated that the heat shield had come loose. Controllers decided to leave the retrorocket package strapped on over the shield during reentry, in case it helped hold the shield in place, and Glenn watched burning fragments streak past his window. The heat shield was actually fine. Glenn became a national hero, and in 1998 he flew again on the Space Shuttle at the age of 77. Aurora 7 followed on May 24, 1962, with Scott"
+    },
+    {
+      "id": "mercury_gemini.txt#003",
+      "source": "mercury_gemini.txt",
+      "chunk_index": 3,
+      "sha256": "e1e857d82601cabcd9c0b62e27057a3fcd6cf72ed869e51755d98207ce04f49b",
+      "text": "nal hero, and in 1998 he flew again on the Space Shuttle at the age of 77. Aurora 7 followed on May 24, 1962, with Scott Carpenter, who also made three orbits. Carpenter was busy with experiments and used more fuel than planned for his attitude control thrusters. A misaligned spacecraft at retrofire made the capsule overshoot its planned landing area by about 400 kilometers, and he floated in his life raft for several hours before rescuers found him. Sigma 7 was flown by Wally Schirra on October 3, 1962, and was a deliberately careful engineering flight. Schirra orbited six times in about nine hours and thirteen minutes and used a minimum of fuel, and he splashed down within a few kilometers of the waiting recovery ship. The final Mercury mission, Faith 7, flew on May 15 and 16, 1963, with Gordon Cooper. He completed twenty-two orbits in a little over thirty-four hours, the first"
+    },
+    {
+      "id": "mercury_gemini.txt#004",
+      "source": "mercury_gemini.txt",
+      "chunk_index": 4,
+      "sha256": "e32bf1cb4ccc6fcbdabc21cd15befd9089df9981485ce18bdeda4fe35226f699",
+      "text": "on May 15 and 16, 1963, with Gordon Cooper. He completed twenty-two orbits in a little over thirty-four hours, the first American flight to last more than a day. During the final orbits several systems failed, including the automatic controls and a power inverter. Cooper flew the reentry manually, using a wristwatch and sighting stars through the window, and landed very near the target ship. After this flight, NASA said Mercury had shown that people could live and work in space for a day and decided that the next step needed a more capable spacecraft. Project Gemini bridged the gap between Mercury and Apollo. It used a two-person capsule launched by a Titan II rocket and was designed to practice the skills that a lunar landing would need: long-duration flight, rendezvous and docking, and working outside the spacecraft. The program flew ten crewed missions, from Gemini 3 in March 1965 to"
+    },
+    {
+      "id": "mercury_gemini.txt#005",
+      "source": "mercury_gemini.txt",
+      "chunk_index": 5,
+      "sha256": "0545477a15e88e7d4de9865b15b0e57eefe27c21673470617bbc5759593d8209",
+      "text": "us and docking, and working outside the spacecraft. The program flew ten crewed missions, from Gemini 3 in March 1965 to Gemini 12 in November 1966, plus two earlier uncrewed tests. Gemini 3 launched on March 23, 1965, with Gus Grissom and John Young. It completed three orbits in about four hours and fifty-three minutes. Grissom nicknamed the capsule Molly Brown, a joking reference to his sunken Liberty Bell 7 capsule, and NASA officials disliked the name enough that later crews were told to use official designations only. Young also smuggled a corned beef sandwich aboard, which caused embarrassment when crumbs floated around the cabin. Gemini 4 flew from June 3 to June 7, 1965, with James McDivitt and Edward White. On the third orbit, White opened his hatch and became the first American to walk in space, spending about twenty minutes outside, tethered to the spacecraft with a"
+    },
+    {
+      "id": "mercury_gemini.txt#006",
+      "source": "mercury_gemini.txt",
+      "chunk_index": 6,
+      "sha256": "5a6f8652dbe274caaa89ec0d6372dacb5ee16ea4adf1352f49807496178b584d",
+      "text": "and became the first American to walk in space, spending about twenty minutes outside, tethered to the spacecraft with a gold-coated umbilical line and moving with a hand-held oxygen jet gun. He enjoyed the experience so much that he was reluctant to come back inside. The mission lasted four days, much longer than any American flight so far. Gemini 5 launched on August 21, 1965, and lasted almost eight days, ending on August 29, 1965. Gordon Cooper and Pete Conrad were on board. The mission proved that fuel cells could produce electricity for a long flight, and it showed that crews could survive in space for the duration of a lunar mission, which would be about eight days. A fuel cell pressure problem forced the crew to cancel a planned rendezvous exercise. Gemini 7 took off on December 4, 1965, with Frank Borman and Jim Lovell, and stayed up for nearly fourteen days, landing on"
+    },
+    {
+      "id": "mercury_gemini.txt#007",
+      "source": "mercury_gemini.txt",
+      "chunk_index": 7,
+      "sha256": "2dbbfcfc8d887ade5bca8408f489c7615afdb232019e9b7ef20521da3256dd7f",
+      "text": "ini 7 took off on December 4, 1965, with Frank Borman and Jim Lovell, and stayed up for nearly fourteen days, landing on December 18, 1965. This was a deliberate endurance test to prove that people could survive a flight as long as a round trip to the Moon. The two men were in a space about the size of the front seat of a small car, and they took off their bulky suits for much of the flight, a procedure that had been tested for the first time on this mission. Gemini 7 held the duration record until 1970 when it was broken by a Soviet flight. While Gemini 7 was still aloft, Gemini 6A launched on December 15, 1965, with Wally Schirra and Thomas Stafford. After the original Gemini 6 mission was canceled when its target vehicle failed, NASA reorganized the plan so that the Gemini 7 capsule became the rendezvous target. The two crewed spacecraft met in orbit on December 15, 1965, and flew in"
+    },
+    {
+      "id": "mercury_gemini.txt#008",
+      "source": "mercury_gemini.txt",
+      "chunk_index": 8,
+      "sha256": "d3e8c7729523c1b3a310c1c836564610206421ce4a8ec1acded4610d031cee6d",
+      "text": "Gemini 7 capsule became the rendezvous target. The two crewed spacecraft met in orbit on December 15, 1965, and flew in formation, at one point coming within about 30 centimeters of each other. They did not dock, since neither capsule carried a docking mechanism, but the maneuver showed that rendezvous in orbit worked. Gemini 8 launched on March 16, 1966, with Neil Armstrong and David Scott. It achieved the first docking of two spacecraft in orbit, linking up with an uncrewed Agena target vehicle. Shortly afterward a stuck thruster on the Gemini spacecraft began to spin the combined vehicle faster and faster. Armstrong undocked, but the capsule continued to spin at almost one revolution per second, and he used the reentry control thrusters to stop the spin. The crew had to land early, in the Pacific Ocean, after only about ten hours in space. Armstrong's cool handling of the emergency"
+    },
+    {
+      "id": "mercury_gemini.txt#009",
+      "source": "mercury_gemini.txt",
+      "chunk_index": 9,
+      "sha256": "3ba9201f441c51271343370519fe552ccdfabb0023e455b28cde9e6dcc2f1392",
+      "text": "had to land early, in the Pacific Ocean, after only about ten hours in space. Armstrong's cool handling of the emergency helped win him the later command of Apollo 11. Gemini 9A launched on June 3, 1966, with Thomas Stafford and Eugene Cernan. The original crew had been killed in a plane crash, and the replacements flew in their place. The planned docking failed because the shroud on the target vehicle had not fully separated. Cernan then attempted a spacewalk with a rocket-powered backpack, but his visor fogged and he became exhausted from fighting his suit, so the exercise was cut short after about two hours. Gemini 10, flown in July 1966 by John Young and Michael Collins, docked with an Agena and used the Agena's engine to reach a higher orbit. Collins performed a spacewalk and retrieved a micrometeoroid experiment from a second target vehicle. Gemini 11 flew in September 1966 with"
+    },
+    {
+      "id": "mercury_gemini.txt#010",
+      "source": "mercury_gemini.txt",
+      "chunk_index": 10,
+      "sha256": "bfd596f181f18ea619956e2a5d51445bab448a2e3e5665941e7158910a30dea5",
+      "text": "spacewalk and retrieved a micrometeoroid experiment from a second target vehicle. Gemini 11 flew in September 1966 with Pete Conrad and Richard Gordon. They docked with their Agena within the first orbit, which was a rehearsal for a rapid rendezvous, and used the Agena's engine to reach a record altitude of about 1,369 kilometers. That remains the highest orbit ever reached by a crewed spacecraft apart from the Apollo flights to the Moon. Gordon also performed a spacewalk and rode the Agena like a bronco, tethered to the vehicle. Gemini 12, the final flight, launched on November 11, 1966, with Jim Lovell and Buzz Aldrin, and ended on November 15, 1966. Earlier spacewalkers had struggled with fatigue and overheating, so engineers added handholds, foot restraints, and a better set of tasks, and trained the astronauts in a large underwater tank. Aldrin worked outside for three separate"
+    },
+    {
+      "id": "mercury_gemini.txt#011",
+      "source": "mercury_gemini.txt",
+      "chunk_index": 11,
+      "sha256": "fb282f7b53a8969be58c27a8a6fa4d87ff5e36341ee70b54efd934e1cfcd054c",
+      "text": "d a better set of tasks, and trained the astronauts in a large underwater tank. Aldrin worked outside for three separate sessions totaling about five and a half hours, tightening bolts, cutting cables and attaching tethers without tiring. His success showed that spacewalking could be practical, and it made underwater training a standard method. Taken together, the missions of Mercury and Gemini add up to sixteen crewed flights: six in Mercury and ten in Gemini. Of those, only the Mercury flights were flown by a single astronaut and the Gemini flights by two. By the time Gemini ended, American crews had practiced rendezvous, docking, long-duration flight, and spacewalking, all of which Apollo needed. Several astronauts flew in more than one program. Gus Grissom flew Liberty Bell 7 and Gemini 3 and died in the Apollo 1 fire in January 1967. Wally Schirra flew Sigma 7, Gemini 6A, and later"
+    },
+    {
+      "id": "mercury_gemini.txt#012",
+      "source": "mercury_gemini.txt",
+      "chunk_index": 12,
+      "sha256": "2fa4d9fbeaa8c8c74d438068ab617dba83a771e47bf80070082d580d7433f095",
+      "text": "erty Bell 7 and Gemini 3 and died in the Apollo 1 fire in January 1967. Wally Schirra flew Sigma 7, Gemini 6A, and later Apollo 7, the only astronaut to fly in all three of the programs. Gordon Cooper flew Faith 7 and Gemini 5. Pete Conrad flew Gemini 5, Gemini 11, Apollo 12, and Skylab. John Young flew Gemini 3, Gemini 10, Apollo 10, Apollo 16, and the first Space Shuttle mission. The launch vehicles also differed. Mercury used the Redstone for its two suborbital hops and the more powerful Atlas for the four orbital flights. Gemini used the Titan II, which burned storable propellants and was reliable enough for crewed launches. The Agena target vehicle was launched by an Atlas. The Soviet Union was ahead for most of the early period, which is the context for both programs. Yuri Gagarin made the first orbit of the Earth on April 12, 1961, aboard Vostok 1 in a flight of 108 minutes."
+    },
+    {
+      "id": "mercury_gemini.txt#013",
+      "source": "mercury_gemini.txt",
+      "chunk_index": 13,
+      "sha256": "a4b0911aaeef8ed82063f735e7d068987aa41f45309021c4a33f4f868ddc6c7b",
+      "text": "programs. Yuri Gagarin made the first orbit of the Earth on April 12, 1961, aboard Vostok 1 in a flight of 108 minutes. Alexei Leonov performed the first spacewalk on March 18, 1965, from Voskhod 2, more than two months before Ed White's spacewalk on Gemini 4 on June 3, 1965. Valentina Tereshkova became the first woman in space in June 1963. The race with the Soviets gave NASA the push to speed up Gemini, which was planned as a program with just a short time between flights. The Mercury capsule had a simple design. It was about 1.9 meters across at the base and about 2.9 meters long, and it weighed roughly 1,400 kilograms. A heat shield made of an ablative material that burned away during reentry protected the astronaut from the heat. After retrofire, the capsule came down on a parachute and landed in the sea. A small escape tower on top of the rocket could pull the capsule away from a"
+    },
+    {
+      "id": "mercury_gemini.txt#014",
+      "source": "mercury_gemini.txt",
+      "chunk_index": 14,
+      "sha256": "57c2c29df37dd15b28f3f7c4552144a6ed69fe4f4dd37ba5b037b28fccbc2c7b",
+      "text": "down on a parachute and landed in the sea. A small escape tower on top of the rocket could pull the capsule away from a failing booster, and it was tested several times. The Mercury astronauts also fought for a window and a hatch with explosive bolts, because the first design had neither; the window was added after Shepard and his colleagues insisted on being able to see out. The Gemini capsule was a bigger and more advanced craft. It was roughly 5.8 meters long including its adapter section and weighed about 3,800 kilograms. It was equipped with ejection seats instead of an escape tower, since the Titan II used propellants that could burn violently, and it had a computer on board for the first time in an American crewed spacecraft. It also used fuel cells rather than batteries on longer flights, which made it possible to stay in space for days. Hatches opened outward like those of an"
+    },
+    {
+      "id": "mercury_gemini.txt#015",
+      "source": "mercury_gemini.txt",
+      "chunk_index": 15,
+      "sha256": "9226a456bd98cea8c2fec6d5a00af93a5a2ed39c87121d28599912b3531259e6",
+      "text": "n batteries on longer flights, which made it possible to stay in space for days. Hatches opened outward like those of an aircraft canopy, so that an astronaut could step out into space, and the capsule landed in the ocean like the Mercury capsule, even though engineers had once planned a paraglider landing on land. Rendezvous in space turned out to be counterintuitive. If a pilot tries to catch another spacecraft by speeding up, the pilot rises to a higher orbit and ends up moving slower and falling behind. Gemini crews learned to slow down to descend to a lower, faster orbit, catch up, and then raise their orbit again as they approached their target. Buzz Aldrin, who wrote his doctoral thesis on orbital rendezvous at the Massachusetts Institute of Technology, became an expert on this and helped to design the procedures that Apollo used. By the end of the program, the American total of"
+    },
+    {
+      "id": "mercury_gemini.txt#016",
+      "source": "mercury_gemini.txt",
+      "chunk_index": 16,
+      "sha256": "fb053686a6853448987c2c1897bac301b4bd4cb4824d5988467df876a150a6cb",
+      "text": "an expert on this and helped to design the procedures that Apollo used. By the end of the program, the American total of time in space far exceeded the Soviet total. Gemini astronauts logged hundreds of hours of flight, and the Agena target vehicle, a small rocket stage that could be used as a docking target, proved that a spacecraft could change orbits after docking. The next step was Apollo, whose first crewed flight was planned for early 1967 but was cut short by the cabin fire in January of that year."
+    },
+    {
+      "id": "photosynthesis.txt#000",
+      "source": "photosynthesis.txt",
+      "chunk_index": 0,
+      "sha256": "cc5747731d344679ae926666a9ba489d6785a52cad620199d87ae9547a36a507",
+      "text": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy stored in glucose. The overall reaction uses carbon dioxide and water, and produces glucose and oxygen. In plants it takes place mainly in the leaves, inside organelles called chloroplasts. Chloroplasts contain a green pigment called chlorophyll, which absorbs light most strongly in the blue and red parts of the spectrum and reflects green light. This reflected green light is why most plants look green. Chlorophyll is embedded in the thylakoid membranes, which are stacked into structures called grana. The light-dependent reactions occur in the thylakoid membranes. Light energy splits water molecules, releasing oxygen as a by-product and producing the energy carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from"
+    },
+    {
+      "id": "photosynthesis.txt#001",
+      "source": "photosynthesis.txt",
+      "chunk_index": 1,
+      "sha256": "cfa07893f1d5dfdc35d06fb20c2c3c0f9266000f262937fbfbf266dcc37dd988",
+      "text": "y carriers ATP and NADPH. The oxygen that plants release into the atmosphere comes from the splitting of water, not from carbon dioxide. The Calvin cycle, also called the light-independent reactions, takes place in the stroma of the chloroplast. It uses the ATP and NADPH from the light reactions to fix carbon dioxide into sugar. The key enzyme that captures carbon dioxide is RuBisCO, which is considered the most abundant enzyme on Earth. Stomata are tiny pores, mostly on the underside of leaves, that let carbon dioxide enter and water vapor and oxygen leave. Each stoma is surrounded by two guard cells that open and close the pore. Plants close their stomata in hot, dry conditions to reduce water loss, which also limits photosynthesis. C4 plants such as maize and sugarcane have an adaptation that concentrates carbon dioxide around RuBisCO, which reduces wasteful photorespiration in hot"
+    },
+    {
+      "id": "photosynthesis.txt#002",
+      "source": "photosynthesis.txt",
+      "chunk_index": 2,
+      "sha256": "c8bc2818a8d73e2ddf63da1ed69f7fa76b74cae5d8afa096a3dcf393e3f7aa42",
+      "text": "rcane have an adaptation that concentrates carbon dioxide around RuBisCO, which reduces wasteful photorespiration in hot climates. CAM plants such as cacti open their stomata only at night to save water, storing carbon dioxide as organic acids until daylight. Several factors limit the rate of photosynthesis: light intensity, carbon dioxide concentration, temperature, and water availability. At low light the rate rises with intensity, but it eventually reaches a plateau when another factor becomes limiting. Very high temperatures can denature enzymes and reduce the rate sharply."
+    },
+    {
+      "id": "skylab_and_iss.txt#000",
+      "source": "skylab_and_iss.txt",
+      "chunk_index": 0,
+      "sha256": "a9249fed98df7897995a4f7ce5cea2d5858c50fa2c8ff0b7a23bb0f6f5a09630",
+      "text": "Space stations: Skylab and the International Space Station Skylab was the first American space station. It was built from the upper stage of a Saturn V, a hydrogen tank called the S-IVB, which engineers converted into a spacious two-deck workshop on the ground instead of fueling it for flight. Skylab was launched into orbit on May 14, 1973, atop a two-stage Saturn V, the last time that rocket flew. The station orbited about 435 kilometers above the Earth, weighed roughly 77,000 kilograms, and offered about 360 cubic meters of living and working space, far more than any Apollo spacecraft. It also carried a solar observatory, the Apollo Telescope Mount, which was designed to study the Sun in ultraviolet and X-ray light. The launch was nearly a disaster. About a minute after liftoff, vibration tore off a thin shield that was meant to protect the workshop from micrometeoroids and also to"
+    },
+    {
+      "id": "skylab_and_iss.txt#001",
+      "source": "skylab_and_iss.txt",
+      "chunk_index": 1,
+      "sha256": "7a78b95addef2a93f81bb60118daa6579750d7b63b5eceb1d2941b6a9617a6d5",
+      "text": "after liftoff, vibration tore off a thin shield that was meant to protect the workshop from micrometeoroids and also to shade it from the Sun, and in the process one of the two main solar arrays was ripped away. The other array was jammed shut by debris. Without its shield, the workshop's interior temperature climbed above 50 degrees Celsius, and with little electrical power available, the station was in serious trouble. NASA delayed the first crew launch by about ten days while engineers designed a fix. The first crew, known as Skylab 2, launched on May 25, 1973, and consisted of Pete Conrad, Joseph Kerwin, and Paul Weitz. Conrad, who had earlier commanded Apollo 12, flew them up in an Apollo command module. They first tried to free the stuck solar array without success, then deployed a parasol-like sunshade through a small airlock in the workshop wall, which brought temperatures down"
+    },
+    {
+      "id": "skylab_and_iss.txt#002",
+      "source": "skylab_and_iss.txt",
+      "chunk_index": 2,
+      "sha256": "f54ba471859ceab71cce6b9341f5c780e97b806d73da611c1f4c05c3a8408012",
+      "text": "ess, then deployed a parasol-like sunshade through a small airlock in the workshop wall, which brought temperatures down to a livable level. Later in the mission, Conrad and Kerwin went outside and cut the metal strap that was holding the jammed array, and it swung open and began to supply power. The crew stayed for 28 days, and they returned on June 22, 1973. The second crew, Skylab 3, launched on July 28, 1973, and included Alan Bean, Owen Garriott, and Jack Lousma. Bean had walked on the Moon on Apollo 12. They stayed for 59 days and returned on September 25, 1973. During their stay the crew installed a larger sunshade on the outside of the station, repaired leaking thrusters on their own spacecraft, and carried out a very large number of solar observations. They also ran an experiment in which two spiders, named Anita and Arabella, tried to spin webs in weightlessness. The spiders"
+    },
+    {
+      "id": "skylab_and_iss.txt#003",
+      "source": "skylab_and_iss.txt",
+      "chunk_index": 3,
+      "sha256": "e82d36ebafe231caf702fd2f63a382fede454780637ed1f454bdffe8a32a2506",
+      "text": "also ran an experiment in which two spiders, named Anita and Arabella, tried to spin webs in weightlessness. The spiders did manage to spin webs, although they were imperfect at first. The third and last crew, Skylab 4, launched on November 16, 1973, and carried Gerald Carr, Edward Gibson, and William Pogue. All three were rookies. They spent 84 days in orbit, which set a record for American spaceflight, and returned on February 8, 1974. This crew observed Comet Kohoutek, which had been expected to be spectacular but proved disappointing to the naked eye. The crew's heavy workload led to a famous day of friction with mission control, after which the schedule was relaxed and the crew caught up. Gibson, a solar physicist, took thousands of images of the Sun, including a solar flare. After the last crew left, Skylab was boosted to a higher orbit and left unoccupied, with the hope that a"
+    },
+    {
+      "id": "skylab_and_iss.txt#004",
+      "source": "skylab_and_iss.txt",
+      "chunk_index": 4,
+      "sha256": "11cb7ba2dc44a7ab9ea82e73928713b6feb273f303464bc3f35d48c87814ee41",
+      "text": "a solar flare. After the last crew left, Skylab was boosted to a higher orbit and left unoccupied, with the hope that a Space Shuttle would later visit it and raise its orbit again. The Shuttle was delayed, and increased solar activity expanded the upper atmosphere and dragged the station down faster than predicted. Skylab reentered over the Indian Ocean and Western Australia on July 11, 1979, scattering debris over sparsely populated land. No one was hurt, and a local shire in Australia famously fined NASA for littering. The International Space Station, or ISS, is a much larger and longer-lived project. It was a partnership among five space agencies: NASA of the United States, Roscosmos of Russia, the European Space Agency, the Japan Aerospace Exploration Agency, and the Canadian Space Agency. Its assembly began on November 20, 1998, when the Russian-built module Zarya, funded by the"
+    },
+    {
+      "id": "skylab_and_iss.txt#005",
+      "source": "skylab_and_iss.txt",
+      "chunk_index": 5,
+      "sha256": "efdcdc24849716d889769bebfc0c79ab0736253375f80b4f28e6a1daf235b8a8",
+      "text": "d the Canadian Space Agency. Its assembly began on November 20, 1998, when the Russian-built module Zarya, funded by the United States, was launched on a Proton rocket from Kazakhstan. Two weeks later, on December 4, 1998, the Space Shuttle Endeavour carried up the American module Unity, which was joined to Zarya by astronauts during mission STS-88. The station has been continuously occupied since November 2, 2000, when Expedition 1 arrived. That first crew was American astronaut William Shepherd and Russian cosmonauts Yuri Gidzenko and Sergei Krikalev. The earliest crews were only three people, but after the station had been expanded and commercial crew vehicles began flying, a normal crew grew to seven. Modules were added over more than a decade. The American laboratory Destiny arrived in February 2001. The airlock Quest followed in 2001. The European laboratory Columbus was launched"
+    },
+    {
+      "id": "skylab_and_iss.txt#006",
+      "source": "skylab_and_iss.txt",
+      "chunk_index": 6,
+      "sha256": "e337a0a5464bd97deed11c0cedad7131758a8744be01807f4cccbc75b01d1877",
+      "text": "tory Destiny arrived in February 2001. The airlock Quest followed in 2001. The European laboratory Columbus was launched in February 2008, and the Japanese laboratory Kibo was brought up in several pieces in 2008 and 2009. Node 3, called Tranquility, and the seven-window observation dome called the Cupola arrived together in February 2010. The Russian segment included the Zvezda service module, which launched in July 2000 and provides living quarters and propulsion, and later modules such as Poisk and Rassvet. The ISS orbits about 400 kilometers above the Earth, in an orbit inclined at 51.6 degrees to the equator so that it can be reached from Russian as well as American launch sites. It travels at about 28,000 kilometers per hour and circles the Earth roughly once every 92 minutes, so the crew sees about 16 sunrises and sunsets every day. The station's mass is about 420,000 kilograms."
+    },
+    {
+      "id": "skylab_and_iss.txt#007",
+      "source": "skylab_and_iss.txt",
+      "chunk_index": 7,
+      "sha256": "039e6066fcf1ed498ddfcac7c1cf3020246695649a40e44023a64ef0e6e94ae0",
+      "text": "ery 92 minutes, so the crew sees about 16 sunrises and sunsets every day. The station's mass is about 420,000 kilograms. The pressurized volume is about 916 cubic meters, and the main truss and solar arrays span an area about the size of a football field, with an overall width of about 109 meters. Because the station sits in a very thin upper atmosphere, it slowly loses altitude, and it must be periodically reboosted by visiting cargo vehicles or by the Russian service module. Scientific research on the ISS covers human physiology, materials science, fluid physics, biology, and Earth observation. Astronauts exercise about two hours each day to limit the loss of bone and muscle that occurs in microgravity. Long-duration studies, such as the twin study comparing astronaut Scott Kelly during a year in orbit to his identical brother on the ground, have explored how the body changes in"
+    },
+    {
+      "id": "skylab_and_iss.txt#008",
+      "source": "skylab_and_iss.txt",
+      "chunk_index": 8,
+      "sha256": "3d68dbdbaeb4ca4e020f73a02d45b165537ca84fef805771411ad2e0f27dbc67",
+      "text": "tronaut Scott Kelly during a year in orbit to his identical brother on the ground, have explored how the body changes in space. Scott Kelly and Mikhail Kornienko spent 340 days on board in 2015 and 2016. The longest single spaceflight by an American is held by Frank Rubio, who stayed on the station for 371 days in 2022 and 2023 after his return ride was damaged by a coolant leak and his stay was extended. Comparing the two stations highlights how much changed. Skylab was launched whole in one piece on a single rocket, whereas the ISS was assembled in orbit from dozens of modules over more than ten years. Skylab hosted three crews of three people for a total of 171 days of occupation, which is the sum of 28, 59, and 84 days. The ISS has been occupied without a break for more than two decades. Skylab's largest single stay was 84 days, while individual ISS stays commonly last about six"
+    },
+    {
+      "id": "skylab_and_iss.txt#009",
+      "source": "skylab_and_iss.txt",
+      "chunk_index": 9,
+      "sha256": "6401597bb1c9ae45e501359bc90e4766c53ef300246288ca9fd34f9a07ee0e5e",
+      "text": "for more than two decades. Skylab's largest single stay was 84 days, while individual ISS stays commonly last about six months, and a few have lasted nearly a year or more. Skylab was American alone, while the ISS joined former rivals. The idea of cooperation had earlier roots: in July 1975 an Apollo spacecraft docked with a Soviet Soyuz in orbit during the Apollo-Soyuz Test Project, and in the 1990s American Shuttles docked with the Russian station Mir. Experience from those missions made it possible for the ISS partners to share a single station. Crew life on both stations required solutions to everyday problems. Skylab had a shower that proved awkward to use and a wardroom table where the crew could eat hot meals, which improved morale compared with earlier cold rations. On the ISS, water is recycled from humidity in the air and from urine, and the water recovery system now reclaims"
+    },
+    {
+      "id": "skylab_and_iss.txt#010",
+      "source": "skylab_and_iss.txt",
+      "chunk_index": 10,
+      "sha256": "c5a4d904fd657ef40cae899cd5f28b7f5b89b228c6aabfed5745d12d7b2585cb",
+      "text": "tions. On the ISS, water is recycled from humidity in the air and from urine, and the water recovery system now reclaims more than 90 percent of the water on board. Astronauts sleep in small private sleeping bags attached to walls, because there is no up or down. The ISS is expected to continue operating into the 2030s, after which the plan is to guide it down to a controlled reentry over a remote area of the South Pacific. Commercial space stations are being developed to take over some of its research roles. The Space Shuttle played a central role in building the ISS. Between 1998 and 2011 the Shuttle fleet carried most of the large American, European, and Japanese modules to orbit in its cargo bay and used a robotic arm to lift them into position. Astronauts then connected cables and pipes during spacewalks. The final Shuttle flight, by Atlantis, landed on July 21, 2011. After that,"
+    },
+    {
+      "id": "skylab_and_iss.txt#011",
+      "source": "skylab_and_iss.txt",
+      "chunk_index": 11,
+      "sha256": "35331ad129980b73fd2c3f22f83d5ddac46723740667cf9ea925eef1c691a8dd",
+      "text": "onnected cables and pipes during spacewalks. The final Shuttle flight, by Atlantis, landed on July 21, 2011. After that, American astronauts relied on the Russian Soyuz spacecraft for transportation until May 30, 2020, when the SpaceX Crew Dragon spacecraft carried the astronauts Douglas Hurley and Robert Behnken to the station on the Demo-2 mission, the first crewed orbital flight from American soil since 2011. Cargo vehicles that regularly visit the station include the Russian Progress, the Cygnus, the Dragon cargo craft, and the Japanese HTV. Another station, Mir, makes a useful comparison. The Soviet Union launched the core module of Mir on February 20, 1986, and added modules to it for a decade. It was occupied for most of its life and was brought down in a controlled reentry into the South Pacific on March 23, 2001. Cosmonaut Valeri Polyakov holds the record for the longest single"
+    },
+    {
+      "id": "skylab_and_iss.txt#012",
+      "source": "skylab_and_iss.txt",
+      "chunk_index": 12,
+      "sha256": "db7c7e3227932a156b80e61cd14b5232e83536f2adc21e834853139e96eb2a32",
+      "text": "lled reentry into the South Pacific on March 23, 2001. Cosmonaut Valeri Polyakov holds the record for the longest single spaceflight, 437 days aboard Mir from January 1994 to March 1995. That record is far longer than the 84 days of the longest Skylab crew, longer than the 340 days of Scott Kelly, and longer than the 371 days of Frank Rubio, who holds the American record. Mir was smaller than the ISS, weighing around 130,000 kilograms. Life aboard Skylab used a layout that was familiar from the Earth. The workshop's lower deck held the crew quarters, a galley, and a shower, with private sleeping compartments for each crew member. The upper deck was a large open volume, almost like a gymnasium, where the astronauts discovered that they could fly from end to end and tumble in the air. A cylindrical airlock allowed them to move into the Apollo Telescope Mount and the outside. The Apollo"
+    },
+    {
+      "id": "skylab_and_iss.txt#013",
+      "source": "skylab_and_iss.txt",
+      "chunk_index": 13,
+      "sha256": "c6472b0ef28336d3dd21d8990a35d6a87121dbf3903bf85fe65a9333d01fc2a3",
+      "text": "umble in the air. A cylindrical airlock allowed them to move into the Apollo Telescope Mount and the outside. The Apollo Telescope Mount was a bundle of eight instruments mounted on a framework, with its own set of four solar panels arranged like a windmill. During the three crewed periods, Skylab astronauts took about 175,000 images of the Sun and recorded about 30 solar flares, giving scientists their first long continuous view of the Sun above the atmosphere. A visit to the ISS today is a very different experience. A crew typically launches in a Soyuz or Crew Dragon and reaches the station in a few hours or one or two days, depending on the orbit chosen. The Russian Soyuz capsule has a standard flight lasting around six months, so the station crews are organized into numbered expeditions, and each one is named for the period between two crew changes. Expedition 1 was the first and"
+    },
+    {
+      "id": "skylab_and_iss.txt#014",
+      "source": "skylab_and_iss.txt",
+      "chunk_index": 14,
+      "sha256": "20092a8aaff6089eb36da3b49a8dfcfb7f91b333a59c94158b4ac06d4c816b33",
+      "text": "into numbered expeditions, and each one is named for the period between two crew changes. Expedition 1 was the first and began in November 2000. Several people are aboard at any time, normally some from the American segment and some from the Russian segment. The commander of an expedition is chosen from among its members, and the position often alternates between agencies."
+    },
+    {
+      "id": "voyager_probes.txt#000",
+      "source": "voyager_probes.txt",
+      "chunk_index": 0,
+      "sha256": "a516c450dd56937e35013119f0bd0b8be78882bc91a3d6624cff94b134a84616",
+      "text": "The Voyager mission: two probes on a grand tour of the outer planets The two Voyager spacecraft were launched by NASA in 1977 to take advantage of a rare alignment of the outer planets. Jupiter, Saturn, Uranus, and Neptune were arranged in such a way that a spacecraft could visit several of them in sequence, using the gravity of each planet to swing it onward to the next. This kind of alignment occurs only about once every 176 years. The idea of exploiting it, sometimes called the Grand Tour, was worked out in the 1960s, and the Voyager program was the realization of a scaled-down version of that plan. The mission was managed by the Jet Propulsion Laboratory in California. Despite the numbering, Voyager 2 was launched first. It lifted off on August 20, 1977, from Cape Canaveral in Florida on a Titan IIIE rocket with a Centaur upper stage. Voyager 1 followed on September 5, 1977, on the"
+    },
+    {
+      "id": "voyager_probes.txt#001",
+      "source": "voyager_probes.txt",
+      "chunk_index": 1,
+      "sha256": "804c55794a42e0fc7c710d3a7083353953c63295bc3275597637141e3f8d3770",
+      "text": "Canaveral in Florida on a Titan IIIE rocket with a Centaur upper stage. Voyager 1 followed on September 5, 1977, on the same type of rocket. Voyager 1 was given a faster, shorter trajectory that would reach Jupiter and Saturn sooner, which is why it carries the lower number even though it left the Earth second. Each spacecraft had a mass of about 825 kilograms at launch, which is roughly the weight of a small car, and carried a large dish antenna 3.7 meters across for communicating with Earth. Because the probes travel too far from the Sun to use solar panels, they get their electricity from radioisotope thermoelectric generators. These devices convert the heat released by the radioactive decay of plutonium-238 into electricity. The output drops slowly each year, about four watts annually, and engineers have had to switch off instruments one at a time to conserve power. Each probe"
+    },
+    {
+      "id": "voyager_probes.txt#002",
+      "source": "voyager_probes.txt",
+      "chunk_index": 2,
+      "sha256": "29563393a39ff5ec3c885af81bcdeac9d4ffea7a6bb7e5e984733ee4ef40e6a4",
+      "text": "about four watts annually, and engineers have had to switch off instruments one at a time to conserve power. Each probe carried a suite of eleven scientific instruments, including cameras, spectrometers, and detectors for charged particles, magnetic fields, and plasma waves. A scan platform allowed the cameras to be pointed at targets as the spacecraft hurtled past. Voyager 1 reached Jupiter first, with its closest approach on March 5, 1979. It revealed that Jupiter's moon Io has active volcanoes, the first time that volcanism had been seen anywhere beyond the Earth. A navigation engineer named Linda Morabito spotted a plume rising above the edge of Io in an image taken to help the spacecraft find its way, and the discovery was a surprise because scientists had expected a frozen, dead moon. The spacecraft also found a faint ring around Jupiter and revealed the turbulent structure of"
+    },
+    {
+      "id": "voyager_probes.txt#003",
+      "source": "voyager_probes.txt",
+      "chunk_index": 3,
+      "sha256": "844ea0a791ae96b0d7ce81fe0184e67c83b4a370c6dae6f548d9450f620648a7",
+      "text": "ected a frozen, dead moon. The spacecraft also found a faint ring around Jupiter and revealed the turbulent structure of the Great Red Spot. Voyager 2 flew past Jupiter later, on July 9, 1979. It photographed the same system from a different angle, took more pictures of Europa, and confirmed that Io's volcanoes were still active months after Voyager 1 had seen them. Its images of Europa showed a smooth icy surface crossed by dark lines, hinting at a possible ocean beneath the ice. Voyager 1 arrived at Saturn on November 12, 1980. Controllers chose to send the spacecraft close to Titan, Saturn's largest moon, because Titan has a thick atmosphere and it was one of the most intriguing bodies in the solar system. The flyby showed that Titan's atmosphere is mostly nitrogen with a layer of orange haze, hiding the surface. The close pass bent the spacecraft's path sharply northward, out of the"
+    },
+    {
+      "id": "voyager_probes.txt#004",
+      "source": "voyager_probes.txt",
+      "chunk_index": 4,
+      "sha256": "d9a68a58203b708fab67ac82d4c71d4410f6c9dc029281c0d77f68b05ccc6b47",
+      "text": "with a layer of orange haze, hiding the surface. The close pass bent the spacecraft's path sharply northward, out of the plane of the planets, and ended its planetary tour. Voyager 1 could no longer visit Uranus or Neptune. Voyager 2 reached Saturn on August 25, 1981. Its camera scan platform briefly stuck, which cost some images, but the problem was solved and the mission went on. It studied the rings in detail and used Saturn's gravity to bend its path toward Uranus. Voyager 2 flew past Uranus on January 24, 1986, and it remains the only spacecraft to have visited that planet. It found that Uranus has a tilted magnetic field and a pale blue-green atmosphere with few visible features. The spacecraft discovered ten new moons and two new rings. It also took striking pictures of Miranda, a small moon with a patchwork of cliffs and grooves. The last planet on the tour was Neptune. Voyager"
+    },
+    {
+      "id": "voyager_probes.txt#005",
+      "source": "voyager_probes.txt",
+      "chunk_index": 5,
+      "sha256": "9eaee19fa8f89714418649b295701effb9cda006e4bd2ce01e8b3e91d9322313",
+      "text": "ctures of Miranda, a small moon with a patchwork of cliffs and grooves. The last planet on the tour was Neptune. Voyager 2 made its closest approach on August 25, 1989, and passed only a few thousand kilometers above the planet's cloud tops. It discovered the Great Dark Spot, a storm system in the southern hemisphere, and found six new moons. Pictures of Neptune's large moon Triton revealed geysers of dark material rising from the surface, even though the temperature there is about minus 235 degrees Celsius. After Neptune, Voyager 2 headed south out of the plane of the planets. Before leaving the planets behind, Voyager 1 took one more famous picture. On February 14, 1990, at the suggestion of the astronomer Carl Sagan, controllers turned the camera back toward the Sun and took a mosaic of the solar system's planets, from a distance of about six billion kilometers. In one frame, the"
+    },
+    {
+      "id": "voyager_probes.txt#006",
+      "source": "voyager_probes.txt",
+      "chunk_index": 6,
+      "sha256": "5a534ab08f8afce020e7289ca1c71345b423a86daa79b7da5388ae2f80aa6ddf",
+      "text": "Sun and took a mosaic of the solar system's planets, from a distance of about six billion kilometers. In one frame, the Earth appears as a tiny pale point of light less than a pixel wide, caught in a beam of scattered sunlight. Sagan called it the Pale Blue Dot. After this series the cameras were turned off for good to save power and memory. Each Voyager carries a message for any intelligent being who might find it, the Golden Record. This is a 12-inch gold-plated copper phonograph disc in a protective aluminum cover, accompanied by a cartridge and a stylus and instructions on how to play it. A committee chaired by Carl Sagan chose the contents. The record holds 115 images, a variety of natural sounds such as wind, thunder, and birdsong, greetings spoken in 55 languages, and about 90 minutes of music from many cultures, ranging from Bach and Beethoven to Chuck Berry and a Peruvian"
+    },
+    {
+      "id": "voyager_probes.txt#007",
+      "source": "voyager_probes.txt",
+      "chunk_index": 7,
+      "sha256": "d435e36616e6525c93705be63ce631e1d2968422bc347397d9e6d6490683987d",
+      "text": "nguages, and about 90 minutes of music from many cultures, ranging from Bach and Beethoven to Chuck Berry and a Peruvian wedding song. It also carries electroencephalogram recordings of the brain waves of Ann Druyan, who later married Sagan. The cover is engraved with a diagram showing where the Earth is relative to fourteen pulsars, using their pulse rates as a kind of map. In the decades after the planetary encounters, the probes continued outward on what is called the Interstellar Mission. Their instruments measured the solar wind, a stream of charged particles flowing from the Sun, and they were expected to detect the boundary where the solar wind gives way to the interstellar medium. This boundary is called the heliopause. It is not the edge of the solar system, since the Oort cloud of comets extends far beyond it, but it marks the limit of the Sun's magnetic and particle"
+    },
+    {
+      "id": "voyager_probes.txt#008",
+      "source": "voyager_probes.txt",
+      "chunk_index": 8,
+      "sha256": "e6a33b2f80e9065cb4f2b0ac167793574b6bbe67325e8d2a91e8383e81e20a38",
+      "text": "system, since the Oort cloud of comets extends far beyond it, but it marks the limit of the Sun's magnetic and particle influence. Voyager 1 crossed the heliopause on August 25, 2012, at a distance of about 121 astronomical units from the Sun, though the scientific team confirmed the crossing only in September 2013 after analyzing a sharp jump in the density of plasma. This made Voyager 1 the first human-made object to enter interstellar space. Voyager 2 followed on November 5, 2018, at a distance of about 119 astronomical units. Because Voyager 2 carried a working plasma instrument, its crossing provided the first direct measurements of the plasma density, speed, and temperature on the other side of the boundary. The two spacecraft are traveling in different directions. Voyager 1 moves faster, at about 17 kilometers per second relative to the Sun, and heads out of the plane of the"
+    },
+    {
+      "id": "voyager_probes.txt#009",
+      "source": "voyager_probes.txt",
+      "chunk_index": 9,
+      "sha256": "51da62ec11fc44fe4c02ef347105528f5e95d3257a43676e4c67e04c199eda96",
+      "text": "ctions. Voyager 1 moves faster, at about 17 kilometers per second relative to the Sun, and heads out of the plane of the planets toward the constellation Ophiuchus. Voyager 2 travels at about 15 kilometers per second and heads southward, toward the constellation Pavo. The distances from Earth are so great that a radio signal needs more than twenty hours to reach Voyager 1, so commands sent to the spacecraft take a day to arrive and a reply takes another day. Messages are sent through the Deep Space Network, a set of large radio dishes in California, Spain, and Australia. Voyager 2 can be reached only by the Canberra dish in Australia for commands, since it is far in the southern sky. The probes have been running for decades, far longer than planned, and they have suffered several failures. In 2023 a command sent to Voyager 2 accidentally pointed its antenna slightly away from the Earth,"
+    },
+    {
+      "id": "voyager_probes.txt#010",
+      "source": "voyager_probes.txt",
+      "chunk_index": 10,
+      "sha256": "704079540b7dca77c64cbb6282fca1d99fa68a21da8d68e5405426f9b0f1bb48",
+      "text": "red several failures. In 2023 a command sent to Voyager 2 accidentally pointed its antenna slightly away from the Earth, and contact was lost until a high-power signal from the Deep Space Network reset it. Voyager 1 began sending garbled data in late 2023 because of a faulty memory chip, and engineers repaired it in 2024 by moving the affected code to other locations in memory, working from a distance of more than 24 billion kilometers. Over the years the team has shut down cameras, heaters, and several science instruments. The remaining instruments are expected to keep working for only a few more years at best, after which the power will be too low to operate any of them. The spacecraft will continue to coast through interstellar space in silence. In about 40,000 years Voyager 1 will pass within roughly 1.6 light years of a star in the constellation Camelopardalis, and Voyager 2 will"
+    },
+    {
+      "id": "voyager_probes.txt#011",
+      "source": "voyager_probes.txt",
+      "chunk_index": 11,
+      "sha256": "bc12734291bb9eecbddd6091e88cd1e98091aa66c9099c75630e3f6868fa002d",
+      "text": "ars Voyager 1 will pass within roughly 1.6 light years of a star in the constellation Camelopardalis, and Voyager 2 will pass near the star Ross 248 around the same time. It is helpful to compare the two probes directly. Voyager 1 visited two planets, Jupiter and Saturn, and the Saturn moon Titan. Voyager 2 visited four planets, Jupiter, Saturn, Uranus, and Neptune, and is the only craft to see the last two up close. Voyager 1 was launched on September 5, 1977, while Voyager 2 was launched on August 20, 1977. Voyager 1 entered interstellar space in 2012; Voyager 2 did so in 2018. Voyager 1 is now the most distant human-made object, and Voyager 2 is slightly closer. Some of the Voyager discoveries changed the way scientists think about other worlds. The active volcanoes of Io showed that tidal heating, produced by the squeezing of a moon by the gravity of its planet and sister moons, can"
+    },
+    {
+      "id": "voyager_probes.txt#012",
+      "source": "voyager_probes.txt",
+      "chunk_index": 12,
+      "sha256": "20e39991972c15837231c04d6381c45b37a7936c68fca38b771fa6e762eefd5e",
+      "text": "of Io showed that tidal heating, produced by the squeezing of a moon by the gravity of its planet and sister moons, can power geology far from the Sun. The cracked ice of Europa began a long line of thought about oceans hidden under frozen crusts. The geysers on Triton showed that even a very cold moon can be active. The patterns in Saturn's rings, including thin braided strands and dark spokes, showed that the rings are shaped by tiny moons and electrical forces. Many of these results led directly to later missions, such as Galileo to Jupiter, Cassini to Saturn, and the plans for Europa Clipper. Space probes and crewed missions have been compared in terms of cost and scientific return. The Voyager program cost roughly 865 million dollars through the Neptune encounter, a small sum compared with the cost of the Apollo program, which came to about 25.4 billion dollars at the time. Yet in"
+    },
+    {
+      "id": "voyager_probes.txt#013",
+      "source": "voyager_probes.txt",
+      "chunk_index": 13,
+      "sha256": "d46a9b26346d897116d80172fbc859629ee40945b9672139a3876b30dc315bda",
+      "text": ", a small sum compared with the cost of the Apollo program, which came to about 25.4 billion dollars at the time. Yet in terms of distance traveled, the Voyager probes have gone thousands of times farther than any person has ever journeyed from Earth. For comparison, the Apollo crews traveled about 400,000 kilometers to the Moon, while Voyager 1 is now more than 24 billion kilometers away. Voyager was not the first mission to the outer planets. Pioneer 10 was launched on March 2, 1972, and became the first spacecraft to cross the asteroid belt and the first to fly past Jupiter, on December 3, 1973. Pioneer 11 launched on April 5, 1973, flew by Jupiter in December 1974, and then became the first spacecraft to visit Saturn, in September 1979. Both Pioneers carried a metal plaque showing a man and a woman and a map of the Sun's position among pulsars, designed by Carl Sagan and Frank"
+    },
+    {
+      "id": "voyager_probes.txt#014",
+      "source": "voyager_probes.txt",
+      "chunk_index": 14,
+      "sha256": "4120f07682601a74972f66763d9762481cc934019642fa0551486d5a726fd986",
+      "text": "a metal plaque showing a man and a woman and a map of the Sun's position among pulsars, designed by Carl Sagan and Frank Drake, who were assisted by Linda Salzman Sagan. These probes tested whether it was safe to pass through the asteroid belt and the intense radiation near Jupiter, and their data helped the Voyager engineers harden their spacecraft. Later missions built on the discoveries by Voyager. The Galileo spacecraft was launched on October 18, 1989, by the Space Shuttle Atlantis and went into orbit around Jupiter in December 1995, spending about eight years studying the planet and its moons. The Cassini spacecraft was launched on October 15, 1997, entered orbit around Saturn on July 1, 2004, and carried the Huygens probe, which landed on Titan in January 2005. Cassini ended its mission on September 15, 2017, by plunging into Saturn's atmosphere. The New Horizons spacecraft"
+    },
+    {
+      "id": "voyager_probes.txt#015",
+      "source": "voyager_probes.txt",
+      "chunk_index": 15,
+      "sha256": "ec135ab39487957eb94c3e2a32f9e6a244a899013429b24b96ac19e534bc35be",
+      "text": "2005. Cassini ended its mission on September 15, 2017, by plunging into Saturn's atmosphere. The New Horizons spacecraft launched on January 19, 2006, flew past Jupiter for a gravity assist in 2007, and made the first close flyby of Pluto on July 14, 2015, before visiting the Kuiper belt object Arrokoth on January 1, 2019. Unlike Voyager, which only flew past, Galileo and Cassini orbited their targets for years. The communications system of the Voyager probes is both fragile and remarkable. A transmitter on each spacecraft emits only about 23 watts, which is roughly the power of a refrigerator light bulb, and by the time the signal crosses billions of kilometers it is extraordinarily faint. Large dishes on the ground, 34 and 70 meters in diameter, collect it. Data rates fell from about 115,000 bits per second at Jupiter to only a couple of hundred bits per second today. The onboard"
+    },
+    {
+      "id": "voyager_probes.txt#016",
+      "source": "voyager_probes.txt",
+      "chunk_index": 16,
+      "sha256": "530691b9a2a4b135a745e880f9bf25fdd89f4e2524f23131b109b433ad3ec359",
+      "text": "rates fell from about 115,000 bits per second at Jupiter to only a couple of hundred bits per second today. The onboard computers have a combined memory of only about 69 kilobytes, millions of times smaller than a modern phone, and they were programmed in assembly language. The tape recorder on each probe used magnetic tape that could store about 100 images at a time. The mission has also been a human story. Ed Stone served as the project scientist from the start of the program in 1972 until 2022, a span of fifty years, which is one of the longest tenures in the history of space science. Many of the original engineers retired long ago, and teams have repeatedly had to rediscover how the spacecraft work by reading old documents. Susan Dodd has managed the project in recent years and has led the efforts to keep the probes alive as their power and fuel decline."
+    }
+  ]
+}
