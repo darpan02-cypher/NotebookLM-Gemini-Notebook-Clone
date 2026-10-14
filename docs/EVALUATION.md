@@ -69,7 +69,7 @@ Pairwise (n = 40):
 - **Both judges agree on direction.** Rerank scored higher on faithfulness and correctness, and won more pairwise comparisons than it lost. Correctness was at or above 4.5 for 40/40 rerank answers against 34/40 (qwen) and 35/40 (JEV) for vector.
 - **The pairwise result is suggestive, not significant.** Most comparisons were ties, and the sign test on the decided ones does not reach p < 0.05 for either judge. Pointwise differences were not given a paired interval.
 - **This is consistent with the retrieval result:** vector put the gold chunk in the top-5 context for 34/40 questions and rerank for 40/40, and the judged gap is about that size. We did not isolate the cause for each question.
-- **Judge reliability is not established.** A 10-item blind human spot-check was generated (`judge_spotcheck.csv`) but its human score columns have not been filled in, so judge-human agreement is not reported. The first qwen pass used an unbalanced A/B order; it is kept as `firstpass_qwen_unbalanced_order.json` and was replaced by the balanced run above.
+- **Human spot-check (10 blind items).** The author scored 10 randomly chosen answers (method hidden) with the same rubrics. Agreement with the judges: correctness exact 100% (qwen) and 100% (JEV); faithfulness exact 80% (qwen) and 70% (JEV), within one point 90% for both. Caveat: the author scored all 10 answers 5/5, so the sample has no weak answers and cannot show whether the judges catch bad ones; it only shows they do not under-rate good ones. The disagreements are faithfulness cases where a judge scored below 5, notably an answer that cited nothing valid (S297), which the judge rubric penalises and the human score did not. The first qwen pass used an unbalanced A/B order; it is kept as `firstpass_qwen_unbalanced_order.json` and was replaced by the balanced run above.
 
 ### Conclusion
 - **On this harder set, reranking retrieved the gold chunk earlier.** MRR@10 rose from 0.731 to 0.871 and the paired interval excludes 0. Hit@3 was 40/40 against 34/40.
@@ -84,7 +84,7 @@ Pairwise (n = 40):
 - n = 40 questions, self-written, one small corpus (112 chunks); the corpus, questions and gold labels were all written by us, so they may reflect our expectations about what is hard.
 - Gold is "chunk contains the answer sentence". Overlap can duplicate a sentence in two neighbouring chunks (both then count as gold), and a few questions also count a later summary paragraph that restates the fact.
 - Single run; latency comes from one pass on one CPU. Generation uses temperature 0.2 and cached answers.
-- Answer quality comes from LLM judges only; the human spot-check is unfilled, so judge bias (for example, favouring longer or more cited answers) is not ruled out.
+- Answer quality comes from LLM judges only; the human spot-check is unfilled, so judge bias is only lightly checked (10 items, all scored 5/5 by the author).
 
 ## Pilot (v1): 2 documents, 18 questions
 Kept unchanged below for reference (only heading levels were demoted). Both methods scored Hit@3 = 18/18, so the pilot could not separate them, which is why v2 was built. Note that `eval/corpus/` now also holds the v2 documents, so rerunning `python -m eval.run_eval` would no longer reproduce these numbers.

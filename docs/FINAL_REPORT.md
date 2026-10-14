@@ -75,7 +75,7 @@ Both judges prefer rerank, but the pairwise sign tests are not significant (p = 
 3. The cost is small: about 80 ms and one extra model. Reranking is kept as the default and `vector` stays selectable in the UI.
 4. Reranking only reorders vector's top 20, so it cannot recover a chunk outside them.
 
-**Limitations of the evaluation.** One self-written corpus and question set (n = 40); gold labels written by us; single run; answer quality rests on LLM judges, and the 10-item blind human spot-check (`judge_spotcheck.csv`) has not been filled in, so judge reliability is unmeasured.
+**Limitations of the evaluation.** One self-written corpus and question set (n = 40); gold labels written by us; single run; answer quality rests on LLM judges, and the 10-item blind human spot-check is small: the author scored all 10 answers 5/5, and the judges matched exactly on correctness (100%) and on faithfulness for 70 to 80% of items (90% within one point). It shows no under-rating of good answers but cannot show whether the judges catch bad ones.
 
 ## 6. Known limitations
 - Deployed storage is ephemeral (see rubric table); notebooks reset when the Cloud Run instance is replaced.
@@ -86,5 +86,4 @@ Both judges prefer rerank, but the pairwise sign tests are not significant (p = 
 ## 7. Before submitting
 1. Fill in the demo-recording link at the top.
 2. Record the demo (script in [DEMO_CHECKLIST.md](DEMO_CHECKLIST.md)); it must show a green GitHub Actions run.
-3. Optional: fill in the human spot-check and run `python -m eval.judge --agreement`.
-4. Push to `main` and confirm the Actions run is green and the live URL works.
+3. Push to `main` and confirm the Actions run is green and the live URL works.
