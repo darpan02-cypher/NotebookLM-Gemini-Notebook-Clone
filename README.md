@@ -8,6 +8,37 @@ A small NotebookLM-style app (CS/IT 5010 project). Create notebooks, add sources
 ## Stack
 Gradio UI · ChromaDB (one collection per notebook) · `sentence-transformers/all-MiniLM-L6-v2` embeddings · cross-encoder reranker (`ms-marco-MiniLM-L-6-v2`) · Groq-hosted LLM (`openai/gpt-oss-120b`).
 
+## Architecture
+
+![System architecture](docs/images/architecture.png)
+
+More diagrams: [ingest flow](docs/images/ingest-flow.png) · [chat flow](docs/images/chat-flow.png) · [artifacts and data model](docs/images/artifacts-data-model.png) · [deployment](docs/images/deployment.png)
+
+The Gradio UI is wiring only; all logic lives in four services. Retrieval runs on local models, and only answer generation calls a hosted LLM. Each notebook has its own folder and its own Chroma collection, so retrieval can never cross notebooks.
+
+| Component | Package | Role |
+|---|---|---|
+| `StorageManager` | `storage/` | notebooks, sources, chats, artifacts as JSON + files |
+| `SourceIngestor` | `ingestion/` | extract -> chunk -> embed -> index |
+| `ChatService` | `generation/` | retrieve -> prompt -> answer + citations |
+| `ArtifactService` | `generation/` | report / quiz Markdown |
+| `Retriever` | `retrieval/` | `vector` or `rerank`; uses `LocalEmbedder`, `NotebookVectorStore` (Chroma, cosine), `CrossEncoderReranker` |
+| `GroqClient` | `generation/llm.py` | the only file that knows the LLM provider (Gemini -> Groq was a one-file change) |
+
+Models load lazily on first use.
+
+**Ingest flow:** source in (PDF, PPTX, TXT or URL) -> raw copy in `raw/` -> extract text per page or slide (pypdf, python-pptx, requests + BeautifulSoup) -> `text/<source_id>.txt` -> chunk (900 chars, 120 overlap, word boundaries) -> embed in batch (MiniLM-L6) -> index in the notebook's Chroma collection -> source record appended to `info.json`. Any error stores the source with `status=failed` and the error message. Chunks never span pages or slides, so every citation points to an exact page or slide. Chroma metadata: `notebook_id`, `source_id`, `source_name`, `page_or_slide`, `chunk_index`, `url`.
+
+**Chat flow (RAG):** question -> embed -> vector search (top-N in this notebook) -> optional cross-encoder rerank (skipped for `vector`) -> keep top 5 -> prompt of numbered passages plus the last 4 messages -> Groq call, answering from context only with `[n]` citations -> answer plus citation list (source, page/slide, URL, chunk, snippet) -> messages appended to `chats.json`. Each saved message holds `id`, `role`, `content`, `timestamp`, `citations[]`, `method`, `latency_s`.
+
+**Artifacts:** all chunks of the notebook are sampled evenly (up to 30k characters), sent to the LLM with a report or quiz prompt, saved as `.md` in `artifacts/`, and recorded in `info.json`.
+
+**Data model:** `info.json` holds `id`, `name`, `created_at`, `updated_at`, `sources[]` (`id`, `type`, `name`, `path`, `status`, `metadata`) and `artifacts[]` (`id`, `type`, `filename`, `path`, `created_at`). `chats.json` is a list of messages.
+
+**Deployment:** a push to `main` runs tests, builds the Docker image (CPU-only torch, both models baked in), pushes to Artifact Registry and deploys to Cloud Run (2 GiB, 2 vCPU, max 1 instance, scale to zero). `GCP_SA_KEY` is a GitHub secret; `GROQ_API_KEY` is set on the Cloud Run service and never stored in the repo.
+
+Full diagrams and details: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+
 ## Run locally
 ```bash
 python3.10 -m venv .venv && source .venv/bin/activate
