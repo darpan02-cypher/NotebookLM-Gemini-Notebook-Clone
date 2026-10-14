@@ -84,7 +84,7 @@ Pairwise (n = 40):
 - n = 40 questions, self-written, one small corpus (112 chunks); the corpus, questions and gold labels were all written by us, so they may reflect our expectations about what is hard.
 - Gold is "chunk contains the answer sentence". Overlap can duplicate a sentence in two neighbouring chunks (both then count as gold), and a few questions also count a later summary paragraph that restates the fact.
 - Single run; latency comes from one pass on one CPU. Generation uses temperature 0.2 and cached answers.
-- Answer quality comes from LLM judges only; the human spot-check is unfilled, so judge bias is only lightly checked (10 items, all scored 5/5 by the author).
+- Answer quality comes from LLM judges only; the human spot-check covers only 10 items, so judge bias is only lightly checked (10 items, all scored 5/5 by the author).
 
 ## Pilot (v1): 2 documents, 18 questions
 Kept unchanged below for reference (only heading levels were demoted). Both methods scored Hit@3 = 18/18, so the pilot could not separate them, which is why v2 was built. Note that `eval/corpus/` now also holds the v2 documents, so rerunning `python -m eval.run_eval` would no longer reproduce these numbers.
