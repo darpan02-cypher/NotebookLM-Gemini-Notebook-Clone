@@ -75,6 +75,8 @@ Both judges prefer rerank, but the pairwise sign tests are not significant (p = 
 3. The cost is small: about 80 ms and one extra model. Reranking is kept as the default and `vector` stays selectable in the UI.
 4. Reranking only reorders vector's top 20, so it cannot recover a chunk outside them.
 
+**Reproduce.** `python -m eval.validate_questions` (check gold labels), `python -m eval.run_eval_v2` (retrieval and generation), `python -m eval.paired_stats` (bootstrap), `python -m eval.judge --judge both` and `--agreement` (judges). Judge calls are cached in `eval/results/v2/judge_cache.json`.
+
 **Limitations of the evaluation.** One self-written corpus and question set (n = 40); gold labels written by us; single run; answer quality rests on LLM judges, and the 10-item blind human spot-check is small: the author scored all 10 answers 5/5, and the judges matched exactly on correctness (100%) and on faithfulness for 70 to 80% of items (90% within one point). It shows no under-rating of good answers but cannot show whether the judges catch bad ones.
 
 ## 6. Known limitations

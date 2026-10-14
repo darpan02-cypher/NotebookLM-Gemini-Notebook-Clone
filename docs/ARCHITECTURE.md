@@ -26,7 +26,7 @@
 | `retrieval/` | `LocalEmbedder` (sentence-transformers), `NotebookVectorStore` (one Chroma collection per notebook, cosine), `Retriever` with two methods: `vector` and `rerank`. |
 | `generation/` | `ChatService` (retrieve -> numbered context -> LLM -> answer + citations -> persist), `ArtifactService` (report / quiz markdown from sampled notebook chunks), `GroqClient`. |
 | `ui/` | Gradio Blocks wiring only; no business logic. |
-| `eval/` | Two-method retrieval comparison script, corpus and question set. |
+| `eval/` | Two-method retrieval comparison: corpus, 40 labelled questions, metrics, paired bootstrap statistics, and LLM-judge answer scoring with a human spot-check. See `docs/EVALUATION.md`. |
 
 ## Data flow
 **Ingest:** file/URL -> raw copy in `raw/` -> text per page/slide -> `text/<source_id>.txt` -> chunks -> embeddings -> Chroma (`notebook_id`, `source_id`, `source_name`, `page_or_slide`, `chunk_index`, `url` as metadata) -> source record appended to `info.json`.
