@@ -1,0 +1,42 @@
+{
+  "S332": {
+    "question_id": "q21",
+    "method": "vector"
+  },
+  "S479": {
+    "question_id": "q10",
+    "method": "vector"
+  },
+  "S484": {
+    "question_id": "q26",
+    "method": "rerank"
+  },
+  "S229": {
+    "question_id": "q04",
+    "method": "rerank"
+  },
+  "S297": {
+    "question_id": "q05",
+    "method": "vector"
+  },
+  "S821": {
+    "question_id": "q35",
+    "method": "rerank"
+  },
+  "S144": {
+    "question_id": "q07",
+    "method": "rerank"
+  },
+  "S187": {
+    "question_id": "q24",
+    "method": "rerank"
+  },
+  "S240": {
+    "question_id": "q04",
+    "method": "vector"
+  },
+  "S353": {
+    "question_id": "q33",
+    "method": "rerank"
+  }
+}

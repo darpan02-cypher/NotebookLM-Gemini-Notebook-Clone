@@ -1,0 +1,105 @@
+{
+  "resamples": 10000,
+  "seed": 20240501,
+  "comparison": "rerank minus vector",
+  "all": {
+    "n": 40,
+    "reciprocal_rank": {
+      "wins": 13,
+      "losses": 5,
+      "ties": 22
+    },
+    "hit_at_1": {
+      "wins": 11,
+      "losses": 4,
+      "ties": 25
+    },
+    "mrr_diff": {
+      "mean_diff": 0.13988095238095238,
+      "ci_low": 0.022619047619047622,
+      "ci_high": 0.25773809523809527,
+      "includes_zero": false
+    },
+    "hit1_diff": {
+      "mean_diff": 0.175,
+      "ci_low": 0.0,
+      "ci_high": 0.35,
+      "includes_zero": true
+    }
+  },
+  "direct": {
+    "n": 12,
+    "reciprocal_rank": {
+      "wins": 2,
+      "losses": 1,
+      "ties": 9
+    },
+    "hit_at_1": {
+      "wins": 1,
+      "losses": 0,
+      "ties": 11
+    },
+    "mrr_diff": {
+      "mean_diff": 0.06944444444444443,
+      "ci_low": -0.02777777777777778,
+      "ci_high": 0.19444444444444442,
+      "includes_zero": true
+    },
+    "hit1_diff": {
+      "mean_diff": 0.08333333333333333,
+      "ci_low": 0.0,
+      "ci_high": 0.25,
+      "includes_zero": true
+    }
+  },
+  "paraphrased": {
+    "n": 14,
+    "reciprocal_rank": {
+      "wins": 4,
+      "losses": 3,
+      "ties": 7
+    },
+    "hit_at_1": {
+      "wins": 4,
+      "losses": 3,
+      "ties": 7
+    },
+    "mrr_diff": {
+      "mean_diff": 0.0969387755102041,
+      "ci_low": -0.14285714285714285,
+      "ci_high": 0.34863945578231287,
+      "includes_zero": true
+    },
+    "hit1_diff": {
+      "mean_diff": 0.07142857142857142,
+      "ci_low": -0.2857142857142857,
+      "ci_high": 0.42857142857142855,
+      "includes_zero": true
+    }
+  },
+  "confusable": {
+    "n": 14,
+    "reciprocal_rank": {
+      "wins": 7,
+      "losses": 1,
+      "ties": 6
+    },
+    "hit_at_1": {
+      "wins": 6,
+      "losses": 1,
+      "ties": 7
+    },
+    "mrr_diff": {
+      "mean_diff": 0.24319727891156465,
+      "ci_low": 0.05272108843537415,
+      "ci_high": 0.4370748299319728,
+      "includes_zero": false
+    },
+    "hit1_diff": {
+      "mean_diff": 0.35714285714285715,
+      "ci_low": 0.07142857142857142,
+      "ci_high": 0.6428571428571429,
+      "includes_zero": false
+    }
+  }
+}

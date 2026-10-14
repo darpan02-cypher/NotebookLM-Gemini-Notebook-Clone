@@ -1,0 +1,878 @@
+{
+  "judge": "qwen",
+  "order_seed": 4242,
+  "pointwise": [
+    {
+      "question_id": "q01",
+      "method": "vector",
+      "faithfulness": 5.0,
+      "correctness": 1.0,
+      "reason": "The answer correctly states that the information is not in the sources, which is faithful to the empty citation list, but it fails to answer the question directly as required by the reference."
+    },
+    {
+      "question_id": "q01",
+      "method": "rerank",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies the three crew members as stated in the cited passage, although it cites source [2] while the provided text is labeled [1]."
+    },
+    {
+      "question_id": "q02",
+      "method": "vector",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies the lunar module as Orion, which is explicitly supported by the cited passage stating 'Young and Duke landed the lunar module Orion'."
+    },
+    {
+      "question_id": "q02",
+      "method": "rerank",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies the lunar module as Orion, which is explicitly supported by the cited passages [1] and [2] (though the answer cites [3] which is not in the provided list, the content is grounded in [1])."
+    },
+    {
+      "question_id": "q03",
+      "method": "vector",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies the duration as 84 days, which is explicitly supported by the cited passage and matches the reference answer."
+    },
+    {
+      "question_id": "q03",
+      "method": "rerank",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies the duration as 84 days, which is explicitly supported by the cited passage and matches the reference answer."
+    },
+    {
+      "question_id": "q04",
+      "method": "vector",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies the number of languages (55) and cites the passage that explicitly states 'greetings spoken in 55 languages'."
+    },
+    {
+      "question_id": "q04",
+      "method": "rerank",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies the number of languages (55) as stated in the cited passages and matches the reference answer."
+    },
+    {
+      "question_id": "q05",
+      "method": "vector",
+      "faithfulness": 1.0,
+      "correctness": 5.0,
+      "reason": "The answer is factually correct and matches the reference, but it cites specific passages that are not provided in the input, making the faithfulness assessment based on the absence of supporting text in the prompt context (though the claim itself is standard biological knowledge)."
+    },
+    {
+      "question_id": "q05",
+      "method": "rerank",
+      "faithfulness": 4.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies the mitochondrial matrix as the location of the citric acid cycle, which is explicitly supported by the provided passages (specifically passage [1] and [2], though the answer cites [2] and a non-existent [4])."
+    },
+    {
+      "question_id": "q06",
+      "method": "vector",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly states the net gain of 2 ATP per glucose, which is explicitly supported by the cited passage."
+    },
+    {
+      "question_id": "q06",
+      "method": "rerank",
+      "faithfulness": 1.0,
+      "correctness": 5.0,
+      "reason": "The answer provides the correct numerical value (2 ATP) consistent with the reference, but it cites specific passages that are not provided in the input, making the faithfulness assessment based on the absence of supporting text for the specific citations, though the core fact is standard biological knowledge."
+    },
+    {
+      "question_id": "q07",
+      "method": "vector",
+      "faithfulness": 4.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies PEP carboxylase as the enzyme, which is directly supported by the cited passages, although it cites a non-existent passage [5]."
+    },
+    {
+      "question_id": "q07",
+      "method": "rerank",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies PEP carboxylase as the enzyme, which is explicitly supported by the cited passage [1]."
+    },
+    {
+      "question_id": "q08",
+      "method": "vector",
+      "faithfulness": 1.0,
+      "correctness": 5.0,
+      "reason": "The answer provides the correct number of orbits (22) matching the reference, but it cites passages that are not provided in the prompt, making the faithfulness assessment based on the absence of supporting text in the context, though the claim itself is factually correct and consistent with the reference."
+    },
+    {
+      "question_id": "q08",
+      "method": "rerank",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly states that Faith 7 completed twenty-two orbits, which is directly supported by the cited passages and matches the reference answer."
+    },
+    {
+      "question_id": "q09",
+      "method": "vector",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies the date as August 25, 1989, which is explicitly supported by the provided passage (labeled [1] in the prompt, though the answer cites [2], the content matches the provided text)."
+    },
+    {
+      "question_id": "q09",
+      "method": "rerank",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies the date as August 25, 1989, which is explicitly stated in the cited passage and matches the reference answer."
+    },
+    {
+      "question_id": "q10",
+      "method": "vector",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies the orbital inclination as 51.6 degrees, which is directly supported by the cited passage and matches the reference answer."
+    },
+    {
+      "question_id": "q10",
+      "method": "rerank",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies the orbital inclination as 51.6 degrees, which is directly supported by the cited passage and matches the reference answer."
+    },
+    {
+      "question_id": "q11",
+      "method": "vector",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer accurately reflects the content of the cited passages and matches the reference answer regarding the separation of homologous chromosomes and the retention of sister chromatids."
+    },
+    {
+      "question_id": "q11",
+      "method": "rerank",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer accurately reflects the content of the cited passages and matches the reference answer regarding the separation of homologous chromosomes and the retention of sister chromatids."
+    },
+    {
+      "question_id": "q12",
+      "method": "vector",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer accurately reflects the information provided in the cited passage regarding Edward White's actions during Gemini 4, matching the reference answer."
+    },
+    {
+      "question_id": "q12",
+      "method": "rerank",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer is fully supported by the cited passages and matches the reference answer regarding the event and duration."
+    },
+    {
+      "question_id": "q13",
+      "method": "vector",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies Liberty Bell 7 and the 1999 recovery date, fully supported by the cited passage."
+    },
+    {
+      "question_id": "q13",
+      "method": "rerank",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies Liberty Bell 7 and the 1999 recovery date, fully supported by the cited passages."
+    },
+    {
+      "question_id": "q14",
+      "method": "vector",
+      "faithfulness": 1.0,
+      "correctness": 4.0,
+      "reason": "The answer cites specific passages but the prompt indicates no passages were cited, and the detailed claims (vibration, solar array loss, 50°C) are not supported by the provided reference or any visible context, making it unfaithful to the cited sources (which are empty) and partially correct regarding the main cause (shield loss)."
+    },
+    {
+      "question_id": "q14",
+      "method": "rerank",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer accurately reflects the details in the cited passage regarding the shield tearing off, the solar array issues, and the resulting temperature rise, matching the reference answer's core fact."
+    },
+    {
+      "question_id": "q15",
+      "method": "vector",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer accurately reflects the details provided in the cited passage regarding the deployment of the parasol-like sunshade through the airlock to lower temperatures."
+    },
+    {
+      "question_id": "q15",
+      "method": "rerank",
+      "faithfulness": 1.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies the method (parasol-like sunshade through an airlock) consistent with the reference, but it cites specific passages that are not provided in the prompt, making the faithfulness assessment based on the absence of cited text in the input context (though the content is factually correct)."
+    },
+    {
+      "question_id": "q16",
+      "method": "vector",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies Alan Shepard and the event, and the claim is directly supported by the cited passage."
+    },
+    {
+      "question_id": "q16",
+      "method": "rerank",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies Alan Shepard and the action of hitting golf balls with a smuggled club head, which is fully supported by the cited passage and matches the reference answer."
+    },
+    {
+      "question_id": "q17",
+      "method": "vector",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies Linda Morabito as the navigation engineer who spotted the plume, which is directly supported by the cited passage."
+    },
+    {
+      "question_id": "q17",
+      "method": "rerank",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies Linda Morabito as the navigation engineer who spotted the plume, which is directly supported by the cited passage."
+    },
+    {
+      "question_id": "q18",
+      "method": "vector",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies lactate dehydrogenase as the enzyme, which is explicitly supported by the cited passage and matches the reference answer."
+    },
+    {
+      "question_id": "q18",
+      "method": "rerank",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies lactate dehydrogenase as the enzyme, which is explicitly supported by the cited passage stating that pyruvate is converted to lactate by this enzyme in animals during intense exercise."
+    },
+    {
+      "question_id": "q19",
+      "method": "vector",
+      "faithfulness": 5.0,
+      "correctness": 1.0,
+      "reason": "The answer correctly states that the provided sources do not contain the answer, which is accurate given that no passages were cited or provided in the prompt context for the answer to rely on."
+    },
+    {
+      "question_id": "q19",
+      "method": "rerank",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies cyanide and carbon monoxide as the substances that block complex IV, which is fully supported by the cited passage and matches the reference answer."
+    },
+    {
+      "question_id": "q20",
+      "method": "vector",
+      "faithfulness": 5.0,
+      "correctness": 1.0,
+      "reason": "The answer correctly states that the information is not in the sources, which is faithful to the empty citation list, but it fails to provide the correct answer (Kranz anatomy) required by the question."
+    },
+    {
+      "question_id": "q20",
+      "method": "rerank",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies 'Kranz anatomy' as the specific leaf architecture described in the cited passage, which explicitly defines it as a wreath-like arrangement in C4 plants like maize."
+    },
+    {
+      "question_id": "q21",
+      "method": "vector",
+      "faithfulness": 4.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly explains the mechanism (temperature increases O2/CO2 ratio, leading to photorespiration) consistent with the reference, but it cites passages [3] and [5] which are not provided in the input, whereas the provided passages [1] and [2] fully support the claims."
+    },
+    {
+      "question_id": "q21",
+      "method": "rerank",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer accurately explains that higher temperatures reduce CO2 solubility and cause stomatal closure, increasing O2 competition at RuBisCO, which leads to energy-wasting photorespiration, fully supported by the cited passages and consistent with the reference."
+    },
+    {
+      "question_id": "q22",
+      "method": "vector",
+      "faithfulness": 1.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies the spacecraft and the distance, matching the reference, but it cites specific passages that were not provided in the prompt, making the faithfulness score low due to the lack of verifiable source text in the context."
+    },
+    {
+      "question_id": "q22",
+      "method": "rerank",
+      "faithfulness": 1.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies the spacecraft and the distance, matching the reference, but it cites specific passages that were not provided in the prompt, making the faithfulness score low due to the lack of verifiable source text in the context."
+    },
+    {
+      "question_id": "q23",
+      "method": "vector",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer accurately reflects the reference answer and is directly supported by the cited passage which states planners deliberately loaded the lunar module with too little fuel to prevent a landing."
+    },
+    {
+      "question_id": "q23",
+      "method": "rerank",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies the reason (deliberate fuel limitation) and is fully supported by the cited passages, although it cites a non-existent passage [3]."
+    },
+    {
+      "question_id": "q24",
+      "method": "vector",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies nondisjunction as the error and cites the passage which explicitly links this failure of separation in meiosis to Down syndrome (three copies of chromosome 21)."
+    },
+    {
+      "question_id": "q24",
+      "method": "rerank",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies nondisjunction as the error and cites the passage which explicitly links this failure of separation to Down syndrome and three copies of chromosome 21."
+    },
+    {
+      "question_id": "q25",
+      "method": "vector",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer accurately reflects the reference answer and is fully supported by the cited passage, which details moving the code to other memory locations remotely."
+    },
+    {
+      "question_id": "q25",
+      "method": "rerank",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer accurately reflects the reference answer and is fully supported by the cited passage, which states engineers moved affected code to other locations in memory remotely."
+    },
+    {
+      "question_id": "q26",
+      "method": "vector",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies Buzz Aldrin and cites the specific details (5.5 hours, tasks, lack of fatigue) directly from the provided passage, matching the reference answer."
+    },
+    {
+      "question_id": "q26",
+      "method": "rerank",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies Buzz Aldrin and the specific details (5.5 hours, no exhaustion) supported by the cited passage, although it cites source [2] which is not present in the provided list (likely a typo for [1])."
+    },
+    {
+      "question_id": "q27",
+      "method": "vector",
+      "faithfulness": 5.0,
+      "correctness": 1.0,
+      "reason": "The answer correctly states that the information is not in the sources, which is faithful to the empty citation list, but it fails to provide the correct answer (Richard Gordon) required by the question."
+    },
+    {
+      "question_id": "q27",
+      "method": "rerank",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies Richard Gordon and the command module Yankee Clipper, which is directly supported by the cited passage."
+    },
+    {
+      "question_id": "q28",
+      "method": "vector",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies the duration as 59 days, which is explicitly supported by the cited passage stating the total occupation was the sum of 28, 59, and 84 days (corresponding to the three missions, with Skylab 3 being the second)."
+    },
+    {
+      "question_id": "q28",
+      "method": "rerank",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies the duration as 59 days, which is explicitly supported by the cited passage and matches the reference answer."
+    },
+    {
+      "question_id": "q29",
+      "method": "vector",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies the Taurus-Littrow valley as the landing site for Apollo 17, which is explicitly supported by the cited passage."
+    },
+    {
+      "question_id": "q29",
+      "method": "rerank",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies the Taurus-Littrow valley and cites the passage that explicitly states Apollo 17 settled in that location."
+    },
+    {
+      "question_id": "q30",
+      "method": "vector",
+      "faithfulness": 5.0,
+      "correctness": 1.0,
+      "reason": "The answer correctly states that the information is not available in the provided sources, which is faithful to the empty context, but it fails to answer the question with the correct fact (77 kg) required for a high correctness score."
+    },
+    {
+      "question_id": "q30",
+      "method": "rerank",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly states the amount of lunar samples returned by Apollo 15 as about 77 kilograms, which is directly supported by the cited passage and matches the reference answer."
+    },
+    {
+      "question_id": "q31",
+      "method": "vector",
+      "faithfulness": 1.0,
+      "correctness": 5.0,
+      "reason": "The answer provides the correct date but cites specific passages that are not provided in the input, making the faithfulness assessment based on the absence of supporting text in the prompt context, though the claim itself is factually correct and matches the reference."
+    },
+    {
+      "question_id": "q31",
+      "method": "rerank",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies the launch date as September 5, 1977, which is explicitly supported by both cited passages and matches the reference answer."
+    },
+    {
+      "question_id": "q32",
+      "method": "vector",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies the date as November 5, 2018, which is explicitly supported by the cited passages and matches the reference answer."
+    },
+    {
+      "question_id": "q32",
+      "method": "rerank",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies the date as November 5, 2018, which is explicitly supported by the cited passage and matches the reference answer."
+    },
+    {
+      "question_id": "q33",
+      "method": "vector",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly states the duration as nearly fourteen days and cites the specific landing date, both of which are directly supported by the provided passages."
+    },
+    {
+      "question_id": "q33",
+      "method": "rerank",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly states the duration as nearly fourteen days and provides the correct launch and landing dates, all of which are directly supported by the cited passage."
+    },
+    {
+      "question_id": "q34",
+      "method": "vector",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies the distance as roughly 400 kilometers, which is explicitly supported by the cited passage [1] (though the answer cites [2], the content matches the provided text in [1], and the fact is correct relative to the reference)."
+    },
+    {
+      "question_id": "q34",
+      "method": "rerank",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies the distance as roughly 400 kilometers, which is directly supported by the cited passage and matches the reference answer."
+    },
+    {
+      "question_id": "q35",
+      "method": "vector",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies the location as the inner membrane, which is supported by the cited passage [1] (despite the answer citing [2], the content matches the provided text in [1]), and is fully consistent with the reference answer."
+    },
+    {
+      "question_id": "q35",
+      "method": "rerank",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies the location as the inner mitochondrial membrane, which is explicitly supported by the cited passages [1] and [2] (though the answer cites [4] which is not provided, the text matches [1] and [2])."
+    },
+    {
+      "question_id": "q36",
+      "method": "vector",
+      "faithfulness": 1.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly states the yield of 2 ATP per glucose, matching the reference, but it cites passages that are not provided in the prompt, making the faithfulness assessment based on the absence of support for the specific citations."
+    },
+    {
+      "question_id": "q36",
+      "method": "rerank",
+      "faithfulness": 4.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly states that the citric acid cycle yields 2 ATP per glucose, which is supported by the cited passages (specifically passage [2] and [1]), although it cites a non-existent passage [3]."
+    },
+    {
+      "question_id": "q37",
+      "method": "vector",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly states that each daughter cell has 46 chromosomes, which is directly supported by the cited passage and matches the reference answer."
+    },
+    {
+      "question_id": "q37",
+      "method": "rerank",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly states that each daughter cell has 46 chromosomes, which is directly supported by the cited passage and matches the reference answer."
+    },
+    {
+      "question_id": "q38",
+      "method": "vector",
+      "faithfulness": 4.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies the temperature range (30-40°C) as stated in the reference and supported by the cited passage, although it cites a non-existent source [2] instead of the provided [1]."
+    },
+    {
+      "question_id": "q38",
+      "method": "rerank",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies the temperature range (30-40°C) as stated in the cited passage and aligns perfectly with the reference answer."
+    },
+    {
+      "question_id": "q39",
+      "method": "vector",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies the large central vacuole as the storage site for malate, which is directly supported by the cited passage and matches the reference answer."
+    },
+    {
+      "question_id": "q39",
+      "method": "rerank",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies the large central vacuole as the storage site for malate, which is directly supported by the cited passage and matches the reference answer."
+    },
+    {
+      "question_id": "q40",
+      "method": "vector",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies the crew members as William Shepherd, Yuri Gidzenko, and Sergei Krikalev, which is fully supported by the cited passage and matches the reference answer."
+    },
+    {
+      "question_id": "q40",
+      "method": "rerank",
+      "faithfulness": 5.0,
+      "correctness": 5.0,
+      "reason": "The answer correctly identifies the three crew members of Expedition 1 as stated in the reference answer and directly supported by the cited passage."
+    }
+  ],
+  "pairwise": [
+    {
+      "question_id": "q01",
+      "a_is": "vector",
+      "judge_winner": "B",
+      "winner_method": "rerank",
+      "identical_answers": false,
+      "reason": "Answer B correctly lists the three crew members as per the reference, while Answer A claims the information was not found."
+    },
+    {
+      "question_id": "q02",
+      "a_is": "vector",
+      "judge_winner": "tie",
+      "winner_method": "tie",
+      "identical_answers": false,
+      "reason": "Both answers correctly identify the lunar module as Orion, matching the reference answer."
+    },
+    {
+      "question_id": "q03",
+      "a_is": "rerank",
+      "judge_winner": "tie",
+      "winner_method": "tie",
+      "identical_answers": false,
+      "reason": "Both answers are identical and correct according to the reference."
+    },
+    {
+      "question_id": "q04",
+      "a_is": "rerank",
+      "judge_winner": "tie",
+      "winner_method": "tie",
+      "identical_answers": false,
+      "reason": "Both answers provide the correct number (55) matching the reference answer."
+    },
+    {
+      "question_id": "q05",
+      "a_is": "vector",
+      "judge_winner": "tie",
+      "winner_method": "tie",
+      "identical_answers": false,
+      "reason": "Both answers correctly identify the mitochondrial matrix as the location of the citric acid cycle, matching the reference answer."
+    },
+    {
+      "question_id": "q06",
+      "a_is": "vector",
+      "judge_winner": "tie",
+      "winner_method": "tie",
+      "identical_answers": false,
+      "reason": "Both answers correctly state the net gain is 2 ATP per glucose molecule, matching the reference."
+    },
+    {
+      "question_id": "q07",
+      "a_is": "rerank",
+      "judge_winner": "tie",
+      "winner_method": "tie",
+      "identical_answers": false,
+      "reason": "Both answers correctly identify PEP carboxylase as the enzyme, matching the reference answer."
+    },
+    {
+      "question_id": "q08",
+      "a_is": "vector",
+      "judge_winner": "tie",
+      "winner_method": "tie",
+      "identical_answers": false,
+      "reason": "Both answers correctly state that Faith 7 completed twenty-two orbits, matching the reference."
+    },
+    {
+      "question_id": "q09",
+      "a_is": "rerank",
+      "judge_winner": "tie",
+      "winner_method": "tie",
+      "identical_answers": false,
+      "reason": "Both answers provide the correct date matching the reference answer."
+    },
+    {
+      "question_id": "q10",
+      "a_is": null,
+      "winner_method": "tie",
+      "identical_answers": true
+    },
+    {
+      "question_id": "q11",
+      "a_is": null,
+      "winner_method": "tie",
+      "identical_answers": true
+    },
+    {
+      "question_id": "q12",
+      "a_is": "rerank",
+      "judge_winner": "B",
+      "winner_method": "vector",
+      "identical_answers": false,
+      "reason": "Both answers are correct and align with the reference, but Answer B uses the specific phrasing 'first American to walk in space' which matches the reference exactly, whereas Answer A uses 'first American spacewalk'."
+    },
+    {
+      "question_id": "q13",
+      "a_is": "vector",
+      "judge_winner": "B",
+      "winner_method": "rerank",
+      "identical_answers": false,
+      "reason": "Both answers correctly identify the capsule and the recovery date, but Answer B provides slightly more context about the sequence of events (splashdown) and cites sources, making it marginally more complete."
+    },
+    {
+      "question_id": "q14",
+      "a_is": "vector",
+      "judge_winner": "B",
+      "winner_method": "rerank",
+      "identical_answers": false,
+      "reason": "Both answers correctly identify the torn shield as the cause, but Answer A adds irrelevant details about solar arrays and micrometeoroids not present in the reference, whereas Answer B is more concise and directly addresses the question."
+    },
+    {
+      "question_id": "q15",
+      "a_is": "rerank",
+      "judge_winner": "A",
+      "winner_method": "rerank",
+      "identical_answers": false,
+      "reason": "Both answers are correct and align with the reference, but Answer A is slightly more concise and directly addresses the question without unnecessary elaboration."
+    },
+    {
+      "question_id": "q16",
+      "a_is": "vector",
+      "judge_winner": "A",
+      "winner_method": "vector",
+      "identical_answers": false,
+      "reason": "Both answers correctly identify Alan Shepard and the action, but Answer A is slightly more precise by specifying 'golf-club head' as the makeshift club and mentioning the specific event details (Apollo 14 context is implied by the specific action, though not explicitly stated, it is the standard trivia answer). However, looking closely, both are very similar. Answer A says 'smuggled a golf-club head', Answer B says 'used a smuggled golf-club head'. The reference answer is 'Alan Shepard on Apollo 14'. Neither answer explicitly mentions Apollo 14, but both identify the person and the act. Answer A is marginally better phrased as a complete sentence describing the event."
+    },
+    {
+      "question_id": "q17",
+      "a_is": "rerank",
+      "judge_winner": "tie",
+      "winner_method": "tie",
+      "identical_answers": false,
+      "reason": "Both answers correctly identify Linda Morabito as the engineer, matching the reference answer."
+    },
+    {
+      "question_id": "q18",
+      "a_is": "rerank",
+      "judge_winner": "tie",
+      "winner_method": "tie",
+      "identical_answers": false,
+      "reason": "Both answers correctly identify lactate dehydrogenase as the enzyme, matching the reference answer."
+    },
+    {
+      "question_id": "q19",
+      "a_is": "vector",
+      "judge_winner": "B",
+      "winner_method": "rerank",
+      "identical_answers": false,
+      "reason": "Answer B correctly identifies cyanide and carbon monoxide as the substances that block complex IV, matching the reference answer, whereas Answer A fails to provide an answer."
+    },
+    {
+      "question_id": "q20",
+      "a_is": "rerank",
+      "judge_winner": "A",
+      "winner_method": "rerank",
+      "identical_answers": false,
+      "reason": "Answer A correctly identifies the term 'Kranz anatomy' as per the reference, while Answer B claims it could not be found."
+    },
+    {
+      "question_id": "q21",
+      "a_is": "vector",
+      "judge_winner": "tie",
+      "winner_method": "tie",
+      "identical_answers": false,
+      "reason": "Both answers correctly identify the mechanism (increased O2 competition with CO2 at RuBisCO leading to photorespiration) and the physiological causes (stomatal closure, solubility changes), making them both accurate and complete relative to the reference."
+    },
+    {
+      "question_id": "q22",
+      "a_is": null,
+      "winner_method": "tie",
+      "identical_answers": true
+    },
+    {
+      "question_id": "q23",
+      "a_is": "vector",
+      "judge_winner": "A",
+      "winner_method": "vector",
+      "identical_answers": false,
+      "reason": "Both answers correctly identify the reason (insufficient fuel) as stated in the reference, but Answer A is more concise and directly mirrors the reference wording without adding unnecessary elaboration."
+    },
+    {
+      "question_id": "q24",
+      "a_is": "rerank",
+      "judge_winner": "tie",
+      "winner_method": "tie",
+      "identical_answers": false,
+      "reason": "Both answers correctly identify nondisjunction as the error and mention the failure to separate during meiosis, matching the reference answer."
+    },
+    {
+      "question_id": "q25",
+      "a_is": "rerank",
+      "judge_winner": "tie",
+      "winner_method": "tie",
+      "identical_answers": false,
+      "reason": "Both answers correctly identify that the fix involved moving code to other memory locations, matching the reference answer."
+    },
+    {
+      "question_id": "q26",
+      "a_is": "vector",
+      "judge_winner": "tie",
+      "winner_method": "tie",
+      "identical_answers": false,
+      "reason": "Both answers correctly identify Buzz Aldrin and the duration (5.5 hours) as per the reference, making them equally correct and complete."
+    },
+    {
+      "question_id": "q27",
+      "a_is": "vector",
+      "judge_winner": "B",
+      "winner_method": "rerank",
+      "identical_answers": false,
+      "reason": "Answer B correctly identifies Richard Gordon as the astronaut who stayed in orbit, matching the reference answer, while Answer A claims the information is not available."
+    },
+    {
+      "question_id": "q28",
+      "a_is": "rerank",
+      "judge_winner": "tie",
+      "winner_method": "tie",
+      "identical_answers": false,
+      "reason": "Both answers provide the correct duration of 59 days as per the reference."
+    },
+    {
+      "question_id": "q29",
+      "a_is": "rerank",
+      "judge_winner": "tie",
+      "winner_method": "tie",
+      "identical_answers": false,
+      "reason": "Both answers provide the correct information matching the reference answer."
+    },
+    {
+      "question_id": "q30",
+      "a_is": "rerank",
+      "judge_winner": "A",
+      "winner_method": "rerank",
+      "identical_answers": false,
+      "reason": "Answer A provides the correct value matching the reference, while Answer B claims the information is missing."
+    },
+    {
+      "question_id": "q31",
+      "a_is": "vector",
+      "judge_winner": "tie",
+      "winner_method": "tie",
+      "identical_answers": false,
+      "reason": "Both answers provide the correct date matching the reference answer."
+    },
+    {
+      "question_id": "q32",
+      "a_is": "rerank",
+      "judge_winner": "A",
+      "winner_method": "rerank",
+      "identical_answers": false,
+      "reason": "Both answers provide the correct date matching the reference, but Answer A is more concise and directly answers the question without unnecessary extra information."
+    },
+    {
+      "question_id": "q33",
+      "a_is": "rerank",
+      "judge_winner": "tie",
+      "winner_method": "tie",
+      "identical_answers": false,
+      "reason": "Both answers correctly state the duration as nearly fourteen days, matching the reference."
+    },
+    {
+      "question_id": "q34",
+      "a_is": "rerank",
+      "judge_winner": "tie",
+      "winner_method": "tie",
+      "identical_answers": false,
+      "reason": "Both answers provide the correct distance of 400 kilometers as stated in the reference answer."
+    },
+    {
+      "question_id": "q35",
+      "a_is": "vector",
+      "judge_winner": "tie",
+      "winner_method": "tie",
+      "identical_answers": false,
+      "reason": "Both answers correctly identify the inner mitochondrial membrane as the location of the electron transport chain, matching the reference answer."
+    },
+    {
+      "question_id": "q36",
+      "a_is": "vector",
+      "judge_winner": "tie",
+      "winner_method": "tie",
+      "identical_answers": false,
+      "reason": "Both answers correctly state that the citric acid cycle yields 2 ATP (or GTP) per glucose, matching the reference answer."
+    },
+    {
+      "question_id": "q37",
+      "a_is": null,
+      "winner_method": "tie",
+      "identical_answers": true
+    },
+    {
+      "question_id": "q38",
+      "a_is": "rerank",
+      "judge_winner": "tie",
+      "winner_method": "tie",
+      "identical_answers": false,
+      "reason": "Both answers provide the exact temperature range specified in the reference answer."
+    },
+    {
+      "question_id": "q39",
+      "a_is": null,
+      "winner_method": "tie",
+      "identical_answers": true
+    },
+    {
+      "question_id": "q40",
+      "a_is": "vector",
+      "judge_winner": "tie",
+      "winner_method": "tie",
+      "identical_answers": false,
+      "reason": "Both answers provide the exact same correct information matching the reference answer."
+    }
+  ]
+}

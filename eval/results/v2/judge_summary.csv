@@ -1,0 +1,7 @@
+judge,view,method,n,faithfulness,ties,identical_answers,vector_wins,correctness,rerank_wins
+jev,pointwise,vector,40,4.393,,,,4.453,
+jev,pointwise,rerank,40,4.607,,,,4.936,
+jev,pairwise,,40,,32,5,1,,7
+qwen,pointwise,vector,40,4.325,,,,4.475,
+qwen,pointwise,rerank,40,4.65,,,,5.0,
+qwen,pairwise,,40,,28,5,3,,9

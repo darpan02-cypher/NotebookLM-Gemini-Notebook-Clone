@@ -1,0 +1,1752 @@
+[
+  {
+    "question_id": "q01",
+    "method": "vector",
+    "context_chunk_ids": [
+      "apollo_missions_extended.txt#011",
+      "apollo_missions_extended.txt#000",
+      "apollo_program.txt#001",
+      "mercury_gemini.txt#011",
+      "apollo_missions_extended.txt#006"
+    ],
+    "answer": "I could not find the names of the three Apollo 12 crew members in the provided sources.",
+    "cited_chunk_ids": [],
+    "invalid_citation_numbers": [],
+    "cited_gold": false,
+    "context_has_gold": false,
+    "generation_latency_s": 1.073,
+    "end_to_end_latency_s": 1.098,
+    "from_cache": false,
+    "reference_answer": "Charles \"Pete\" Conrad, Alan Bean, and Richard Gordon."
+  },
+  {
+    "question_id": "q01",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "skylab_and_iss.txt#002",
+      "apollo_missions_extended.txt#004",
+      "skylab_and_iss.txt#001",
+      "apollo_program.txt#000",
+      "mercury_gemini.txt#010"
+    ],
+    "answer": "The Apollo 12 crew consisted of Charles “Pete” Conrad, Alan Bean, and Richard Gordon[2]",
+    "cited_chunk_ids": [
+      "apollo_missions_extended.txt#004"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 0.504,
+    "end_to_end_latency_s": 0.598,
+    "from_cache": false,
+    "reference_answer": "Charles \"Pete\" Conrad, Alan Bean, and Richard Gordon."
+  },
+  {
+    "question_id": "q02",
+    "method": "vector",
+    "context_chunk_ids": [
+      "apollo_program.txt#001",
+      "apollo_missions_extended.txt#008",
+      "apollo_missions_extended.txt#003",
+      "apollo_missions_extended.txt#004",
+      "apollo_program.txt#000"
+    ],
+    "answer": "The lunar module flown by Apollo 16 was named Orion[2].",
+    "cited_chunk_ids": [
+      "apollo_missions_extended.txt#008"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 0.439,
+    "end_to_end_latency_s": 0.456,
+    "from_cache": false,
+    "reference_answer": "Orion."
+  },
+  {
+    "question_id": "q02",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "apollo_missions_extended.txt#011",
+      "apollo_missions_extended.txt#013",
+      "apollo_missions_extended.txt#008",
+      "apollo_program.txt#001",
+      "apollo_missions_extended.txt#015"
+    ],
+    "answer": "The Apollo 16 mission landed the lunar module **Orion** on the Moon[3][1].",
+    "cited_chunk_ids": [
+      "apollo_missions_extended.txt#008",
+      "apollo_missions_extended.txt#011"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 0.738,
+    "end_to_end_latency_s": 0.831,
+    "from_cache": false,
+    "reference_answer": "Orion."
+  },
+  {
+    "question_id": "q03",
+    "method": "vector",
+    "context_chunk_ids": [
+      "skylab_and_iss.txt#003",
+      "skylab_and_iss.txt#008",
+      "skylab_and_iss.txt#012",
+      "apollo_missions_extended.txt#014",
+      "skylab_and_iss.txt#013"
+    ],
+    "answer": "The Skylab 4 crew—Gerald Carr, Edward Gibson and William Pogue—spent **84 days** in orbit[1].",
+    "cited_chunk_ids": [
+      "skylab_and_iss.txt#003"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 0.668,
+    "end_to_end_latency_s": 0.685,
+    "from_cache": false,
+    "reference_answer": "84 days."
+  },
+  {
+    "question_id": "q03",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "skylab_and_iss.txt#003",
+      "skylab_and_iss.txt#008",
+      "skylab_and_iss.txt#009",
+      "skylab_and_iss.txt#012",
+      "skylab_and_iss.txt#002"
+    ],
+    "answer": "The Skylab 4 crew—Gerald Carr, Edward Gibson and William Pogue—spent **84 days** in orbit[1].",
+    "cited_chunk_ids": [
+      "skylab_and_iss.txt#003"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 0.429,
+    "end_to_end_latency_s": 0.52,
+    "from_cache": false,
+    "reference_answer": "84 days."
+  },
+  {
+    "question_id": "q04",
+    "method": "vector",
+    "context_chunk_ids": [
+      "voyager_probes.txt#006",
+      "apollo_missions_extended.txt#000",
+      "apollo_missions_extended.txt#011",
+      "apollo_program.txt#001",
+      "skylab_and_iss.txt#013"
+    ],
+    "answer": "The Golden Record includes spoken greetings in **55 languages**[1].",
+    "cited_chunk_ids": [
+      "voyager_probes.txt#006"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 10.64,
+    "end_to_end_latency_s": 10.649,
+    "from_cache": false,
+    "reference_answer": "55 languages."
+  },
+  {
+    "question_id": "q04",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "voyager_probes.txt#006",
+      "voyager_probes.txt#007",
+      "voyager_probes.txt#016",
+      "skylab_and_iss.txt#012",
+      "apollo_program.txt#001"
+    ],
+    "answer": "The Golden Record includes spoken greetings in **55 languages**[1][2]",
+    "cited_chunk_ids": [
+      "voyager_probes.txt#006",
+      "voyager_probes.txt#007"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 9.656,
+    "end_to_end_latency_s": 9.743,
+    "from_cache": false,
+    "reference_answer": "55 languages."
+  },
+  {
+    "question_id": "q05",
+    "method": "vector",
+    "context_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#001",
+      "cellular_respiration_and_cell_division.txt#003",
+      "cellular_respiration_and_cell_division.txt#019",
+      "cellular_respiration_and_cell_division.txt#004",
+      "cellular_respiration_and_cell_division.txt#008"
+    ],
+    "answer": "The citric acid (Krebs) cycle occurs in the mitochondrial matrix【2†L1-L3】【3†L1-L3】",
+    "cited_chunk_ids": [],
+    "invalid_citation_numbers": [],
+    "cited_gold": false,
+    "context_has_gold": true,
+    "generation_latency_s": 9.375,
+    "end_to_end_latency_s": 9.39,
+    "from_cache": false,
+    "reference_answer": "In the mitochondrial matrix."
+  },
+  {
+    "question_id": "q05",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#001",
+      "cellular_respiration_and_cell_division.txt#003",
+      "cellular_respiration_and_cell_division.txt#016",
+      "cellular_respiration_and_cell_division.txt#019",
+      "cellular_respiration_and_cell_division.txt#004"
+    ],
+    "answer": "The citric acid (Krebs) cycle occurs in the mitochondrial matrix[2][4].",
+    "cited_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#003",
+      "cellular_respiration_and_cell_division.txt#019"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 10.935,
+    "end_to_end_latency_s": 11.033,
+    "from_cache": false,
+    "reference_answer": "In the mitochondrial matrix."
+  },
+  {
+    "question_id": "q06",
+    "method": "vector",
+    "context_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#002",
+      "cellular_respiration_and_cell_division.txt#006",
+      "cellular_respiration_and_cell_division.txt#004",
+      "cellular_respiration_and_cell_division.txt#016",
+      "cellular_respiration_and_cell_division.txt#007"
+    ],
+    "answer": "The net gain from glycolysis is 2 ATP per glucose molecule[1].",
+    "cited_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#002"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 9.868,
+    "end_to_end_latency_s": 9.888,
+    "from_cache": false,
+    "reference_answer": "A net gain of 2 ATP per glucose."
+  },
+  {
+    "question_id": "q06",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#002",
+      "cellular_respiration_and_cell_division.txt#006",
+      "cellular_respiration_and_cell_division.txt#007",
+      "cellular_respiration_and_cell_division.txt#019",
+      "cellular_respiration_and_cell_division.txt#004"
+    ],
+    "answer": "The net gain from glycolysis is 2 ATP per glucose molecule【1†L4-L6】【4†L1-L3】",
+    "cited_chunk_ids": [],
+    "invalid_citation_numbers": [],
+    "cited_gold": false,
+    "context_has_gold": true,
+    "generation_latency_s": 10.821,
+    "end_to_end_latency_s": 10.926,
+    "from_cache": false,
+    "reference_answer": "A net gain of 2 ATP per glucose."
+  },
+  {
+    "question_id": "q07",
+    "method": "vector",
+    "context_chunk_ids": [
+      "c3_c4_cam_photosynthesis.txt#003",
+      "photosynthesis.txt#001",
+      "c3_c4_cam_photosynthesis.txt#001",
+      "c3_c4_cam_photosynthesis.txt#008",
+      "c3_c4_cam_photosynthesis.txt#007"
+    ],
+    "answer": "The enzyme that initially captures carbon dioxide in the mesophyll cells of C4 plants is **PEP carboxylase**[1][5].",
+    "cited_chunk_ids": [
+      "c3_c4_cam_photosynthesis.txt#003",
+      "c3_c4_cam_photosynthesis.txt#007"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 5.795,
+    "end_to_end_latency_s": 5.804,
+    "from_cache": false,
+    "reference_answer": "PEP carboxylase."
+  },
+  {
+    "question_id": "q07",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "c3_c4_cam_photosynthesis.txt#003",
+      "c3_c4_cam_photosynthesis.txt#001",
+      "photosynthesis.txt#001",
+      "c3_c4_cam_photosynthesis.txt#007",
+      "c3_c4_cam_photosynthesis.txt#004"
+    ],
+    "answer": "The first enzyme that captures carbon dioxide in the mesophyll cells of C4 plants is **PEP carboxylase**[1][5].",
+    "cited_chunk_ids": [
+      "c3_c4_cam_photosynthesis.txt#003",
+      "c3_c4_cam_photosynthesis.txt#004"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 10.776,
+    "end_to_end_latency_s": 10.867,
+    "from_cache": false,
+    "reference_answer": "PEP carboxylase."
+  },
+  {
+    "question_id": "q08",
+    "method": "vector",
+    "context_chunk_ids": [
+      "mercury_gemini.txt#003",
+      "mercury_gemini.txt#007",
+      "mercury_gemini.txt#012",
+      "mercury_gemini.txt#004",
+      "apollo_missions_extended.txt#011"
+    ],
+    "answer": "Gordon Cooper’s Faith 7 mission completed **twenty‑two orbits**【1†L1-L3】【4†L1-L3】",
+    "cited_chunk_ids": [],
+    "invalid_citation_numbers": [],
+    "cited_gold": false,
+    "context_has_gold": true,
+    "generation_latency_s": 10.69,
+    "end_to_end_latency_s": 10.714,
+    "from_cache": false,
+    "reference_answer": "Twenty-two orbits."
+  },
+  {
+    "question_id": "q08",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "mercury_gemini.txt#003",
+      "mercury_gemini.txt#004",
+      "mercury_gemini.txt#012",
+      "mercury_gemini.txt#006",
+      "mercury_gemini.txt#002"
+    ],
+    "answer": "Gordon Cooper’s Faith 7 completed **twenty‑two orbits**[1][2]",
+    "cited_chunk_ids": [
+      "mercury_gemini.txt#003",
+      "mercury_gemini.txt#004"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 10.695,
+    "end_to_end_latency_s": 10.798,
+    "from_cache": false,
+    "reference_answer": "Twenty-two orbits."
+  },
+  {
+    "question_id": "q09",
+    "method": "vector",
+    "context_chunk_ids": [
+      "voyager_probes.txt#004",
+      "voyager_probes.txt#005",
+      "voyager_probes.txt#000",
+      "voyager_probes.txt#011",
+      "voyager_probes.txt#013"
+    ],
+    "answer": "Voyager 2’s closest fly‑by of Neptune occurred on **August 25, 1989**[2]",
+    "cited_chunk_ids": [
+      "voyager_probes.txt#005"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 11.923,
+    "end_to_end_latency_s": 11.934,
+    "from_cache": false,
+    "reference_answer": "August 25, 1989."
+  },
+  {
+    "question_id": "q09",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "voyager_probes.txt#005",
+      "voyager_probes.txt#004",
+      "voyager_probes.txt#011",
+      "voyager_probes.txt#002",
+      "voyager_probes.txt#000"
+    ],
+    "answer": "Voyager 2 made its closest approach to Neptune on **August 25 1989**[1]",
+    "cited_chunk_ids": [
+      "voyager_probes.txt#005"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 10.73,
+    "end_to_end_latency_s": 10.838,
+    "from_cache": false,
+    "reference_answer": "August 25, 1989."
+  },
+  {
+    "question_id": "q10",
+    "method": "vector",
+    "context_chunk_ids": [
+      "skylab_and_iss.txt#006",
+      "skylab_and_iss.txt#007",
+      "skylab_and_iss.txt#013",
+      "skylab_and_iss.txt#004",
+      "skylab_and_iss.txt#010"
+    ],
+    "answer": "The International Space Station orbits the Earth in an orbit inclined ≈ 51.6 degrees to the equator[1].",
+    "cited_chunk_ids": [
+      "skylab_and_iss.txt#006"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 6.969,
+    "end_to_end_latency_s": 6.988,
+    "from_cache": false,
+    "reference_answer": "51.6 degrees."
+  },
+  {
+    "question_id": "q10",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "skylab_and_iss.txt#006",
+      "skylab_and_iss.txt#007",
+      "skylab_and_iss.txt#004",
+      "skylab_and_iss.txt#010",
+      "skylab_and_iss.txt#013"
+    ],
+    "answer": "The International Space Station orbits the Earth in an orbit inclined ≈ 51.6 degrees to the equator[1].",
+    "cited_chunk_ids": [
+      "skylab_and_iss.txt#006"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 10.667,
+    "end_to_end_latency_s": 10.772,
+    "from_cache": false,
+    "reference_answer": "51.6 degrees."
+  },
+  {
+    "question_id": "q11",
+    "method": "vector",
+    "context_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#013",
+      "cellular_respiration_and_cell_division.txt#012",
+      "cellular_respiration_and_cell_division.txt#010",
+      "cellular_respiration_and_cell_division.txt#009",
+      "cellular_respiration_and_cell_division.txt#015"
+    ],
+    "answer": "During anaphase I the paired homologous chromosomes are pulled apart and migrate to opposite poles of the cell, while the sister chromatids stay together on each chromosome [1][2].",
+    "cited_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#013",
+      "cellular_respiration_and_cell_division.txt#012"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 9.81,
+    "end_to_end_latency_s": 9.834,
+    "from_cache": false,
+    "reference_answer": "They are separated and pulled to opposite poles, while the sister chromatids stay joined."
+  },
+  {
+    "question_id": "q11",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#013",
+      "cellular_respiration_and_cell_division.txt#012",
+      "cellular_respiration_and_cell_division.txt#010",
+      "cellular_respiration_and_cell_division.txt#009",
+      "cellular_respiration_and_cell_division.txt#015"
+    ],
+    "answer": "During anaphase I the paired homologous chromosomes are pulled apart and migrate to opposite poles of the cell, while the sister chromatids stay together on each chromosome [1][2].",
+    "cited_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#013",
+      "cellular_respiration_and_cell_division.txt#012"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 9.81,
+    "end_to_end_latency_s": 9.915,
+    "from_cache": true,
+    "reference_answer": "They are separated and pulled to opposite poles, while the sister chromatids stay joined."
+  },
+  {
+    "question_id": "q12",
+    "method": "vector",
+    "context_chunk_ids": [
+      "mercury_gemini.txt#005",
+      "mercury_gemini.txt#009",
+      "mercury_gemini.txt#007",
+      "mercury_gemini.txt#012",
+      "mercury_gemini.txt#011"
+    ],
+    "answer": "Edward White opened the Gemini 4 hatch and became the first American to walk in space, spending roughly twenty minutes outside the spacecraft while tethered to it[1].",
+    "cited_chunk_ids": [
+      "mercury_gemini.txt#005"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 10.846,
+    "end_to_end_latency_s": 10.869,
+    "from_cache": false,
+    "reference_answer": "He became the first American to walk in space, for about twenty minutes."
+  },
+  {
+    "question_id": "q12",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "mercury_gemini.txt#005",
+      "mercury_gemini.txt#013",
+      "mercury_gemini.txt#006",
+      "mercury_gemini.txt#010",
+      "mercury_gemini.txt#008"
+    ],
+    "answer": "During the Gemini 4 mission, Edward White opened the spacecraft’s hatch and performed the first American spacewalk, spending roughly twenty minutes outside the capsule while tethered to it. [1][3]",
+    "cited_chunk_ids": [
+      "mercury_gemini.txt#005",
+      "mercury_gemini.txt#006"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 11.387,
+    "end_to_end_latency_s": 11.542,
+    "from_cache": false,
+    "reference_answer": "He became the first American to walk in space, for about twenty minutes."
+  },
+  {
+    "question_id": "q13",
+    "method": "vector",
+    "context_chunk_ids": [
+      "mercury_gemini.txt#001",
+      "mercury_gemini.txt#014",
+      "skylab_and_iss.txt#011",
+      "mercury_gemini.txt#005",
+      "skylab_and_iss.txt#010"
+    ],
+    "answer": "The Liberty Bell 7 capsule sank after its explosive hatch blew off and remained on the seabed until it was recovered in 1999[1].",
+    "cited_chunk_ids": [
+      "mercury_gemini.txt#001"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 10.623,
+    "end_to_end_latency_s": 10.665,
+    "from_cache": false,
+    "reference_answer": "Liberty Bell 7, flown by Gus Grissom, was raised in 1999."
+  },
+  {
+    "question_id": "q13",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "mercury_gemini.txt#002",
+      "mercury_gemini.txt#001",
+      "mercury_gemini.txt#014",
+      "mercury_gemini.txt#005",
+      "mercury_gemini.txt#008"
+    ],
+    "answer": "The capsule was **Liberty Bell 7** – its explosive hatch blew off after splashdown, the capsule sank, and it was not recovered from the ocean floor until 1999[1][2].",
+    "cited_chunk_ids": [
+      "mercury_gemini.txt#002",
+      "mercury_gemini.txt#001"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 10.097,
+    "end_to_end_latency_s": 10.213,
+    "from_cache": false,
+    "reference_answer": "Liberty Bell 7, flown by Gus Grissom, was raised in 1999."
+  },
+  {
+    "question_id": "q14",
+    "method": "vector",
+    "context_chunk_ids": [
+      "skylab_and_iss.txt#001",
+      "skylab_and_iss.txt#000",
+      "mercury_gemini.txt#013",
+      "skylab_and_iss.txt#009",
+      "skylab_and_iss.txt#010"
+    ],
+    "answer": "The thin protective shield that was supposed to shade the workshop and guard it from micrometeoroids was ripped away by launch‑induced vibration, and one solar array was lost while the other jammed shut. With the shield gone and little power available, the station could not control its temperature, so the interior rose above 50 °C, creating a dangerous heat condition【1†L1-L5】【2†L1-L4】",
+    "cited_chunk_ids": [],
+    "invalid_citation_numbers": [],
+    "cited_gold": false,
+    "context_has_gold": true,
+    "generation_latency_s": 9.755,
+    "end_to_end_latency_s": 9.774,
+    "from_cache": false,
+    "reference_answer": "A shield that protected and shaded the workshop was torn off during launch."
+  },
+  {
+    "question_id": "q14",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "skylab_and_iss.txt#000",
+      "skylab_and_iss.txt#001",
+      "mercury_gemini.txt#002",
+      "mercury_gemini.txt#006",
+      "skylab_and_iss.txt#005"
+    ],
+    "answer": "The thin protective shield that was supposed to shade the workshop was ripped off by launch‑induced vibration, and one solar array was lost while the other jammed. With the shield gone the station’s interior was exposed to direct sunlight, causing the temperature inside to climb above 50 °C, creating a dangerous heat condition[2].",
+    "cited_chunk_ids": [
+      "skylab_and_iss.txt#001"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 10.036,
+    "end_to_end_latency_s": 10.137,
+    "from_cache": false,
+    "reference_answer": "A shield that protected and shaded the workshop was torn off during launch."
+  },
+  {
+    "question_id": "q15",
+    "method": "vector",
+    "context_chunk_ids": [
+      "skylab_and_iss.txt#001",
+      "skylab_and_iss.txt#002",
+      "skylab_and_iss.txt#003",
+      "mercury_gemini.txt#000",
+      "mercury_gemini.txt#013"
+    ],
+    "answer": "The first crew (Skylab 2) solved the overheating by installing a parasol‑type sunshade. They deployed a sunshade through a small airlock in the workshop wall, which shaded the interior and brought the temperature down to a livable level[1].",
+    "cited_chunk_ids": [
+      "skylab_and_iss.txt#001"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 13.239,
+    "end_to_end_latency_s": 13.249,
+    "from_cache": false,
+    "reference_answer": "They deployed a parasol-like sunshade through a small airlock in the workshop wall."
+  },
+  {
+    "question_id": "q15",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "skylab_and_iss.txt#001",
+      "skylab_and_iss.txt#002",
+      "skylab_and_iss.txt#000",
+      "mercury_gemini.txt#013",
+      "mercury_gemini.txt#010"
+    ],
+    "answer": "The first crew (Skylab 2) installed a parasol‑like sunshade through a small airlock in the workshop wall, which shaded the interior and brought the temperature down to a livable level【1†L1-L4】【2†L1-L3】",
+    "cited_chunk_ids": [],
+    "invalid_citation_numbers": [],
+    "cited_gold": false,
+    "context_has_gold": true,
+    "generation_latency_s": 9.895,
+    "end_to_end_latency_s": 9.985,
+    "from_cache": false,
+    "reference_answer": "They deployed a parasol-like sunshade through a small airlock in the workshop wall."
+  },
+  {
+    "question_id": "q16",
+    "method": "vector",
+    "context_chunk_ids": [
+      "apollo_missions_extended.txt#006",
+      "apollo_missions_extended.txt#007",
+      "apollo_missions_extended.txt#003",
+      "apollo_program.txt#002",
+      "apollo_program.txt#000"
+    ],
+    "answer": "Alan Shepard smuggled a golf‑club head onto the Moon and used it to hit two golf balls on the lunar surface[1].",
+    "cited_chunk_ids": [
+      "apollo_missions_extended.txt#006"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 10.743,
+    "end_to_end_latency_s": 10.761,
+    "from_cache": false,
+    "reference_answer": "Alan Shepard on Apollo 14."
+  },
+  {
+    "question_id": "q16",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "apollo_missions_extended.txt#007",
+      "apollo_missions_extended.txt#006",
+      "apollo_missions_extended.txt#003",
+      "apollo_program.txt#002",
+      "apollo_missions_extended.txt#009"
+    ],
+    "answer": "Alan Shepard used a smuggled golf‑club head to hit two golf balls on the Moon[2].",
+    "cited_chunk_ids": [
+      "apollo_missions_extended.txt#006"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 9.762,
+    "end_to_end_latency_s": 9.869,
+    "from_cache": false,
+    "reference_answer": "Alan Shepard on Apollo 14."
+  },
+  {
+    "question_id": "q17",
+    "method": "vector",
+    "context_chunk_ids": [
+      "voyager_probes.txt#002",
+      "voyager_probes.txt#003",
+      "voyager_probes.txt#005",
+      "voyager_probes.txt#012",
+      "apollo_missions_extended.txt#018"
+    ],
+    "answer": "The navigation engineer who first spotted the volcanic plume was Linda Morabito[1].",
+    "cited_chunk_ids": [
+      "voyager_probes.txt#002"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 8.643,
+    "end_to_end_latency_s": 8.684,
+    "from_cache": false,
+    "reference_answer": "Linda Morabito, who spotted a plume above the edge of Io."
+  },
+  {
+    "question_id": "q17",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "voyager_probes.txt#002",
+      "voyager_probes.txt#003",
+      "voyager_probes.txt#014",
+      "apollo_missions_extended.txt#016",
+      "apollo_missions_extended.txt#009"
+    ],
+    "answer": "The navigation engineer who first spotted the volcanic plume was **Linda Morabito**[1].",
+    "cited_chunk_ids": [
+      "voyager_probes.txt#002"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 9.798,
+    "end_to_end_latency_s": 9.931,
+    "from_cache": false,
+    "reference_answer": "Linda Morabito, who spotted a plume above the edge of Io."
+  },
+  {
+    "question_id": "q18",
+    "method": "vector",
+    "context_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#007",
+      "cellular_respiration_and_cell_division.txt#017",
+      "cellular_respiration_and_cell_division.txt#016",
+      "cellular_respiration_and_cell_division.txt#002",
+      "cellular_respiration_and_cell_division.txt#003"
+    ],
+    "answer": "The enzyme that converts pyruvate into the lactate that builds up in a sprinter’s muscles is **lactate dehydrogenase**[1].",
+    "cited_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#007"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 10.862,
+    "end_to_end_latency_s": 10.9,
+    "from_cache": false,
+    "reference_answer": "Lactate dehydrogenase."
+  },
+  {
+    "question_id": "q18",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#003",
+      "cellular_respiration_and_cell_division.txt#002",
+      "cellular_respiration_and_cell_division.txt#007",
+      "cellular_respiration_and_cell_division.txt#017",
+      "cellular_respiration_and_cell_division.txt#019"
+    ],
+    "answer": "The enzyme that converts pyruvate into the lactate that builds up in a sprinter’s muscles is lactate dehydrogenase[3].",
+    "cited_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#007"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 10.715,
+    "end_to_end_latency_s": 10.846,
+    "from_cache": false,
+    "reference_answer": "Lactate dehydrogenase."
+  },
+  {
+    "question_id": "q19",
+    "method": "vector",
+    "context_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#019",
+      "cellular_respiration_and_cell_division.txt#000",
+      "cellular_respiration_and_cell_division.txt#016",
+      "cellular_respiration_and_cell_division.txt#002",
+      "cellular_respiration_and_cell_division.txt#005"
+    ],
+    "answer": "I could not find the answer in the provided sources.",
+    "cited_chunk_ids": [],
+    "invalid_citation_numbers": [],
+    "cited_gold": false,
+    "context_has_gold": false,
+    "generation_latency_s": 8.909,
+    "end_to_end_latency_s": 8.925,
+    "from_cache": false,
+    "reference_answer": "Cyanide and carbon monoxide, which bind to complex IV."
+  },
+  {
+    "question_id": "q19",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#018",
+      "cellular_respiration_and_cell_division.txt#005",
+      "cellular_respiration_and_cell_division.txt#016",
+      "cellular_respiration_and_cell_division.txt#003",
+      "cellular_respiration_and_cell_division.txt#019"
+    ],
+    "answer": "Cyanide and carbon monoxide block complex IV of the electron‑transport chain, preventing the final transfer of electrons to oxygen and thereby halting cellular ATP production[1].",
+    "cited_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#018"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 10.806,
+    "end_to_end_latency_s": 10.912,
+    "from_cache": false,
+    "reference_answer": "Cyanide and carbon monoxide, which bind to complex IV."
+  },
+  {
+    "question_id": "q20",
+    "method": "vector",
+    "context_chunk_ids": [
+      "photosynthesis.txt#001",
+      "c3_c4_cam_photosynthesis.txt#010",
+      "c3_c4_cam_photosynthesis.txt#013",
+      "c3_c4_cam_photosynthesis.txt#000",
+      "c3_c4_cam_photosynthesis.txt#001"
+    ],
+    "answer": "I could not find the name of that leaf architecture in the provided sources.",
+    "cited_chunk_ids": [],
+    "invalid_citation_numbers": [],
+    "cited_gold": false,
+    "context_has_gold": false,
+    "generation_latency_s": 11.315,
+    "end_to_end_latency_s": 11.344,
+    "from_cache": false,
+    "reference_answer": "Kranz anatomy."
+  },
+  {
+    "question_id": "q20",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "c3_c4_cam_photosynthesis.txt#003",
+      "c3_c4_cam_photosynthesis.txt#002",
+      "photosynthesis.txt#001",
+      "c3_c4_cam_photosynthesis.txt#001",
+      "c3_c4_cam_photosynthesis.txt#007"
+    ],
+    "answer": "The concentric leaf architecture is called **Kranz anatomy**[1].",
+    "cited_chunk_ids": [
+      "c3_c4_cam_photosynthesis.txt#003"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 11.835,
+    "end_to_end_latency_s": 11.943,
+    "from_cache": false,
+    "reference_answer": "Kranz anatomy."
+  },
+  {
+    "question_id": "q21",
+    "method": "vector",
+    "context_chunk_ids": [
+      "c3_c4_cam_photosynthesis.txt#012",
+      "photosynthesis.txt#001",
+      "c3_c4_cam_photosynthesis.txt#002",
+      "c3_c4_cam_photosynthesis.txt#007",
+      "c3_c4_cam_photosynthesis.txt#001"
+    ],
+    "answer": "A warm day lowers the amount of dissolved CO₂ in leaf cells while O₂ builds up (because warm leaves hold relatively less CO₂ and the stomata tend to close to conserve water). This makes O₂ compete more strongly with CO₂ for RuBisCO’s active site. When RuBisCO fixes O₂ instead of CO₂, the plant undergoes photorespiration, which consumes ATP and releases CO₂ without producing sugar—i.e., it wastes energy. [3][5]",
+    "cited_chunk_ids": [
+      "c3_c4_cam_photosynthesis.txt#002",
+      "c3_c4_cam_photosynthesis.txt#001"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 9.156,
+    "end_to_end_latency_s": 9.178,
+    "from_cache": false,
+    "reference_answer": "Higher temperature makes oxygen compete with carbon dioxide at RuBisCO, which increases photorespiration."
+  },
+  {
+    "question_id": "q21",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "c3_c4_cam_photosynthesis.txt#002",
+      "c3_c4_cam_photosynthesis.txt#012",
+      "c3_c4_cam_photosynthesis.txt#010",
+      "photosynthesis.txt#001",
+      "c3_c4_cam_photosynthesis.txt#005"
+    ],
+    "answer": "A warm day raises the chance that RuBisCO will bind oxygen instead of carbon dioxide. Heat makes leaves hold relatively less dissolved CO₂ while oxygen builds up, and the plants often close their stomata to conserve water, which further lowers internal CO₂ and raises O₂ levels. Under these conditions RuBisCO catalyzes photorespiration, producing the toxic phosphoglycolate and wasting energy that could have been used for carbon fixation[1]. Because RuBisCO evolved when atmospheric O₂ was low, it handles O₂ poorly, so the increased O₂ competition on hot days makes the enzyme more likely to waste energy[2].",
+    "cited_chunk_ids": [
+      "c3_c4_cam_photosynthesis.txt#002",
+      "c3_c4_cam_photosynthesis.txt#012"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 12.251,
+    "end_to_end_latency_s": 12.368,
+    "from_cache": false,
+    "reference_answer": "Higher temperature makes oxygen compete with carbon dioxide at RuBisCO, which increases photorespiration."
+  },
+  {
+    "question_id": "q22",
+    "method": "vector",
+    "context_chunk_ids": [
+      "mercury_gemini.txt#008",
+      "mercury_gemini.txt#007",
+      "mercury_gemini.txt#004",
+      "apollo_missions_extended.txt#000",
+      "mercury_gemini.txt#010"
+    ],
+    "answer": "The two crewed spacecraft were **Gemini 6A** and **Gemini 7**, which met in orbit on 15 December 1965 and flew in formation, coming within about 30 cm of each other【1†L1-L4】【2†L4-L7】",
+    "cited_chunk_ids": [],
+    "invalid_citation_numbers": [],
+    "cited_gold": false,
+    "context_has_gold": true,
+    "generation_latency_s": 11.977,
+    "end_to_end_latency_s": 12.007,
+    "from_cache": false,
+    "reference_answer": "Gemini 6A and Gemini 7, within about 30 centimeters."
+  },
+  {
+    "question_id": "q22",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "mercury_gemini.txt#008",
+      "mercury_gemini.txt#007",
+      "mercury_gemini.txt#010",
+      "mercury_gemini.txt#006",
+      "mercury_gemini.txt#004"
+    ],
+    "answer": "The two crewed spacecraft were **Gemini 6A** and **Gemini 7**, which met in orbit on 15 December 1965 and flew in formation, coming within about 30 cm of each other【1†L1-L4】【2†L4-L7】",
+    "cited_chunk_ids": [],
+    "invalid_citation_numbers": [],
+    "cited_gold": false,
+    "context_has_gold": true,
+    "generation_latency_s": 11.195,
+    "end_to_end_latency_s": 11.297,
+    "from_cache": false,
+    "reference_answer": "Gemini 6A and Gemini 7, within about 30 centimeters."
+  },
+  {
+    "question_id": "q23",
+    "method": "vector",
+    "context_chunk_ids": [
+      "apollo_missions_extended.txt#005",
+      "apollo_program.txt#000",
+      "apollo_missions_extended.txt#003",
+      "apollo_missions_extended.txt#007",
+      "apollo_missions_extended.txt#009"
+    ],
+    "answer": "Planners had deliberately loaded Apollo 10’s lunar module with too little fuel to make a landing and then take off again, so the crew could not actually touch down on the Moon[3].",
+    "cited_chunk_ids": [
+      "apollo_missions_extended.txt#003"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 10.702,
+    "end_to_end_latency_s": 10.714,
+    "from_cache": false,
+    "reference_answer": "It was deliberately loaded with too little fuel to land and take off again."
+  },
+  {
+    "question_id": "q23",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "apollo_missions_extended.txt#004",
+      "apollo_missions_extended.txt#005",
+      "apollo_missions_extended.txt#003",
+      "apollo_missions_extended.txt#012",
+      "apollo_missions_extended.txt#011"
+    ],
+    "answer": "The Apollo 10 lunar module was deliberately loaded with insufficient fuel for a landing and subsequent ascent, so that the crew could not be tempted to try to touch down on the Moon. This intentional fuel limitation meant the craft could not actually land. [1][3]",
+    "cited_chunk_ids": [
+      "apollo_missions_extended.txt#004",
+      "apollo_missions_extended.txt#003"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 10.849,
+    "end_to_end_latency_s": 10.958,
+    "from_cache": false,
+    "reference_answer": "It was deliberately loaded with too little fuel to land and take off again."
+  },
+  {
+    "question_id": "q24",
+    "method": "vector",
+    "context_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#014",
+      "cellular_respiration_and_cell_division.txt#013",
+      "cellular_respiration_and_cell_division.txt#012",
+      "cellular_respiration_and_cell_division.txt#011",
+      "cellular_respiration_and_cell_division.txt#009"
+    ],
+    "answer": "The extra copy of chromosome 21 that causes Down syndrome results from a failure of chromosomes to separate properly during meiosis – a mistake called **nondisjunction**[1].",
+    "cited_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#014"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 10.137,
+    "end_to_end_latency_s": 10.16,
+    "from_cache": false,
+    "reference_answer": "Nondisjunction, a failure of chromosomes to separate properly in meiosis."
+  },
+  {
+    "question_id": "q24",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#014",
+      "cellular_respiration_and_cell_division.txt#013",
+      "cellular_respiration_and_cell_division.txt#011",
+      "cellular_respiration_and_cell_division.txt#012",
+      "cellular_respiration_and_cell_division.txt#010"
+    ],
+    "answer": "The error is called **nondisjunction**, where chromosomes fail to separate properly, leading to a gamete with an extra copy of chromosome 21 and resulting in Down syndrome[1].",
+    "cited_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#014"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 9.72,
+    "end_to_end_latency_s": 9.82,
+    "from_cache": false,
+    "reference_answer": "Nondisjunction, a failure of chromosomes to separate properly in meiosis."
+  },
+  {
+    "question_id": "q25",
+    "method": "vector",
+    "context_chunk_ids": [
+      "voyager_probes.txt#016",
+      "skylab_and_iss.txt#001",
+      "voyager_probes.txt#010",
+      "voyager_probes.txt#002",
+      "mercury_gemini.txt#009"
+    ],
+    "answer": "Engineers solved the problem by re‑programming the spacecraft: they moved the corrupted code to other spots in the probe’s memory, doing the fix remotely from more than 24 billion km away, without any physical hardware intervention[3].",
+    "cited_chunk_ids": [
+      "voyager_probes.txt#010"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 6.937,
+    "end_to_end_latency_s": 6.951,
+    "from_cache": false,
+    "reference_answer": "They moved the affected code to other locations in memory."
+  },
+  {
+    "question_id": "q25",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "voyager_probes.txt#010",
+      "voyager_probes.txt#016",
+      "skylab_and_iss.txt#001",
+      "apollo_missions_extended.txt#005",
+      "voyager_probes.txt#002"
+    ],
+    "answer": "Engineers repaired the problem by re‑programming the spacecraft: they relocated the corrupted software routines to different areas of the probe’s memory, doing so remotely from more than 24 billion km away, so no physical hardware had to be touched[1].",
+    "cited_chunk_ids": [
+      "voyager_probes.txt#010"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 9.995,
+    "end_to_end_latency_s": 10.085,
+    "from_cache": false,
+    "reference_answer": "They moved the affected code to other locations in memory."
+  },
+  {
+    "question_id": "q26",
+    "method": "vector",
+    "context_chunk_ids": [
+      "mercury_gemini.txt#011",
+      "mercury_gemini.txt#009",
+      "mercury_gemini.txt#005",
+      "mercury_gemini.txt#006",
+      "mercury_gemini.txt#015"
+    ],
+    "answer": "Buzz Aldrin demonstrated that a well‑planned, well‑rehearsed EVA would not exhaust an astronaut—he worked outside for three sessions (about 5½ hours total) tightening bolts, cutting cables and attaching tethers “without tiring.”[1]",
+    "cited_chunk_ids": [
+      "mercury_gemini.txt#011"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 10.922,
+    "end_to_end_latency_s": 10.951,
+    "from_cache": false,
+    "reference_answer": "Buzz Aldrin on Gemini 12, who worked outside about five and a half hours in total."
+  },
+  {
+    "question_id": "q26",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "mercury_gemini.txt#006",
+      "mercury_gemini.txt#011",
+      "mercury_gemini.txt#010",
+      "mercury_gemini.txt#005",
+      "mercury_gemini.txt#009"
+    ],
+    "answer": "Buzz Aldrin demonstrated that a well‑planned, well‑rehearsed outside excursion would not exhaust an astronaut, working for three separate sessions totaling about five and a half hours without tiring[2].",
+    "cited_chunk_ids": [
+      "mercury_gemini.txt#011"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 9.886,
+    "end_to_end_latency_s": 10.007,
+    "from_cache": false,
+    "reference_answer": "Buzz Aldrin on Gemini 12, who worked outside about five and a half hours in total."
+  },
+  {
+    "question_id": "q27",
+    "method": "vector",
+    "context_chunk_ids": [
+      "apollo_missions_extended.txt#003",
+      "apollo_program.txt#000",
+      "apollo_missions_extended.txt#006",
+      "apollo_missions_extended.txt#005",
+      "apollo_missions_extended.txt#000"
+    ],
+    "answer": "I could not find the answer in the provided sources.",
+    "cited_chunk_ids": [],
+    "invalid_citation_numbers": [],
+    "cited_gold": false,
+    "context_has_gold": false,
+    "generation_latency_s": 11.202,
+    "end_to_end_latency_s": 11.216,
+    "from_cache": false,
+    "reference_answer": "Richard Gordon."
+  },
+  {
+    "question_id": "q27",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "apollo_missions_extended.txt#006",
+      "apollo_program.txt#000",
+      "apollo_missions_extended.txt#004",
+      "apollo_missions_extended.txt#003",
+      "apollo_missions_extended.txt#002"
+    ],
+    "answer": "Richard Gordon remained in orbit aboard the command module Yankee Clipper during the Apollo 12 landing[3]",
+    "cited_chunk_ids": [
+      "apollo_missions_extended.txt#004"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 11.065,
+    "end_to_end_latency_s": 11.202,
+    "from_cache": false,
+    "reference_answer": "Richard Gordon."
+  },
+  {
+    "question_id": "q28",
+    "method": "vector",
+    "context_chunk_ids": [
+      "skylab_and_iss.txt#012",
+      "skylab_and_iss.txt#008",
+      "skylab_and_iss.txt#009",
+      "apollo_missions_extended.txt#014",
+      "skylab_and_iss.txt#003"
+    ],
+    "answer": "The Skylab 3 crew remained in orbit for **59 days**[2].",
+    "cited_chunk_ids": [
+      "skylab_and_iss.txt#008"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": false,
+    "context_has_gold": false,
+    "generation_latency_s": 9.948,
+    "end_to_end_latency_s": 9.96,
+    "from_cache": false,
+    "reference_answer": "59 days."
+  },
+  {
+    "question_id": "q28",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "skylab_and_iss.txt#002",
+      "skylab_and_iss.txt#003",
+      "skylab_and_iss.txt#008",
+      "skylab_and_iss.txt#009",
+      "skylab_and_iss.txt#012"
+    ],
+    "answer": "The Skylab 3 crew stayed in space for **59 days**[1]",
+    "cited_chunk_ids": [
+      "skylab_and_iss.txt#002"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 10.788,
+    "end_to_end_latency_s": 10.878,
+    "from_cache": false,
+    "reference_answer": "59 days."
+  },
+  {
+    "question_id": "q29",
+    "method": "vector",
+    "context_chunk_ids": [
+      "apollo_missions_extended.txt#012",
+      "apollo_missions_extended.txt#008",
+      "apollo_missions_extended.txt#005",
+      "apollo_missions_extended.txt#015",
+      "apollo_program.txt#000"
+    ],
+    "answer": "Apollo 17’s lunar module landed in the Taurus‑Littrow valley[1].",
+    "cited_chunk_ids": [
+      "apollo_missions_extended.txt#012"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 10.73,
+    "end_to_end_latency_s": 10.742,
+    "from_cache": false,
+    "reference_answer": "The Taurus-Littrow valley."
+  },
+  {
+    "question_id": "q29",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "apollo_missions_extended.txt#012",
+      "apollo_missions_extended.txt#010",
+      "apollo_missions_extended.txt#008",
+      "apollo_missions_extended.txt#006",
+      "apollo_missions_extended.txt#007"
+    ],
+    "answer": "Apollo 17’s lunar module landed in the Taurus‑Littrow valley[1]",
+    "cited_chunk_ids": [
+      "apollo_missions_extended.txt#012"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 9.596,
+    "end_to_end_latency_s": 9.695,
+    "from_cache": false,
+    "reference_answer": "The Taurus-Littrow valley."
+  },
+  {
+    "question_id": "q30",
+    "method": "vector",
+    "context_chunk_ids": [
+      "apollo_program.txt#001",
+      "apollo_missions_extended.txt#017",
+      "apollo_missions_extended.txt#005",
+      "apollo_missions_extended.txt#013",
+      "apollo_missions_extended.txt#012"
+    ],
+    "answer": "I could not find the amount of lunar samples returned by Apollo 15 in the provided sources.",
+    "cited_chunk_ids": [],
+    "invalid_citation_numbers": [],
+    "cited_gold": false,
+    "context_has_gold": false,
+    "generation_latency_s": 10.44,
+    "end_to_end_latency_s": 10.454,
+    "from_cache": false,
+    "reference_answer": "About 77 kilograms."
+  },
+  {
+    "question_id": "q30",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "apollo_missions_extended.txt#008",
+      "apollo_missions_extended.txt#009",
+      "apollo_missions_extended.txt#007",
+      "apollo_missions_extended.txt#012",
+      "apollo_missions_extended.txt#005"
+    ],
+    "answer": "Apollo 15 returned about 77 kilograms of lunar samples[1].",
+    "cited_chunk_ids": [
+      "apollo_missions_extended.txt#008"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 10.915,
+    "end_to_end_latency_s": 11.013,
+    "from_cache": false,
+    "reference_answer": "About 77 kilograms."
+  },
+  {
+    "question_id": "q31",
+    "method": "vector",
+    "context_chunk_ids": [
+      "voyager_probes.txt#000",
+      "voyager_probes.txt#013",
+      "voyager_probes.txt#011",
+      "voyager_probes.txt#008",
+      "voyager_probes.txt#010"
+    ],
+    "answer": "Voyager 1 was launched on September 5, 1977【1†L1-L3】【3†L2-L3】",
+    "cited_chunk_ids": [],
+    "invalid_citation_numbers": [],
+    "cited_gold": false,
+    "context_has_gold": true,
+    "generation_latency_s": 9.674,
+    "end_to_end_latency_s": 9.698,
+    "from_cache": false,
+    "reference_answer": "September 5, 1977."
+  },
+  {
+    "question_id": "q31",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "voyager_probes.txt#011",
+      "voyager_probes.txt#000",
+      "voyager_probes.txt#001",
+      "voyager_probes.txt#013",
+      "voyager_probes.txt#004"
+    ],
+    "answer": "Voyager 1 was launched on September 5, 1977[1][2]",
+    "cited_chunk_ids": [
+      "voyager_probes.txt#011",
+      "voyager_probes.txt#000"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 10.829,
+    "end_to_end_latency_s": 10.92,
+    "from_cache": false,
+    "reference_answer": "September 5, 1977."
+  },
+  {
+    "question_id": "q32",
+    "method": "vector",
+    "context_chunk_ids": [
+      "voyager_probes.txt#008",
+      "voyager_probes.txt#011",
+      "voyager_probes.txt#000",
+      "voyager_probes.txt#010",
+      "voyager_probes.txt#004"
+    ],
+    "answer": "Voyager 2 crossed the heliopause into interstellar space on **November 5 2018**[1]. (The mission’s records also note that Voyager 2 entered interstellar space in 2018[2].)",
+    "cited_chunk_ids": [
+      "voyager_probes.txt#008",
+      "voyager_probes.txt#011"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 10.002,
+    "end_to_end_latency_s": 10.014,
+    "from_cache": false,
+    "reference_answer": "November 5, 2018."
+  },
+  {
+    "question_id": "q32",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "voyager_probes.txt#008",
+      "voyager_probes.txt#011",
+      "voyager_probes.txt#010",
+      "voyager_probes.txt#004",
+      "voyager_probes.txt#000"
+    ],
+    "answer": "Voyager 2 crossed the heliopause and entered interstellar space on 5 November 2018[1].",
+    "cited_chunk_ids": [
+      "voyager_probes.txt#008"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 9.659,
+    "end_to_end_latency_s": 9.748,
+    "from_cache": false,
+    "reference_answer": "November 5, 2018."
+  },
+  {
+    "question_id": "q33",
+    "method": "vector",
+    "context_chunk_ids": [
+      "mercury_gemini.txt#007",
+      "mercury_gemini.txt#006",
+      "mercury_gemini.txt#008",
+      "mercury_gemini.txt#010",
+      "mercury_gemini.txt#009"
+    ],
+    "answer": "Gemini 7 remained aloft for almost two weeks – “nearly fourteen days” before landing on December 18, 1965[1][2].",
+    "cited_chunk_ids": [
+      "mercury_gemini.txt#007",
+      "mercury_gemini.txt#006"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 10.937,
+    "end_to_end_latency_s": 10.947,
+    "from_cache": false,
+    "reference_answer": "Nearly fourteen days."
+  },
+  {
+    "question_id": "q33",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "mercury_gemini.txt#006",
+      "mercury_gemini.txt#007",
+      "mercury_gemini.txt#008",
+      "mercury_gemini.txt#005",
+      "mercury_gemini.txt#009"
+    ],
+    "answer": "Gemini 7 remained in orbit for almost two weeks – “nearly fourteen days,” launching on 4 December 1965 and landing on 18 December 1965[2].",
+    "cited_chunk_ids": [
+      "mercury_gemini.txt#007"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 11.852,
+    "end_to_end_latency_s": 11.941,
+    "from_cache": false,
+    "reference_answer": "Nearly fourteen days."
+  },
+  {
+    "question_id": "q34",
+    "method": "vector",
+    "context_chunk_ids": [
+      "mercury_gemini.txt#007",
+      "mercury_gemini.txt#003",
+      "mercury_gemini.txt#009",
+      "mercury_gemini.txt#008",
+      "mercury_gemini.txt#012"
+    ],
+    "answer": "Aurora 7 overshot its intended landing zone by roughly 400 kilometers[2].",
+    "cited_chunk_ids": [
+      "mercury_gemini.txt#003"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 9.623,
+    "end_to_end_latency_s": 9.634,
+    "from_cache": false,
+    "reference_answer": "About 400 kilometers."
+  },
+  {
+    "question_id": "q34",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "mercury_gemini.txt#003",
+      "mercury_gemini.txt#002",
+      "mercury_gemini.txt#007",
+      "mercury_gemini.txt#008",
+      "mercury_gemini.txt#001"
+    ],
+    "answer": "Aurora 7 overshot its intended landing zone by roughly 400 kilometers[1].",
+    "cited_chunk_ids": [
+      "mercury_gemini.txt#003"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 10.656,
+    "end_to_end_latency_s": 10.74,
+    "from_cache": false,
+    "reference_answer": "About 400 kilometers."
+  },
+  {
+    "question_id": "q35",
+    "method": "vector",
+    "context_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#001",
+      "cellular_respiration_and_cell_division.txt#016",
+      "cellular_respiration_and_cell_division.txt#003",
+      "cellular_respiration_and_cell_division.txt#019",
+      "cellular_respiration_and_cell_division.txt#006"
+    ],
+    "answer": "The electron transport chain resides in the inner membrane of the mitochondrion[2].",
+    "cited_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#016"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 9.78,
+    "end_to_end_latency_s": 9.789,
+    "from_cache": false,
+    "reference_answer": "At the inner mitochondrial membrane."
+  },
+  {
+    "question_id": "q35",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#016",
+      "cellular_respiration_and_cell_division.txt#001",
+      "cellular_respiration_and_cell_division.txt#018",
+      "cellular_respiration_and_cell_division.txt#015",
+      "cellular_respiration_and_cell_division.txt#005"
+    ],
+    "answer": "The electron transport chain is situated in the inner mitochondrial membrane[1][4]",
+    "cited_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#016",
+      "cellular_respiration_and_cell_division.txt#015"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 9.846,
+    "end_to_end_latency_s": 9.945,
+    "from_cache": false,
+    "reference_answer": "At the inner mitochondrial membrane."
+  },
+  {
+    "question_id": "q36",
+    "method": "vector",
+    "context_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#004",
+      "cellular_respiration_and_cell_division.txt#006",
+      "cellular_respiration_and_cell_division.txt#016",
+      "cellular_respiration_and_cell_division.txt#003",
+      "cellular_respiration_and_cell_division.txt#002"
+    ],
+    "answer": "The citric‑acid (Krebs) cycle produces one ATP (or GTP) per turn, and because each glucose supplies two acetyl‑CoA the cycle runs twice, giving a total of **2 ATP molecules per glucose**【1†L1-L4】【2†L4-L6】",
+    "cited_chunk_ids": [],
+    "invalid_citation_numbers": [],
+    "cited_gold": false,
+    "context_has_gold": true,
+    "generation_latency_s": 10.935,
+    "end_to_end_latency_s": 10.945,
+    "from_cache": false,
+    "reference_answer": "Two ATP per glucose."
+  },
+  {
+    "question_id": "q36",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#006",
+      "cellular_respiration_and_cell_division.txt#019",
+      "cellular_respiration_and_cell_division.txt#004",
+      "cellular_respiration_and_cell_division.txt#002",
+      "cellular_respiration_and_cell_division.txt#003"
+    ],
+    "answer": "The citric acid cycle produces **2 ATP (or GTP) per glucose** — one ATP per turn of the cycle, and the cycle runs twice for each glucose molecule [2][3]",
+    "cited_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#019",
+      "cellular_respiration_and_cell_division.txt#004"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 9.968,
+    "end_to_end_latency_s": 10.071,
+    "from_cache": false,
+    "reference_answer": "Two ATP per glucose."
+  },
+  {
+    "question_id": "q37",
+    "method": "vector",
+    "context_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#011",
+      "cellular_respiration_and_cell_division.txt#013",
+      "cellular_respiration_and_cell_division.txt#012",
+      "cellular_respiration_and_cell_division.txt#010",
+      "cellular_respiration_and_cell_division.txt#015"
+    ],
+    "answer": "Each human daughter cell produced by mitosis contains 46 chromosomes (the same diploid number as the parent cell)[1].",
+    "cited_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#011"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 11.424,
+    "end_to_end_latency_s": 11.435,
+    "from_cache": false,
+    "reference_answer": "46 chromosomes."
+  },
+  {
+    "question_id": "q37",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#011",
+      "cellular_respiration_and_cell_division.txt#013",
+      "cellular_respiration_and_cell_division.txt#012",
+      "cellular_respiration_and_cell_division.txt#015",
+      "cellular_respiration_and_cell_division.txt#009"
+    ],
+    "answer": "Each human daughter cell produced by mitosis contains 46 chromosomes (the same diploid number as the parent cell)[1].",
+    "cited_chunk_ids": [
+      "cellular_respiration_and_cell_division.txt#011"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 9.83,
+    "end_to_end_latency_s": 9.919,
+    "from_cache": false,
+    "reference_answer": "46 chromosomes."
+  },
+  {
+    "question_id": "q38",
+    "method": "vector",
+    "context_chunk_ids": [
+      "c3_c4_cam_photosynthesis.txt#002",
+      "c3_c4_cam_photosynthesis.txt#005",
+      "c3_c4_cam_photosynthesis.txt#013",
+      "c3_c4_cam_photosynthesis.txt#010",
+      "c3_c4_cam_photosynthesis.txt#009"
+    ],
+    "answer": "C4 plants perform best at temperatures of roughly 30 to 40 °C[2].",
+    "cited_chunk_ids": [
+      "c3_c4_cam_photosynthesis.txt#005"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 9.727,
+    "end_to_end_latency_s": 9.739,
+    "from_cache": false,
+    "reference_answer": "About 30 to 40 degrees Celsius."
+  },
+  {
+    "question_id": "q38",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "c3_c4_cam_photosynthesis.txt#005",
+      "c3_c4_cam_photosynthesis.txt#002",
+      "c3_c4_cam_photosynthesis.txt#010",
+      "c3_c4_cam_photosynthesis.txt#013",
+      "c3_c4_cam_photosynthesis.txt#006"
+    ],
+    "answer": "C4 plants perform best at warm temperatures, with an optimum around 30 to 40 °C[1].",
+    "cited_chunk_ids": [
+      "c3_c4_cam_photosynthesis.txt#005"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 8.572,
+    "end_to_end_latency_s": 8.66,
+    "from_cache": false,
+    "reference_answer": "About 30 to 40 degrees Celsius."
+  },
+  {
+    "question_id": "q39",
+    "method": "vector",
+    "context_chunk_ids": [
+      "c3_c4_cam_photosynthesis.txt#006",
+      "c3_c4_cam_photosynthesis.txt#014",
+      "c3_c4_cam_photosynthesis.txt#008",
+      "photosynthesis.txt#001",
+      "c3_c4_cam_photosynthesis.txt#011"
+    ],
+    "answer": "CAM plants store the malate as malic acid in the large central vacuole of the cell overnight[1].",
+    "cited_chunk_ids": [
+      "c3_c4_cam_photosynthesis.txt#006"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 9.769,
+    "end_to_end_latency_s": 9.778,
+    "from_cache": false,
+    "reference_answer": "In the large central vacuole."
+  },
+  {
+    "question_id": "q39",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "c3_c4_cam_photosynthesis.txt#006",
+      "c3_c4_cam_photosynthesis.txt#007",
+      "c3_c4_cam_photosynthesis.txt#014",
+      "photosynthesis.txt#002",
+      "c3_c4_cam_photosynthesis.txt#008"
+    ],
+    "answer": "CAM plants store the malate as malic acid in the large central vacuole of the cell overnight[1].",
+    "cited_chunk_ids": [
+      "c3_c4_cam_photosynthesis.txt#006"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 10.727,
+    "end_to_end_latency_s": 10.815,
+    "from_cache": false,
+    "reference_answer": "In the large central vacuole."
+  },
+  {
+    "question_id": "q40",
+    "method": "vector",
+    "context_chunk_ids": [
+      "skylab_and_iss.txt#014",
+      "skylab_and_iss.txt#005",
+      "mercury_gemini.txt#000",
+      "skylab_and_iss.txt#011",
+      "skylab_and_iss.txt#013"
+    ],
+    "answer": "The first ISS crew, Expedition 1, consisted of American astronaut William Shepherd together with Russian cosmonauts Yuri Gidzenko and Sergei Krikalev[2].",
+    "cited_chunk_ids": [
+      "skylab_and_iss.txt#005"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 9.322,
+    "end_to_end_latency_s": 9.349,
+    "from_cache": false,
+    "reference_answer": "William Shepherd, Yuri Gidzenko, and Sergei Krikalev."
+  },
+  {
+    "question_id": "q40",
+    "method": "rerank",
+    "context_chunk_ids": [
+      "skylab_and_iss.txt#005",
+      "skylab_and_iss.txt#013",
+      "skylab_and_iss.txt#014",
+      "skylab_and_iss.txt#002",
+      "mercury_gemini.txt#013"
+    ],
+    "answer": "The first ISS crew, Expedition 1, consisted of American astronaut **William Shepherd** together with Russian cosmonauts **Yuri Gidzenko** and **Sergei Krikalev**[1].",
+    "cited_chunk_ids": [
+      "skylab_and_iss.txt#005"
+    ],
+    "invalid_citation_numbers": [],
+    "cited_gold": true,
+    "context_has_gold": true,
+    "generation_latency_s": 9.911,
+    "end_to_end_latency_s": 10.014,
+    "from_cache": false,
+    "reference_answer": "William Shepherd, Yuri Gidzenko, and Sergei Krikalev."
+  }
+]

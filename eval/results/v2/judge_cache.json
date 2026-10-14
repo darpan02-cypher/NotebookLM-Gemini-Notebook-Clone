@@ -1,0 +1,970 @@
+{
+  "4f961c4413b6a83682a8f19f156d8581108887507e87b54e8e18ad312ba77927": {
+    "answer": "{\"reason\": \"The answer correctly states that the information is not in the sources, which is faithful to the empty citation list, but it fails to answer the question directly as required by the reference.\", \"faithfulness\": 5, \"correctness\": 1}",
+    "gen_latency_s": 0.3776492920005694
+  },
+  "4b85dd7017d319cac8694b444af1828ca41d821c19225ee61a4921cc524654e6": {
+    "answer": "{\"reason\": \"The answer correctly identifies the three crew members as stated in the cited passage, although it cites source [2] while the provided text is labeled [1].\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 0.39312275004340336
+  },
+  "863cf663fb0e0db8e46c19520e54e32b734f6ae3c05041d5619969c684822d9e": {
+    "answer": "{\"reason\": \"The answer correctly identifies the lunar module as Orion, which is explicitly supported by the cited passage stating 'Young and Duke landed the lunar module Orion'.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 0.2535984159912914
+  },
+  "64c4ef61024ef8cbaa53ca5f8daeb6f4c6b463c359d8ed85cee75eae6b1ee69c": {
+    "answer": "{\"reason\": \"The answer correctly identifies the lunar module as Orion, which is explicitly supported by the cited passages [1] and [2] (though the answer cites [3] which is not in the provided list, the content is grounded in [1]).\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 0.31676191702717915
+  },
+  "41baa3b11d13ed6525f84b92c63c1e7f72b88b6c758cede7f4464fbfc90cfd45": {
+    "answer": "{\"reason\": \"The answer correctly identifies the duration as 84 days, which is explicitly supported by the cited passage and matches the reference answer.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 6.439687333011534
+  },
+  "ab99b9720ff8cc8728bd58540d496492fc90d6d389ff31f1d0254c2bd4f20188": {
+    "answer": "{\"reason\": \"The answer correctly identifies the duration as 84 days, which is explicitly supported by the cited passage and matches the reference answer.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 0.256759709038306
+  },
+  "6bade7f875defd3c596e88f1d75a7e836a88d798a29a6d41976c0846d6d131a7": {
+    "answer": "{\"reason\": \"The answer correctly identifies the number of languages (55) and cites the passage that explicitly states 'greetings spoken in 55 languages'.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 16.59858583303867
+  },
+  "6d7dc23f095915405af13c76be135cef579b949aec61561a52d6ea717b726404": {
+    "answer": "{\"reason\": \"The answer correctly identifies the number of languages (55) as stated in the cited passages and matches the reference answer.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 0.29134512500604615
+  },
+  "55a31f2df30f2957272d371bd804751e01efabf9aa43eb698e255cdc358871b4": {
+    "answer": "{\"reason\": \"The answer is factually correct and matches the reference, but it cites specific passages that are not provided in the input, making the faithfulness assessment based on the absence of supporting text in the prompt context (though the claim itself is standard biological knowledge).\", \"faithfulness\": 1, \"correctness\": 5}",
+    "gen_latency_s": 0.27916970901424065
+  },
+  "98e11c7abf23c4feef752509614d011cb066ec0d89c43b31b647986896c73154": {
+    "answer": "{\"reason\": \"The answer correctly identifies the mitochondrial matrix as the location of the citric acid cycle, which is explicitly supported by the provided passages (specifically passage [1] and [2], though the answer cites [2] and a non-existent [4]).\", \"faithfulness\": 4, \"correctness\": 5}",
+    "gen_latency_s": 0.3357078750268556
+  },
+  "1b2c98b3249892b83c23ff648a746ac6cf6f834e1876980c8f00f08cc7056702": {
+    "answer": "{\"reason\": \"The answer correctly states the net gain of 2 ATP per glucose, which is explicitly supported by the cited passage.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 0.2392072079819627
+  },
+  "bb9fb925452b73d13ad11c688aaa43e5c429a2ad648bd1a38d93fb6305d966be": {
+    "answer": "{\"reason\": \"The answer provides the correct numerical value (2 ATP) consistent with the reference, but it cites specific passages that are not provided in the input, making the faithfulness assessment based on the absence of supporting text for the specific citations, though the core fact is standard biological knowledge.\", \"faithfulness\": 1, \"correctness\": 5}",
+    "gen_latency_s": 0.36995162500534207
+  },
+  "e6719bbd5ebeadef7458599d19ca1e7bd2c1f50ae54f7fe2cd85e93f2b7b108e": {
+    "answer": "{\"reason\": \"The answer correctly identifies PEP carboxylase as the enzyme, which is directly supported by the cited passages, although it cites a non-existent passage [5].\", \"faithfulness\": 4, \"correctness\": 5}",
+    "gen_latency_s": 0.40899495797930285
+  },
+  "eefa380a2c545f3f50226e005367ace22e708d3016f04202732b1c8724922e9f": {
+    "answer": "{\"reason\": \"The answer correctly identifies PEP carboxylase as the enzyme, which is explicitly supported by the cited passage [1].\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 0.27227920899167657
+  },
+  "aa48a959ccc15ed6e88e524d0295626a8708e3b2673c44e3a361043db5d3f3be": {
+    "answer": "{\"reason\": \"The answer provides the correct number of orbits (22) matching the reference, but it cites passages that are not provided in the prompt, making the faithfulness assessment based on the absence of supporting text in the context, though the claim itself is factually correct and consistent with the reference.\", \"faithfulness\": 1, \"correctness\": 5}",
+    "gen_latency_s": 0.28293962497264147
+  },
+  "e191fde7f94138943d99610ad6347c0c4c9f8954aa77ec5584decf13ec922c9d": {
+    "answer": "{\"reason\": \"The answer correctly states that Faith 7 completed twenty-two orbits, which is directly supported by the cited passages and matches the reference answer.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 0.2641182920197025
+  },
+  "093f5b55acea25ed0b19276971b54621a63fd9c6e41ce012aea47344b01ee2ca": {
+    "answer": "{\"reason\": \"The answer correctly identifies the date as August 25, 1989, which is explicitly supported by the provided passage (labeled [1] in the prompt, though the answer cites [2], the content matches the provided text).\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 5.518399583001155
+  },
+  "6cbf55c5565a3a001f4009cd9fe9465bbc3da43601b785f5b0217624d690e1c8": {
+    "answer": "{\"reason\": \"The answer correctly identifies the date as August 25, 1989, which is explicitly stated in the cited passage and matches the reference answer.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 16.981211041973438
+  },
+  "da0bf7d449b19ab17405bc86e6e0678e714144b452fae3cc943ed62947188718": {
+    "answer": "{\"reason\": \"The answer correctly identifies the orbital inclination as 51.6 degrees, which is directly supported by the cited passage and matches the reference answer.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 0.2504838749882765
+  },
+  "660be2ecfdcb497e4ce54409d3ce06549818691b29df276b49b93574a62eeddb": {
+    "answer": "{\"reason\": \"The answer accurately reflects the content of the cited passages and matches the reference answer regarding the separation of homologous chromosomes and the retention of sister chromatids.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 0.2781419169623405
+  },
+  "6343553cb0d8435bd7f9b8d25202f7d13bce7e1bbf945f641b47a69bfef7b3a9": {
+    "answer": "{\"reason\": \"The answer accurately reflects the information provided in the cited passage regarding Edward White's actions during Gemini 4, matching the reference answer.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 4.346323458012193
+  },
+  "ae0567cf43c9fbf09cc4283b69cac7a8efe3d50ea0e5dd72aaf826ae74da0efb": {
+    "answer": "{\"reason\": \"The answer is fully supported by the cited passages and matches the reference answer regarding the event and duration.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 7.422562166990247
+  },
+  "44eaa03a172008eb1e887774f6c61c5c95e53ba261462b6a3183c801ea8af650": {
+    "answer": "{\"reason\": \"The answer correctly identifies Liberty Bell 7 and the 1999 recovery date, fully supported by the cited passage.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 5.459928083000705
+  },
+  "f9d122fd9b1e46f7ef907a88fa064ed0232973f296379fd5b1e0918be2238d2f": {
+    "answer": "{\"reason\": \"The answer correctly identifies Liberty Bell 7 and the 1999 recovery date, fully supported by the cited passages.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 9.857002834032755
+  },
+  "9535a4204d4893df0450eeca50c04c04fddeaa4df7df8cc25de192f6e22162cb": {
+    "answer": "{\"reason\": \"The answer cites specific passages but the prompt indicates no passages were cited, and the detailed claims (vibration, solar array loss, 50°C) are not supported by the provided reference or any visible context, making it unfaithful to the cited sources (which are empty) and partially correct regarding the main cause (shield loss).\", \"faithfulness\": 1, \"correctness\": 4}",
+    "gen_latency_s": 8.020356583001558
+  },
+  "6dded05b598bdb93872a46993764ac947e28a6bb99d14fafede563c09f006a08": {
+    "answer": "{\"reason\": \"The answer accurately reflects the details in the cited passage regarding the shield tearing off, the solar array issues, and the resulting temperature rise, matching the reference answer's core fact.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 0.2899890420376323
+  },
+  "83115ec1ac5b1e92adae5be4f41ed8572912cbcb56bf1bd5b1bc4ec7730b1859": {
+    "answer": "{\"reason\": \"The answer accurately reflects the details provided in the cited passage regarding the deployment of the parasol-like sunshade through the airlock to lower temperatures.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 6.659288791997824
+  },
+  "5ef0c6261e57a48d24d115df9488a44429dd3e2e5fc0c2074c37a3136662bc8f": {
+    "answer": "{\"reason\": \"The answer correctly identifies the method (parasol-like sunshade through an airlock) consistent with the reference, but it cites specific passages that are not provided in the prompt, making the faithfulness assessment based on the absence of cited text in the input context (though the content is factually correct).\", \"faithfulness\": 1, \"correctness\": 5}",
+    "gen_latency_s": 1.46065299998736
+  },
+  "c907401194ba6760f6de4cc8aea5bce5d623f07e57f3968bd497e44f547c92c3": {
+    "answer": "{\"reason\": \"The answer correctly identifies Alan Shepard and the event, and the claim is directly supported by the cited passage.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 5.446968250034843
+  },
+  "e9904667417f38d2f40cd3cd9dc169c98ffb934ab68af26480248f1174f69a39": {
+    "answer": "{\"reason\": \"The answer correctly identifies Alan Shepard and the action of hitting golf balls with a smuggled club head, which is fully supported by the cited passage and matches the reference answer.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 5.531767125008628
+  },
+  "cc81977ecfe043a0db82cd7959105a84e2c45963e33d4b4fc6f8495c833a980a": {
+    "answer": "{\"reason\": \"The answer correctly identifies Linda Morabito as the navigation engineer who spotted the plume, which is directly supported by the cited passage.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 7.560975833970588
+  },
+  "ab6e8b4ef7a2e4976e0119538a09f0891bceffb42fdf62669da8879f8e029dee": {
+    "answer": "{\"reason\": \"The answer correctly identifies Linda Morabito as the navigation engineer who spotted the plume, which is directly supported by the cited passage.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 2.9432301659835503
+  },
+  "8e6c19127413731206ae471cb2b3aba9bb9eb44e22d14ae930e2b3462db16541": {
+    "answer": "{\"reason\": \"The answer correctly identifies lactate dehydrogenase as the enzyme, which is explicitly supported by the cited passage and matches the reference answer.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 20.82464408298256
+  },
+  "f1ce4cfed1efc21c0fb101a8a6aec3b339ce022a2fb057c63146b1edaa8778de": {
+    "answer": "{\"reason\": \"The answer correctly identifies lactate dehydrogenase as the enzyme, which is explicitly supported by the cited passage stating that pyruvate is converted to lactate by this enzyme in animals during intense exercise.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 0.2972704169806093
+  },
+  "cc1916ccb05a626f6747f6ba08eb588fa7f236d596f0c9d024d6c15acda45aff": {
+    "answer": "{\"reason\": \"The answer correctly states that the provided sources do not contain the answer, which is accurate given that no passages were cited or provided in the prompt context for the answer to rely on.\", \"faithfulness\": 5, \"correctness\": 1}",
+    "gen_latency_s": 0.24077649996615946
+  },
+  "2464f13e80590f459a22f5c73dc639afeb6a74196d672eb40ea62ed4409f65c7": {
+    "answer": "{\"reason\": \"The answer correctly identifies cyanide and carbon monoxide as the substances that block complex IV, which is fully supported by the cited passage and matches the reference answer.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 0.32333841698709875
+  },
+  "ad4f731dc402480089c4ae75dd74eb28bd76934003f3222095bbbab8af89be5f": {
+    "answer": "{\"reason\": \"The answer correctly states that the information is not in the sources, which is faithful to the empty citation list, but it fails to provide the correct answer (Kranz anatomy) required by the question.\", \"faithfulness\": 5, \"correctness\": 1}",
+    "gen_latency_s": 0.2686923330184072
+  },
+  "88e28f2409d2c485bc4487f20d7db1334b9812dbd3947e4fc6737ca3250adb1a": {
+    "answer": "{\"reason\": \"The answer correctly identifies 'Kranz anatomy' as the specific leaf architecture described in the cited passage, which explicitly defines it as a wreath-like arrangement in C4 plants like maize.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 4.373788999975659
+  },
+  "154f25e6ebb88ec1440abe7ba44911cf867ba4d5e7250abddbf414dff7ec2f8e": {
+    "answer": "{\"reason\": \"The answer correctly explains the mechanism (temperature increases O2/CO2 ratio, leading to photorespiration) consistent with the reference, but it cites passages [3] and [5] which are not provided in the input, whereas the provided passages [1] and [2] fully support the claims.\", \"faithfulness\": 4, \"correctness\": 5}",
+    "gen_latency_s": 7.591848667012528
+  },
+  "6aba62c6399f746cf5184c53315f6ef1ec37cd719f42fd8cabfd0c655e3f7840": {
+    "answer": "{\"reason\": \"The answer accurately explains that higher temperatures reduce CO2 solubility and cause stomatal closure, increasing O2 competition at RuBisCO, which leads to energy-wasting photorespiration, fully supported by the cited passages and consistent with the reference.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 7.4752174590248615
+  },
+  "fb665a7d6d6d1b49ce15d6e8c8f07f45d1a003a8fc02906723cb5b3069722911": {
+    "answer": "{\"reason\": \"The answer correctly identifies the spacecraft and the distance, matching the reference, but it cites specific passages that were not provided in the prompt, making the faithfulness score low due to the lack of verifiable source text in the context.\", \"faithfulness\": 1, \"correctness\": 5}",
+    "gen_latency_s": 3.3730176250101067
+  },
+  "302b6137ca949b52f1c26bc68ba94f191e16b8d1a8f71a8a927c9b9930d3f875": {
+    "answer": "{\"reason\": \"The answer accurately reflects the reference answer and is directly supported by the cited passage which states planners deliberately loaded the lunar module with too little fuel to prevent a landing.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 5.493807042017579
+  },
+  "f81343045363e2b268175b09240998b7b8c840730924d5b579e759369ef4f660": {
+    "answer": "{\"reason\": \"The answer correctly identifies the reason (deliberate fuel limitation) and is fully supported by the cited passages, although it cites a non-existent passage [3].\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 7.514144540997222
+  },
+  "8d40c7acb809ce42f1c0adfb461d76d50e7bebc0710293a464c040fa94c32c99": {
+    "answer": "{\"reason\": \"The answer correctly identifies nondisjunction as the error and cites the passage which explicitly links this failure of separation in meiosis to Down syndrome (three copies of chromosome 21).\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 5.441375249996781
+  },
+  "e6721b23f9a4e0d9816050a70b98340ac87a324b3d71a39b07dd74be0993f879": {
+    "answer": "{\"reason\": \"The answer correctly identifies nondisjunction as the error and cites the passage which explicitly links this failure of separation to Down syndrome and three copies of chromosome 21.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 5.453400665952358
+  },
+  "388ac4fb20ddb488a8c64279aff762f15c61f2bec604171bba3be493848a0c2e": {
+    "answer": "{\"reason\": \"The answer accurately reflects the reference answer and is fully supported by the cited passage, which details moving the code to other memory locations remotely.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 5.3612094999989495
+  },
+  "585065494d15f4da6d7d783bc923f2c5c789bb80d1ac21b3ed61673a76fefb7c": {
+    "answer": "{\"reason\": \"The answer accurately reflects the reference answer and is fully supported by the cited passage, which states engineers moved affected code to other locations in memory remotely.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 5.484449166979175
+  },
+  "e42661f8a2e353b78da9778029431f9e2202464dd42be979a389d8f529df7eb5": {
+    "answer": "{\"reason\": \"The answer correctly identifies Buzz Aldrin and cites the specific details (5.5 hours, tasks, lack of fatigue) directly from the provided passage, matching the reference answer.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 5.548573917010799
+  },
+  "83c349a91eb07017ce700eb0569e3d070e4464a47cce4e5cbc547310987fb225": {
+    "answer": "{\"reason\": \"The answer correctly identifies Buzz Aldrin and the specific details (5.5 hours, no exhaustion) supported by the cited passage, although it cites source [2] which is not present in the provided list (likely a typo for [1]).\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 4.4538658750243485
+  },
+  "0ef8ef32547b6daa3c1fafac1c77d63b6a1aadb5f4753af3ad77b9a7f6a9df2e": {
+    "answer": "{\"reason\": \"The answer correctly states that the information is not in the sources, which is faithful to the empty citation list, but it fails to provide the correct answer (Richard Gordon) required by the question.\", \"faithfulness\": 5, \"correctness\": 1}",
+    "gen_latency_s": 3.3838095830287784
+  },
+  "1dfe69d277af3c24a9aa3d27a3066ecce4a5181656abdef9318e94d7da0b66d9": {
+    "answer": "{\"reason\": \"The answer correctly identifies Richard Gordon and the command module Yankee Clipper, which is directly supported by the cited passage.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 5.554044457967393
+  },
+  "8b98e43f48f6d3d9a588e494f877a6b09f0c996c185ba52420e70ef19d596466": {
+    "answer": "{\"reason\": \"The answer correctly identifies the duration as 59 days, which is explicitly supported by the cited passage stating the total occupation was the sum of 28, 59, and 84 days (corresponding to the three missions, with Skylab 3 being the second).\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 5.579396040993743
+  },
+  "a8c6e035d4ab11df5b5575c1e6e3912f663bf0aa5ee31635dd693bf21077f271": {
+    "answer": "{\"reason\": \"The answer correctly identifies the duration as 59 days, which is explicitly supported by the cited passage and matches the reference answer.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 4.389926917036064
+  },
+  "90b204baceebac91873535bc45fd01258f16a8dbaa30d3dad519e6c1e9254029": {
+    "answer": "{\"reason\": \"The answer correctly identifies the Taurus-Littrow valley as the landing site for Apollo 17, which is explicitly supported by the cited passage.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 0.3082671249867417
+  },
+  "c779bf43f26fe61d7695f96d36a242bc1137e08a39f24002edd9c7b64d5e2784": {
+    "answer": "{\"reason\": \"The answer correctly identifies the Taurus-Littrow valley and cites the passage that explicitly states Apollo 17 settled in that location.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 5.565408541995566
+  },
+  "900c0ec6d2e6ccd20edb7061a13bf14bdd9525f139887b387a9846db0135f4d9": {
+    "answer": "{\"reason\": \"The answer correctly states that the information is not available in the provided sources, which is faithful to the empty context, but it fails to answer the question with the correct fact (77 kg) required for a high correctness score.\", \"faithfulness\": 5, \"correctness\": 1}",
+    "gen_latency_s": 3.578883250011131
+  },
+  "89c7f941bfde56852cc80714c6771e11c4bafcc0cdf4aab2dc1c584a6a8c3285": {
+    "answer": "{\"reason\": \"The answer correctly states the amount of lunar samples returned by Apollo 15 as about 77 kilograms, which is directly supported by the cited passage and matches the reference answer.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 4.436016625026241
+  },
+  "591254b3d2dce4c380d1399be9e29a5b79414ae5c7f36d4649399bb57c06dc00": {
+    "answer": "{\"reason\": \"The answer provides the correct date but cites specific passages that are not provided in the input, making the faithfulness assessment based on the absence of supporting text in the prompt context, though the claim itself is factually correct and matches the reference.\", \"faithfulness\": 1, \"correctness\": 5}",
+    "gen_latency_s": 3.448843249992933
+  },
+  "978a552c3fa73f7291399a34cc1088e93d7bb18b309fa3e2556199bc6897093b": {
+    "answer": "{\"reason\": \"The answer correctly identifies the launch date as September 5, 1977, which is explicitly supported by both cited passages and matches the reference answer.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 7.568302166997455
+  },
+  "e191e0fa00e4aca31d2881ab4ae1647de8410aceb36697bd50556848b9b99a04": {
+    "answer": "{\"reason\": \"The answer correctly identifies the date as November 5, 2018, which is explicitly supported by the cited passages and matches the reference answer.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 7.5030637080199085
+  },
+  "71eb8e1a6f7660b6f84cb4c475b54bd20e3c0b8be012ee30277ab65bfda79b7f": {
+    "answer": "{\"reason\": \"The answer correctly identifies the date as November 5, 2018, which is explicitly supported by the cited passage and matches the reference answer.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 4.413667541986797
+  },
+  "28fd27fe6ad57f8cfa117b6c9fd6c6663f3d14297a9212d6cef297f7bc10ae75": {
+    "answer": "{\"reason\": \"The answer correctly states the duration as nearly fourteen days and cites the specific landing date, both of which are directly supported by the provided passages.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 7.626545250008348
+  },
+  "9d17d16d0e4706613526a9e8bef62894e61fa172478625740ea12e4089c6925f": {
+    "answer": "{\"reason\": \"The answer correctly states the duration as nearly fourteen days and provides the correct launch and landing dates, all of which are directly supported by the cited passage.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 5.721432417049073
+  },
+  "b6a81cd5632079655e5edc67ce824aee646e368c51f6b9363b186c208c30f1fd": {
+    "answer": "{\"reason\": \"The answer correctly identifies the distance as roughly 400 kilometers, which is explicitly supported by the cited passage [1] (though the answer cites [2], the content matches the provided text in [1], and the fact is correct relative to the reference).\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 4.522926041972823
+  },
+  "a32d794caa6cf350ab605c342ea0f834489116d9d7499d2898219333ad222143": {
+    "answer": "{\"reason\": \"The answer correctly identifies the distance as roughly 400 kilometers, which is directly supported by the cited passage and matches the reference answer.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 5.60582058300497
+  },
+  "2e3dbe149a1c2b8ee9e9cc5c1902bcceaf755d08132131283fccd768591aa3d9": {
+    "answer": "{\"reason\": \"The answer correctly identifies the location as the inner membrane, which is supported by the cited passage [1] (despite the answer citing [2], the content matches the provided text in [1]), and is fully consistent with the reference answer.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 4.442829834006261
+  },
+  "db2712acc6cf4dad99ccb43f8cdfccb00fe0ee71fc4334071e6a4ae4eba8e769": {
+    "answer": "{\"reason\": \"The answer correctly identifies the location as the inner mitochondrial membrane, which is explicitly supported by the cited passages [1] and [2] (though the answer cites [4] which is not provided, the text matches [1] and [2]).\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 7.486891542037483
+  },
+  "6f70b221e8fd41e7a5abaa57f7325b34393c968d5668dc06b5680937abc5817c": {
+    "answer": "{\"reason\": \"The answer correctly states the yield of 2 ATP per glucose, matching the reference, but it cites passages that are not provided in the prompt, making the faithfulness assessment based on the absence of support for the specific citations.\", \"faithfulness\": 1, \"correctness\": 5}",
+    "gen_latency_s": 3.372496250027325
+  },
+  "de05455b3de4540c0111128418ec4349c0715d90d2dcb8df943ec4f85c863b54": {
+    "answer": "{\"reason\": \"The answer correctly states that the citric acid cycle yields 2 ATP per glucose, which is supported by the cited passages (specifically passage [2] and [1]), although it cites a non-existent passage [3].\", \"faithfulness\": 4, \"correctness\": 5}",
+    "gen_latency_s": 7.477081082994118
+  },
+  "d090ac0e1314848d2402997d6ecf626a136de445d44d73277d3c42cf0e1678ec": {
+    "answer": "{\"reason\": \"The answer correctly states that each daughter cell has 46 chromosomes, which is directly supported by the cited passage and matches the reference answer.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 4.492263666994404
+  },
+  "f92b5dac9afd74be56622f3a29a500a715edd0bef5f359f4768f9244e2e5d3c6": {
+    "answer": "{\"reason\": \"The answer correctly identifies the temperature range (30-40°C) as stated in the reference and supported by the cited passage, although it cites a non-existent source [2] instead of the provided [1].\", \"faithfulness\": 4, \"correctness\": 5}",
+    "gen_latency_s": 5.713078291038983
+  },
+  "b8bae2688fb63be0c0625a54b846e08f04f3d0540c3b92d60c1fe7f61369a7b8": {
+    "answer": "{\"reason\": \"The answer correctly identifies the temperature range (30-40°C) as stated in the cited passage and aligns perfectly with the reference answer.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 4.3922852500109
+  },
+  "7019e91c2efaecc08d0a07d89d53f6a4a4c9a1d8dc6902617778c48a4a10b53d": {
+    "answer": "{\"reason\": \"The answer correctly identifies the large central vacuole as the storage site for malate, which is directly supported by the cited passage and matches the reference answer.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 5.608447875012644
+  },
+  "188c1070c0fa67107e08ceb2f1bd092742ed26eb932fcf2da5dd38c3391dd1a0": {
+    "answer": "{\"reason\": \"The answer correctly identifies the crew members as William Shepherd, Yuri Gidzenko, and Sergei Krikalev, which is fully supported by the cited passage and matches the reference answer.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 5.576621124986559
+  },
+  "d7262cd66f6f657d6c9597b856279644f77f7fc048116963ccdff3e099453fd2": {
+    "answer": "{\"reason\": \"The answer correctly identifies the three crew members of Expedition 1 as stated in the reference answer and directly supported by the cited passage.\", \"faithfulness\": 5, \"correctness\": 5}",
+    "gen_latency_s": 5.504864750022534
+  },
+  "7e8ce5cbead950870ab4b236ff2322d3ebb361f3969319e556133d9fab06f3d6": {
+    "answer": "{\"reason\": \"Answer A correctly lists the three crew members as stated in the reference answer, while Answer B claims the information was not found.\", \"winner\": \"A\"}",
+    "gen_latency_s": 1.3357212920091115
+  },
+  "1abfc588dcd377bdf6134693c49abfe81cd8a84f4bad057d5dc82efb1d943a33": {
+    "answer": "{\"reason\": \"Both answers correctly identify the lunar module as Orion, matching the reference answer.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 1.2976299169822596
+  },
+  "429a1cbc8110bc83b566a54918bd53e1e1b0f1c21778f598d47f7987b7a567c3": {
+    "answer": "{\"reason\": \"Both answers provide the correct number of days (84) and identify the crew members correctly, matching the reference answer.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 2.3670247920090333
+  },
+  "8ed1d7013fe3bcfa8b62ef3e34c1dccdbac52414c3b1b4057e393c96c033dff1": {
+    "answer": "{\"reason\": \"Both answers provide the correct number (55) matching the reference answer.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 1.3250707919942215
+  },
+  "2af3f9f99eb9c12d36ed10c2d0dfc3557c61a022b28cf702b5e515d27655153b": {
+    "answer": "{\"reason\": \"Both answers correctly identify the mitochondrial matrix as the location of the citric acid cycle, matching the reference answer.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 2.3339361249818467
+  },
+  "357cd7e39fd2877c5e55011df5fcab0a87586bf3ba2f4796167883014d207bc2": {
+    "answer": "{\"reason\": \"Both answers correctly state the net gain is 2 ATP per glucose molecule, matching the reference.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 1.3218754999688827
+  },
+  "4c85c7f317c3215d1e279ff8a7cd86f3c924469b914cd871de31e30ecb8637f2": {
+    "answer": "{\"reason\": \"Both answers correctly identify PEP carboxylase as the enzyme, matching the reference answer.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 2.360036499972921
+  },
+  "07872b3379164a23f14339e527c47e63a5be68ece3f485509a15ef09e30a8a30": {
+    "answer": "{\"reason\": \"Both answers correctly state that Faith 7 completed twenty-two orbits, matching the reference.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 1.3489169160020538
+  },
+  "1fd3a6e990fbe51e8eedd2da5cab2f395afeceda4d55aed55f5557a789fedf70": {
+    "answer": "{\"reason\": \"Both answers provide the correct date matching the reference answer.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 1.5675160830141976
+  },
+  "918b3f42eb71919eb5daa284b16af6f41c62024224d1ad72ffea5e2e30bef4c3": {
+    "answer": "{\"reason\": \"Both answers are correct and align with the reference, but Answer A is slightly more concise and directly mirrors the phrasing of the reference answer.\", \"winner\": \"A\"}",
+    "gen_latency_s": 2.462677875009831
+  },
+  "5ef1b13fa963c92fb967e7f49fa0702265d59b9718b00a0f6290ac45baba62e2": {
+    "answer": "{\"reason\": \"Both answers correctly identify the capsule and the recovery date, but Answer B provides slightly more context about the sequence of events (splashdown) and cites sources, making it marginally more complete.\", \"winner\": \"B\"}",
+    "gen_latency_s": 2.556779375008773
+  },
+  "f5f8596bf5702afb62b3ff70e6458e0bd36ca70820f723aa4c26a530b4fa2363": {
+    "answer": "{\"reason\": \"Both answers correctly identify the torn shield as the cause, but Answer A adds irrelevant details about solar arrays and micrometeoroids not present in the reference, whereas Answer B is more concise and directly addresses the question.\", \"winner\": \"B\"}",
+    "gen_latency_s": 2.589222249982413
+  },
+  "0ad6e1ff454c3aafd027e60a3db793bf137ebe801a8b8f62dca2a9cae793c7f5": {
+    "answer": "{\"reason\": \"Both answers are correct and align with the reference, but Answer A is slightly more precise in describing the action as 'deploying' the sunshade, which matches the reference's 'deployed', whereas Answer B uses 'installed'.\", \"winner\": \"A\"}",
+    "gen_latency_s": 2.4235679170233198
+  },
+  "aaa7b5c2de7bfdc145d393ba413491f40459f07e9cd8886f2403a22cf782d501": {
+    "answer": "{\"reason\": \"Both answers correctly identify Alan Shepard and the action, but Answer A is slightly more precise by specifying 'golf-club head' as the makeshift club and mentioning the specific event details (Apollo 14 context is implied by the specific action, though not explicitly stated, it is the standard trivia answer). However, looking closely, both are very similar. Answer A says 'smuggled a golf-club head', Answer B says 'used a smuggled golf-club head'. The reference answer is 'Alan Shepard on Apollo 14'. Neither answer explicitly mentions Apollo 14, but both identify the person and the act. Answer A is marginally better phrased as a complete sentence describing the event.\", \"winner\": \"A\"}",
+    "gen_latency_s": 1.6936124580097385
+  },
+  "aee56b4a61cdbe7e82a9191b177864e118896de9824436ca0ef81cc0429f7601": {
+    "answer": "{\"reason\": \"Both answers correctly identify Linda Morabito as the engineer, matching the reference answer.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 1.3558497909689322
+  },
+  "39e758eb3efce91ee4f384686838749b4f8496c70826e5c608f3a48b6b02766f": {
+    "answer": "{\"reason\": \"Both answers correctly identify lactate dehydrogenase as the enzyme, matching the reference answer.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 2.4281954169855453
+  },
+  "3d3db023fdb0b8c34da7919c9b49b7dab5a0eb29c0e73b7f823f697f8e4a43f4": {
+    "answer": "{\"reason\": \"Answer A correctly identifies cyanide and carbon monoxide as the substances that block complex IV, matching the reference answer, while Answer B fails to provide an answer.\", \"winner\": \"A\"}",
+    "gen_latency_s": 1.5648288329830393
+  },
+  "ac200432d3a114b807036020b910560c528494672b10a5fb7727e5fec098bd04": {
+    "answer": "{\"reason\": \"Answer B correctly identifies the term 'Kranz anatomy' as per the reference, while Answer A claims it cannot be found.\", \"winner\": \"B\"}",
+    "gen_latency_s": 1.386964958976023
+  },
+  "b64e89669b2c6fdb3c3aced7350b3d868760ff547fa10a02366c4539bc8a9b15": {
+    "answer": "{\"reason\": \"Both answers correctly identify the mechanism (increased O2 competition with CO2 at RuBisCO leading to photorespiration) and the physiological causes (stomatal closure, solubility changes), making them both accurate and complete relative to the reference.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 3.4860961249796674
+  },
+  "b7a0a31b351bec99cb3da8281105fb3f2a4a1021067f9299095444e964a3db25": {
+    "answer": "{\"reason\": \"Both answers correctly identify the reason (insufficient fuel) as stated in the reference, but Answer A is more concise and directly mirrors the reference wording without adding unnecessary elaboration.\", \"winner\": \"A\"}",
+    "gen_latency_s": 2.3589002499938942
+  },
+  "d171bcd7833fd6eccbe1271d47a386e954786fac8b5ecbe0ff66a099cdb738e6": {
+    "answer": "{\"reason\": \"Both answers correctly identify nondisjunction as the error and explain the mechanism, making them equally correct and complete relative to the reference.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 2.329732874990441
+  },
+  "c58c898f0038495358ee863962f18b4f683f0d07360bd20caa6a262ed3b022db": {
+    "answer": "{\"reason\": \"Both answers correctly identify that the fix involved moving code to other memory locations, matching the reference answer.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 1.3075998749700375
+  },
+  "587c9da0d50dc584582b8357aa693cfb9b7a09cac8036936438645c34b7cd81b": {
+    "answer": "{\"reason\": \"Both answers correctly identify Buzz Aldrin and the duration (5.5 hours) as per the reference, making them equally correct and complete.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 2.343938292004168
+  },
+  "a49748be79845612a239c31015474b9cceb0cdd1568016b997ab8845be5b612e": {
+    "answer": "{\"reason\": \"Answer B correctly identifies Richard Gordon as the astronaut who stayed in orbit, matching the reference answer, while Answer A claims the information is not available.\", \"winner\": \"B\"}",
+    "gen_latency_s": 2.422082458040677
+  },
+  "922f786c72d45536296f6b23c886683931c5792c808b3b1e3aae7bb880631e09": {
+    "answer": "{\"reason\": \"Both answers provide the correct duration of 59 days as per the reference.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 1.299797417013906
+  },
+  "79905fbff87ff3e1a1f2a1dedd0d1b0febf1e62e8f3b860d71785689d62cd858": {
+    "answer": "{\"reason\": \"Both answers are identical in content and correctness, matching the reference answer.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 2.609904542041477
+  },
+  "aff0cc7d7d1a876a4f0b4763944cf909e2e5dee10ea30c387a3fb0bc9c452751": {
+    "answer": "{\"reason\": \"Answer B provides the correct value matching the reference, while Answer A claims the information is not available.\", \"winner\": \"B\"}",
+    "gen_latency_s": 0.27302912500454113
+  },
+  "86461355ab6ac801f424f61bea951ab8ddd3053927b1729e7a831ef8f310c27d": {
+    "answer": "{\"reason\": \"Both answers provide the correct date matching the reference answer.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 2.4998391249682754
+  },
+  "0a6bf3cca7f8d59b3aa9abf239e9eff449caa176f88505ffbff4becb3c0918d7": {
+    "answer": "{\"reason\": \"Both answers provide the correct date matching the reference, but Answer A is more concise and directly answers the question without unnecessary extra information.\", \"winner\": \"A\"}",
+    "gen_latency_s": 1.3264080000226386
+  },
+  "bc505056886e8a3718b1f01047b35abd74340b3461e1c2714244cb92d229fdc9": {
+    "answer": "{\"reason\": \"Both answers correctly state the duration as nearly fourteen days, matching the reference.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 2.363708041026257
+  },
+  "389837545a01f0150b5e5fd4d14a153ecf4afe2f0f762abd2d9ef4aefb2c0493": {
+    "answer": "{\"reason\": \"Both answers provide the correct distance of 400 kilometers as stated in the reference answer.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 1.450910624989774
+  },
+  "d6576ace21a7c452be84d27d4a216d6675a3d39464f4c8f4429ce451d984d480": {
+    "answer": "{\"reason\": \"Both answers correctly identify the inner mitochondrial membrane as the location of the electron transport chain, matching the reference answer.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 1.3273966670385562
+  },
+  "5df49669b50242b0b7872209d1a4572c3a9dd5933522842f912af35a0508ac7d": {
+    "answer": "{\"reason\": \"Both answers correctly state that the citric acid cycle yields 2 ATP (or GTP) per glucose, matching the reference answer.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 2.3580154579831287
+  },
+  "4c134500a4ca1a7a676afcb329f8c286cbe9e878b76ad78e7ec4cad385c6d68c": {
+    "answer": "{\"reason\": \"Both answers provide the exact temperature range specified in the reference answer.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 2.366072750010062
+  },
+  "ee896724a5b313e4691d77dcc058591f7ee67af9ba08698dc969adbc3e7f8683": {
+    "answer": "{\"reason\": \"Both answers provide the exact same correct list of crew members as the reference answer.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 2.2994914170121774
+  },
+  "82f1faf0dd3977be5dda16d872513c4f6889da02fc651933c4417fcdab310e50": {
+    "answer": "{\"reason\": \"Answer B correctly lists the three crew members as per the reference, while Answer A claims the information was not found.\", \"winner\": \"B\"}",
+    "gen_latency_s": 0.8578514580149204
+  },
+  "d5d4985bcb103d836b680bf0de476f0ca5aedf57f8892122bf9740eda7ce3688": {
+    "answer": "{\"reason\": \"Both answers are identical and correct according to the reference.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 0.24762612499762326
+  },
+  "1d219a3925d5f68eefbc46d8a45ef16b32ef4cc4c45238c71b07742f76d1746b": {
+    "answer": "{\"reason\": \"Both answers provide the correct number (55) matching the reference answer.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 0.2323261249694042
+  },
+  "b8b1b5efc27beae32a5e1da01af79a5986de9c9e950402e75b8c6b0827e627f3": {
+    "answer": "{\"reason\": \"Both answers correctly identify PEP carboxylase as the enzyme, matching the reference answer.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 0.29119929199805483
+  },
+  "f3df07d7d7a491fe69886af2d9c8270ef2034ae3a76e5be26b475108d976bfb9": {
+    "answer": "{\"reason\": \"Both answers correctly state that Faith 7 completed twenty-two orbits, matching the reference.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 0.1987003330141306
+  },
+  "1d8049dba668e1da1d735981a70e05594bb1edbecbfb1f96a168f4dfec373aa4": {
+    "answer": "{\"reason\": \"Both answers provide the correct date matching the reference answer.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 0.18345695902826265
+  },
+  "22b88b3b50df861af737d6c92f1277755114e97a9f46ea687114d4a8f13f65a7": {
+    "answer": "{\"reason\": \"Both answers are correct and align with the reference, but Answer B uses the specific phrasing 'first American to walk in space' which matches the reference exactly, whereas Answer A uses 'first American spacewalk'.\", \"winner\": \"B\"}",
+    "gen_latency_s": 0.2615047500003129
+  },
+  "f24a36307e0df0e17ae66754f012dff3eff2fb42bfa2b95586e4ebf24e09b85b": {
+    "answer": "{\"reason\": \"Both answers are correct and align with the reference, but Answer A is slightly more concise and directly addresses the question without unnecessary elaboration.\", \"winner\": \"A\"}",
+    "gen_latency_s": 0.25161579198902473
+  },
+  "6cccaa03d76b28d7903ba38e2ed95dd20dc4cb59ab8984c8c40f07ff7a027002": {
+    "answer": "{\"reason\": \"Both answers correctly identify Linda Morabito as the engineer, matching the reference answer.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 0.1970205829711631
+  },
+  "7b839926b3646d154478fe9a7b146c221e519b428f891b1f292f84137c051e3d": {
+    "answer": "{\"reason\": \"Answer B correctly identifies cyanide and carbon monoxide as the substances that block complex IV, matching the reference answer, whereas Answer A fails to provide an answer.\", \"winner\": \"B\"}",
+    "gen_latency_s": 0.22884633298963308
+  },
+  "8faa0a96401ae737869acad2200db1dd770e0272254fdef0c81a94956ba81e64": {
+    "answer": "{\"reason\": \"Answer A correctly identifies the term 'Kranz anatomy' as per the reference, while Answer B claims it could not be found.\", \"winner\": \"A\"}",
+    "gen_latency_s": 0.26395087502896786
+  },
+  "cfe82229f06cd6b001135206038702f5b3f719d86c5f877c0598452a91d67bda": {
+    "answer": "{\"reason\": \"Both answers correctly identify nondisjunction as the error and mention the failure to separate during meiosis, matching the reference answer.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 0.30305566696915776
+  },
+  "23818bb14861739a8abcc3b408ebe52bf09f185324c0c4d863a034f19e3963c6": {
+    "answer": "{\"reason\": \"Both answers correctly identify that the fix involved moving code to other memory locations, matching the reference answer.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 0.22378912498243153
+  },
+  "e2a9a80a690250482cf2014158e7736fed134713019f7ca5637e984e4bbe3d39": {
+    "answer": "{\"reason\": \"Both answers provide the correct duration of 59 days as per the reference.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 0.24622958397958428
+  },
+  "87a9b38215b416ce701087df997df6b40ef43e9f221c20a841af13b984877195": {
+    "answer": "{\"reason\": \"Both answers provide the correct information matching the reference answer.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 0.1696339580230415
+  },
+  "f3747fa30ada17fff6cc974100455c737746539bfc353df30e2b5715019f1dd4": {
+    "answer": "{\"reason\": \"Answer A provides the correct value matching the reference, while Answer B claims the information is missing.\", \"winner\": \"A\"}",
+    "gen_latency_s": 0.19545762502821162
+  },
+  "e005d341c9f40eee0a956e37bf6a28ddca1ca9e300ba6440871fc88cf38da8ad": {
+    "answer": "{\"reason\": \"Both answers correctly state the duration as nearly fourteen days, matching the reference.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 0.19018020801013336
+  },
+  "8f4a0517119f7b1779f50c32e5f8d92ae15cfa9181d8b781e5996a279c218222": {
+    "answer": "{\"reason\": \"Both answers provide the correct distance of 400 kilometers as stated in the reference answer.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 0.21944733301643282
+  },
+  "4a6e08e8668d02c74977d6cf05334fed6d4dc73700aa9cf22d0a8ca9b494804a": {
+    "answer": "{\"reason\": \"Both answers correctly identify the inner mitochondrial membrane as the location of the electron transport chain, matching the reference answer.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 0.21045495802536607
+  },
+  "5e211f6be2e8ae6f3513a8b9390f01c21f1c306be34a89754a724ea3e428f91c": {
+    "answer": "{\"reason\": \"Both answers correctly state that the citric acid cycle yields 2 ATP (or GTP) per glucose, matching the reference answer.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 1.3332503749988973
+  },
+  "0f2eba773023be619bc3e886dc03e6855cb2c625a4ca89533f5c4e5fae741ccd": {
+    "answer": "{\"reason\": \"Both answers provide the exact temperature range specified in the reference answer.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 1.2852180839981884
+  },
+  "af5cbe24106b9f01863511f48b44d1acc1424fdc2c492d3905ab02ebbbbadf25": {
+    "answer": "{\"reason\": \"Both answers provide the exact same correct information matching the reference answer.\", \"winner\": \"tie\"}",
+    "gen_latency_s": 2.479596709017642
+  },
+  "8b6d1243b807343d2b6a8400e96a61ca4871a4be9b8727319cff2cc29c9e3bca": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.72, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.06, \"1\": 0.01, \"2\": 0, \"3\": 0, \"4\": 0.93}, \"confidence\": 0.77}, \"correctness\": {\"type\": \"score\", \"score\": 0.17, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0.93, \"1\": 0.01, \"2\": 0.04, \"3\": 0.01, \"4\": 0.01}, \"confidence\": 0.87}}",
+    "gen_latency_s": 0.24854041601065546
+  },
+  "05600896cc9a96e341258be647af3aa99a4f2f06d02e9a33e346403429b0e004": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.77, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.03, \"1\": 0.01, \"2\": 0, \"3\": 0.06, \"4\": 0.9}, \"confidence\": 0.82}, \"correctness\": {\"type\": \"score\", \"score\": 3.89, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0, \"2\": 0.02, \"3\": 0.04, \"4\": 0.9299999999999999}, \"confidence\": 0.9}}",
+    "gen_latency_s": 0.21624049998354167
+  },
+  "74cb4e435874d165c8bb7a1368d59d2ac96f5999b5c3a75b420a460b47b2256f": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.81, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.03, \"1\": 0.01, \"2\": 0, \"3\": 0.03, \"4\": 0.93}, \"confidence\": 0.85}, \"correctness\": {\"type\": \"score\", \"score\": 3.95, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.03, \"4\": 0.97}, \"confidence\": 0.97}}",
+    "gen_latency_s": 0.2562689160113223
+  },
+  "dc5c16c89f97bf4aeaf25e464c9e8e200f70aa9f44725ca6a78709359f3cb8f3": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.81, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.02, \"1\": 0.01, \"2\": 0, \"3\": 0.06, \"4\": 0.91}, \"confidence\": 0.86}, \"correctness\": {\"type\": \"score\", \"score\": 3.97, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.02, \"4\": 0.98}, \"confidence\": 0.98}}",
+    "gen_latency_s": 0.2686154579860158
+  },
+  "02dbded86c8cc6e1160a81f5c8a073102ddac19ecfa361cd6bb15f45eb455b20": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.92, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0, \"2\": 0, \"3\": 0.03, \"4\": 0.96}, \"confidence\": 0.94}, \"correctness\": {\"type\": \"score\", \"score\": 3.98, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.01, \"4\": 0.99}, \"confidence\": 0.99}}",
+    "gen_latency_s": 0.24473845801549032
+  },
+  "78370ee6bfa420e335a817143239e4754f5c1644676e733dad289b6614b1a6b0": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.92, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0, \"2\": 0, \"3\": 0.04, \"4\": 0.95}, \"confidence\": 0.93}, \"correctness\": {\"type\": \"score\", \"score\": 3.97, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.01, \"4\": 0.99}, \"confidence\": 0.99}}",
+    "gen_latency_s": 0.21679762500571087
+  },
+  "7214917c900f77314f21ad12328333a8e52b5380637df5c3d9174f7f4a83ba32": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.94, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0, \"2\": 0, \"3\": 0.01, \"4\": 0.98}, \"confidence\": 0.96}, \"correctness\": {\"type\": \"score\", \"score\": 3.98, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0, \"4\": 1}, \"confidence\": 1}}",
+    "gen_latency_s": 0.2397239999845624
+  },
+  "53f5a843e7b70ce7dc8a03d93d76f1c87299e9ab7375d7ded145f603ae1409ec": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.95, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0, \"2\": 0, \"3\": 0.01, \"4\": 0.98}, \"confidence\": 0.96}, \"correctness\": {\"type\": \"score\", \"score\": 3.97, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.01, \"4\": 0.99}, \"confidence\": 0.99}}",
+    "gen_latency_s": 0.2038851670222357
+  },
+  "ef75f130ddf3444a6050c6fe7297d9c85f105082d353e3056e876a8870b565fa": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 1.79, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.53, \"1\": 0.01, \"2\": 0.01, \"3\": 0.02, \"4\": 0.43}, \"confidence\": 0}, \"correctness\": {\"type\": \"score\", \"score\": 3.98, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.01, \"4\": 0.99}, \"confidence\": 0.99}}",
+    "gen_latency_s": 0.24826658400706947
+  },
+  "fbf8fea5916dafbace998d25bb19b6a3abb1780f9c267d0c1ff40d3d72a7f73d": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.43, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0.01, \"2\": 0.01, \"3\": 0.48, \"4\": 0.49}, \"confidence\": 0.53}, \"correctness\": {\"type\": \"score\", \"score\": 3.96, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.03, \"4\": 0.97}, \"confidence\": 0.97}}",
+    "gen_latency_s": 0.2980053749633953
+  },
+  "5b37d318e84d054cd6ccdfebee4c5a8bb27462ca35618a7da3360f9ae86f7c76": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.95, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0, \"2\": 0, \"3\": 0.01, \"4\": 0.98}, \"confidence\": 0.96}, \"correctness\": {\"type\": \"score\", \"score\": 3.97, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.01, \"4\": 0.99}, \"confidence\": 0.99}}",
+    "gen_latency_s": 0.24323633301537484
+  },
+  "a3efdd4a2fe0de2e0fc95eece1dc70d31237139a8c6671c1e53435014a1f2f63": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 2.11, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.46, \"1\": 0.01, \"2\": 0.01, \"3\": 0.01, \"4\": 0.51}, \"confidence\": 0}, \"correctness\": {\"type\": \"score\", \"score\": 3.98, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.01, \"4\": 0.99}, \"confidence\": 0.99}}",
+    "gen_latency_s": 0.2126074170228094
+  },
+  "5c778f5b3a727b22adeb5baf88857c4fb32ba453e085d45b4226d3df70179fc4": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.81, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.02, \"1\": 0.01, \"2\": 0.01, \"3\": 0.07, \"4\": 0.89}, \"confidence\": 0.83}, \"correctness\": {\"type\": \"score\", \"score\": 3.97, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.01, \"4\": 0.99}, \"confidence\": 0.99}}",
+    "gen_latency_s": 0.19171424995874986
+  },
+  "a84b400688bdc2d1c5b918b5aa1a14102a1248facbb9d181a32a0145b3bd924a": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.84, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0.01, \"2\": 0.01, \"3\": 0.05, \"4\": 0.92}, \"confidence\": 0.88}, \"correctness\": {\"type\": \"score\", \"score\": 3.97, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.01, \"4\": 0.99}, \"confidence\": 0.99}}",
+    "gen_latency_s": 0.8539619589573704
+  },
+  "53a0091c81a6a32a9b37cdc0e41952e168cfc8f7fe632b0f702163acc99225fe": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 0.95, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.75, \"1\": 0.01, \"2\": 0, \"3\": 0.01, \"4\": 0.23}, \"confidence\": 0.2}, \"correctness\": {\"type\": \"score\", \"score\": 3.97, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.01, \"4\": 0.99}, \"confidence\": 0.99}}",
+    "gen_latency_s": 0.21217437501763925
+  },
+  "906dfbd6077ed5a06b5e12df08ee8b329b519fe4c26ca0dbad77fbe484e543b4": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.94, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0, \"2\": 0, \"3\": 0.01, \"4\": 0.98}, \"confidence\": 0.96}, \"correctness\": {\"type\": \"score\", \"score\": 3.98, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.01, \"4\": 0.99}, \"confidence\": 0.99}}",
+    "gen_latency_s": 0.23907224996946752
+  },
+  "9f8ec190cd09d2d38b1cfa99effcc0c46e1a0ac4982b6d8a2de30b86910ef5ce": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.75, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.04, \"1\": 0.01, \"2\": 0, \"3\": 0.07, \"4\": 0.88}, \"confidence\": 0.78}, \"correctness\": {\"type\": \"score\", \"score\": 3.97, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.02, \"4\": 0.98}, \"confidence\": 0.98}}",
+    "gen_latency_s": 0.21095883299130946
+  },
+  "09ad9240ce08bf25b685d3a48604793753ec0369d090b4e5f2c024044ab9bdfb": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.94, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0, \"2\": 0, \"3\": 0.01, \"4\": 0.98}, \"confidence\": 0.96}, \"correctness\": {\"type\": \"score\", \"score\": 3.95, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.04, \"4\": 0.96}, \"confidence\": 0.97}}",
+    "gen_latency_s": 0.2741701250197366
+  },
+  "2264b119f242859b57f078115007f5a1efa84c47373e2bfd5a5ded4a8048d64c": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.93, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0, \"2\": 0, \"3\": 0.03, \"4\": 0.96}, \"confidence\": 0.94}, \"correctness\": {\"type\": \"score\", \"score\": 3.96, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.03, \"4\": 0.97}, \"confidence\": 0.97}}",
+    "gen_latency_s": 0.23437145905336365
+  },
+  "c5633ce40658858dc3df26ddbbbcfbcd2834780e12f92fd21a89374207b5a60e": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.88, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.09, \"4\": 0.91}, \"confidence\": 0.93}, \"correctness\": {\"type\": \"score\", \"score\": 3.98, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.01, \"4\": 0.99}, \"confidence\": 0.99}}",
+    "gen_latency_s": 0.22467920900089666
+  },
+  "6f57800af0573c4988f6c15cc9787f52b5fc57d44ad802cbd0bd9a926b090f6a": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.92, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0, \"2\": 0, \"3\": 0.03, \"4\": 0.96}, \"confidence\": 0.94}, \"correctness\": {\"type\": \"score\", \"score\": 3.96, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.02, \"4\": 0.98}, \"confidence\": 0.98}}",
+    "gen_latency_s": 0.23245583300013095
+  },
+  "093b3eea4bd7c6567f4f02b86f821d2cc573857e813423be37bee700054c8378": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.82, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0.01, \"2\": 0, \"3\": 0.1, \"4\": 0.88}, \"confidence\": 0.86}, \"correctness\": {\"type\": \"score\", \"score\": 3.95, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.04, \"4\": 0.96}, \"confidence\": 0.97}}",
+    "gen_latency_s": 0.21591324999462813
+  },
+  "804014b0519a2655bb09c0a0ac426527611c57a0e7a0c394bf1a69a9e1fb9fb4": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.9, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0, \"2\": 0, \"3\": 0.07, \"4\": 0.92}, \"confidence\": 0.91}, \"correctness\": {\"type\": \"score\", \"score\": 3.93, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.06, \"4\": 0.94}, \"confidence\": 0.95}}",
+    "gen_latency_s": 0.8513548339833505
+  },
+  "ada582b29a45edf3f796ed5dadb1a334f011147fb524dd0af70d64a87e12c1cf": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.92, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0, \"2\": 0, \"3\": 0.04, \"4\": 0.95}, \"confidence\": 0.93}, \"correctness\": {\"type\": \"score\", \"score\": 3.96, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.02, \"4\": 0.98}, \"confidence\": 0.98}}",
+    "gen_latency_s": 0.23324587498791516
+  },
+  "cb65437edc2c29e11dfba293cfd7d690e4e91b4e51489dee4f04f91635e82a81": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 0.71, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.78, \"1\": 0.05, \"2\": 0.01, \"3\": 0.01, \"4\": 0.15}, \"confidence\": 0.42}, \"correctness\": {\"type\": \"score\", \"score\": 3.71, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0.01, \"2\": 0.02, \"3\": 0.21, \"4\": 0.76}, \"confidence\": 0.77}}",
+    "gen_latency_s": 0.22197512502316386
+  },
+  "af790b383b9c15b89bd76d9825b6aaafdc1d3543c682ff063f9d25b30a150ec8": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.43, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.02, \"1\": 0, \"2\": 0.01, \"3\": 0.48, \"4\": 0.49}, \"confidence\": 0.52}, \"correctness\": {\"type\": \"score\", \"score\": 3.9, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.09, \"4\": 0.91}, \"confidence\": 0.93}}",
+    "gen_latency_s": 0.23901066597318277
+  },
+  "27b99b12aacd91d0ef66cec7d2b1ba47aeacf5ec05fad16ef9da26eaf3e492a5": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.05, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0, \"1\": 0.01, \"2\": 0.01, \"3\": 0.88, \"4\": 0.1}, \"confidence\": 0.89}, \"correctness\": {\"type\": \"score\", \"score\": 3.91, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.07, \"4\": 0.93}, \"confidence\": 0.94}}",
+    "gen_latency_s": 0.2295444579795003
+  },
+  "c8d7ac4b6acaec944757b472c3657d91d03985c77176f18a43db3232e4fc20af": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 0.65, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.8099999999999999, \"1\": 0.02, \"2\": 0.01, \"3\": 0.01, \"4\": 0.15}, \"confidence\": 0.44}, \"correctness\": {\"type\": \"score\", \"score\": 3.82, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0.01, \"3\": 0.14, \"4\": 0.85}, \"confidence\": 0.87}}",
+    "gen_latency_s": 0.2065672500175424
+  },
+  "6b4dd281bd6f07133f5fe3e4d7ff330b1e77138029526c4c17e85ab49950f15d": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.85, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0.01, \"2\": 0.01, \"3\": 0.06, \"4\": 0.91}, \"confidence\": 0.88}, \"correctness\": {\"type\": \"score\", \"score\": 3.57, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0.01, \"2\": 0.05, \"3\": 0.26, \"4\": 0.67}, \"confidence\": 0.64}}",
+    "gen_latency_s": 0.24978508398635313
+  },
+  "0cedb6ef453e9cf27fb5a79cc707eac0bceb966afcf36f87c9fcf1024aa6d2d7": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.71, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.02, \"1\": 0.01, \"2\": 0.02, \"3\": 0.12, \"4\": 0.83}, \"confidence\": 0.77}, \"correctness\": {\"type\": \"score\", \"score\": 3.54, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0.01, \"2\": 0.06, \"3\": 0.29, \"4\": 0.63}, \"confidence\": 0.6}}",
+    "gen_latency_s": 0.2339431659784168
+  },
+  "f1d2f6622afe6c5c400409b6db6085203c211e2bc75f82b64baa0b8f9a094c1f": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.93, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0, \"2\": 0, \"3\": 0.03, \"4\": 0.96}, \"confidence\": 0.94}, \"correctness\": {\"type\": \"score\", \"score\": 3.96, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.02, \"4\": 0.98}, \"confidence\": 0.98}}",
+    "gen_latency_s": 0.22344249999150634
+  },
+  "ad667b2213e29bcaf50eeacfae1d03f278f85b6c898de36c632b3332d1e95f6c": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.94, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0, \"2\": 0, \"3\": 0.02, \"4\": 0.97}, \"confidence\": 0.95}, \"correctness\": {\"type\": \"score\", \"score\": 3.96, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.02, \"4\": 0.98}, \"confidence\": 0.98}}",
+    "gen_latency_s": 0.30661683302605525
+  },
+  "239e9f2dead8d7fa4311f1d1323f8af191c705d86f217ef17838c46bffb9bea9": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.69, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0.01, \"2\": 0.01, \"3\": 0.24, \"4\": 0.73}, \"confidence\": 0.72}, \"correctness\": {\"type\": \"score\", \"score\": 3.98, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.01, \"4\": 0.99}, \"confidence\": 0.99}}",
+    "gen_latency_s": 0.23855833301786333
+  },
+  "52499a3fb78e871fcb8e9c2ce8d6aa196ba5c94bcab30430fb5c481ac078bb31": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.64, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0.01, \"2\": 0.01, \"3\": 0.27, \"4\": 0.7}, \"confidence\": 0.7}, \"correctness\": {\"type\": \"score\", \"score\": 3.97, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.01, \"4\": 0.99}, \"confidence\": 0.99}}",
+    "gen_latency_s": 0.24082491704029962
+  },
+  "501bc535d190c1f0ffe4d316388d5e8c51be8949ce15a3440ad084b398311273": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.82, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.04, \"1\": 0.01, \"2\": 0, \"3\": 0, \"4\": 0.95}, \"confidence\": 0.84}, \"correctness\": {\"type\": \"score\", \"score\": 0.07, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0.98, \"1\": 0, \"2\": 0.01, \"3\": 0, \"4\": 0.01}, \"confidence\": 0.95}}",
+    "gen_latency_s": 0.2902067090035416
+  },
+  "de3d97dd4f3458318dc3ac9aa9e6f23a30003c229240f976daf065bbc24e07ab": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.91, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0, \"2\": 0, \"3\": 0.05, \"4\": 0.94}, \"confidence\": 0.93}, \"correctness\": {\"type\": \"score\", \"score\": 3.98, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.01, \"4\": 0.99}, \"confidence\": 0.99}}",
+    "gen_latency_s": 0.71472658298444
+  },
+  "7c4b0f5a805c3d6b43ea835aad45eb5e06b516fa73505134f9de8e1447659d8a": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.72, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.06, \"1\": 0.01, \"2\": 0, \"3\": 0, \"4\": 0.93}, \"confidence\": 0.77}, \"correctness\": {\"type\": \"score\", \"score\": 0.05, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0.99, \"1\": 0, \"2\": 0.01, \"3\": 0, \"4\": 0}, \"confidence\": 0.98}}",
+    "gen_latency_s": 0.24330879101762548
+  },
+  "3e882abcffa90814198a27bb30dcc093cd37d362c4884b5052a9dd7f401dd58e": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.95, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0, \"2\": 0, \"3\": 0.01, \"4\": 0.98}, \"confidence\": 0.96}, \"correctness\": {\"type\": \"score\", \"score\": 3.97, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.02, \"4\": 0.98}, \"confidence\": 0.98}}",
+    "gen_latency_s": 0.25780712498817593
+  },
+  "eb187a11df3363496fda1c31e2324059f9cfe61f5488d67ff29398c60a0d6364": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 2.79, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.03, \"1\": 0.03, \"2\": 0.16, \"3\": 0.68, \"4\": 0.1}, \"confidence\": 0.66}, \"correctness\": {\"type\": \"score\", \"score\": 3.96, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.02, \"4\": 0.98}, \"confidence\": 0.98}}",
+    "gen_latency_s": 0.2141158749582246
+  },
+  "8518c3dffc551a3708a9438b160f3e8429ef5db9b9e05b64042b66897717a385": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.83, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0, \"2\": 0, \"3\": 0.1, \"4\": 0.89}, \"confidence\": 0.88}, \"correctness\": {\"type\": \"score\", \"score\": 3.95, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.03, \"4\": 0.97}, \"confidence\": 0.97}}",
+    "gen_latency_s": 0.2458261669962667
+  },
+  "baa4a6d03f4d2deedb0e4150d95a09dcfc2834993527418c3b595900928d0c91": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 0.87, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.76, \"1\": 0.02, \"2\": 0.01, \"3\": 0.01, \"4\": 0.2}, \"confidence\": 0.28}, \"correctness\": {\"type\": \"score\", \"score\": 3.93, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.05, \"4\": 0.95}, \"confidence\": 0.96}}",
+    "gen_latency_s": 0.22442608297569677
+  },
+  "9d9f66b1ec9c6acc391aa7cfecea55176f61defa048954eef5dfb93343fdb59a": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.79, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0, \"2\": 0.01, \"3\": 0.14, \"4\": 0.84}, \"confidence\": 0.83}, \"correctness\": {\"type\": \"score\", \"score\": 3.93, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.06, \"4\": 0.94}, \"confidence\": 0.95}}",
+    "gen_latency_s": 0.22851095796795562
+  },
+  "14e060b4680d1cd53e2979cb7e17d8ebe71f881b8c1f979cb5dbbcf7aff8f684": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.7, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.02, \"1\": 0.01, \"2\": 0.01, \"3\": 0.17, \"4\": 0.79}, \"confidence\": 0.75}, \"correctness\": {\"type\": \"score\", \"score\": 3.94, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.04, \"4\": 0.96}, \"confidence\": 0.97}}",
+    "gen_latency_s": 0.27897508296882734
+  },
+  "a2dd71748ca4dfcd729ce161fa8191553cebe9440293fcc1742666c12466136a": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.86, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0.01, \"2\": 0, \"3\": 0.09, \"4\": 0.89}, \"confidence\": 0.87}, \"correctness\": {\"type\": \"score\", \"score\": 3.97, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.01, \"4\": 0.99}, \"confidence\": 0.99}}",
+    "gen_latency_s": 0.23781770799541846
+  },
+  "5e6a1cde71ac84e9c08c52231385d508004827377a04c8f07f074c6c28dbcf54": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.73, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0, \"2\": 0.01, \"3\": 0.22, \"4\": 0.76}, \"confidence\": 0.77}, \"correctness\": {\"type\": \"score\", \"score\": 3.93, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.05, \"4\": 0.95}, \"confidence\": 0.96}}",
+    "gen_latency_s": 0.2284133750363253
+  },
+  "22e4d4e9a84171eddac3e250731598a03f51f5e9d9b338cb15341876fc516344": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.59, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0.01, \"2\": 0.01, \"3\": 0.33, \"4\": 0.64}, \"confidence\": 0.65}, \"correctness\": {\"type\": \"score\", \"score\": 3.92, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.06, \"4\": 0.94}, \"confidence\": 0.95}}",
+    "gen_latency_s": 0.26995924999937415
+  },
+  "da346d40c52135f2931c003ff4cef358a4701278fe4f17797fa8a848d1b4ac49": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.47, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0.01, \"2\": 0.02, \"3\": 0.44, \"4\": 0.52}, \"confidence\": 0.54}, \"correctness\": {\"type\": \"score\", \"score\": 3.91, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.07, \"4\": 0.93}, \"confidence\": 0.94}}",
+    "gen_latency_s": 0.22758379200240597
+  },
+  "f97509cbad309477e03764ad146e7b2d15ad286cbe2cfeeb584a1230a6e522c9": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.55, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0.01, \"2\": 0.02, \"3\": 0.37, \"4\": 0.59}, \"confidence\": 0.6}, \"correctness\": {\"type\": \"score\", \"score\": 3.65, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0.01, \"3\": 0.33, \"4\": 0.66}, \"confidence\": 0.71}}",
+    "gen_latency_s": 0.1919385840301402
+  },
+  "0c780e8d28cb1f610f854244da7a32ce8e2c3a5bc8f42302533de1aee21f450f": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.24, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.03, \"1\": 0.02, \"2\": 0.05, \"3\": 0.48, \"4\": 0.42}, \"confidence\": 0.5}, \"correctness\": {\"type\": \"score\", \"score\": 3.64, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0.01, \"3\": 0.33, \"4\": 0.66}, \"confidence\": 0.71}}",
+    "gen_latency_s": 0.26120524998987094
+  },
+  "e7762cf8074f3f957012e13e5fb394164451fec4fcb600541d8ae2ab0cc4b05f": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.74, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.06, \"1\": 0.01, \"2\": 0, \"3\": 0, \"4\": 0.93}, \"confidence\": 0.77}, \"correctness\": {\"type\": \"score\", \"score\": 0.1, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0.96, \"1\": 0.01, \"2\": 0.02, \"3\": 0, \"4\": 0.01}, \"confidence\": 0.93}}",
+    "gen_latency_s": 0.24782195803709328
+  },
+  "daecd1881f29f05c73bb9ee5ac952f18bd8ae564614ad32431337ae4f46755c2": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.81, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.02, \"1\": 0.01, \"2\": 0.01, \"3\": 0.09, \"4\": 0.87}, \"confidence\": 0.82}, \"correctness\": {\"type\": \"score\", \"score\": 3.96, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.03, \"4\": 0.97}, \"confidence\": 0.97}}",
+    "gen_latency_s": 0.26661404100013897
+  },
+  "8b84875982d58cfe7f5b83ba970be18ec2b7b34c38e0815992089df827a1e190": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.82, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.02, \"1\": 0.01, \"2\": 0, \"3\": 0.06, \"4\": 0.91}, \"confidence\": 0.86}, \"correctness\": {\"type\": \"score\", \"score\": 3.97, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.01, \"4\": 0.99}, \"confidence\": 0.99}}",
+    "gen_latency_s": 0.20962637499906123
+  },
+  "c036228fe3e6d1c44cbe3b649da466f71466959d734914e8151d67c178bb0833": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.93, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0.01, \"2\": 0, \"3\": 0.01, \"4\": 0.97}, \"confidence\": 0.93}, \"correctness\": {\"type\": \"score\", \"score\": 3.98, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.01, \"4\": 0.99}, \"confidence\": 0.99}}",
+    "gen_latency_s": 0.2626070419792086
+  },
+  "16234e483f2fda1b7ff23d63e8ab6b11d51002dc465dd14937db81ec137811c4": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.86, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0.01, \"2\": 0, \"3\": 0.06, \"4\": 0.92}, \"confidence\": 0.89}, \"correctness\": {\"type\": \"score\", \"score\": 3.97, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.02, \"4\": 0.98}, \"confidence\": 0.98}}",
+    "gen_latency_s": 0.23021399998106062
+  },
+  "acd773351625bfe8910730c06b7aa84204b8180ed658e7cecf0738461ea1cf6f": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.91, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0, \"2\": 0, \"3\": 0.05, \"4\": 0.94}, \"confidence\": 0.93}, \"correctness\": {\"type\": \"score\", \"score\": 3.96, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.03, \"4\": 0.97}, \"confidence\": 0.97}}",
+    "gen_latency_s": 0.1957114579854533
+  },
+  "892b8acd88d8bc4df37639f40646f21d2f2db596265c9e74dea050b174bbabcc": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.7, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.06, \"1\": 0.01, \"2\": 0, \"3\": 0, \"4\": 0.93}, \"confidence\": 0.77}, \"correctness\": {\"type\": \"score\", \"score\": 0.07, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0.98, \"1\": 0, \"2\": 0.02, \"3\": 0, \"4\": 0}, \"confidence\": 0.97}}",
+    "gen_latency_s": 0.21393083303701133
+  },
+  "42cfd3eefc97a0c36f1fc1787a8454b41ef316573d8c7c51b49748e749ee366a": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.88, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0.01, \"2\": 0, \"3\": 0.05, \"4\": 0.93}, \"confidence\": 0.9}, \"correctness\": {\"type\": \"score\", \"score\": 3.94, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.04, \"4\": 0.96}, \"confidence\": 0.97}}",
+    "gen_latency_s": 0.21645375003572553
+  },
+  "314024ca9a45f1f28ea8e93b4eaf6b9ef90a4398c40e526568d14cf70e9d4b6b": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 1.27, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.67, \"1\": 0.01, \"2\": 0, \"3\": 0.01, \"4\": 0.31}, \"confidence\": 0}, \"correctness\": {\"type\": \"score\", \"score\": 3.97, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.01, \"4\": 0.99}, \"confidence\": 0.99}}",
+    "gen_latency_s": 0.22685845900559798
+  },
+  "de087a83a830375a47905ed6bc12a31bb0526417171bb08f7de0d3793032499b": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.94, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0.01, \"2\": 0, \"3\": 0.01, \"4\": 0.97}, \"confidence\": 0.93}, \"correctness\": {\"type\": \"score\", \"score\": 3.97, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.01, \"4\": 0.99}, \"confidence\": 0.99}}",
+    "gen_latency_s": 0.21573062503011897
+  },
+  "48f6799995cc4996864534cea25ee2af456db5ff5bccea6057313a8d64d1c610": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.93, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0, \"2\": 0, \"3\": 0.04, \"4\": 0.95}, \"confidence\": 0.93}, \"correctness\": {\"type\": \"score\", \"score\": 3.97, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.01, \"4\": 0.99}, \"confidence\": 0.99}}",
+    "gen_latency_s": 0.23546799999894574
+  },
+  "0d5090232579aa0aa90fdb7c69c09a74ce51eaf65b4625b4c0d52e90b7d5fa35": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.84, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.02, \"1\": 0.01, \"2\": 0, \"3\": 0.07, \"4\": 0.9}, \"confidence\": 0.85}, \"correctness\": {\"type\": \"score\", \"score\": 3.96, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.02, \"4\": 0.98}, \"confidence\": 0.98}}",
+    "gen_latency_s": 0.22029370802920312
+  },
+  "e9ba7154a29a145c566bc6f875323eef5eccc555278089ff17f5f1dd6b5adc00": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.93, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0, \"2\": 0, \"3\": 0.03, \"4\": 0.96}, \"confidence\": 0.94}, \"correctness\": {\"type\": \"score\", \"score\": 3.96, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.03, \"4\": 0.97}, \"confidence\": 0.97}}",
+    "gen_latency_s": 0.21665333397686481
+  },
+  "2228d7091b8423c6dd0564ef03b6f418ed519a42279dd6c8ccf30daff47dfc0b": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.71, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.02, \"1\": 0.01, \"2\": 0.02, \"3\": 0.15, \"4\": 0.8}, \"confidence\": 0.75}, \"correctness\": {\"type\": \"score\", \"score\": 3.96, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.02, \"4\": 0.98}, \"confidence\": 0.98}}",
+    "gen_latency_s": 0.18355779099510983
+  },
+  "81319f57b9fd93007ccaf6f50e13668b0cf3ac8a91cd9357944fb3a2eb7de7fb": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.88, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0.01, \"2\": 0, \"3\": 0.04, \"4\": 0.94}, \"confidence\": 0.91}, \"correctness\": {\"type\": \"score\", \"score\": 3.95, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.03, \"4\": 0.97}, \"confidence\": 0.97}}",
+    "gen_latency_s": 0.1984117500251159
+  },
+  "56778f713981e9fe1a09ee1010958b7f8ea1983fbda5302710b74e859a079009": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.94, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0, \"2\": 0, \"3\": 0.02, \"4\": 0.97}, \"confidence\": 0.95}, \"correctness\": {\"type\": \"score\", \"score\": 3.96, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.03, \"4\": 0.97}, \"confidence\": 0.97}}",
+    "gen_latency_s": 0.2941654999740422
+  },
+  "e524fd6f5c455d8e29e55342e15a7eed8c4178062a762a77b4c232a2e67ab05e": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.85, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.02, \"1\": 0.01, \"2\": 0, \"3\": 0.04, \"4\": 0.93}, \"confidence\": 0.88}, \"correctness\": {\"type\": \"score\", \"score\": 3.94, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.04, \"4\": 0.96}, \"confidence\": 0.97}}",
+    "gen_latency_s": 0.24847266694996506
+  },
+  "519ac731f31a3c6e4d4ac6576116e32ef3442a8113d3519f89ed8125639ffd2d": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.7, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.02, \"1\": 0.01, \"2\": 0.02, \"3\": 0.16, \"4\": 0.79}, \"confidence\": 0.74}, \"correctness\": {\"type\": \"score\", \"score\": 3.96, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.03, \"4\": 0.97}, \"confidence\": 0.97}}",
+    "gen_latency_s": 0.25071845803176984
+  },
+  "e5b9e2e99a08cd7ca1022d5001f9ff012cc00bc50c123845a5f418725dfce9ec": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 1.74, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.53, \"1\": 0.02, \"2\": 0.03, \"3\": 0.02, \"4\": 0.4}, \"confidence\": 0}, \"correctness\": {\"type\": \"score\", \"score\": 3.97, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.01, \"4\": 0.99}, \"confidence\": 0.99}}",
+    "gen_latency_s": 0.25937295804033056
+  },
+  "5ca1b0b67eaca1a81093a3f24e4c0a7f79e2da4e6efbb10d738c01f0f543a618": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.73, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0.01, \"2\": 0.01, \"3\": 0.18, \"4\": 0.79}, \"confidence\": 0.77}, \"correctness\": {\"type\": \"score\", \"score\": 3.97, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.02, \"4\": 0.98}, \"confidence\": 0.98}}",
+    "gen_latency_s": 0.22629920800682157
+  },
+  "c8ca50b084b675939d9dfca984d80878d72329ae900bbcef0dbc025e779fe253": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.91, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.06, \"4\": 0.9400000000000001}, \"confidence\": 0.95}, \"correctness\": {\"type\": \"score\", \"score\": 3.98, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.01, \"4\": 0.99}, \"confidence\": 0.99}}",
+    "gen_latency_s": 0.27484233397990465
+  },
+  "8559d0b1c2536cf1f8c07c3b15cd5055d8f4124103c2a5318ecb53dcf63be219": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.84, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.03, \"1\": 0.01, \"2\": 0, \"3\": 0.03, \"4\": 0.9299999999999999}, \"confidence\": 0.85}, \"correctness\": {\"type\": \"score\", \"score\": 3.97, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.01, \"4\": 0.99}, \"confidence\": 0.99}}",
+    "gen_latency_s": 0.23649845796171576
+  },
+  "ebfabe1e53978c169736707c4ce3eb5c25620e0f46fd77f477e1f6214244f49a": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.81, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0, \"2\": 0.01, \"3\": 0.12, \"4\": 0.86}, \"confidence\": 0.85}, \"correctness\": {\"type\": \"score\", \"score\": 3.97, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.01, \"4\": 0.99}, \"confidence\": 0.99}}",
+    "gen_latency_s": 0.24659658299060538
+  },
+  "837508fb85f4d465b96939a6bdc90a960605d248aede2703de8c8796e0ca7b9b": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.93, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.04, \"4\": 0.96}, \"confidence\": 0.97}, \"correctness\": {\"type\": \"score\", \"score\": 3.95, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.04, \"4\": 0.96}, \"confidence\": 0.97}}",
+    "gen_latency_s": 0.8848814160446636
+  },
+  "f929b3578ef0266ee6318c04c93a51b52cec7c9677b3b9e1bc4350c45f32dbef": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.84, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.02, \"1\": 0.01, \"2\": 0, \"3\": 0.07, \"4\": 0.9}, \"confidence\": 0.85}, \"correctness\": {\"type\": \"score\", \"score\": 3.98, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.01, \"4\": 0.99}, \"confidence\": 0.99}}",
+    "gen_latency_s": 0.23550670902477577
+  },
+  "78beeb349d3cd2d8f6c9d5d0d4db15479c266bf60e917cd8f8370b0eaae362c3": {
+    "answer": "{\"faithfulness\": {\"type\": \"score\", \"score\": 3.91, \"legend\": {\"0\": \"1: Most claims are not supported by the cited passages, or the answer contradicts them, or it states specific facts while citing nothing.\", \"1\": \"2: Several claims are unsupported by the cited passages; only a minor part is grounded.\", \"2\": \"3: About half of the claims are supported by the cited passages; the rest go beyond them.\", \"3\": \"4: Nearly all claims are supported by the cited passages; at most one minor detail goes beyond them.\", \"4\": \"5: Every claim is directly supported by the cited passages (or the answer correctly says the sources do not contain the answer).\"}, \"probabilities\": {\"0\": 0.01, \"1\": 0, \"2\": 0, \"3\": 0.04, \"4\": 0.95}, \"confidence\": 0.93}, \"correctness\": {\"type\": \"score\", \"score\": 3.98, \"legend\": {\"0\": \"1: Wrong, or does not answer the question.\", \"1\": \"2: Mostly wrong; contains a small correct element.\", \"2\": \"3: Partly correct: key information is missing or one key fact is wrong.\", \"3\": \"4: Correct on the key fact(s) but with a minor error or omission compared with the reference answer.\", \"4\": \"5: Fully correct and consistent with the reference answer.\"}, \"probabilities\": {\"0\": 0, \"1\": 0, \"2\": 0, \"3\": 0.01, \"4\": 0.99}, \"confidence\": 0.99}}",
+    "gen_latency_s": 0.26296508399536833
+  },
+  "014bf2d0cfe30fb3cfc6c9e55e2f177ad4ea48c44998f7bc3dce22f82386f46b": {
+    "answer": "{\"winner\": {\"type\": \"choice\", \"choice\": \"B\", \"probabilities\": {\"A\": 0.01, \"B\": 0.96, \"tie\": 0.03}, \"confidence\": 0.94}}",
+    "gen_latency_s": 0.8068145000142977
+  },
+  "d8db99d30038d40b6a48530c7ca86af6a7b5443a06ed9efd5291db3c5091c334": {
+    "answer": "{\"winner\": {\"type\": \"choice\", \"choice\": \"tie\", \"probabilities\": {\"A\": 0.17, \"B\": 0.04, \"tie\": 0.79}, \"confidence\": 0.69}}",
+    "gen_latency_s": 0.24428625003201887
+  },
+  "b5e34bc7068d6d54ade0f05d6ada7e3a69e879bb651c4a49dd19eb3894a686b6": {
+    "answer": "{\"winner\": {\"type\": \"choice\", \"choice\": \"tie\", \"probabilities\": {\"A\": 0, \"B\": 0, \"tie\": 1}, \"confidence\": 1}}",
+    "gen_latency_s": 0.22408158297184855
+  },
+  "5ff89950fef33798cc700998f1c1a2549deffc5434461506c96b615badcedeed": {
+    "answer": "{\"winner\": {\"type\": \"choice\", \"choice\": \"tie\", \"probabilities\": {\"A\": 0.1, \"B\": 0.07, \"tie\": 0.83}, \"confidence\": 0.74}}",
+    "gen_latency_s": 0.22116779198404402
+  },
+  "10aaeed9f522165a13b594852ccd0ffbf8da5f88d978c94372d2e9c467675a4a": {
+    "answer": "{\"winner\": {\"type\": \"choice\", \"choice\": \"tie\", \"probabilities\": {\"A\": 0.04, \"B\": 0.01, \"tie\": 0.95}, \"confidence\": 0.92}}",
+    "gen_latency_s": 0.22822895902208984
+  },
+  "5beb3739384614136bf1b2b82b011780d80142cab178973b1cb9884199385f18": {
+    "answer": "{\"winner\": {\"type\": \"choice\", \"choice\": \"tie\", \"probabilities\": {\"A\": 0.04, \"B\": 0.26, \"tie\": 0.7}, \"confidence\": 0.55}}",
+    "gen_latency_s": 0.24108979100128636
+  },
+  "0b5441adf36544cbf897848944f9ba7da8645d43cdd1e5225edc0630d02eadaa": {
+    "answer": "{\"winner\": {\"type\": \"choice\", \"choice\": \"tie\", \"probabilities\": {\"A\": 0.02, \"B\": 0.01, \"tie\": 0.97}, \"confidence\": 0.95}}",
+    "gen_latency_s": 0.2087000830215402
+  },
+  "99df3073f6e68e41ee04fded181f39acc278b0c5df16820b596b134653244ed7": {
+    "answer": "{\"winner\": {\"type\": \"choice\", \"choice\": \"tie\", \"probabilities\": {\"A\": 0.35, \"B\": 0.03, \"tie\": 0.62}, \"confidence\": 0.43}}",
+    "gen_latency_s": 0.25396504101809114
+  },
+  "b8b4e235de66a1aac87c662d7d73674d08b11a79c544e237bdcb7a328a0c8ae6": {
+    "answer": "{\"winner\": {\"type\": \"choice\", \"choice\": \"tie\", \"probabilities\": {\"A\": 0.03, \"B\": 0.02, \"tie\": 0.95}, \"confidence\": 0.92}}",
+    "gen_latency_s": 0.9273137910058722
+  },
+  "f22edf55d6679e1aea03b44e2f7e6bea105b781618e99fadf1168419233b0437": {
+    "answer": "{\"winner\": {\"type\": \"choice\", \"choice\": \"tie\", \"probabilities\": {\"A\": 0.13, \"B\": 0.14, \"tie\": 0.73}, \"confidence\": 0.59}}",
+    "gen_latency_s": 0.32371279096696526
+  },
+  "0cdc61a06963800a8b29e030d242ea7ae5db3c68bf94972d789e7899f3c54add": {
+    "answer": "{\"winner\": {\"type\": \"choice\", \"choice\": \"tie\", \"probabilities\": {\"A\": 0.09, \"B\": 0.38, \"tie\": 0.53}, \"confidence\": 0.3}}",
+    "gen_latency_s": 0.2304037080029957
+  },
+  "5298597305be0284c121d77b9a3eca296b2942124588717c04e540b32851ef1d": {
+    "answer": "{\"winner\": {\"type\": \"choice\", \"choice\": \"B\", \"probabilities\": {\"A\": 0.23, \"B\": 0.64, \"tie\": 0.13}, \"confidence\": 0.46}}",
+    "gen_latency_s": 0.21135166700696573
+  },
+  "f6a5357dc22fd9273dd8bb833e967d5dfe70409ccc0b336281b111d0239e41b8": {
+    "answer": "{\"winner\": {\"type\": \"choice\", \"choice\": \"tie\", \"probabilities\": {\"A\": 0.3, \"B\": 0.05, \"tie\": 0.65}, \"confidence\": 0.48}}",
+    "gen_latency_s": 0.2536386249703355
+  },
+  "99ffbba2974e54291ca54f409e459478e000482f728b338a1edd8c8474106d6d": {
+    "answer": "{\"winner\": {\"type\": \"choice\", \"choice\": \"tie\", \"probabilities\": {\"A\": 0.25, \"B\": 0.26, \"tie\": 0.49}, \"confidence\": 0.23}}",
+    "gen_latency_s": 0.24237079202430323
+  },
+  "be49ca36f1f9836ea64f886b184c16c1327b3e0ea9da090d8158dbce07a5c0ee": {
+    "answer": "{\"winner\": {\"type\": \"choice\", \"choice\": \"tie\", \"probabilities\": {\"A\": 0.07, \"B\": 0.03, \"tie\": 0.9}, \"confidence\": 0.85}}",
+    "gen_latency_s": 0.23776699998416007
+  },
+  "7e4375b8f36a6c7746dfbf75df43672aabd050f82ea641b834f3a202203a9135": {
+    "answer": "{\"winner\": {\"type\": \"choice\", \"choice\": \"tie\", \"probabilities\": {\"A\": 0.01, \"B\": 0.13, \"tie\": 0.86}, \"confidence\": 0.79}}",
+    "gen_latency_s": 0.23296620801556855
+  },
+  "437716079912f9a9fed969c8b7d2935c5e0735c5ea1ea896324a3d3aa13b8b5f": {
+    "answer": "{\"winner\": {\"type\": \"choice\", \"choice\": \"B\", \"probabilities\": {\"A\": 0, \"B\": 1, \"tie\": 0}, \"confidence\": 1}}",
+    "gen_latency_s": 0.22306591598317027
+  },
+  "9e85e12a9a5eb17ab6f240a5342e5ed74e2fa1e1262cfe66871ec80d5047961b": {
+    "answer": "{\"winner\": {\"type\": \"choice\", \"choice\": \"A\", \"probabilities\": {\"A\": 1, \"B\": 0, \"tie\": 0}, \"confidence\": 1}}",
+    "gen_latency_s": 0.2439005000051111
+  },
+  "38c7b35b2ae37446ce63636c3ce46379963cc7e9ebd7267d39a1314cbc2ffb81": {
+    "answer": "{\"winner\": {\"type\": \"choice\", \"choice\": \"B\", \"probabilities\": {\"A\": 0.13, \"B\": 0.53, \"tie\": 0.34}, \"confidence\": 0.3}}",
+    "gen_latency_s": 0.2592476250138134
+  },
+  "b1b5253d5842f8c4fc1a32beb743ecc47ef4ff9d8e1715253b4caa91b9a46d42": {
+    "answer": "{\"winner\": {\"type\": \"choice\", \"choice\": \"A\", \"probabilities\": {\"A\": 0.43, \"B\": 0.15, \"tie\": 0.42}, \"confidence\": 0.14}}",
+    "gen_latency_s": 0.21846216701669618
+  },
+  "0a53e0ac7f19a4637cbb9f406287e93126b0218a6347132710fdf620def891c1": {
+    "answer": "{\"winner\": {\"type\": \"choice\", \"choice\": \"tie\", \"probabilities\": {\"A\": 0.04, \"B\": 0.07, \"tie\": 0.89}, \"confidence\": 0.83}}",
+    "gen_latency_s": 0.2507654170040041
+  },
+  "e699376a25a6edbba8d7c7d6b4ff3091898a4a91c82769c465054e218b75b562": {
+    "answer": "{\"winner\": {\"type\": \"choice\", \"choice\": \"tie\", \"probabilities\": {\"A\": 0.04, \"B\": 0.22, \"tie\": 0.74}, \"confidence\": 0.61}}",
+    "gen_latency_s": 0.2230287499842234
+  },
+  "9661e88ff7eccadadfc050a5e9966b4ecc80f4a58fdf34994b5ada5383d09c8c": {
+    "answer": "{\"winner\": {\"type\": \"choice\", \"choice\": \"tie\", \"probabilities\": {\"A\": 0.17, \"B\": 0.19, \"tie\": 0.64}, \"confidence\": 0.46}}",
+    "gen_latency_s": 0.22955004102550447
+  },
+  "17ddd6394117f2539e14f0177ecbf30be905008424b6539289586eb248cc6f02": {
+    "answer": "{\"winner\": {\"type\": \"choice\", \"choice\": \"B\", \"probabilities\": {\"A\": 0, \"B\": 1, \"tie\": 0}, \"confidence\": 1}}",
+    "gen_latency_s": 0.2019619169877842
+  },
+  "436b5791d60b3ae5276cd1afc23611f7f40e053626847916920bdacb8e47352c": {
+    "answer": "{\"winner\": {\"type\": \"choice\", \"choice\": \"tie\", \"probabilities\": {\"A\": 0.03, \"B\": 0.01, \"tie\": 0.96}, \"confidence\": 0.94}}",
+    "gen_latency_s": 0.21023674996104091
+  },
+  "cfbc7f38d8b9c890f349f73e95f5a5cbd6c947d158fa7ff25d356f5b83c2ee1a": {
+    "answer": "{\"winner\": {\"type\": \"choice\", \"choice\": \"tie\", \"probabilities\": {\"A\": 0.04, \"B\": 0.21, \"tie\": 0.75}, \"confidence\": 0.62}}",
+    "gen_latency_s": 0.2582502080476843
+  },
+  "e3fc2845425a78538c4de87653cf0699dac93212a8e3dae4d70dc97fb0af0c44": {
+    "answer": "{\"winner\": {\"type\": \"choice\", \"choice\": \"A\", \"probabilities\": {\"A\": 1, \"B\": 0, \"tie\": 0}, \"confidence\": 1}}",
+    "gen_latency_s": 0.2249396659899503
+  },
+  "cb5ab0045152b155032660141c5bc4e2ad14101f638b2ae21540d4d0f5204927": {
+    "answer": "{\"winner\": {\"type\": \"choice\", \"choice\": \"tie\", \"probabilities\": {\"A\": 0.11, \"B\": 0.05, \"tie\": 0.84}, \"confidence\": 0.76}}",
+    "gen_latency_s": 0.2388682920136489
+  },
+  "b1dac07f321025b2963247f929afb7101074b7ae6182f233497d93fa39224a1a": {
+    "answer": "{\"winner\": {\"type\": \"choice\", \"choice\": \"tie\", \"probabilities\": {\"A\": 0.19, \"B\": 0.09, \"tie\": 0.72}, \"confidence\": 0.58}}",
+    "gen_latency_s": 0.2750890830066055
+  },
+  "1bdfcbab06fe9435aa7c2bf3ed6af197c4349eb0d3832831fbd89400f8d6cf38": {
+    "answer": "{\"winner\": {\"type\": \"choice\", \"choice\": \"tie\", \"probabilities\": {\"A\": 0.39, \"B\": 0.08, \"tie\": 0.53}, \"confidence\": 0.3}}",
+    "gen_latency_s": 0.2383652919670567
+  },
+  "c77cf00bb904af801695fa716fd60024ebc702dda94078204e5e1f8de6011d6d": {
+    "answer": "{\"winner\": {\"type\": \"choice\", \"choice\": \"tie\", \"probabilities\": {\"A\": 0.02, \"B\": 0, \"tie\": 0.98}, \"confidence\": 0.97}}",
+    "gen_latency_s": 0.2550600829999894
+  },
+  "36856fd583bf1a5980392f76f459204bd864babd6a08078337171460b7d494bd": {
+    "answer": "{\"winner\": {\"type\": \"choice\", \"choice\": \"tie\", \"probabilities\": {\"A\": 0, \"B\": 0.04, \"tie\": 0.96}, \"confidence\": 0.94}}",
+    "gen_latency_s": 0.21081595798023045
+  },
+  "6efe50599e77bb325740e7b736d44b7f254b77d9b1fb74f0d40fce37361eefcf": {
+    "answer": "{\"winner\": {\"type\": \"choice\", \"choice\": \"tie\", \"probabilities\": {\"A\": 0.31, \"B\": 0.05, \"tie\": 0.64}, \"confidence\": 0.46}}",
+    "gen_latency_s": 0.2696237500058487
+  },
+  "a263955b1121ec59a8598136ddf5d19b83f0c7ebc933840503a046e93aecdf0d": {
+    "answer": "{\"winner\": {\"type\": \"choice\", \"choice\": \"tie\", \"probabilities\": {\"A\": 0.01, \"B\": 0.02, \"tie\": 0.97}, \"confidence\": 0.95}}",
+    "gen_latency_s": 0.3683212909963913
+  },
+  "edad6e955cd7c63852a7f8610254800e22bc5eb83eb97708ef4fb41ec8c98986": {
+    "answer": "{\"winner\": {\"type\": \"choice\", \"choice\": \"tie\", \"probabilities\": {\"A\": 0.01, \"B\": 0.04, \"tie\": 0.95}, \"confidence\": 0.92}}",
+    "gen_latency_s": 0.2131597079569474
+  }
+}

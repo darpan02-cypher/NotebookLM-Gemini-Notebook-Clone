@@ -1,0 +1,318 @@
+{
+  "0f4c03b27dbb421299b87bceb6eeccff0c9cc7be1cb515d3c305edfa51086e2b": {
+    "answer": "I could not find the names of the three Apollo 12 crew members in the provided sources.",
+    "gen_latency_s": 1.0729466250049882
+  },
+  "aa410632b859177cdaaaece1179193ac205555550e870d24a680b429564376db": {
+    "answer": "The Apollo 12 crew consisted of Charles “Pete” Conrad, Alan Bean, and Richard Gordon[2]",
+    "gen_latency_s": 0.5039410419994965
+  },
+  "d9333147f68c465436d4c71fa5eddcd911d79cf21fd348c7df9e2814885ff309": {
+    "answer": "The lunar module flown by Apollo 16 was named Orion[2].",
+    "gen_latency_s": 0.43916275002993643
+  },
+  "9c4ba018067fe13be65b323a3cce33024c1e69eb311870e64b0c65ebdbfe1bd3": {
+    "answer": "The Apollo 16 mission landed the lunar module **Orion** on the Moon[3][1].",
+    "gen_latency_s": 0.7376481250394136
+  },
+  "4b83c797ff5eb9d9c375ce7f9f4cc41c10bb259907603c70c5dc38eb80a6d302": {
+    "answer": "The Skylab 4 crew—Gerald Carr, Edward Gibson and William Pogue—spent **84 days** in orbit[1].",
+    "gen_latency_s": 0.6677265840116888
+  },
+  "a63f66bc2a74a76d89ea28a18cc7e23083adcf88a1b7c2411006718162d23820": {
+    "answer": "The Skylab 4 crew—Gerald Carr, Edward Gibson and William Pogue—spent **84 days** in orbit[1].",
+    "gen_latency_s": 0.4290203339769505
+  },
+  "bed268ca0caa90d88cf86cbecdfdfdab5d019626a82d1ab08752d84c433b0677": {
+    "answer": "The Golden Record includes spoken greetings in **55 languages**[1].",
+    "gen_latency_s": 10.640165208955295
+  },
+  "6918e81394dc06e0693b3bf3314419eb3bed3e6eb324afaa268fadc2d30eb92b": {
+    "answer": "The Golden Record includes spoken greetings in **55 languages**[1][2]",
+    "gen_latency_s": 9.655641916033346
+  },
+  "0cb5646fe7a521c777bfb66ade43ea8a557b67eea573c281df30470ea5eb29eb": {
+    "answer": "The citric acid (Krebs) cycle occurs in the mitochondrial matrix【2†L1-L3】【3†L1-L3】",
+    "gen_latency_s": 9.37494875001721
+  },
+  "8cfc9533e623f747ef81c7ff1adbcf32c8666696bdc4d9e070bebd4ce1e57a64": {
+    "answer": "The citric acid (Krebs) cycle occurs in the mitochondrial matrix[2][4].",
+    "gen_latency_s": 10.93540254200343
+  },
+  "6779f4bc88afb31ec42daf6085cf158585e73f90d47ea7ed069dfa7c8ef44d10": {
+    "answer": "The net gain from glycolysis is 2 ATP per glucose molecule[1].",
+    "gen_latency_s": 9.868308541015722
+  },
+  "64323536a3dd20cc424c8c62d325c06e69cbc84f47b52871767f46bf14659dbf": {
+    "answer": "The net gain from glycolysis is 2 ATP per glucose molecule【1†L4-L6】【4†L1-L3】",
+    "gen_latency_s": 10.820525165996514
+  },
+  "1bb675692b1e9fcc8d9a07614cb86d17bbeb3833dbb502c07604761b87001683": {
+    "answer": "The enzyme that initially captures carbon dioxide in the mesophyll cells of C4 plants is **PEP carboxylase**[1][5].",
+    "gen_latency_s": 5.7945622080005705
+  },
+  "796569e5ffa0f65ec4bcd95f279e393ab80ee2454b79db0f2d8fff0e3582e301": {
+    "answer": "The first enzyme that captures carbon dioxide in the mesophyll cells of C4 plants is **PEP carboxylase**[1][5].",
+    "gen_latency_s": 10.775716791977175
+  },
+  "95a462da55ac777d2b93fde866a56075ce8876e589c84e1fcb5f71fd6f52b548": {
+    "answer": "Gordon Cooper’s Faith 7 mission completed **twenty‑two orbits**【1†L1-L3】【4†L1-L3】",
+    "gen_latency_s": 10.690467624983285
+  },
+  "0e99e456234e3c839b45873af901d6b32e437844e12089aca8a72382dad20029": {
+    "answer": "Gordon Cooper’s Faith 7 completed **twenty‑two orbits**[1][2]",
+    "gen_latency_s": 10.695007667003665
+  },
+  "3b6798feb4adf212c7dd873d7cbb78c62d9f3919b38624d94c98a73cfc1abc8b": {
+    "answer": "Voyager 2’s closest fly‑by of Neptune occurred on **August 25, 1989**[2]",
+    "gen_latency_s": 11.922793542034924
+  },
+  "e9cc061fbbc269de2150a17c64812449583811f1045a57f9717f0d1905eb344f": {
+    "answer": "Voyager 2 made its closest approach to Neptune on **August 25 1989**[1]",
+    "gen_latency_s": 10.730013082968071
+  },
+  "f6d14064ebec1aef252543c1e81d28527ff8101b282adb77228f42ec173f158f": {
+    "answer": "The International Space Station orbits the Earth in an orbit inclined ≈ 51.6 degrees to the equator[1].",
+    "gen_latency_s": 6.969080000009853
+  },
+  "fe80cb6c52eeed9f1fb561915dcb92124153e46bc069ec10a959ac2ea80cf721": {
+    "answer": "The International Space Station orbits the Earth in an orbit inclined ≈ 51.6 degrees to the equator[1].",
+    "gen_latency_s": 10.667278458015062
+  },
+  "f7c46347132b4f786058f8d41691393067b52aaf67f6f0c2ff03399df9701940": {
+    "answer": "During anaphase I the paired homologous chromosomes are pulled apart and migrate to opposite poles of the cell, while the sister chromatids stay together on each chromosome [1][2].",
+    "gen_latency_s": 9.809975792013574
+  },
+  "65bc12952f64863daf3b058823c1ed98b915a6d4ebe247c190bf7e130e31905e": {
+    "answer": "Edward White opened the Gemini 4 hatch and became the first American to walk in space, spending roughly twenty minutes outside the spacecraft while tethered to it[1].",
+    "gen_latency_s": 10.846374417014886
+  },
+  "d58af6bdcbe57746fe2b251ac01352fc6ca0433ead7d13383b3c93ee49a72a1a": {
+    "answer": "During the Gemini 4 mission, Edward White opened the spacecraft’s hatch and performed the first American spacewalk, spending roughly twenty minutes outside the capsule while tethered to it. [1][3]",
+    "gen_latency_s": 11.386911999958102
+  },
+  "44514d646b79e4d9e9ddcbb15dcc9460c4ad52d5041127ca9481eea5a42e39a7": {
+    "answer": "The Liberty Bell 7 capsule sank after its explosive hatch blew off and remained on the seabed until it was recovered in 1999[1].",
+    "gen_latency_s": 10.623215999978129
+  },
+  "77f8cd26c58efb74ed50e7184969c00ead242e8a44ee822bdb0fe1ae03ee92a5": {
+    "answer": "The capsule was **Liberty Bell 7** – its explosive hatch blew off after splashdown, the capsule sank, and it was not recovered from the ocean floor until 1999[1][2].",
+    "gen_latency_s": 10.096563833998516
+  },
+  "fabc4a72def217530330afa35ee7762d680b7bbab6793549cb96b8ce0b6de2c6": {
+    "answer": "The thin protective shield that was supposed to shade the workshop and guard it from micrometeoroids was ripped away by launch‑induced vibration, and one solar array was lost while the other jammed shut. With the shield gone and little power available, the station could not control its temperature, so the interior rose above 50 °C, creating a dangerous heat condition【1†L1-L5】【2†L1-L4】",
+    "gen_latency_s": 9.75472158397315
+  },
+  "62ecd2b3200e868b52b056c257b719b28c5b95903ab57106a03c8ad9ac196e58": {
+    "answer": "The thin protective shield that was supposed to shade the workshop was ripped off by launch‑induced vibration, and one solar array was lost while the other jammed. With the shield gone the station’s interior was exposed to direct sunlight, causing the temperature inside to climb above 50 °C, creating a dangerous heat condition[2].",
+    "gen_latency_s": 10.03562595800031
+  },
+  "985f0a60d3b377a9dd3894929a87d0a2b78f4205d8817af38acd55468ee43654": {
+    "answer": "The first crew (Skylab 2) solved the overheating by installing a parasol‑type sunshade. They deployed a sunshade through a small airlock in the workshop wall, which shaded the interior and brought the temperature down to a livable level[1].",
+    "gen_latency_s": 13.23897720896639
+  },
+  "b92ad8dbbb5b0bbaa8624c7b2d6f69b564ae933a73dd93144714bae8824abca1": {
+    "answer": "The first crew (Skylab 2) installed a parasol‑like sunshade through a small airlock in the workshop wall, which shaded the interior and brought the temperature down to a livable level【1†L1-L4】【2†L1-L3】",
+    "gen_latency_s": 9.895161749969702
+  },
+  "8eb133909bc8a7da81ed9f2cb9b82d36916d6b8456c13f808b572f1a9daf0964": {
+    "answer": "Alan Shepard smuggled a golf‑club head onto the Moon and used it to hit two golf balls on the lunar surface[1].",
+    "gen_latency_s": 10.74261504097376
+  },
+  "35989a4a7e449fccb54c1086f522d7c39f3b525c4b975a3c0a7412a399483936": {
+    "answer": "Alan Shepard used a smuggled golf‑club head to hit two golf balls on the Moon[2].",
+    "gen_latency_s": 9.761727250006516
+  },
+  "52b51e84444caf7267f0acc6d3fc1aeed8b4a46ad47d4a573dd09cc62887a533": {
+    "answer": "The navigation engineer who first spotted the volcanic plume was Linda Morabito[1].",
+    "gen_latency_s": 8.642554124991875
+  },
+  "46b8afa3d6e3509c3dffdfc32a19c50132e903a10183c3fe2849607d42cbe535": {
+    "answer": "The navigation engineer who first spotted the volcanic plume was **Linda Morabito**[1].",
+    "gen_latency_s": 9.798108874994796
+  },
+  "79296291e888523928330ea3cd14d07b24297701c0fac3080b9f1283d5cf8561": {
+    "answer": "The enzyme that converts pyruvate into the lactate that builds up in a sprinter’s muscles is **lactate dehydrogenase**[1].",
+    "gen_latency_s": 10.861689749988727
+  },
+  "a5aa501634341eaad510ae497b217f7a5783ed961dffd93fc2b78b9842ad853e": {
+    "answer": "The enzyme that converts pyruvate into the lactate that builds up in a sprinter’s muscles is lactate dehydrogenase[3].",
+    "gen_latency_s": 10.714918125013355
+  },
+  "9c142b3663ea7776f8a66580b309aea3523df5579d9c6eadebbbd67a76161f34": {
+    "answer": "I could not find the answer in the provided sources.",
+    "gen_latency_s": 8.909443874959834
+  },
+  "82e75fdfe64a421599d1879d89c7782f70e44738c2d819f3611583bac479792f": {
+    "answer": "Cyanide and carbon monoxide block complex IV of the electron‑transport chain, preventing the final transfer of electrons to oxygen and thereby halting cellular ATP production[1].",
+    "gen_latency_s": 10.806234332965687
+  },
+  "6286194adacc286713cb31bde71bc255981bc00107f7b05fb24496767d378a11": {
+    "answer": "I could not find the name of that leaf architecture in the provided sources.",
+    "gen_latency_s": 11.315301834023558
+  },
+  "97ce1017056d504169cc70e64958cb08525d7e4766f7dec22d8559c93318cfc2": {
+    "answer": "The concentric leaf architecture is called **Kranz anatomy**[1].",
+    "gen_latency_s": 11.834602874994744
+  },
+  "32c1f8da040c9bad9b60d5d26faf452f6ffce80c7d5962d59c58cd98a84ba4e2": {
+    "answer": "A warm day lowers the amount of dissolved CO₂ in leaf cells while O₂ builds up (because warm leaves hold relatively less CO₂ and the stomata tend to close to conserve water). This makes O₂ compete more strongly with CO₂ for RuBisCO’s active site. When RuBisCO fixes O₂ instead of CO₂, the plant undergoes photorespiration, which consumes ATP and releases CO₂ without producing sugar—i.e., it wastes energy. [3][5]",
+    "gen_latency_s": 9.155883083003573
+  },
+  "34e0103359df22c5bc165ddff7e1da7cca142606357b0bbca952cb755665dd86": {
+    "answer": "A warm day raises the chance that RuBisCO will bind oxygen instead of carbon dioxide. Heat makes leaves hold relatively less dissolved CO₂ while oxygen builds up, and the plants often close their stomata to conserve water, which further lowers internal CO₂ and raises O₂ levels. Under these conditions RuBisCO catalyzes photorespiration, producing the toxic phosphoglycolate and wasting energy that could have been used for carbon fixation[1]. Because RuBisCO evolved when atmospheric O₂ was low, it handles O₂ poorly, so the increased O₂ competition on hot days makes the enzyme more likely to waste energy[2].",
+    "gen_latency_s": 12.25064162502531
+  },
+  "8b152a6df7cc7c02a294cf14a7ef02bb2f3670af5c23f552355c752bb79e50ce": {
+    "answer": "The two crewed spacecraft were **Gemini 6A** and **Gemini 7**, which met in orbit on 15 December 1965 and flew in formation, coming within about 30 cm of each other【1†L1-L4】【2†L4-L7】",
+    "gen_latency_s": 11.977136707981117
+  },
+  "9479e8920a07214ab42394d454c038736edb85477ed894daa2c3b35feb45b823": {
+    "answer": "The two crewed spacecraft were **Gemini 6A** and **Gemini 7**, which met in orbit on 15 December 1965 and flew in formation, coming within about 30 cm of each other【1†L1-L4】【2†L4-L7】",
+    "gen_latency_s": 11.19525720801903
+  },
+  "f8f9fd9de3455c5bc21f9a729b35cf4110d8158c59aa28dc661c6d3e2d7f3ebb": {
+    "answer": "Planners had deliberately loaded Apollo 10’s lunar module with too little fuel to make a landing and then take off again, so the crew could not actually touch down on the Moon[3].",
+    "gen_latency_s": 10.702324541984126
+  },
+  "6ff2069862508cd5c10ace81e7f5a1b2f8a1ca9c96b83a5de36fbe72ee4c4e0a": {
+    "answer": "The Apollo 10 lunar module was deliberately loaded with insufficient fuel for a landing and subsequent ascent, so that the crew could not be tempted to try to touch down on the Moon. This intentional fuel limitation meant the craft could not actually land. [1][3]",
+    "gen_latency_s": 10.848629665968474
+  },
+  "b371b21653ddac7822af4a4d6433daf00f535d98ef03f66ddfb2f0c45929f67f": {
+    "answer": "The extra copy of chromosome 21 that causes Down syndrome results from a failure of chromosomes to separate properly during meiosis – a mistake called **nondisjunction**[1].",
+    "gen_latency_s": 10.136621499957982
+  },
+  "1336162a4dca1c1d516675a25c2760acef0ccbc235cdaa34fbc1c5300e83aeaa": {
+    "answer": "The error is called **nondisjunction**, where chromosomes fail to separate properly, leading to a gamete with an extra copy of chromosome 21 and resulting in Down syndrome[1].",
+    "gen_latency_s": 9.719809708010871
+  },
+  "703d61ed88a48fd059be38fff9ad5193b08904f2a85c530cb1727ae497f80277": {
+    "answer": "Engineers solved the problem by re‑programming the spacecraft: they moved the corrupted code to other spots in the probe’s memory, doing the fix remotely from more than 24 billion km away, without any physical hardware intervention[3].",
+    "gen_latency_s": 6.936660333012696
+  },
+  "c2edeec10c4d46db2c46218ffcc6c7526f6a38630260cb6d1df7771921d03220": {
+    "answer": "Engineers repaired the problem by re‑programming the spacecraft: they relocated the corrupted software routines to different areas of the probe’s memory, doing so remotely from more than 24 billion km away, so no physical hardware had to be touched[1].",
+    "gen_latency_s": 9.99496616597753
+  },
+  "94498dcf604d665f49e20db77ef821769b55304e1b2276f0e5979a85e37d08f5": {
+    "answer": "Buzz Aldrin demonstrated that a well‑planned, well‑rehearsed EVA would not exhaust an astronaut—he worked outside for three sessions (about 5½ hours total) tightening bolts, cutting cables and attaching tethers “without tiring.”[1]",
+    "gen_latency_s": 10.922311583010014
+  },
+  "4353a6ec1788c6bec0e63f6ddb09b17ef033be80e6f8d04963003bd086d21637": {
+    "answer": "Buzz Aldrin demonstrated that a well‑planned, well‑rehearsed outside excursion would not exhaust an astronaut, working for three separate sessions totaling about five and a half hours without tiring[2].",
+    "gen_latency_s": 9.885716999997385
+  },
+  "41349f223f60ad2825c56828a786418db9f0acc504c8097cbc1a3fcc2839df4a": {
+    "answer": "I could not find the answer in the provided sources.",
+    "gen_latency_s": 11.202354584005661
+  },
+  "78cb7b97a0929ccbb48f7bfe4bded86ef40dbb423f76ef967ee1e42dffe42dbb": {
+    "answer": "Richard Gordon remained in orbit aboard the command module Yankee Clipper during the Apollo 12 landing[3]",
+    "gen_latency_s": 11.064723666990176
+  },
+  "d889223d3a6b9b96286f091d511dfa57458b04e50ef2e0a731a9cbeb9af72744": {
+    "answer": "The Skylab 3 crew remained in orbit for **59 days**[2].",
+    "gen_latency_s": 9.947956874966621
+  },
+  "d1939e03a9ae09dac29b1cd7472f34e225836de824251dec174ecb059543fb8a": {
+    "answer": "The Skylab 3 crew stayed in space for **59 days**[1]",
+    "gen_latency_s": 10.787775333970785
+  },
+  "f3ccd9066ee49b883261a28c00d41c6b379c295e03b930e28d301c51b5456aa4": {
+    "answer": "Apollo 17’s lunar module landed in the Taurus‑Littrow valley[1].",
+    "gen_latency_s": 10.730246040970087
+  },
+  "e9bcc8b1790c8f40561d457a5014b995b5878e517945cb079e2e57b919e91a57": {
+    "answer": "Apollo 17’s lunar module landed in the Taurus‑Littrow valley[1]",
+    "gen_latency_s": 9.596187582996208
+  },
+  "ed6678b75120b31996aac2b20a0548021d32f15967573d46270e9d9a2ef77697": {
+    "answer": "I could not find the amount of lunar samples returned by Apollo 15 in the provided sources.",
+    "gen_latency_s": 10.440421333012637
+  },
+  "98ab463fd607379bc4b1197a4105acdccfbc6ddfc2f1255e664708c495df52a9": {
+    "answer": "Apollo 15 returned about 77 kilograms of lunar samples[1].",
+    "gen_latency_s": 10.914900915988255
+  },
+  "ba43c8a67c847f749f8c9f33c27f15abc6fb3c4663f8c42ba69774b3d9244829": {
+    "answer": "Voyager 1 was launched on September 5, 1977【1†L1-L3】【3†L2-L3】",
+    "gen_latency_s": 9.673878083995078
+  },
+  "e10309fe32e822e63b973277a589ed82fa6702d8349bfcc5dbfa8f3d6a766561": {
+    "answer": "Voyager 1 was launched on September 5, 1977[1][2]",
+    "gen_latency_s": 10.828664874949027
+  },
+  "91692abc33d5b3217e57b114460b3449d625ebf77581f25ea3db16c16bea9f71": {
+    "answer": "Voyager 2 crossed the heliopause into interstellar space on **November 5 2018**[1]. (The mission’s records also note that Voyager 2 entered interstellar space in 2018[2].)",
+    "gen_latency_s": 10.00183908402687
+  },
+  "a65aceef96c39d3d31e7fb00e075918fb5aec859a0e214447f9709cbaa86ebb0": {
+    "answer": "Voyager 2 crossed the heliopause and entered interstellar space on 5 November 2018[1].",
+    "gen_latency_s": 9.6594282919541
+  },
+  "e0fdb908e44e33c12b7aae4dadd7a4c4680df9c185873ef4acd9ffb482113856": {
+    "answer": "Gemini 7 remained aloft for almost two weeks – “nearly fourteen days” before landing on December 18, 1965[1][2].",
+    "gen_latency_s": 10.936740917037241
+  },
+  "76659433b196cd30b788d01a94c855b36472b75443febaf00d4fa2ab9bc96a71": {
+    "answer": "Gemini 7 remained in orbit for almost two weeks – “nearly fourteen days,” launching on 4 December 1965 and landing on 18 December 1965[2].",
+    "gen_latency_s": 11.851928709016647
+  },
+  "a2ce91470058690e43f6243b8ca26174bf7130ceecd3872e2c49ea8bbd8256f9": {
+    "answer": "Aurora 7 overshot its intended landing zone by roughly 400 kilometers[2].",
+    "gen_latency_s": 9.623020833998453
+  },
+  "d62649203ce3a0aabb54127e686431dd182e9d29cdc73e7444e6b83711f90d84": {
+    "answer": "Aurora 7 overshot its intended landing zone by roughly 400 kilometers[1].",
+    "gen_latency_s": 10.65559704095358
+  },
+  "2b4f5bd287f384d3246a912b0d148fd9d6424178887625bf333171bef989e23a": {
+    "answer": "The electron transport chain resides in the inner membrane of the mitochondrion[2].",
+    "gen_latency_s": 9.77972154202871
+  },
+  "9b62a743dc0b4ffb6e84cf2a8be8b31c77a345386acb11b7a32cf862bb501621": {
+    "answer": "The electron transport chain is situated in the inner mitochondrial membrane[1][4]",
+    "gen_latency_s": 9.845535667031072
+  },
+  "af5829f3283397d47a63131fc64fb122560dda56f6d7437a2e1252bea7d90cdd": {
+    "answer": "The citric‑acid (Krebs) cycle produces one ATP (or GTP) per turn, and because each glucose supplies two acetyl‑CoA the cycle runs twice, giving a total of **2 ATP molecules per glucose**【1†L1-L4】【2†L4-L6】",
+    "gen_latency_s": 10.935108290985227
+  },
+  "26a817f921b2559c82ed0d216b50d9bc230de4720538e07eac875ba80c2291ae": {
+    "answer": "The citric acid cycle produces **2 ATP (or GTP) per glucose** — one ATP per turn of the cycle, and the cycle runs twice for each glucose molecule [2][3]",
+    "gen_latency_s": 9.967547292006202
+  },
+  "28f01eaceadfc54c6b3a0db085f10be7d4a6fcdf54a45106d29c5e5ff2048874": {
+    "answer": "Each human daughter cell produced by mitosis contains 46 chromosomes (the same diploid number as the parent cell)[1].",
+    "gen_latency_s": 11.424179541994818
+  },
+  "fc5c5cb810e8f54a9a99a7b934ba54a283446adaf3ed75e9f81f919d23f174e9": {
+    "answer": "Each human daughter cell produced by mitosis contains 46 chromosomes (the same diploid number as the parent cell)[1].",
+    "gen_latency_s": 9.82958670903463
+  },
+  "c1ae93a32cc4e916456a461a6572ae7067d263ca5555ccb00a448feaba7d4981": {
+    "answer": "C4 plants perform best at temperatures of roughly 30 to 40 °C[2].",
+    "gen_latency_s": 9.726989292015787
+  },
+  "b3c074b5202e9f9d4f0197a0fe05701efdcf882921343db26280b89668edb20a": {
+    "answer": "C4 plants perform best at warm temperatures, with an optimum around 30 to 40 °C[1].",
+    "gen_latency_s": 8.572195833956357
+  },
+  "3471ed2a5f95e6196749859dc5672c4bbfd2cf82f529b75f38258af0bc3c36fc": {
+    "answer": "CAM plants store the malate as malic acid in the large central vacuole of the cell overnight[1].",
+    "gen_latency_s": 9.768627915997058
+  },
+  "24166c94634042ef5f82804821858539f51969a4dcc700499de443bf1e1eeeca": {
+    "answer": "CAM plants store the malate as malic acid in the large central vacuole of the cell overnight[1].",
+    "gen_latency_s": 10.726738750003278
+  },
+  "5e5e0d934a54b0dff426972a67224a2110a6c8ae514121b4a988cac02a07d5be": {
+    "answer": "The first ISS crew, Expedition 1, consisted of American astronaut William Shepherd together with Russian cosmonauts Yuri Gidzenko and Sergei Krikalev[2].",
+    "gen_latency_s": 9.321506040985696
+  },
+  "0c895941992ec2ed45c0306fa00b6270e698e80bae018279767e704953dfe90e": {
+    "answer": "The first ISS crew, Expedition 1, consisted of American astronaut **William Shepherd** together with Russian cosmonauts **Yuri Gidzenko** and **Sergei Krikalev**[1].",
+    "gen_latency_s": 9.91115683305543
+  }
+}
