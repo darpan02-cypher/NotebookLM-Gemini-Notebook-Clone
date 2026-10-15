@@ -4,6 +4,7 @@ A small NotebookLM-style app (CS/IT 5010 project). Create notebooks, add sources
 
 - **Live demo:** https://notebooklm-clone-4ygpfpzriq-uc.a.run.app (Google Cloud Run; notebooks reset when the instance is replaced, see Storage and persistence)
 - **Docs:** [Spec](SPEC.md) · [Architecture](docs/ARCHITECTURE.md) · [RAG evaluation](docs/EVALUATION.md) · [Demo checklist](docs/DEMO_CHECKLIST.md)
+- **Detail Report:** [End-to-End Prodject Report](https://drive.google.com/file/d/1sjtiOFgDHkmLj74nw9Pyv9BkQJwfcMIT/view?usp=sharing)
 
 ## Stack
 Gradio UI · ChromaDB (one collection per notebook) · `sentence-transformers/all-MiniLM-L6-v2` embeddings · cross-encoder reranker (`ms-marco-MiniLM-L-6-v2`) · Groq-hosted LLM (`openai/gpt-oss-120b`).
